@@ -23,3 +23,7 @@ if(BUILD_FLTK_TEST)
   target_link_libraries(fltk_hello_world PUBLIC fltk)
   target_include_directories(fltk_hello_world PUBLIC)
 endif()
+
+add_library(Graph_lib src/Graph_lib/GUI.cpp src/Graph_lib/Graph.cpp
+                      src/Graph_lib/Window.cpp)
+target_link_libraries(Graph_lib PUBLIC fltk)
