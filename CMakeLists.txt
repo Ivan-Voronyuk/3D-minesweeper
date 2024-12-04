@@ -28,5 +28,6 @@ add_library(Graph_lib STATIC src/Graph_lib/GUI.cpp src/Graph_lib/Graph.cpp
                              src/Graph_lib/Window.cpp)
 target_link_libraries(Graph_lib PUBLIC fltk fltk_images)
 
-add_executable(main src/main.cpp)
+add_executable(main src/main.cpp src/great_window.cpp)
 target_link_libraries(main Graph_lib)
+
