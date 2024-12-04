@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.2)
+cmake_minimum_required(VERSION 3.20)
 
 project(minesweeper)
 
@@ -25,5 +25,8 @@ if(BUILD_FLTK_TEST)
 endif()
 
 add_library(Graph_lib src/Graph_lib/GUI.cpp src/Graph_lib/Graph.cpp
-                      src/Graph_lib/Window.cpp)
+                     src/Graph_lib/Window.cpp)
 target_link_libraries(Graph_lib PUBLIC fltk)
+
+add_executable(main src/main.cpp)
+target_link_libraries(main PUBLIC Graph_lib)
