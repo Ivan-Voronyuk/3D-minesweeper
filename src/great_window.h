@@ -20,18 +20,19 @@ private:
   static void cb_level3(Address, Address);
   static void cb_exit(Address, Address);
 
-  static int level1();
-  static void level2();
-  static void level3();
-  static void exit();
+  int level1();
+  void level2();
+  void level3();
+  void exit();
   };
 
 struct Level1_window:Window {
   Level1_window (Point xy, int w, int h, const std::string& title);
 private:
-  Graph_lib::Button but_pause;
+  Graph_lib::Button but_quit;
+  Graph_lib::Text ltxt;
 
-  static void cb_pause_func(Address, Address);
+  static void cb_quit_func(Address, Address);
 
-  static void pause_func();
+  void quit_func();
   };
