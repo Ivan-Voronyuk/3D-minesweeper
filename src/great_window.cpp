@@ -34,7 +34,7 @@ Great_window::Great_window(Point xy, int w, int h, const std::string& title):Win
 }
 
 int Great_window::level1(){
-  Level1_window win_l1(Point{100, 100},1000, 500, "3D-MINESWEEPER_LEVEL_1");
+  Level1_window* win_l1 = new Level1_window(Point{100, 100}, 1000, 500, "3D-MINESWEEPER_LEVEL_1");
   return gui_main();
 }
 int Great_window::level2(){
@@ -55,6 +55,11 @@ Level1_window::Level1_window(Point xy, int w, int h, const std::string& title):W
       reference_to<Level1_window>(pw).quit_func1();
     }
   },
+  but_return{Point {15, y_max() - 140}, 100, 50, "RETURN",
+    [ ] (Address, Address pw) {
+      reference_to<Level1_window>(pw).return_func1();
+    }
+  },
   l1txt{Point {30, 30}, "LEVEL 1"}
 { 
   l1txt.set_color(Color::dark_green);
@@ -62,6 +67,13 @@ Level1_window::Level1_window(Point xy, int w, int h, const std::string& title):W
   l1txt.set_font(Font::times_bold_italic);
   attach(but_quit);
   attach(l1txt);
+  attach(but_return);
+}
+
+int Level1_window::return_func1(){
+  Great_window win(Point{100, 100},700, 500, "3D-MINESWEEPER");
+  return gui_main(); 
+
 }
 
 Level2_window::Level2_window(Point xy, int w, int h, const std::string& title):Window{xy, w, h, title},

@@ -11,7 +11,7 @@ try
 {
   setlocale(LC_ALL, "RU");
 
-  Great_window win(Point{100, 100},700, 500, "3D-MINESWEEPER");
+  Great_window main_win(Point{100, 100},700, 500, "3D-MINESWEEPER");
   return gui_main();  
 }
 catch (std::exception& e)

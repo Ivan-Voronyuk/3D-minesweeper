@@ -31,10 +31,14 @@ struct Level1_window:Window {
 private:
   Graph_lib::Button but_quit;
   Graph_lib::Text l1txt;
+  Graph_lib::Button but_return;
 
   static void cb_quit_func1(Address, Address);
+  static void cb_return_func1(Address, Address);
 
+  int return_func1();
   void quit_func1();
+
 };
 
 struct Level2_window:Window {
