@@ -21,8 +21,8 @@ private:
   static void cb_exit(Address, Address);
 
   int level1();
-  void level2();
-  void level3();
+  int level2();
+  int level3();
   void exit();
   };
 
@@ -30,9 +30,31 @@ struct Level1_window:Window {
   Level1_window (Point xy, int w, int h, const std::string& title);
 private:
   Graph_lib::Button but_quit;
-  Graph_lib::Text ltxt;
+  Graph_lib::Text l1txt;
 
-  static void cb_quit_func(Address, Address);
+  static void cb_quit_func1(Address, Address);
 
-  void quit_func();
-  };
+  void quit_func1();
+};
+
+struct Level2_window:Window {
+  Level2_window (Point xy, int w, int h, const std::string& title);
+private:
+  Graph_lib::Button but_quit;
+  Graph_lib::Text l2txt;
+
+  static void cb_quit_func2(Address, Address);
+
+  void quit_func2();
+};
+
+struct Level3_window:Window {
+  Level3_window (Point xy, int w, int h, const std::string& title);
+private:
+  Graph_lib::Button but_quit;
+  Graph_lib::Text l3txt;
+
+  static void cb_quit_func3(Address, Address);
+
+  void quit_func3();
+};

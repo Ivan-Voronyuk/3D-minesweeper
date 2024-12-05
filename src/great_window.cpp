@@ -34,31 +34,74 @@ Great_window::Great_window(Point xy, int w, int h, const std::string& title):Win
 }
 
 int Great_window::level1(){
-  Level1_window win_l1(Point{100, 100},700, 500, "3D-MINESWEEPER_LEVEL_1");
+  Level1_window win_l1(Point{100, 100},1000, 500, "3D-MINESWEEPER_LEVEL_1");
   return gui_main();
 }
-void Great_window::level2(){
-  return;
+int Great_window::level2(){
+  Level2_window win_l2(Point{100, 100},1000, 500, "3D-MINESWEEPER_LEVEL_2");
+  return gui_main();
 }
-void Great_window::level3(){
-  return;
+int Great_window::level3(){
+  Level3_window win_l3(Point{100, 100},1000, 500, "3D-MINESWEEPER_LEVEL_3");
+  return gui_main();
 }
 void Great_window::exit(){
   hide();
 }
 
 Level1_window::Level1_window(Point xy, int w, int h, const std::string& title):Window{xy, w, h, title},
-  but_quit{Point {30, y_max() - 350}, 260, 60, "EXIT",
+  but_quit{Point {15, y_max() - 70}, 100, 50, "EXIT",
     [ ] (Address, Address pw) {
-      reference_to<Level1_window>(pw).quit_func();
+      reference_to<Level1_window>(pw).quit_func1();
     }
   },
-  ltxt{Point {x_max()-100, y_max() - 100}, "LEVEL 1"}
+  l1txt{Point {30, 30}, "LEVEL 1"}
 { 
+  l1txt.set_color(Color::dark_green);
+  l1txt.set_font_size(20);
+  l1txt.set_font(Font::times_bold_italic);
   attach(but_quit);
-  attach(ltxt);
+  attach(l1txt);
 }
 
-void Level1_window::quit_func(){
+Level2_window::Level2_window(Point xy, int w, int h, const std::string& title):Window{xy, w, h, title},
+  but_quit{Point {15, y_max() - 70}, 100, 50, "EXIT",
+    [ ] (Address, Address pw) {
+      reference_to<Level2_window>(pw).quit_func2();
+    }
+  },
+  l2txt{Point {30, 30}, "LEVEL 2"}
+{ 
+  l2txt.set_color(Color::dark_yellow);
+  l2txt.set_font_size(20);
+  l2txt.set_font(Font::times_bold_italic);
+  attach(but_quit);
+  attach(l2txt);
+}
+
+Level3_window::Level3_window(Point xy, int w, int h, const std::string& title):Window{xy, w, h, title},
+  but_quit{Point {15, y_max() - 70}, 100, 50, "EXIT",
+    [ ] (Address, Address pw) {
+      reference_to<Level3_window>(pw).quit_func3();
+    }
+  },
+  l3txt{Point {30, 30}, "LEVEL 3"}
+{ 
+  l3txt.set_color(Color::red);
+  l3txt.set_font_size(20);
+  l3txt.set_font(Font::times_bold_italic);
+  attach(but_quit);
+  attach(l3txt);
+}
+
+void Level1_window::quit_func1(){
+  hide();
+}
+
+void Level2_window::quit_func2(){
+  hide();
+}
+
+void Level3_window::quit_func3(){
   hide();
 }
