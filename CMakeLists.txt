@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.2)
 
 project(minesweeper)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_INTERPROCEDURAL_OPTIMIZATION TRUE)
 
 option(BUILD_FLTK_TEST "build FLTK hello_world" ON)
 
