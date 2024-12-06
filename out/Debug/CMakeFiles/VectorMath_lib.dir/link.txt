@@ -1,2 +1,0 @@
-/usr/bin/ar qc libVectorMath_lib.a CMakeFiles/VectorMath_lib.dir/src/VectorMath_lib/types.cpp.o CMakeFiles/VectorMath_lib.dir/src/VectorMath_lib/camera.cpp.o
-/usr/bin/ranlib libVectorMath_lib.a
