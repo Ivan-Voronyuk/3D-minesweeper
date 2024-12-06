@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.2)
 
 project(minesweeper)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 option(BUILD_FLTK_TEST "build FLTK hello_world" ON)
 
@@ -23,3 +24,6 @@ if(BUILD_FLTK_TEST)
   target_link_libraries(fltk_hello_world PUBLIC fltk)
   target_include_directories(fltk_hello_world PUBLIC)
 endif()
+
+add_library(VectorMath_lib src/VectorMath_lib/types.cpp
+                           src/VectorMath_lib/camera.cpp)
