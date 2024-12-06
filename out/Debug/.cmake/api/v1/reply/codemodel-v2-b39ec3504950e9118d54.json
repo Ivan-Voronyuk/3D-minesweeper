@@ -1,0 +1,274 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						9
+					]
+				},
+				{
+					"build" : "thirdparty/fltk",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.fltk-Debug-d4d3c6d555b8f4d1d573.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "thirdparty/fltk",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "thirdparty/fltk/documentation",
+					"jsonFile" : "directory-thirdparty.fltk.documentation-Debug-ee06daf44d94cd1835b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "thirdparty/fltk/documentation",
+					"targetIndexes" : 
+					[
+						1,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "thirdparty/fltk/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.fltk.src-Debug-d2714dba41206c0ab077.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "thirdparty/fltk/src",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6,
+						7,
+						8,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "thirdparty/fltk/fltk-options",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.fltk.fltk-options-Debug-89ef0af54fcd84cb5d25.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "thirdparty/fltk/fltk-options",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "minesweeper",
+					"targetIndexes" : 
+					[
+						0,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "FLTK",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "VectorMath_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VectorMath_lib-Debug-af71d2ec33a46605c5f9.json",
+					"name" : "VectorMath_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "docs::@9dd624b765fa98a4b71e",
+					"jsonFile" : "target-docs-Debug-19eacf33f755e35e59a7.json",
+					"name" : "docs",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fltk::@e40896e0482c0a3970da",
+					"jsonFile" : "target-fltk-Debug-aaf0e3a79a3b5bbe6d12.json",
+					"name" : "fltk",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "fltk-options::@2f124f2148261ce3ccc8",
+					"jsonFile" : "target-fltk-options-Debug-1dd858527415f18fd938.json",
+					"name" : "fltk-options",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fltk-shared::@e40896e0482c0a3970da",
+					"jsonFile" : "target-fltk-shared-Debug-21900ec6450d306511fb.json",
+					"name" : "fltk-shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fltk_forms::@e40896e0482c0a3970da",
+					"jsonFile" : "target-fltk_forms-Debug-90f6b7b13141d3e12313.json",
+					"name" : "fltk_forms",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fltk_forms-shared::@e40896e0482c0a3970da",
+					"jsonFile" : "target-fltk_forms-shared-Debug-89debbde76e3c5d539a6.json",
+					"name" : "fltk_forms-shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fltk_gl::@e40896e0482c0a3970da",
+					"jsonFile" : "target-fltk_gl-Debug-735fff1b433e3950b062.json",
+					"name" : "fltk_gl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fltk_gl-shared::@e40896e0482c0a3970da",
+					"jsonFile" : "target-fltk_gl-shared-Debug-0985dbf40b382ae362b7.json",
+					"name" : "fltk_gl-shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fltk_hello_world::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fltk_hello_world-Debug-d71ee82d33870f3af961.json",
+					"name" : "fltk_hello_world",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fltk_images::@e40896e0482c0a3970da",
+					"jsonFile" : "target-fltk_images-Debug-c81dd09e99a32763b0ad.json",
+					"name" : "fltk_images",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fltk_images-shared::@e40896e0482c0a3970da",
+					"jsonFile" : "target-fltk_images-shared-Debug-ceb3b3a652f71e512e89.json",
+					"name" : "fltk_images-shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "html::@9dd624b765fa98a4b71e",
+					"jsonFile" : "target-html-Debug-2f3c226c77d6e8bf30b3.json",
+					"name" : "html",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pdf::@9dd624b765fa98a4b71e",
+					"jsonFile" : "target-pdf-Debug-7309a325caab48a66ced.json",
+					"name" : "pdf",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@469f269dbd488ebffb2f",
+					"jsonFile" : "target-uninstall-Debug-c3bc63da8934b6bfc224.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ivan/Documents/INF/3D-minesweeper/out/Debug",
+		"source" : "/home/ivan/Documents/INF/3D-minesweeper"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

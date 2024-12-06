@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "../lib/.1.4"
+  "../lib/libfltk_images.pdb"
+  "../lib/libfltk_images.so"
+  "../lib/libfltk_images.so.1.4"
+  "../lib/libfltk_images.so.1.4.0"
+  "CMakeFiles/fltk_images-shared.dir/Fl_Anim_GIF_Image.cxx.o"
+  "CMakeFiles/fltk_images-shared.dir/Fl_Anim_GIF_Image.cxx.o.d"
+  "CMakeFiles/fltk_images-shared.dir/Fl_BMP_Image.cxx.o"
+  "CMakeFiles/fltk_images-shared.dir/Fl_BMP_Image.cxx.o.d"
+  "CMakeFiles/fltk_images-shared.dir/Fl_File_Icon2.cxx.o"
+  "CMakeFiles/fltk_images-shared.dir/Fl_File_Icon2.cxx.o.d"
+  "CMakeFiles/fltk_images-shared.dir/Fl_GIF_Image.cxx.o"
+  "CMakeFiles/fltk_images-shared.dir/Fl_GIF_Image.cxx.o.d"
+  "CMakeFiles/fltk_images-shared.dir/Fl_Help_Dialog.cxx.o"
+  "CMakeFiles/fltk_images-shared.dir/Fl_Help_Dialog.cxx.o.d"
+  "CMakeFiles/fltk_images-shared.dir/Fl_ICO_Image.cxx.o"
+  "CMakeFiles/fltk_images-shared.dir/Fl_ICO_Image.cxx.o.d"
+  "CMakeFiles/fltk_images-shared.dir/Fl_Image_Reader.cxx.o"
+  "CMakeFiles/fltk_images-shared.dir/Fl_Image_Reader.cxx.o.d"
+  "CMakeFiles/fltk_images-shared.dir/Fl_JPEG_Image.cxx.o"
+  "CMakeFiles/fltk_images-shared.dir/Fl_JPEG_Image.cxx.o.d"
+  "CMakeFiles/fltk_images-shared.dir/Fl_PNG_Image.cxx.o"
+  "CMakeFiles/fltk_images-shared.dir/Fl_PNG_Image.cxx.o.d"
+  "CMakeFiles/fltk_images-shared.dir/Fl_PNM_Image.cxx.o"
+  "CMakeFiles/fltk_images-shared.dir/Fl_PNM_Image.cxx.o.d"
+  "CMakeFiles/fltk_images-shared.dir/Fl_SVG_Image.cxx.o"
+  "CMakeFiles/fltk_images-shared.dir/Fl_SVG_Image.cxx.o.d"
+  "CMakeFiles/fltk_images-shared.dir/drivers/SVG/Fl_SVG_File_Surface.cxx.o"
+  "CMakeFiles/fltk_images-shared.dir/drivers/SVG/Fl_SVG_File_Surface.cxx.o.d"
+  "CMakeFiles/fltk_images-shared.dir/fl_images_core.cxx.o"
+  "CMakeFiles/fltk_images-shared.dir/fl_images_core.cxx.o.d"
+  "CMakeFiles/fltk_images-shared.dir/fl_write_png.cxx.o"
+  "CMakeFiles/fltk_images-shared.dir/fl_write_png.cxx.o.d"
+  "CMakeFiles/fltk_images-shared.dir/nanosvg.cxx.o"
+  "CMakeFiles/fltk_images-shared.dir/nanosvg.cxx.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/fltk_images-shared.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

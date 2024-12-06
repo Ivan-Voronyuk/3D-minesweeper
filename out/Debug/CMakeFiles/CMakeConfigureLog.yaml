@@ -1,0 +1,2012 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 6.8.0-41-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/3.28.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-wX4a4u"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-wX4a4u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-wX4a4u'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0a40d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0a40d.dir/build.make CMakeFiles/cmTC_0a40d.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-wX4a4u'
+        Building C object CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0a40d.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0a40d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccjmx8X2.s
+        GNU C17 (Ubuntu 13.2.0-23ubuntu4) version 13.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 35e51c4ef55ea8f6b448d85f0fac5984
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0a40d.dir/'
+         as -v --64 -o CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o /tmp/ccjmx8X2.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_0a40d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a40d.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o -o cmTC_0a40d 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0a40d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0a40d.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6JfUWh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0a40d /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0a40d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0a40d.'
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-wX4a4u'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-wX4a4u']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0a40d/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_0a40d.dir/build.make CMakeFiles/cmTC_0a40d.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-wX4a4u']
+        ignore line: [Building C object CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0a40d.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0a40d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccjmx8X2.s]
+        ignore line: [GNU C17 (Ubuntu 13.2.0-23ubuntu4) version 13.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 35e51c4ef55ea8f6b448d85f0fac5984]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0a40d.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o /tmp/ccjmx8X2.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_0a40d]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a40d.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o -o cmTC_0a40d ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0a40d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0a40d.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6JfUWh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0a40d /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc6JfUWh.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_0a40d] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_0a40d.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Mk2u1E"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Mk2u1E"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Mk2u1E'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0875f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0875f.dir/build.make CMakeFiles/cmTC_0875f.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Mk2u1E'
+        Building CXX object CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0875f.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0875f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cceMP7VY.s
+        GNU C++17 (Ubuntu 13.2.0-23ubuntu4) version 13.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/13
+         /usr/include/x86_64-linux-gnu/c++/13
+         /usr/include/c++/13/backward
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 4e0f319cd9945d8f5a9eeeeec1481ba5
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0875f.dir/'
+         as -v --64 -o CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o /tmp/cceMP7VY.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_0875f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0875f.dir/link.txt --verbose=1
+        /usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0875f 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0875f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0875f.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRpC2dy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0875f /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0875f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0875f.'
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Mk2u1E'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/13]
+          add: [/usr/include/x86_64-linux-gnu/c++/13]
+          add: [/usr/include/c++/13/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/13] ==> [/usr/include/c++/13]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/13] ==> [/usr/include/x86_64-linux-gnu/c++/13]
+        collapse include dir [/usr/include/c++/13/backward] ==> [/usr/include/c++/13/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/13;/usr/include/x86_64-linux-gnu/c++/13;/usr/include/c++/13/backward;/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Mk2u1E']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0875f/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_0875f.dir/build.make CMakeFiles/cmTC_0875f.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Mk2u1E']
+        ignore line: [Building CXX object CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0875f.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0875f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cceMP7VY.s]
+        ignore line: [GNU C++17 (Ubuntu 13.2.0-23ubuntu4) version 13.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/13]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/13]
+        ignore line: [ /usr/include/c++/13/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 4e0f319cd9945d8f5a9eeeeec1481ba5]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0875f.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o /tmp/cceMP7VY.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_0875f]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0875f.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0875f ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0875f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0875f.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRpC2dy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0875f /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccRpC2dy.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_0875f] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_0875f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "thirdparty/fltk/CMake/setup.cmake:181 (CHECK_TYPE_SIZE)"
+      - "thirdparty/fltk/CMakeLists.txt:68 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-gjxktj"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-gjxktj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-gjxktj'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_69979/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_69979.dir/build.make CMakeFiles/cmTC_69979.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-gjxktj'
+        Building C object CMakeFiles/cmTC_69979.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_69979.dir/CheckIncludeFile.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-gjxktj/CheckIncludeFile.c
+        Linking C executable cmTC_69979
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69979.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_69979.dir/CheckIncludeFile.c.o -o cmTC_69979 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-gjxktj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "thirdparty/fltk/CMake/setup.cmake:181 (CHECK_TYPE_SIZE)"
+      - "thirdparty/fltk/CMakeLists.txt:68 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-dd1ucg"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-dd1ucg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-dd1ucg'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_07ea3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_07ea3.dir/build.make CMakeFiles/cmTC_07ea3.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-dd1ucg'
+        Building C object CMakeFiles/cmTC_07ea3.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_07ea3.dir/CheckIncludeFile.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-dd1ucg/CheckIncludeFile.c
+        Linking C executable cmTC_07ea3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07ea3.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_07ea3.dir/CheckIncludeFile.c.o -o cmTC_07ea3 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-dd1ucg'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "thirdparty/fltk/CMake/setup.cmake:181 (CHECK_TYPE_SIZE)"
+      - "thirdparty/fltk/CMakeLists.txt:68 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-LJRAnD"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-LJRAnD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-LJRAnD'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f9630/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f9630.dir/build.make CMakeFiles/cmTC_f9630.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-LJRAnD'
+        Building C object CMakeFiles/cmTC_f9630.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f9630.dir/CheckIncludeFile.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-LJRAnD/CheckIncludeFile.c
+        Linking C executable cmTC_f9630
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9630.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f9630.dir/CheckIncludeFile.c.o -o cmTC_f9630 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-LJRAnD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "thirdparty/fltk/CMake/setup.cmake:181 (CHECK_TYPE_SIZE)"
+      - "thirdparty/fltk/CMakeLists.txt:68 (include)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-OBtzdx"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-OBtzdx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_SHORT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-OBtzdx'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_89ed7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_89ed7.dir/build.make CMakeFiles/cmTC_89ed7.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-OBtzdx'
+        Building C object CMakeFiles/cmTC_89ed7.dir/SIZEOF_SHORT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_89ed7.dir/SIZEOF_SHORT.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-OBtzdx/SIZEOF_SHORT.c
+        Linking C executable cmTC_89ed7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89ed7.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_89ed7.dir/SIZEOF_SHORT.c.o -o cmTC_89ed7 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-OBtzdx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "thirdparty/fltk/CMake/setup.cmake:182 (CHECK_TYPE_SIZE)"
+      - "thirdparty/fltk/CMakeLists.txt:68 (include)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-tcZfJC"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-tcZfJC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_INT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-tcZfJC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5b80a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5b80a.dir/build.make CMakeFiles/cmTC_5b80a.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-tcZfJC'
+        Building C object CMakeFiles/cmTC_5b80a.dir/SIZEOF_INT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_5b80a.dir/SIZEOF_INT.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-tcZfJC/SIZEOF_INT.c
+        Linking C executable cmTC_5b80a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b80a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_5b80a.dir/SIZEOF_INT.c.o -o cmTC_5b80a 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-tcZfJC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "thirdparty/fltk/CMake/setup.cmake:183 (CHECK_TYPE_SIZE)"
+      - "thirdparty/fltk/CMakeLists.txt:68 (include)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Sb7d9k"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Sb7d9k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Sb7d9k'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fd59a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fd59a.dir/build.make CMakeFiles/cmTC_fd59a.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Sb7d9k'
+        Building C object CMakeFiles/cmTC_fd59a.dir/SIZEOF_LONG.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_fd59a.dir/SIZEOF_LONG.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Sb7d9k/SIZEOF_LONG.c
+        Linking C executable cmTC_fd59a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd59a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_fd59a.dir/SIZEOF_LONG.c.o -o cmTC_fd59a 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Sb7d9k'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "thirdparty/fltk/CMake/setup.cmake:184 (CHECK_TYPE_SIZE)"
+      - "thirdparty/fltk/CMakeLists.txt:68 (include)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-77bEGY"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-77bEGY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_HAVE_LONG_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-77bEGY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_703cf/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_703cf.dir/build.make CMakeFiles/cmTC_703cf.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-77bEGY'
+        Building C object CMakeFiles/cmTC_703cf.dir/HAVE_LONG_LONG.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_703cf.dir/HAVE_LONG_LONG.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-77bEGY/HAVE_LONG_LONG.c
+        Linking C executable cmTC_703cf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_703cf.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_703cf.dir/HAVE_LONG_LONG.c.o -o cmTC_703cf 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-77bEGY'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "thirdparty/fltk/CMake/resources.cmake:127 (fl_find_header)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-XAXUlK"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-XAXUlK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_ALSA_ASOUNDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-XAXUlK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_23856/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_23856.dir/build.make CMakeFiles/cmTC_23856.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-XAXUlK'
+        Building C object CMakeFiles/cmTC_23856.dir/HAVE_ALSA_ASOUNDLIB_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_23856.dir/HAVE_ALSA_ASOUNDLIB_H.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-XAXUlK/HAVE_ALSA_ASOUNDLIB_H.c
+        Linking C executable cmTC_23856
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23856.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_23856.dir/HAVE_ALSA_ASOUNDLIB_H.c.o -o cmTC_23856 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-XAXUlK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "thirdparty/fltk/CMake/resources.cmake:128 (fl_find_header)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-TnZQyw"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-TnZQyw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-TnZQyw'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f4568/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f4568.dir/build.make CMakeFiles/cmTC_f4568.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-TnZQyw'
+        Building C object CMakeFiles/cmTC_f4568.dir/HAVE_DLFCN_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f4568.dir/HAVE_DLFCN_H.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-TnZQyw/HAVE_DLFCN_H.c
+        Linking C executable cmTC_f4568
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4568.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f4568.dir/HAVE_DLFCN_H.c.o -o cmTC_f4568 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-TnZQyw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "thirdparty/fltk/CMake/resources.cmake:129 (fl_find_header)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-ESWpww"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-ESWpww"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_GL_GLU_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-ESWpww'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2f367/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2f367.dir/build.make CMakeFiles/cmTC_2f367.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-ESWpww'
+        Building C object CMakeFiles/cmTC_2f367.dir/HAVE_GL_GLU_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_2f367.dir/HAVE_GL_GLU_H.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-ESWpww/HAVE_GL_GLU_H.c
+        Linking C executable cmTC_2f367
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f367.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_2f367.dir/HAVE_GL_GLU_H.c.o -o cmTC_2f367 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-ESWpww'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "thirdparty/fltk/CMake/resources.cmake:130 (fl_find_header)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-soeExH"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-soeExH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_LOCALE_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-soeExH'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_46e80/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_46e80.dir/build.make CMakeFiles/cmTC_46e80.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-soeExH'
+        Building C object CMakeFiles/cmTC_46e80.dir/HAVE_LOCALE_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_46e80.dir/HAVE_LOCALE_H.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-soeExH/HAVE_LOCALE_H.c
+        Linking C executable cmTC_46e80
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46e80.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_46e80.dir/HAVE_LOCALE_H.c.o -o cmTC_46e80 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-soeExH'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "thirdparty/fltk/CMake/resources.cmake:131 (fl_find_header)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-v2hzOI"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-v2hzOI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_OPENGL_GLU_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-v2hzOI'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e8f4c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e8f4c.dir/build.make CMakeFiles/cmTC_e8f4c.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-v2hzOI'
+        Building C object CMakeFiles/cmTC_e8f4c.dir/HAVE_OPENGL_GLU_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_e8f4c.dir/HAVE_OPENGL_GLU_H.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-v2hzOI/HAVE_OPENGL_GLU_H.c
+        /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-v2hzOI/HAVE_OPENGL_GLU_H.c:2:10: fatal error: OpenGL/glu.h: No such file or directory
+            2 | #include <OpenGL/glu.h>
+              |          ^~~~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_e8f4c.dir/build.make:78: CMakeFiles/cmTC_e8f4c.dir/HAVE_OPENGL_GLU_H.c.o] Error 1
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-v2hzOI'
+        gmake: *** [Makefile:127: cmTC_e8f4c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "thirdparty/fltk/CMake/resources.cmake:132 (fl_find_header)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Bhp8mo"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Bhp8mo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STDIO_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Bhp8mo'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fccdd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fccdd.dir/build.make CMakeFiles/cmTC_fccdd.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Bhp8mo'
+        Building C object CMakeFiles/cmTC_fccdd.dir/HAVE_STDIO_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_fccdd.dir/HAVE_STDIO_H.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Bhp8mo/HAVE_STDIO_H.c
+        Linking C executable cmTC_fccdd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fccdd.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_fccdd.dir/HAVE_STDIO_H.c.o -o cmTC_fccdd 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Bhp8mo'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "thirdparty/fltk/CMake/resources.cmake:133 (fl_find_header)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-HHCX1C"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-HHCX1C"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-HHCX1C'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_38eab/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_38eab.dir/build.make CMakeFiles/cmTC_38eab.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-HHCX1C'
+        Building C object CMakeFiles/cmTC_38eab.dir/HAVE_STRINGS_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_38eab.dir/HAVE_STRINGS_H.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-HHCX1C/HAVE_STRINGS_H.c
+        Linking C executable cmTC_38eab
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38eab.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_38eab.dir/HAVE_STRINGS_H.c.o -o cmTC_38eab 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-HHCX1C'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "thirdparty/fltk/CMake/resources.cmake:134 (fl_find_header)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-lHId3m"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-lHId3m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SYS_SELECT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-lHId3m'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7f0c7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7f0c7.dir/build.make CMakeFiles/cmTC_7f0c7.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-lHId3m'
+        Building C object CMakeFiles/cmTC_7f0c7.dir/HAVE_SYS_SELECT_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_7f0c7.dir/HAVE_SYS_SELECT_H.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-lHId3m/HAVE_SYS_SELECT_H.c
+        Linking C executable cmTC_7f0c7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f0c7.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_7f0c7.dir/HAVE_SYS_SELECT_H.c.o -o cmTC_7f0c7 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-lHId3m'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "thirdparty/fltk/CMake/resources.cmake:135 (fl_find_header)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-JzxFoh"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-JzxFoh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SYS_STDTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-JzxFoh'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1ee5a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1ee5a.dir/build.make CMakeFiles/cmTC_1ee5a.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-JzxFoh'
+        Building C object CMakeFiles/cmTC_1ee5a.dir/HAVE_SYS_STDTYPES_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_1ee5a.dir/HAVE_SYS_STDTYPES_H.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-JzxFoh/HAVE_SYS_STDTYPES_H.c
+        /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-JzxFoh/HAVE_SYS_STDTYPES_H.c:2:10: fatal error: sys/stdtypes.h: No such file or directory
+            2 | #include <sys/stdtypes.h>
+              |          ^~~~~~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_1ee5a.dir/build.make:78: CMakeFiles/cmTC_1ee5a.dir/HAVE_SYS_STDTYPES_H.c.o] Error 1
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-JzxFoh'
+        gmake: *** [Makefile:127: cmTC_1ee5a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "thirdparty/fltk/CMake/resources.cmake:137 (fl_find_header)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-NXHuBo"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-NXHuBo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_X11_XREGION_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-NXHuBo'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_24803/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_24803.dir/build.make CMakeFiles/cmTC_24803.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-NXHuBo'
+        Building C object CMakeFiles/cmTC_24803.dir/HAVE_X11_XREGION_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_24803.dir/HAVE_X11_XREGION_H.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-NXHuBo/HAVE_X11_XREGION_H.c
+        Linking C executable cmTC_24803
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24803.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_24803.dir/HAVE_X11_XREGION_H.c.o -o cmTC_24803 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-NXHuBo'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "thirdparty/fltk/CMake/resources.cmake:143 (fl_find_header)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-3b9CvK"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-3b9CvK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-3b9CvK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4a682/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4a682.dir/build.make CMakeFiles/cmTC_4a682.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-3b9CvK'
+        Building C object CMakeFiles/cmTC_4a682.dir/HAVE_PTHREAD_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_4a682.dir/HAVE_PTHREAD_H.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-3b9CvK/HAVE_PTHREAD_H.c
+        Linking C executable cmTC_4a682
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a682.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4a682.dir/HAVE_PTHREAD_H.c.o -o cmTC_4a682 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-3b9CvK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "thirdparty/fltk/CMake/resources.cmake:149 (try_compile)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_MUTEX_RECURSIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0d93e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0d93e.dir/build.make CMakeFiles/cmTC_0d93e.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_0d93e.dir/pthread_mutex_recursive.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_0d93e.dir/pthread_mutex_recursive.c.o -c /home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake/pthread_mutex_recursive.c
+        Linking C executable cmTC_0d93e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d93e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_0d93e.dir/pthread_mutex_recursive.c.o -o cmTC_0d93e 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "thirdparty/fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "thirdparty/fltk/CMake/resources.cmake:190 (fl_find_header)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-h53Q6u"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-h53Q6u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_DIRENT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-h53Q6u'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_078e1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_078e1.dir/build.make CMakeFiles/cmTC_078e1.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-h53Q6u'
+        Building C object CMakeFiles/cmTC_078e1.dir/HAVE_DIRENT_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_078e1.dir/HAVE_DIRENT_H.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-h53Q6u/HAVE_DIRENT_H.c
+        Linking C executable cmTC_078e1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_078e1.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_078e1.dir/HAVE_DIRENT_H.c.o -o cmTC_078e1 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-h53Q6u'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "thirdparty/fltk/CMake/resources.cmake:257 (check_symbol_exists)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-11SSXt"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-11SSXt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_DLSYM"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-11SSXt'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1ac1b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1ac1b.dir/build.make CMakeFiles/cmTC_1ac1b.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-11SSXt'
+        Building C object CMakeFiles/cmTC_1ac1b.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_1ac1b.dir/CheckSymbolExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-11SSXt/CheckSymbolExists.c
+        Linking C executable cmTC_1ac1b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ac1b.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_1ac1b.dir/CheckSymbolExists.c.o -o cmTC_1ac1b  -ldl 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-11SSXt'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "thirdparty/fltk/CMake/resources.cmake:260 (check_symbol_exists)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-ketQBy"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-ketQBy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_LOCALECONV"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-ketQBy'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_06a7c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_06a7c.dir/build.make CMakeFiles/cmTC_06a7c.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-ketQBy'
+        Building C object CMakeFiles/cmTC_06a7c.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_06a7c.dir/CheckSymbolExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-ketQBy/CheckSymbolExists.c
+        Linking C executable cmTC_06a7c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06a7c.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_06a7c.dir/CheckSymbolExists.c.o -o cmTC_06a7c 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-ketQBy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "thirdparty/fltk/CMake/resources.cmake:264 (check_symbol_exists)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-UPJ71h"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-UPJ71h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PNG_GET_VALID"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-UPJ71h'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d7a8e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d7a8e.dir/build.make CMakeFiles/cmTC_d7a8e.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-UPJ71h'
+        Building C object CMakeFiles/cmTC_d7a8e.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_d7a8e.dir/CheckSymbolExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-UPJ71h/CheckSymbolExists.c
+        Linking C executable cmTC_d7a8e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7a8e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d7a8e.dir/CheckSymbolExists.c.o -o cmTC_d7a8e  /usr/lib/x86_64-linux-gnu/libpng.so 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-UPJ71h'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "thirdparty/fltk/CMake/resources.cmake:265 (check_symbol_exists)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-1fqcE8"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-1fqcE8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PNG_SET_TRNS_TO_ALPHA"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-1fqcE8'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a1073/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a1073.dir/build.make CMakeFiles/cmTC_a1073.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-1fqcE8'
+        Building C object CMakeFiles/cmTC_a1073.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a1073.dir/CheckSymbolExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-1fqcE8/CheckSymbolExists.c
+        Linking C executable cmTC_a1073
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1073.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_a1073.dir/CheckSymbolExists.c.o -o cmTC_a1073  /usr/lib/x86_64-linux-gnu/libpng.so 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-1fqcE8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "thirdparty/fltk/CMake/resources.cmake:269 (check_symbol_exists)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-vTEEpa"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-vTEEpa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SCANDIR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-vTEEpa'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3f61f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3f61f.dir/build.make CMakeFiles/cmTC_3f61f.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-vTEEpa'
+        Building C object CMakeFiles/cmTC_3f61f.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_3f61f.dir/CheckSymbolExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-vTEEpa/CheckSymbolExists.c
+        Linking C executable cmTC_3f61f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f61f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_3f61f.dir/CheckSymbolExists.c.o -o cmTC_3f61f 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-vTEEpa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "thirdparty/fltk/CMake/resources.cmake:270 (check_symbol_exists)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-zm3faO"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-zm3faO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-zm3faO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c6079/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c6079.dir/build.make CMakeFiles/cmTC_c6079.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-zm3faO'
+        Building C object CMakeFiles/cmTC_c6079.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_c6079.dir/CheckSymbolExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-zm3faO/CheckSymbolExists.c
+        Linking C executable cmTC_c6079
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6079.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c6079.dir/CheckSymbolExists.c.o -o cmTC_c6079 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-zm3faO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "thirdparty/fltk/CMake/resources.cmake:277 (check_symbol_exists)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-H4G4p1"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-H4G4p1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STRCASECMP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-H4G4p1'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4d7e9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4d7e9.dir/build.make CMakeFiles/cmTC_4d7e9.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-H4G4p1'
+        Building C object CMakeFiles/cmTC_4d7e9.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_4d7e9.dir/CheckSymbolExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-H4G4p1/CheckSymbolExists.c
+        Linking C executable cmTC_4d7e9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d7e9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4d7e9.dir/CheckSymbolExists.c.o -o cmTC_4d7e9 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-H4G4p1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "thirdparty/fltk/CMake/resources.cmake:279 (check_symbol_exists)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-zNTWK7"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-zNTWK7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STRLCAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-zNTWK7'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_29a78/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_29a78.dir/build.make CMakeFiles/cmTC_29a78.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-zNTWK7'
+        Building C object CMakeFiles/cmTC_29a78.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_29a78.dir/CheckSymbolExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-zNTWK7/CheckSymbolExists.c
+        Linking C executable cmTC_29a78
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29a78.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_29a78.dir/CheckSymbolExists.c.o -o cmTC_29a78 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-zNTWK7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "thirdparty/fltk/CMake/resources.cmake:280 (check_symbol_exists)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-1SOMs9"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-1SOMs9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STRLCPY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-1SOMs9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_76604/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_76604.dir/build.make CMakeFiles/cmTC_76604.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-1SOMs9'
+        Building C object CMakeFiles/cmTC_76604.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_76604.dir/CheckSymbolExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-1SOMs9/CheckSymbolExists.c
+        Linking C executable cmTC_76604
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76604.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_76604.dir/CheckSymbolExists.c.o -o cmTC_76604 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-1SOMs9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "thirdparty/fltk/CMake/resources.cmake:281 (check_symbol_exists)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-F08lRg"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-F08lRg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_VSNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-F08lRg'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d19ce/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d19ce.dir/build.make CMakeFiles/cmTC_d19ce.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-F08lRg'
+        Building C object CMakeFiles/cmTC_d19ce.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_d19ce.dir/CheckSymbolExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-F08lRg/CheckSymbolExists.c
+        Linking C executable cmTC_d19ce
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d19ce.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d19ce.dir/CheckSymbolExists.c.o -o cmTC_d19ce 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-F08lRg'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "thirdparty/fltk/CMake/resources.cmake:283 (check_symbol_exists)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-cLRMq4"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-cLRMq4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SETENV"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-cLRMq4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_69cb9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_69cb9.dir/build.make CMakeFiles/cmTC_69cb9.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-cLRMq4'
+        Building C object CMakeFiles/cmTC_69cb9.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_69cb9.dir/CheckSymbolExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-cLRMq4/CheckSymbolExists.c
+        Linking C executable cmTC_69cb9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69cb9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_69cb9.dir/CheckSymbolExists.c.o -o cmTC_69cb9 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-cLRMq4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "thirdparty/fltk/CMake/resources.cmake:290 (check_symbol_exists)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-bXcDql"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-bXcDql"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_TRUNC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-bXcDql'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e0bf5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e0bf5.dir/build.make CMakeFiles/cmTC_e0bf5.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-bXcDql'
+        Building C object CMakeFiles/cmTC_e0bf5.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_e0bf5.dir/CheckSymbolExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-bXcDql/CheckSymbolExists.c
+        Linking C executable cmTC_e0bf5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0bf5.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_e0bf5.dir/CheckSymbolExists.c.o -o cmTC_e0bf5  -lm 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-bXcDql'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "thirdparty/fltk/CMake/resources.cmake:297 (try_compile)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "V"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5166a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5166a.dir/build.make CMakeFiles/cmTC_5166a.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_5166a.dir/posixScandir.cxx.o
+        /usr/bin/c++   -std=gnu++11 -o CMakeFiles/cmTC_5166a.dir/posixScandir.cxx.o -c /home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake/posixScandir.cxx
+        Linking CXX executable cmTC_5166a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5166a.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_5166a.dir/posixScandir.cxx.o -o cmTC_5166a 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "thirdparty/fltk/CMake/options.cmake:232 (check_include_file)"
+      - "thirdparty/fltk/CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for png.h"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-iIQGu4"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-iIQGu4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PNG_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-iIQGu4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a480f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a480f.dir/build.make CMakeFiles/cmTC_a480f.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-iIQGu4'
+        Building C object CMakeFiles/cmTC_a480f.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a480f.dir/CheckIncludeFile.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-iIQGu4/CheckIncludeFile.c
+        Linking C executable cmTC_a480f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a480f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_a480f.dir/CheckIncludeFile.c.o -o cmTC_a480f 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-iIQGu4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:682 (check_library_exists)"
+      - "thirdparty/fltk/CMake/options.cmake:298 (include)"
+      - "thirdparty/fltk/CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Gs6iZ9"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Gs6iZ9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Gs6iZ9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fb386/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fb386.dir/build.make CMakeFiles/cmTC_fb386.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Gs6iZ9'
+        Building C object CMakeFiles/cmTC_fb386.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_fb386.dir/CheckFunctionExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Gs6iZ9/CheckFunctionExists.c
+        Linking C executable cmTC_fb386
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb386.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_fb386.dir/CheckFunctionExists.c.o -o cmTC_fb386  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-Gs6iZ9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:697 (check_function_exists)"
+      - "thirdparty/fltk/CMake/options.cmake:298 (include)"
+      - "thirdparty/fltk/CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-gbpctT"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-gbpctT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-gbpctT'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6a943/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6a943.dir/build.make CMakeFiles/cmTC_6a943.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-gbpctT'
+        Building C object CMakeFiles/cmTC_6a943.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_6a943.dir/CheckFunctionExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-gbpctT/CheckFunctionExists.c
+        Linking C executable cmTC_6a943
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a943.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_6a943.dir/CheckFunctionExists.c.o -o cmTC_6a943 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-gbpctT'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:711 (check_function_exists)"
+      - "thirdparty/fltk/CMake/options.cmake:298 (include)"
+      - "thirdparty/fltk/CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-7zpf58"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-7zpf58"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-7zpf58'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b0d44/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b0d44.dir/build.make CMakeFiles/cmTC_b0d44.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-7zpf58'
+        Building C object CMakeFiles/cmTC_b0d44.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_b0d44.dir/CheckFunctionExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-7zpf58/CheckFunctionExists.c
+        Linking C executable cmTC_b0d44
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0d44.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_b0d44.dir/CheckFunctionExists.c.o -o cmTC_b0d44 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-7zpf58'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:720 (check_function_exists)"
+      - "thirdparty/fltk/CMake/options.cmake:298 (include)"
+      - "thirdparty/fltk/CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-5MBa4L"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-5MBa4L"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-5MBa4L'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_db4f5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_db4f5.dir/build.make CMakeFiles/cmTC_db4f5.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-5MBa4L'
+        Building C object CMakeFiles/cmTC_db4f5.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_db4f5.dir/CheckFunctionExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-5MBa4L/CheckFunctionExists.c
+        Linking C executable cmTC_db4f5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db4f5.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_db4f5.dir/CheckFunctionExists.c.o -o cmTC_db4f5 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-5MBa4L'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:729 (check_function_exists)"
+      - "thirdparty/fltk/CMake/options.cmake:298 (include)"
+      - "thirdparty/fltk/CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-WJmcZf"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-WJmcZf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-WJmcZf'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_69fbf/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_69fbf.dir/build.make CMakeFiles/cmTC_69fbf.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-WJmcZf'
+        Building C object CMakeFiles/cmTC_69fbf.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_69fbf.dir/CheckFunctionExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-WJmcZf/CheckFunctionExists.c
+        Linking C executable cmTC_69fbf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69fbf.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_69fbf.dir/CheckFunctionExists.c.o -o cmTC_69fbf 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-WJmcZf'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:739 (check_library_exists)"
+      - "thirdparty/fltk/CMake/options.cmake:298 (include)"
+      - "thirdparty/fltk/CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-hTWujN"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-hTWujN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-hTWujN'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d96b2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d96b2.dir/build.make CMakeFiles/cmTC_d96b2.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-hTWujN'
+        Building C object CMakeFiles/cmTC_d96b2.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_d96b2.dir/CheckFunctionExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-hTWujN/CheckFunctionExists.c
+        Linking C executable cmTC_d96b2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d96b2.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_d96b2.dir/CheckFunctionExists.c.o -o cmTC_d96b2  -lICE 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-hTWujN'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "thirdparty/fltk/CMake/options.cmake:709 (check_symbol_exists)"
+      - "thirdparty/fltk/CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for glXGetProcAddressARB"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-oX963T"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-oX963T"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_GLXGETPROCADDRESSARB"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-oX963T'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c53e7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c53e7.dir/build.make CMakeFiles/cmTC_c53e7.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-oX963T'
+        Building C object CMakeFiles/cmTC_c53e7.dir/CheckSymbolExists.c.o
+        /usr/bin/cc  -I/usr/include/GL  -o CMakeFiles/cmTC_c53e7.dir/CheckSymbolExists.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-oX963T/CheckSymbolExists.c
+        Linking C executable cmTC_c53e7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c53e7.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c53e7.dir/CheckSymbolExists.c.o -o cmTC_c53e7  -L/usr/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -lX11 -lGLU -lGL 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-oX963T'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "thirdparty/fltk/CMake/options.cmake:746 (include)"
+      - "thirdparty/fltk/CMakeLists.txt:78 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-seLrYN"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-seLrYN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-seLrYN'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_75ee0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_75ee0.dir/build.make CMakeFiles/cmTC_75ee0.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-seLrYN'
+        Building C object CMakeFiles/cmTC_75ee0.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD -I/usr/include/GL  -o CMakeFiles/cmTC_75ee0.dir/src.c.o -c /home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-seLrYN/src.c
+        Linking C executable cmTC_75ee0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75ee0.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_75ee0.dir/src.c.o -o cmTC_75ee0 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/CMakeFiles/CMakeScratch/TryCompile-seLrYN'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "thirdparty/fltk/CMake/resources.cmake:149 (try_compile)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_MUTEX_RECURSIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6c004/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6c004.dir/build.make CMakeFiles/cmTC_6c004.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_6c004.dir/pthread_mutex_recursive.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_6c004.dir/pthread_mutex_recursive.c.o -c /home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake/pthread_mutex_recursive.c
+        Linking C executable cmTC_6c004
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c004.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_6c004.dir/pthread_mutex_recursive.c.o -o cmTC_6c004 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "thirdparty/fltk/CMake/resources.cmake:149 (try_compile)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_MUTEX_RECURSIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f719e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f719e.dir/build.make CMakeFiles/cmTC_f719e.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_f719e.dir/pthread_mutex_recursive.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f719e.dir/pthread_mutex_recursive.c.o -c /home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake/pthread_mutex_recursive.c
+        Linking C executable cmTC_f719e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f719e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f719e.dir/pthread_mutex_recursive.c.o -o cmTC_f719e 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "thirdparty/fltk/CMake/resources.cmake:149 (try_compile)"
+      - "thirdparty/fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp"
+      binary: "/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_MUTEX_RECURSIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9a648/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9a648.dir/build.make CMakeFiles/cmTC_9a648.dir/build
+        gmake[1]: Entering directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_9a648.dir/pthread_mutex_recursive.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_9a648.dir/pthread_mutex_recursive.c.o -c /home/ivan/Documents/INF/3D-minesweeper/thirdparty/fltk/CMake/pthread_mutex_recursive.c
+        Linking C executable cmTC_9a648
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a648.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_9a648.dir/pthread_mutex_recursive.c.o -o cmTC_9a648 
+        gmake[1]: Leaving directory '/home/ivan/Documents/INF/3D-minesweeper/out/Debug/thirdparty/fltk/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...

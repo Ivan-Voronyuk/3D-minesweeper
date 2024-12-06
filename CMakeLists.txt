@@ -29,3 +29,6 @@ endif()
 add_library(Graph_lib src/Graph_lib/GUI.cpp src/Graph_lib/Graph.cpp
                       src/Graph_lib/Window.cpp)
 target_link_libraries(Graph_lib PUBLIC fltk)
+
+add_library(VectorMath_lib src/VectorMath_lib/types.cpp
+                           src/VectorMath_lib/camera.cpp)
