@@ -8,25 +8,15 @@ using namespace VMath;
 //------------------------------------------------------------------------------
 
 Vector3& Vector3::operator+=(const Vector3& other) {
-#ifndef NDEBUG
-  if (this->t == Vector3::TYPE::POINT && other.t == Vector3::TYPE::POINT)
-    throw std::runtime_error("Cannot add point to a point");
-#endif  // !DEBUG
   this->x += other.x;
   this->y += other.y;
   this->z += other.z;
-  this->t += other.t;
   return *this;
 }
 Vector3& Vector3::operator-=(const Vector3& other) {
-#ifndef NDEBUG
-  if (this->t == Vector3::TYPE::VECTOR && other.t == Vector3::TYPE::POINT)
-    throw std::runtime_error("Cannot substract point from vector");
-#endif  // !DEBUG
   this->x -= other.x;
   this->y -= other.y;
   this->z -= other.z;
-  this->t -= other.t;
   return *this;
 }
 Vector3& Vector3::operator*=(float other) {
@@ -42,7 +32,7 @@ Vector3& Vector3::operator/=(float other) {
   return *this;
 }
 
-Vector3 Vector3::operator-() const { return Vector3(-x, -y, -z, t); }
+Vector3 Vector3::operator-() const { return Vector3(-x, -y, -z); }
 
 float Vector3::L2() const { return x * x + y * y + z * z; }
 float Vector3::len() const { return std::sqrt(this->L2()); }
@@ -50,41 +40,60 @@ float Vector3::len() const { return std::sqrt(this->L2()); }
 void Vector3::normalize() { *this /= this->len(); }
 Vector3 Vector3::normalized() const { return *this / this->len(); }
 
-Vector3 VMath::operator+(const Vector3& A, const Vector3& B) {
-#ifndef NDEBUG
-  if (A.t == Vector3::TYPE::POINT && B.t == Vector3::TYPE::POINT)
-    throw std::runtime_error("Cannot add point to a point");
-#endif  // !DEBUG
-  return Vector3(A.x + B.x, A.y + B.y, A.z + B.z, A.t + B.t);
-}
-Vector3 VMath::operator-(const Vector3& A, const Vector3& B) {
-#ifndef NDEBUG
-  if (A.t == Vector3::TYPE::VECTOR && A.t == Vector3::TYPE::POINT)
-    throw std::runtime_error("Cannot substract point from vector");
-#endif  // !DEBUG
-  return Vector3(A.x - B.x, A.y - B.y, A.z - B.z, A.t - B.t);
-}
-Vector3 VMath::operator*(float k, const Vector3& A) { return Vector3(A.x * k, A.y * k, A.z * k, A.t); }
-Vector3 VMath::operator*(const Vector3& A, float k) { return Vector3(A.x * k, A.y * k, A.z * k, A.t); }
-Vector3 VMath::operator/(float k, const Vector3& A) { return Vector3(A.x / k, A.y / k, A.z / k, A.t); }
-Vector3 VMath::operator/(const Vector3& A, float k) { return Vector3(A.x / k, A.y / k, A.z / k, A.t); }
+Vector3 VMath::operator+(const Vector3& A, const Vector3& B) { return Vector3(A.x + B.x, A.y + B.y, A.z + B.z); }
+Vector3 VMath::operator-(const Vector3& A, const Vector3& B) { return Vector3(A.x - B.x, A.y - B.y, A.z - B.z); }
+Vector3 VMath::operator*(float k, const Vector3& A) { return Vector3(A.x * k, A.y * k, A.z * k); }
+Vector3 VMath::operator*(const Vector3& A, float k) { return Vector3(A.x * k, A.y * k, A.z * k); }
+Vector3 VMath::operator/(float k, const Vector3& A) { return Vector3(A.x / k, A.y / k, A.z / k); }
+Vector3 VMath::operator/(const Vector3& A, float k) { return Vector3(A.x / k, A.y / k, A.z / k); }
 
-float VMath::dot(const Vector3& A, const Vector3& B) {
-#ifndef NDEBUG
-  if (A.t == Vector3::TYPE::POINT || B.t == Vector3::TYPE::POINT)
-    throw std::runtime_error("Cannot scalar multiply points");
-#endif  // !DEBUG
-  return A.x * B.x + A.y * B.y + A.z * B.z;
-}
+float VMath::dot(const Vector3& A, const Vector3& B) { return A.x * B.x + A.y * B.y + A.z * B.z; }
 Vector3 VMath::cross(const Vector3& A, const Vector3& B) {
-#ifndef NDEBUG
-  if (A.t == Vector3::TYPE::POINT || B.t == Vector3::TYPE::POINT)
-    throw std::runtime_error("Cannot vector multiply points");
-#endif  // !DEBUG
   return Vector3(A.y * B.z - A.z * B.y, A.z * B.x - B.z * A.x, A.x * B.y - A.y * B.x);
 }
 
 Vector3 VMath::normalize(const Vector3& V) { return V / V.len(); }
+
+//------------------------------------------------------------------------------
+
+Point3& Point3::operator+=(const Vector3& other) {
+  this->x += other.x;
+  this->y += other.y;
+  this->z += other.z;
+  return *this;
+}
+Point3& Point3::operator-=(const Vector3& other) {
+  this->x -= other.x;
+  this->y -= other.y;
+  this->z -= other.z;
+  return *this;
+}
+Point3& Point3::operator*=(float other) {
+  this->x *= other;
+  this->y *= other;
+  this->z *= other;
+  return *this;
+}
+Point3& Point3::operator/=(float other) {
+  this->x /= other;
+  this->y /= other;
+  this->z /= other;
+  return *this;
+}
+
+Point3 Point3::operator-() const { return Point3(-x, -y, -z); }
+
+Point3 VMath::operator*(float k, const Point3& A) { return Point3(A.x * k, A.y * k, A.z * k); }
+Point3 VMath::operator*(const Point3& A, float k) { return Point3(A.x * k, A.y * k, A.z * k); }
+Point3 VMath::operator/(float k, const Point3& A) { return Point3(A.x / k, A.y / k, A.z / k); }
+Point3 VMath::operator/(const Point3& A, float k) { return Point3(A.x / k, A.y / k, A.z / k); }
+
+//------------------------------------------------------------------------------
+
+Point3 operator+(const Point3& A, const Vector3& B) { return Point3(A.x + B.x, A.y + B.y, A.z + B.z); }
+Point3 operator+(const Vector3& A, const Point3& B) { return Point3(A.x + B.x, A.y + B.y, A.z + B.z); }
+Point3 operator-(const Point3& A, const Vector3& B) { return Point3(A.x - B.x, A.y - B.y, A.z - B.z); }
+Vector3 operator-(const Point3& A, const Point3& B) { return Vector3(A.x - B.x, A.y - B.y, A.z - B.z); }
 
 //------------------------------------------------------------------------------
 
@@ -135,7 +144,6 @@ Quaternion Quaternion::operator~() const {
   return res / res.L2();
 }
 Vector3 Quaternion::xyz() const { return Vector3(x, y, z); }
-Vector3 Quaternion::xyzt(bool t) const { return Vector3(x, y, z, t); }
 
 Quaternion VMath::operator+(const Quaternion& A, const Quaternion& B) {
   return Quaternion(A.w + B.w, A.x + B.x, A.y + B.y, A.z + B.z);
@@ -168,12 +176,10 @@ SO3 SO3::operator*=(const SO3& more_recent) {
 }
 
 SO3 SO3::operator*(const SO3& Rhs) const { return SO3(Q * Rhs.Q, (Q * Quaternion(Rhs.T) * ~Q).xyz() + T); }
-Vector3 SO3::operator*(const Vector3& V) const {
-  Vector3 res = (Q * Quaternion(V) * ~Q).vec(V.t);
-  if (res.t == Vector3::TYPE::POINT)
-    return res + T;
-  else
-    return res;
+
+Vector3 SO3::operator*(const Vector3& V) const { return (Q * Quaternion(V) * ~Q).vec(); }
+Point3 SO3::operator*(const Point3& V) const {
+  return (Q * Quaternion(V - Point3::ZERO) * ~Q).vec() + Point3::ZERO + T;
 }
 
 void SO3::inv() {

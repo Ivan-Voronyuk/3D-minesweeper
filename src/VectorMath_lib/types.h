@@ -9,12 +9,11 @@ namespace VMath {
 
 struct Vector3 {
   float x = 0, y = 0, z = 0;
-  bool t = TYPE::VECTOR;
-  enum TYPE : bool { VECTOR = false, POINT = true };
 
   Vector3() = default;  // default constructor
-  explicit Vector3(float x, float y, float z) : x(x), y(y), z(z), t(TYPE::VECTOR){};
-  explicit Vector3(float x, float y, float z, bool t) : x(x), y(y), z(z), t(t){};
+  explicit Vector3(float x, float y, float z) : x(x), y(y), z(z){};
+
+  static const Vector3 ZERO;
 
   Vector3& operator+=(const Vector3& other);
   Vector3& operator-=(const Vector3& other);
@@ -44,6 +43,35 @@ Vector3 normalize(const Vector3& V);
 
 //------------------------------------------------------------------------------
 
+struct Point3 {
+  float x = 0, y = 0, z = 0;
+
+  Point3() = default;  // default constructor
+  explicit Point3(float x, float y, float z) : x(x), y(y), z(z){};
+
+  static const Point3 ZERO;
+
+  Point3& operator+=(const Vector3& other);
+  Point3& operator-=(const Vector3& other);
+  Point3& operator*=(float other);
+  Point3& operator/=(float other);
+
+  Point3 operator-() const;
+};
+Point3 operator*(float k, const Point3& A);
+Point3 operator*(const Point3& A, float k);
+Point3 operator/(float k, const Point3& A);
+Point3 operator/(const Point3& A, float k);
+
+//------------------------------------------------------------------------------
+
+Point3 operator+(const Point3& A, const Vector3& B);
+Point3 operator+(const Vector3& A, const Point3& B);
+Point3 operator-(const Point3& A, const Vector3& B);
+Vector3 operator-(const Point3& A, const Point3& B);
+
+//------------------------------------------------------------------------------
+
 struct Quaternion {
   float w = 0, x = 0, y = 0, z = 0;
 
@@ -69,8 +97,7 @@ struct Quaternion {
   Quaternion operator~() const;
 
   Vector3 xyz() const;
-  Vector3 xyzt(bool t) const;
-  Vector3 vec(bool t) const { return this->xyzt(t); }
+  Vector3 vec() const { return this->xyz(); }
 };
 Quaternion operator+(const Quaternion& A, const Quaternion& B);
 Quaternion operator-(const Quaternion& A, const Quaternion& B);
@@ -100,6 +127,7 @@ class SO3 {
 
   SO3 operator*(const SO3& Rhs) const;
   Vector3 operator*(const Vector3& V) const;
+  Point3 operator*(const Point3& V) const;
 
   void inv();
   SO3 operator~() const;
