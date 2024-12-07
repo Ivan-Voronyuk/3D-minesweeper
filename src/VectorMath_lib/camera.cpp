@@ -150,5 +150,3 @@ std::function<Point3(const Point3&)> OrthogonalProjection::get_screen2plane(Poin
     return Point3::ZERO + (kA * A0 + kB * B0 + kC * C0) / L;
   };
 }
-
-//---------------------------------- VIEWPORT ----------------------------------

@@ -80,22 +80,6 @@ class OrthogonalProjection : CameraTransform {
   void resize(int w, int h) override;
 };
 
-//------------------------------------------------------------------------------
-//------------------------------------------------------------------------------
-
-class Viewport {
- private:
-  int w = -1, h = -1;
-  CameraTransform* transform = nullptr;
-
- public:
-  const int& width = w;
-  const int& height = h;
-  Viewport(int w, int h, float scale);
-  Viewport(Viewport&& old);
-  const CameraTransform& get_transform();
-};
-
 }  // namespace Camera
 }  // namespace VMath
 #endif  // !VMATH_CAMERA
