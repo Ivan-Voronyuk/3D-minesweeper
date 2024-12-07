@@ -6,8 +6,8 @@
 #ifndef VMATH_CAMERA
 #define VMATH_CAMERA
 
-namespace VMath {
 namespace Camera {
+using namespace VMath;
 
 //------------------------------------------------------------------------------
 
@@ -39,7 +39,7 @@ class CameraTransform {
 
 //------------------------------------------------------------------------------
 
-class PerspectiveProjection : CameraTransform {
+class PerspectiveProjection : public CameraTransform {
  private:
   /*
     float w;
@@ -61,7 +61,7 @@ class PerspectiveProjection : CameraTransform {
 
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-class OrthogonalProjection : CameraTransform {
+class OrthogonalProjection : public CameraTransform {
  private:
   /*
     float w;
@@ -81,5 +81,4 @@ class OrthogonalProjection : CameraTransform {
 };
 
 }  // namespace Camera
-}  // namespace VMath
 #endif  // !VMATH_CAMERA

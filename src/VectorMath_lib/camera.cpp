@@ -150,3 +150,10 @@ std::function<Point3(const Point3&)> OrthogonalProjection::get_screen2plane(Poin
     return Point3::ZERO + (kA * A0 + kB * B0 + kC * C0) / L;
   };
 }
+
+void OrthogonalProjection::resize(int w, int h) {
+  this->w = w;
+  this->h = h;
+  this->internal_scale = std::min(w, h) * scale;
+  this->SCREEN_0_OFFSET = Vector3(w / 2.0, h / 2.0, 0);
+}
