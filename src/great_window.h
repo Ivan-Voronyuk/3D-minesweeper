@@ -1,6 +1,7 @@
 #include "Graph_lib/Graph.h"
 #include "Graph_lib/GUI.h"
 #include "Graph_lib/Window.h"
+#include "Graph_lib/fltk.h"
 
 #include <string>
 
@@ -24,7 +25,9 @@ private:
   int level2();
   int level3();
   void exit();
-  };
+};
+
+int create_menu();
 
 struct Level1_window:Window {
   Level1_window (Point xy, int w, int h, const std::string& title);
@@ -38,7 +41,7 @@ private:
 
   int return_func1();
   void quit_func1();
-
+  int Fl_EPS_File_Surface::close ();
 };
 
 struct Level2_window:Window {

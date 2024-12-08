@@ -1,4 +1,5 @@
 #include "great_window.h"
+#include "Graph_lib/fltk.h"
 
 Great_window::Great_window(Point xy, int w, int h, const std::string& title):Window{xy, w, h, title},
   level_1{Point{x_max()-480, y_max() - 350}, 260, 60, "LEVEL 1",
@@ -34,7 +35,7 @@ Great_window::Great_window(Point xy, int w, int h, const std::string& title):Win
 }
 
 int Great_window::level1(){
-  Level1_window* win_l1 = new Level1_window(Point{100, 100}, 1000, 500, "3D-MINESWEEPER_LEVEL_1");
+  Level1_window win_l1(Point{100, 100}, 1000, 500, "3D-MINESWEEPER_LEVEL_1");
   return gui_main();
 }
 int Great_window::level2(){
@@ -46,8 +47,11 @@ int Great_window::level3(){
   return gui_main();
 }
 void Great_window::exit(){
-  hide();
+  int Fl_EPS_File_Surface::close ();
+
+  //hide();
 }
+
 
 Level1_window::Level1_window(Point xy, int w, int h, const std::string& title):Window{xy, w, h, title},
   but_quit{Point {15, y_max() - 70}, 100, 50, "EXIT",
@@ -70,11 +74,16 @@ Level1_window::Level1_window(Point xy, int w, int h, const std::string& title):W
   attach(but_return);
 }
 
+void Level1_window::quit_func1(){
+  hide();
+}
+
 int Level1_window::return_func1(){
   Great_window win(Point{100, 100},700, 500, "3D-MINESWEEPER");
   return gui_main(); 
 
 }
+
 
 Level2_window::Level2_window(Point xy, int w, int h, const std::string& title):Window{xy, w, h, title},
   but_quit{Point {15, y_max() - 70}, 100, 50, "EXIT",
@@ -91,6 +100,11 @@ Level2_window::Level2_window(Point xy, int w, int h, const std::string& title):W
   attach(l2txt);
 }
 
+void Level2_window::quit_func2(){
+  hide();
+}
+
+
 Level3_window::Level3_window(Point xy, int w, int h, const std::string& title):Window{xy, w, h, title},
   but_quit{Point {15, y_max() - 70}, 100, 50, "EXIT",
     [ ] (Address, Address pw) {
@@ -104,14 +118,6 @@ Level3_window::Level3_window(Point xy, int w, int h, const std::string& title):W
   l3txt.set_font(Font::times_bold_italic);
   attach(but_quit);
   attach(l3txt);
-}
-
-void Level1_window::quit_func1(){
-  hide();
-}
-
-void Level2_window::quit_func2(){
-  hide();
 }
 
 void Level3_window::quit_func3(){
