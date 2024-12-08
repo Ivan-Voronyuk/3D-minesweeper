@@ -1,0 +1,7 @@
+<map id="Graph_lib::Window" name="Graph_lib::Window">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,149,104"/>
+<area shape="rect" id="Node000003" href="$structSimple__window.html" title=" " alt="" coords="15,152,139,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="80,118,80,152,75,152,75,118"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="31,5,124,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,44,80,79,75,79,75,44"/>
+</map>

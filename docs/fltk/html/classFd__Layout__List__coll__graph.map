@@ -1,0 +1,7 @@
+<map id="Fd_Layout_List" name="Fd_Layout_List">
+<area shape="rect" id="Node000001" title="Manage all layout suites that are available to the user." alt="" coords="15,181,133,207"/>
+<area shape="rect" id="Node000002" href="$classFd__Layout__Suite.html" title="A collection of layout presets." alt="" coords="9,93,139,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,133,77,181,71,181,71,133"/>
+<area shape="rect" id="Node000003" href="$classFd__Layout__Preset.html" title="Collection of layout settings." alt="" coords="5,5,143,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="77,45,77,93,71,93,71,45"/>
+</map>

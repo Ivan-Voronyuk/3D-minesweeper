@@ -1,0 +1,15 @@
+<map id="Fl_Menu_Item_Type" name="Fl_Menu_Item_Type">
+<area shape="rect" id="Node000001" title="Manage all types on menu items. Deriving Fl_Menu_Item_Type from Fl_Button_Type is intentional...." alt="" coords="275,225,425,251"/>
+<area shape="rect" id="Node000005" href="$classFl__Checkbox__Menu__Item__Type.html" title="Manage Checkbox style Menu Items." alt="" coords="5,299,228,324"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="300,257,155,301,154,296,299,252"/>
+<area shape="rect" id="Node000006" href="$classFl__Radio__Menu__Item__Type.html" title="Manage Radio style Menu Items." alt="" coords="253,299,447,324"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="353,264,353,299,347,299,347,264"/>
+<area shape="rect" id="Node000007" href="$classFl__Submenu__Type.html" title="Manage Submenu style Menu Items. Submenu Items are simply buttons just like all other menu items,..." alt="" coords="471,299,610,324"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="394,253,510,296,509,301,393,258"/>
+<area shape="rect" id="Node000002" href="$classFl__Button__Type.html" title="A handler for the simple push button and a base class for all other buttons." alt="" coords="289,152,411,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="353,191,353,225,347,225,347,191"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget__Type.html" title=" " alt="" coords="288,79,412,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="353,118,353,152,347,152,347,118"/>
+<area shape="rect" id="Node000004" href="$classFl__Type.html" title="This is the base class for all elements in the project tree." alt="" coords="315,5,385,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="353,44,353,79,347,79,347,44"/>
+</map>

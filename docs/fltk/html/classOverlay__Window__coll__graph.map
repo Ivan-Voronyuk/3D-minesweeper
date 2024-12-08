@@ -1,0 +1,16 @@
+<map id="Overlay_Window" name="Overlay_Window">
+<area shape="rect" id="Node000001" title=" " alt="" coords="36,437,168,463"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,349,156,375"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,387,102,436,96,437,84,389"/>
+<area shape="rect" id="Node000003" href="$classFl__Window__Type.html" title=" " alt="" coords="181,349,311,375"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,384,123,439,120,435,214,379"/>
+<area shape="rect" id="Node000004" href="$classFl__Group__Type.html" title=" " alt="" coords="187,275,305,300"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="249,314,249,349,243,349,243,314"/>
+<area shape="rect" id="Node000005" href="$classFl__Widget__Type.html" title=" " alt="" coords="184,200,308,225"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="249,240,249,274,243,274,243,240"/>
+<area shape="rect" id="Node000006" href="$classFl__Type.html" title="This is the base class for all elements in the project tree." alt="" coords="105,51,176,77"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="159,86,240,198,236,201,155,90"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="170,44,192,46,200,53,203,64,198,77,187,84,172,84,156,79,158,74,172,79,185,78,194,73,197,64,195,56,190,51,170,49"/>
+<area shape="rect" id="Node000007" href="$classFluid__Image.html" title=" " alt="" coords="301,51,404,77"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="338,90,256,202,252,198,334,86"/>
+</map>

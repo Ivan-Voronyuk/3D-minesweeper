@@ -1,0 +1,13 @@
+<map id="my_coef_controller" name="my_coef_controller">
+<area shape="rect" id="Node000001" title=" " alt="" coords="148,269,295,295"/>
+<area shape="rect" id="Node000002" href="$structjpeg__c__coef__controller.html" title=" " alt="" coords="5,181,173,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,212,205,267,202,271,117,216"/>
+<area shape="rect" id="Node000003" href="$structjpeg__d__coef__controller.html" title=" " alt="" coords="338,181,507,207"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="384,215,250,272,248,267,382,210"/>
+<area shape="rect" id="Node000004" href="$structjvirt__barray__control.html" title=" " alt="" coords="168,93,317,119"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="242,133,225,269,220,269,237,132"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="280,122,399,179,397,183,278,127"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="333,98,344,106,336,113,318,116,317,111,334,109,339,106,330,102"/>
+<area shape="rect" id="Node000005" href="$structbacking__store__struct.html" title=" " alt="" coords="164,5,321,31"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="245,45,245,93,240,93,240,45"/>
+</map>

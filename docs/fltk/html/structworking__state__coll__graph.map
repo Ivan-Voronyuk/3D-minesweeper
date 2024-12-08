@@ -1,0 +1,36 @@
+<map id="working_state" name="working_state">
+<area shape="rect" id="Node000001" title=" " alt="" coords="817,327,932,353"/>
+<area shape="rect" id="Node000002" href="$structsavable__state.html" title=" " alt="" coords="593,303,707,329"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="720,321,817,331,817,337,720,326"/>
+<area shape="rect" id="Node000003" href="$structjpeg__compress__struct.html" title=" " alt="" coords="568,353,732,378"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="745,355,793,349,817,346,817,351,794,355,746,360"/>
+<area shape="rect" id="Node000004" href="$structjpeg__destination__mgr.html" title=" " alt="" coords="244,15,407,41"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="421,15,454,18,488,25,519,38,546,60,558,84,563,117,560,200,556,282,560,315,570,338,585,351,581,355,566,342,555,317,551,282,555,199,558,117,553,85,542,63,516,43,486,30,453,23,420,21"/>
+<area shape="rect" id="Node000005" href="$structjpeg__component__info.html" title=" " alt="" coords="244,129,407,154"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="421,135,495,140,525,147,546,158,562,180,568,203,566,226,561,248,556,271,553,294,557,316,570,338,585,351,582,355,566,342,552,318,548,294,550,270,556,247,561,225,562,203,557,182,542,162,523,152,494,145,420,141"/>
+<area shape="rect" id="Node000006" href="$structJQUANT__TBL.html" title=" " alt="" coords="5,98,109,123"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="123,97,230,82,355,71,416,71,470,75,515,85,546,102,557,122,562,150,561,220,558,291,562,319,570,338,585,350,581,355,566,342,556,320,553,291,555,220,557,150,552,124,542,106,513,90,469,80,416,76,355,77,230,87,123,102"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="124,115,244,129,243,135,123,121"/>
+<area shape="rect" id="Node000007" href="$structJHUFF__TBL.html" title=" " alt="" coords="279,178,372,203"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="386,188,478,196,519,204,546,218,557,233,562,248,560,279,557,309,561,324,570,338,586,350,583,355,566,342,556,326,552,310,555,279,557,249,553,235,542,222,517,209,477,201,386,194"/>
+<area shape="rect" id="Node000008" href="$structjpeg__scan__info.html" title=" " alt="" coords="266,227,385,253"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="399,245,484,260,521,270,546,283,556,297,559,312,561,325,570,338,589,350,586,355,566,342,556,327,554,313,551,300,542,287,519,275,483,265,398,250"/>
+<area shape="rect" id="Node000009" href="$structjpeg__comp__master.html" title=" " alt="" coords="252,277,399,302"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="413,298,478,310,545,327,569,338,606,350,604,355,567,342,543,332,477,315,412,303"/>
+<area shape="rect" id="Node000010" href="$structjpeg__c__main__controller.html" title=" " alt="" coords="239,326,412,351"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="426,344,568,356,568,361,426,350"/>
+<area shape="rect" id="Node000011" href="$structjpeg__c__prep__controller.html" title=" " alt="" coords="241,375,410,401"/>
+<area shape="poly" id="edge11_Node000003_Node000011" title=" " alt="" coords="424,388,544,383,591,375,592,381,544,388,424,393"/>
+<area shape="rect" id="Node000012" href="$structjpeg__c__coef__controller.html" title=" " alt="" coords="241,425,409,450"/>
+<area shape="poly" id="edge12_Node000003_Node000012" title=" " alt="" coords="423,429,483,421,543,408,586,393,623,376,626,381,588,398,545,413,484,426,424,434"/>
+<area shape="rect" id="Node000013" href="$structjpeg__marker__writer.html" title=" " alt="" coords="251,474,399,499"/>
+<area shape="poly" id="edge13_Node000003_Node000013" title=" " alt="" coords="413,480,478,469,543,448,571,432,597,413,635,376,639,380,600,417,574,437,545,453,479,475,413,485"/>
+<area shape="rect" id="Node000014" href="$structjpeg__color__converter.html" title=" " alt="" coords="246,523,405,549"/>
+<area shape="poly" id="edge14_Node000003_Node000014" title=" " alt="" coords="418,533,482,522,513,512,543,498,577,470,605,437,640,377,645,380,609,440,581,474,545,502,515,517,483,527,419,538"/>
+<area shape="rect" id="Node000015" href="$structjpeg__downsampler.html" title=" " alt="" coords="253,573,398,598"/>
+<area shape="poly" id="edge15_Node000003_Node000015" title=" " alt="" coords="411,588,479,579,512,569,543,552,565,534,584,512,613,462,633,413,643,377,648,379,638,415,618,464,588,515,568,538,545,557,514,574,480,585,412,593"/>
+<area shape="rect" id="Node000016" href="$structjpeg__forward__dct.html" title=" " alt="" coords="258,622,393,647"/>
+<area shape="poly" id="edge16_Node000003_Node000016" title=" " alt="" coords="406,641,441,640,477,635,511,625,542,607,569,582,591,553,608,520,621,486,638,423,645,378,650,379,643,424,626,488,613,522,595,556,573,586,546,611,513,630,478,640,441,646,406,646"/>
+<area shape="rect" id="Node000017" href="$structjpeg__entropy__encoder.html" title=" " alt="" coords="242,671,409,697"/>
+<area shape="poly" id="edge17_Node000003_Node000017" title=" " alt="" coords="422,694,454,692,485,687,515,677,542,661,573,630,597,592,616,552,629,510,642,432,646,378,651,378,648,432,634,511,621,554,602,595,577,633,546,665,518,682,487,692,454,697,423,699"/>
+</map>

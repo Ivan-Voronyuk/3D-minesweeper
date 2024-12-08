@@ -1,0 +1,99 @@
+<map id="Fl_Widget_Type" name="Fl_Widget_Type">
+<area shape="rect" id="Node000001" title=" " alt="" coords="124,820,248,845"/>
+<area shape="rect" id="Node000003" href="$classFl__Box__Type.html" title="Manage box widgets. Ideal size is set to 100x100, snapped to layout." alt="" coords="334,80,437,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,806,190,664,205,458,219,351,238,253,262,172,277,140,294,116,312,102,333,95,335,100,315,107,298,120,282,143,267,174,243,254,224,352,211,458,195,664,190,806"/>
+<area shape="rect" id="Node000004" href="$classFl__Browser__Base__Type.html" title="This is the base class for some browsers types. This class will not be instantiated." alt="" coords="300,129,471,155"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="185,806,188,709,202,566,216,484,235,401,261,318,294,239,310,213,329,189,366,153,370,157,333,193,314,216,298,242,266,320,240,402,221,485,208,566,193,710,190,806"/>
+<area shape="rect" id="Node000008" href="$classFl__Button__Type.html" title="A handler for the simple push button and a base class for all other buttons." alt="" coords="325,252,446,277"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="194,806,377,277,382,279,199,808"/>
+<area shape="rect" id="Node000018" href="$classFl__Clock__Type.html" title="Manage Clock widgets. Ideal size is set to 80x80 snapped to layout." alt="" coords="328,597,443,623"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="192,806,205,767,226,721,256,674,294,633,327,617,329,621,298,637,260,677,231,723,210,769,197,808"/>
+<area shape="rect" id="Node000019" href="$classFl__Group__Type.html" title=" " alt="" coords="327,647,444,672"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="210,808,294,732,367,670,370,674,298,736,213,812"/>
+<area shape="rect" id="Node000030" href="$classFl__Help__View__Type.html" title="Handle the Help View widget. Fl_Help_View is derived from Fl_Group, but supporting children is not us..." alt="" coords="312,745,459,771"/>
+<area shape="poly" id="edge28_Node000001_Node000030" title=" " alt="" coords="224,812,295,781,334,768,336,773,297,786,226,816"/>
+<area shape="rect" id="Node000031" href="$classFl__Input__Type.html" title="Manage simple text input widgets. The managed class is derived from Fl_Input_, but for simplicity,..." alt="" coords="330,795,441,820"/>
+<area shape="poly" id="edge29_Node000001_Node000031" title=" " alt="" coords="262,820,329,812,330,817,263,826"/>
+<area shape="rect" id="Node000034" href="$classFl__Menu__Manager__Type.html" title="Base class for all widgets that can have a pulldown menu attached. Widgets with this type can be deri..." alt="" coords="296,844,475,869"/>
+<area shape="poly" id="edge32_Node000001_Node000034" title=" " alt="" coords="262,839,296,843,295,849,261,844"/>
+<area shape="rect" id="Node000040" href="$classFl__Progress__Type.html" title="Manage a Progress widget. Ideal size is set to match the label font and label text width times 3." alt="" coords="318,893,453,919"/>
+<area shape="poly" id="edge35_Node000001_Node000040" title=" " alt="" coords="225,849,297,879,333,891,331,896,295,885,223,854"/>
+<area shape="rect" id="Node000041" href="$classFl__Spinner__Type.html" title="Manage Spinner widgets." alt="" coords="322,943,449,968"/>
+<area shape="poly" id="edge36_Node000001_Node000041" title=" " alt="" coords="209,854,248,893,297,929,323,940,321,945,295,934,244,897,205,858"/>
+<area shape="rect" id="Node000042" href="$classFl__Terminal__Type.html" title="Manage a terminal widget." alt="" coords="318,992,453,1017"/>
+<area shape="poly" id="edge37_Node000001_Node000042" title=" " alt="" coords="201,856,239,918,266,951,297,978,319,990,317,994,295,983,262,955,234,921,197,859"/>
+<area shape="rect" id="Node000043" href="$classFl__Text__Display__Type.html" title="Manage the Text Display as a base class. Fl_Text_Display is actually derived from Fl_Group,..." alt="" coords="305,1041,466,1067"/>
+<area shape="poly" id="edge38_Node000001_Node000043" title=" " alt="" coords="197,858,210,896,231,942,260,989,298,1028,316,1039,314,1043,294,1032,256,992,226,945,205,898,192,860"/>
+<area shape="rect" id="Node000045" href="$classFl__Tree__Type.html" title="Handle the Tree widget. Fl_Tree is derived from Fl_Group, but FLUID does not support extended Fl_Tree..." alt="" coords="333,1091,438,1116"/>
+<area shape="poly" id="edge40_Node000001_Node000045" title=" " alt="" coords="194,859,205,906,224,965,254,1026,274,1053,298,1077,314,1088,333,1095,331,1100,312,1093,294,1081,270,1057,250,1029,219,967,199,908,189,860"/>
+<area shape="rect" id="Node000046" href="$classFl__Valuator__Type.html" title="Just a base class for all valuators." alt="" coords="319,1213,451,1239"/>
+<area shape="poly" id="edge41_Node000001_Node000046" title=" " alt="" coords="196,858,231,979,261,1054,298,1127,335,1175,371,1211,367,1215,331,1179,294,1130,256,1056,226,980,191,860"/>
+<area shape="rect" id="Node000002" href="$classFl__Type.html" title="This is the base class for all elements in the project tree." alt="" coords="5,820,76,845"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,830,124,830,124,835,90,835"/>
+<area shape="rect" id="Node000005" href="$classFl__Browser__Type.html" title="Handle a plain browser widget. Most of the work is already done in Fl_Browser_Base_Type." alt="" coords="547,5,677,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="465,121,473,116,489,98,496,80,504,60,521,41,545,28,548,33,524,45,509,63,501,82,493,101,476,120,467,126"/>
+<area shape="rect" id="Node000007" href="$classFl__Check__Browser__Type.html" title="Manage the Check Browser. The Fl_Check_Browser is derived form Fl_Browser_ (underline!..." alt="" coords="523,55,701,80"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="453,123,474,116,522,90,559,78,561,83,524,95,476,120,455,128"/>
+<area shape="rect" id="Node000006" href="$classFl__File__Browser__Type.html" title="Manage the File Browser, not to be confused with the file dialog. As oppoesed to the Hold,..." alt="" coords="780,5,941,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="691,15,780,15,780,21,691,21"/>
+<area shape="rect" id="Node000009" href="$classFl__Check__Button__Type.html" title="Manage buttons with a check mark on its left." alt="" coords="528,104,696,129"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="404,240,454,189,486,163,521,140,551,127,553,132,524,144,490,167,458,193,408,243"/>
+<area shape="rect" id="Node000010" href="$classFl__Light__Button__Type.html" title="A handler for a toggle button with an indicator light." alt="" coords="532,153,692,179"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="418,242,466,215,522,189,558,176,560,181,524,194,468,220,420,247"/>
+<area shape="rect" id="Node000011" href="$classFl__Menu__Item__Type.html" title="Manage all types on menu items. Deriving Fl_Menu_Item_Type from Fl_Button_Type is intentional...." alt="" coords="537,203,687,228"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="457,246,552,225,553,231,458,252"/>
+<area shape="rect" id="Node000015" href="$classFl__Repeat__Button__Type.html" title="Handler for Fl_Repeat_Button." alt="" coords="525,252,699,277"/>
+<area shape="poly" id="edge14_Node000008_Node000015" title=" " alt="" coords="460,262,524,262,524,267,460,267"/>
+<area shape="rect" id="Node000016" href="$classFl__Return__Button__Type.html" title="The Return Button is simply a Button with the return key as a hotkey." alt="" coords="527,301,697,327"/>
+<area shape="poly" id="edge15_Node000008_Node000016" title=" " alt="" coords="458,278,553,299,552,304,457,283"/>
+<area shape="rect" id="Node000017" href="$classFl__Round__Button__Type.html" title="Manage buttons with a round indicator on its left." alt="" coords="527,351,697,376"/>
+<area shape="poly" id="edge16_Node000008_Node000017" title=" " alt="" coords="419,282,467,310,524,337,557,348,555,353,522,342,465,315,416,287"/>
+<area shape="rect" id="Node000012" href="$classFl__Checkbox__Menu__Item__Type.html" title="Manage Checkbox style Menu Items." alt="" coords="749,153,972,179"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="689,197,795,176,796,181,690,203"/>
+<area shape="rect" id="Node000013" href="$classFl__Radio__Menu__Item__Type.html" title="Manage Radio style Menu Items." alt="" coords="763,203,958,228"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="701,213,763,213,763,218,701,218"/>
+<area shape="rect" id="Node000014" href="$classFl__Submenu__Type.html" title="Manage Submenu style Menu Items. Submenu Items are simply buttons just like all other menu items,..." alt="" coords="791,252,930,277"/>
+<area shape="poly" id="edge13_Node000011_Node000014" title=" " alt="" coords="690,228,796,249,795,255,689,233"/>
+<area shape="rect" id="Node000020" href="$classFl__Flex__Type.html" title=" " alt="" coords="559,400,665,425"/>
+<area shape="poly" id="edge19_Node000019_Node000020" title=" " alt="" coords="455,646,473,633,490,610,497,586,498,562,496,537,494,512,495,487,503,461,521,436,538,424,557,416,559,421,540,428,525,440,508,464,500,488,499,512,501,537,504,562,503,587,495,612,477,637,458,650"/>
+<area shape="rect" id="Node000021" href="$classFl__Grid__Type.html" title=" " alt="" coords="559,449,665,475"/>
+<area shape="poly" id="edge20_Node000019_Node000021" title=" " alt="" coords="455,645,473,633,487,616,494,598,496,561,499,523,506,504,521,485,538,473,558,465,560,470,541,478,524,489,511,507,504,525,501,562,499,599,491,619,476,637,458,650"/>
+<area shape="rect" id="Node000022" href="$classFl__Pack__Type.html" title=" " alt="" coords="558,499,666,524"/>
+<area shape="poly" id="edge21_Node000019_Node000022" title=" " alt="" coords="455,644,473,633,484,622,490,610,496,585,502,560,509,547,521,535,538,524,557,516,559,521,540,528,524,539,514,550,507,562,501,587,495,612,488,625,476,637,458,649"/>
+<area shape="rect" id="Node000023" href="$classFl__Scroll__Type.html" title=" " alt="" coords="555,548,669,573"/>
+<area shape="poly" id="edge22_Node000019_Node000023" title=" " alt="" coords="456,641,473,633,488,621,497,609,506,596,521,584,553,570,555,575,524,588,510,600,501,612,492,625,476,638,458,646"/>
+<area shape="rect" id="Node000024" href="$classFl__Table__Type.html" title=" " alt="" coords="556,597,668,623"/>
+<area shape="poly" id="edge23_Node000019_Node000024" title=" " alt="" coords="457,641,555,619,556,625,458,646"/>
+<area shape="rect" id="Node000025" href="$classFl__Tabs__Type.html" title=" " alt="" coords="559,647,665,672"/>
+<area shape="poly" id="edge24_Node000019_Node000025" title=" " alt="" coords="458,657,559,657,559,662,458,662"/>
+<area shape="rect" id="Node000026" href="$classFl__Tile__Type.html" title=" " alt="" coords="561,696,663,721"/>
+<area shape="poly" id="edge25_Node000019_Node000026" title=" " alt="" coords="458,672,561,695,560,700,457,678"/>
+<area shape="rect" id="Node000027" href="$classFl__Window__Type.html" title=" " alt="" coords="547,745,677,771"/>
+<area shape="poly" id="edge26_Node000019_Node000027" title=" " alt="" coords="419,677,467,705,524,732,557,743,555,748,522,736,465,709,416,681"/>
+<area shape="rect" id="Node000029" href="$classFl__Wizard__Type.html" title=" " alt="" coords="551,795,673,820"/>
+<area shape="poly" id="edge27_Node000019_Node000029" title=" " alt="" coords="415,679,477,732,499,759,509,770,524,781,551,793,549,798,521,786,505,774,495,762,473,736,412,683"/>
+<area shape="rect" id="Node000032" href="$classFl__File__Input__Type.html" title="Manage file name input widgets." alt="" coords="541,844,683,869"/>
+<area shape="poly" id="edge30_Node000031_Node000032" title=" " alt="" coords="455,820,554,841,552,847,453,825"/>
+<area shape="rect" id="Node000033" href="$classFl__Output__Type.html" title="Manage Output widgets, derived from Input." alt="" coords="551,893,673,919"/>
+<area shape="poly" id="edge31_Node000031_Node000033" title=" " alt="" coords="455,820,476,830,491,843,501,856,510,868,524,880,551,892,549,897,521,884,506,872,496,859,488,847,473,835,453,825"/>
+<area shape="rect" id="Node000035" href="$classFl__Input__Choice__Type.html" title="Manage the composite widget Input Choice." alt="" coords="531,943,693,968"/>
+<area shape="poly" id="edge33_Node000034_Node000035" title=" " alt="" coords="461,872,476,880,491,892,501,905,510,917,524,929,549,940,546,945,521,934,506,921,496,908,488,896,473,884,458,877"/>
+<area shape="rect" id="Node000036" href="$classFl__Menu__Base__Type.html" title="Base class to handle widgets that are derived from Fl_Menu_." alt="" coords="535,992,689,1017"/>
+<area shape="poly" id="edge34_Node000034_Node000036" title=" " alt="" coords="468,874,476,880,488,892,495,905,501,931,507,956,514,967,524,979,542,990,540,994,521,983,509,970,502,957,496,932,490,907,484,896,473,884,464,878"/>
+<area shape="rect" id="Node000044" href="$classFl__Text__Editor__Type.html" title="Manage Text Editors based on Text Display." alt="" coords="537,1041,687,1067"/>
+<area shape="poly" id="edge39_Node000043_Node000044" title=" " alt="" coords="480,1051,537,1051,537,1057,480,1057"/>
+<area shape="rect" id="Node000047" href="$classFl__Adjuster__Type.html" title="Handle Adjuster widgets which are derived from valuators." alt="" coords="546,1091,678,1116"/>
+<area shape="poly" id="edge42_Node000046_Node000047" title=" " alt="" coords="410,1202,460,1164,521,1126,555,1114,557,1119,524,1131,463,1168,413,1206"/>
+<area shape="rect" id="Node000048" href="$classFl__Counter__Type.html" title="Manage the Counter widget. Strictly speaking, the ideal size should derive from the textsize not the ..." alt="" coords="547,1140,677,1165"/>
+<area shape="poly" id="edge43_Node000046_Node000048" title=" " alt="" coords="433,1206,522,1175,564,1163,565,1168,523,1181,435,1211"/>
+<area shape="rect" id="Node000049" href="$classFl__Dial__Type.html" title="Manage dials." alt="" coords="560,1189,664,1215"/>
+<area shape="poly" id="edge44_Node000046_Node000049" title=" " alt="" coords="465,1215,560,1205,560,1210,465,1220"/>
+<area shape="rect" id="Node000050" href="$classFl__Roller__Type.html" title="Manage Roller widgets. They are vertical by default." alt="" coords="554,1239,670,1264"/>
+<area shape="poly" id="edge45_Node000046_Node000050" title=" " alt="" coords="465,1232,554,1242,553,1248,465,1238"/>
+<area shape="rect" id="Node000051" href="$classFl__Slider__Type.html" title="Manage Slider widgets. They are vertical by default. Fl_Value_Slider has its own type." alt="" coords="555,1288,669,1313"/>
+<area shape="poly" id="edge46_Node000046_Node000051" title=" " alt="" coords="432,1241,523,1274,562,1285,560,1291,522,1279,430,1246"/>
+<area shape="rect" id="Node000054" href="$classFl__Value__Input__Type.html" title="Manage Value Inputs and their text settings." alt="" coords="535,1337,689,1363"/>
+<area shape="poly" id="edge47_Node000046_Node000054" title=" " alt="" coords="412,1246,462,1285,524,1324,553,1335,551,1340,521,1328,459,1290,409,1250"/>
+<area shape="rect" id="Node000055" href="$classFl__Value__Output__Type.html" title="Handle Value Output widgets, no shortcut with Value Input unfortunately." alt="" coords="529,1387,695,1412"/>
+<area shape="poly" id="edge48_Node000046_Node000055" title=" " alt="" coords="404,1249,453,1311,486,1345,524,1373,548,1384,546,1389,521,1378,483,1349,449,1315,400,1252"/>
+</map>

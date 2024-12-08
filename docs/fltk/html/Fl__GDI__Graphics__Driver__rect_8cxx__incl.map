@@ -1,0 +1,15 @@
+<map id="/home/ivan/Documents/INF/3D&#45;minesweeper/thirdparty/fltk/src/drivers/GDI/Fl_GDI_Graphics_Driver_rect.cxx" name="/home/ivan/Documents/INF/3D&#45;minesweeper/thirdparty/fltk/src/drivers/GDI/Fl_GDI_Graphics_Driver_rect.cxx">
+<area shape="rect" id="Node000001" title="Windows GDI specific line and polygon drawing with integer coordinates." alt="" coords="205,5,436,75"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,123,79,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,77,90,121,89,116,219,72"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="103,123,170,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="255,77,173,119,170,114,253,72"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="194,123,314,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="299,76,273,113,268,110,294,73"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="338,123,439,148"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="347,73,374,110,370,113,343,76"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="464,123,575,148"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="394,72,483,114,481,119,391,77"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="599,123,789,148"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="437,67,636,117,634,122,436,73"/>
+</map>

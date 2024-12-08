@@ -1,0 +1,9 @@
+<map id="Fl_Dial_Type" name="Fl_Dial_Type">
+<area shape="rect" id="Node000001" title="Manage dials." alt="" coords="19,225,123,251"/>
+<area shape="rect" id="Node000002" href="$classFl__Valuator__Type.html" title="Just a base class for all valuators." alt="" coords="5,152,137,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,191,74,225,69,225,69,191"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget__Type.html" title=" " alt="" coords="9,79,133,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="74,118,74,152,69,152,69,118"/>
+<area shape="rect" id="Node000004" href="$classFl__Type.html" title="This is the base class for all elements in the project tree." alt="" coords="36,5,107,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="74,44,74,79,69,79,69,44"/>
+</map>

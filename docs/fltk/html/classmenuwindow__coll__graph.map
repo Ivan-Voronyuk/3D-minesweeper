@@ -1,0 +1,11 @@
+<map id="menuwindow" name="menuwindow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="31,243,141,268"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="156,247,167,255,159,263,141,266,140,261,157,258,162,255,153,251"/>
+<area shape="rect" id="Node000002" href="$classwindow__with__items.html" title=" " alt="" coords="5,80,156,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,119,88,243,83,243,79,119"/>
+<area shape="rect" id="Node000004" href="$classmenutitle.html" title=" " alt="" coords="102,155,187,180"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="102,114,136,153,132,156,98,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="13,5,149,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="83,45,83,80,78,80,78,45"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="131,193,96,244,92,241,127,190"/>
+</map>

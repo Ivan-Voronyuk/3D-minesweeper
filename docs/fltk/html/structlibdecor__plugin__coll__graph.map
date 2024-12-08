@@ -1,0 +1,22 @@
+<map id="libdecor_plugin" name="libdecor_plugin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="11,5,132,31"/>
+<area shape="rect" id="Node000006" href="$structlibdecor.html" title="A libdecor context instance." alt="" coords="109,93,183,119"/>
+<area shape="poly" id="edge7_Node000006_Node000001" title=" " alt="" coords="92,39,138,91,134,95,88,43"/>
+<area shape="rect" id="Node000002" href="$structlibdecor__plugin__private.html" title=" " alt="" coords="5,460,180,485"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,448,73,419,69,386,69,105,69,31,74,31,74,105,74,386,78,418,86,446"/>
+<area shape="rect" id="Node000003" href="$structlibdecor__plugin__interface.html" title=" " alt="" coords="121,372,307,397"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="188,408,111,462,108,458,185,403"/>
+<area shape="rect" id="Node000004" href="$structlibdecor__frame.html" title="A frame used for decorating a Wayland surface." alt="" coords="206,284,326,309"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="254,323,224,373,219,370,250,320"/>
+<area shape="rect" id="Node000005" href="$structlibdecor__frame__private.html" title=" " alt="" coords="214,196,387,221"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="293,235,273,284,268,282,288,233"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="175,124,243,170,282,194,280,198,241,174,172,129"/>
+<area shape="rect" id="Node000007" href="$structlibdecor__interface.html" title=" " alt="" coords="157,5,295,31"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="208,43,159,95,155,91,204,39"/>
+<area shape="rect" id="Node000008" href="$structlibdecor__frame__interface.html" title=" " alt="" coords="208,93,393,119"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="303,133,303,196,298,196,298,133"/>
+<area shape="rect" id="Node000009" href="$structlibdecor__limits.html" title=" " alt="" coords="417,93,536,119"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="446,128,322,198,319,194,443,123"/>
+<area shape="rect" id="Node000010" href="$structlibdecor__configuration.html" title="An object representing a toplevel window configuration." alt="" coords="560,93,727,119"/>
+<area shape="poly" id="edge10_Node000005_Node000010" title=" " alt="" coords="618,129,577,153,530,175,458,193,388,204,387,199,457,188,528,169,575,148,615,124"/>
+</map>

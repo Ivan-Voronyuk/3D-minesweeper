@@ -1,0 +1,15 @@
+<map id="Fd_Snap_Data" name="Fd_Snap_Data">
+<area shape="rect" id="Node000001" title="Structure holding all the data to perform interactive alignment operations." alt="" coords="147,451,262,476"/>
+<area shape="rect" id="Node000002" href="$classFl__Widget__Type.html" title=" " alt="" coords="137,200,261,225"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,239,207,450,202,450,197,240"/>
+<area shape="rect" id="Node000006" href="$classFl__Group__Type.html" title=" " alt="" coords="222,275,339,300"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="224,233,269,272,266,276,221,237"/>
+<area shape="rect" id="Node000003" href="$classFl__Type.html" title="This is the base class for all elements in the project tree." alt="" coords="5,51,76,77"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="65,84,189,198,185,202,61,88"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="70,44,92,46,100,53,103,64,98,77,87,84,72,84,56,79,58,74,72,79,85,78,94,73,97,64,95,56,90,51,70,49"/>
+<area shape="rect" id="Node000004" href="$classFluid__Image.html" title=" " alt="" coords="201,51,304,77"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="246,91,206,201,201,199,241,89"/>
+<area shape="rect" id="Node000005" href="$classFl__Window__Type.html" title=" " alt="" coords="221,363,351,388"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="268,400,218,452,214,448,264,396"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="285,314,288,362,283,362,280,314"/>
+</map>

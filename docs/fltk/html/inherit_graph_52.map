@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,104,89,129"/>
+<area shape="rect" id="Node000001" href="$classButton.html" title=" " alt="" coords="207,5,273,31"/>
+<area shape="poly" id="edge73_Node000000_Node000001" title=" " alt="" coords="68,92,99,64,136,40,172,26,207,19,208,24,173,31,139,44,102,69,72,96"/>
+<area shape="rect" id="Node000002" href="$classMyButton.html" title=" " alt="" coords="197,55,283,80"/>
+<area shape="poly" id="edge74_Node000000_Node000002" title=" " alt="" coords="102,98,137,89,197,74,198,79,138,94,103,103"/>
+<area shape="rect" id="Node000003" href="$classMy__Button.html" title=" " alt="" coords="194,104,286,129"/>
+<area shape="poly" id="edge75_Node000000_Node000003" title=" " alt="" coords="103,114,194,114,194,119,103,119"/>
+<area shape="rect" id="Node000004" href="$classWidget__Bin__Button.html" title=" " alt="" coords="167,153,313,179"/>
+<area shape="poly" id="edge76_Node000000_Node000004" title=" " alt="" coords="103,129,138,138,188,151,186,156,137,143,102,134"/>
+<area shape="rect" id="Node000005" href="$classWidget__Bin__Window__Button.html" title=" " alt="" coords="137,203,343,228"/>
+<area shape="poly" id="edge77_Node000000_Node000005" title=" " alt="" coords="72,137,102,164,139,188,171,200,169,205,136,192,99,168,69,141"/>
+</map>

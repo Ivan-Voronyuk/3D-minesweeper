@@ -1,0 +1,17 @@
+<map id="Fl_Menu_Manager_Type" name="Fl_Menu_Manager_Type">
+<area shape="rect" id="Node000001" title="Base class for all widgets that can have a pulldown menu attached. Widgets with this type can be deri..." alt="" coords="88,152,267,177"/>
+<area shape="rect" id="Node000004" href="$classFl__Input__Choice__Type.html" title="Manage the composite widget Input Choice." alt="" coords="5,225,168,251"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="153,188,103,227,100,223,150,184"/>
+<area shape="rect" id="Node000005" href="$classFl__Menu__Base__Type.html" title="Base class to handle widgets that are derived from Fl_Menu_." alt="" coords="193,225,346,251"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="204,183,256,223,253,227,201,188"/>
+<area shape="rect" id="Node000002" href="$classFl__Widget__Type.html" title=" " alt="" coords="115,79,239,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,118,180,152,175,152,175,118"/>
+<area shape="rect" id="Node000003" href="$classFl__Type.html" title="This is the base class for all elements in the project tree." alt="" coords="142,5,213,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="180,44,180,79,175,79,175,44"/>
+<area shape="rect" id="Node000006" href="$classFl__Choice__Type.html" title="Manage Choice type menu widgets." alt="" coords="51,299,173,324"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="233,259,139,301,137,296,230,254"/>
+<area shape="rect" id="Node000007" href="$classFl__Menu__Bar__Type.html" title="Manage Menubar widgets." alt="" coords="198,299,341,324"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="272,264,272,299,267,299,267,264"/>
+<area shape="rect" id="Node000008" href="$classFl__Menu__Button__Type.html" title="Make Menu Button widgets." alt="" coords="365,299,529,324"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="312,253,419,296,417,301,310,258"/>
+</map>

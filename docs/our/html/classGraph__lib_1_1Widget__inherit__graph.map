@@ -1,0 +1,11 @@
+<map id="Graph_lib::Widget" name="Graph_lib::Widget">
+<area shape="rect" id="Node000001" title=" " alt="" coords="239,5,378,31"/>
+<area shape="rect" id="Node000002" href="$structGraph__lib_1_1Button.html" title=" " alt="" coords="5,79,140,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="258,37,112,81,110,76,257,32"/>
+<area shape="rect" id="Node000003" href="$structGraph__lib_1_1In__box.html" title=" " alt="" coords="164,79,299,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="288,42,246,80,242,76,284,38"/>
+<area shape="rect" id="Node000004" href="$structGraph__lib_1_1Menu.html" title=" " alt="" coords="323,79,451,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="333,38,376,76,373,80,330,42"/>
+<area shape="rect" id="Node000005" href="$structGraph__lib_1_1Out__box.html" title=" " alt="" coords="475,79,622,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="361,32,511,76,509,81,360,37"/>
+</map>

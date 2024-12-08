@@ -1,0 +1,8 @@
+<map id="Fd_Snap_Siblings_Bottom_Same" name="Fd_Snap_Siblings_Bottom_Same">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,155,240,180"/>
+<area shape="rect" id="Node000002" href="$classFd__Snap__Sibling.html" title=" " alt="" coords="59,80,187,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,120,125,154,120,154,120,120"/>
+<area shape="rect" id="Node000003" href="$classFd__Snap__Action.html" title="Find points of interest when moving the bounding box of all selected widgets." alt="" coords="60,5,185,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,45,125,80,120,80,120,45"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="200,10,212,18,204,25,186,27,185,22,202,20,207,18,198,15"/>
+</map>

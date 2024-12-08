@@ -1,0 +1,38 @@
+<map id="libdecor_frame_gtk" name="libdecor_frame_gtk">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1695,281,1843,306"/>
+<area shape="rect" id="Node000002" href="$structlibdecor__frame.html" title="A frame used for decorating a Wayland surface." alt="" coords="5,79,125,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,72,154,54,213,36,277,23,343,17,1477,17,1506,20,1534,26,1585,51,1630,86,1670,128,1704,173,1731,216,1764,279,1759,282,1726,218,1699,176,1666,132,1627,90,1582,55,1532,31,1505,25,1477,23,343,23,278,28,214,42,156,59,109,77"/>
+<area shape="rect" id="Node000008" href="$structlibdecor__plugin__interface.html" title=" " alt="" coords="251,79,437,105"/>
+<area shape="poly" id="edge8_Node000008_Node000002" title=" " alt="" coords="139,89,250,89,250,95,139,95"/>
+<area shape="rect" id="Node000003" href="$structlibdecor__frame__private.html" title=" " alt="" coords="1389,230,1563,255"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1433,263,1391,285,1379,294,1367,302,1295,329,1237,343,1177,349,1101,349,343,349,316,347,290,341,242,318,199,286,161,247,129,206,103,166,70,106,75,104,107,163,133,203,165,244,202,282,245,314,292,336,317,342,343,344,1101,344,1177,343,1236,338,1294,324,1364,298,1376,290,1388,280,1431,259"/>
+<area shape="rect" id="Node000004" href="$structlibdecor.html" title="A libdecor context instance." alt="" coords="1062,126,1137,151"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1151,142,1251,158,1309,170,1366,187,1414,207,1454,227,1452,232,1412,211,1364,192,1308,176,1250,163,1150,147"/>
+<area shape="rect" id="Node000012" href="$structlibdecor__plugin__gtk.html" title=" " alt="" coords="1401,94,1551,119"/>
+<area shape="poly" id="edge14_Node000012_Node000004" title=" " alt="" coords="1150,132,1401,110,1401,116,1150,137"/>
+<area shape="rect" id="Node000005" href="$structlibdecor__interface.html" title=" " alt="" coords="775,139,913,165"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="927,150,983,148,1061,141,1062,146,983,153,927,155"/>
+<area shape="rect" id="Node000006" href="$structlibdecor__plugin.html" title=" " alt="" coords="783,79,905,105"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="919,103,1062,129,1061,135,918,108"/>
+<area shape="poly" id="edge13_Node000012_Node000006" title=" " alt="" coords="918,88,983,88,1174,89,1365,95,1401,97,1401,102,1365,100,1174,94,983,93,918,93"/>
+<area shape="rect" id="Node000007" href="$structlibdecor__plugin__private.html" title=" " alt="" coords="523,79,697,105"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="711,89,783,89,783,95,711,95"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="451,89,522,89,522,95,451,95"/>
+<area shape="rect" id="Node000009" href="$structlibdecor__frame__interface.html" title=" " alt="" coords="1007,231,1192,257"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="1206,241,1389,240,1389,246,1206,246"/>
+<area shape="rect" id="Node000010" href="$structlibdecor__limits.html" title=" " alt="" coords="1040,283,1159,309"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="1172,294,1265,289,1365,276,1405,266,1442,253,1444,258,1407,271,1366,281,1265,294,1173,299"/>
+<area shape="rect" id="Node000011" href="$structlibdecor__configuration.html" title="An object representing a toplevel window configuration." alt="" coords="1016,182,1183,207"/>
+<area shape="poly" id="edge11_Node000003_Node000011" title=" " alt="" coords="1197,203,1366,224,1390,227,1389,233,1365,229,1196,208"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="1522,122,1594,157,1672,203,1721,243,1757,278,1753,282,1717,247,1669,208,1591,162,1519,127"/>
+<area shape="rect" id="Node000013" href="$structborder__component__gtk.html" title=" " alt="" coords="1390,295,1562,321"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="1576,300,1694,294,1695,300,1576,306"/>
+<area shape="rect" id="Node000014" href="$structbuffer.html" title=" " alt="" coords="1069,399,1129,425"/>
+<area shape="poly" id="edge16_Node000013_Node000014" title=" " alt="" coords="1143,408,1264,400,1324,391,1364,378,1372,371,1376,363,1387,346,1412,330,1436,318,1439,323,1414,335,1391,350,1380,366,1376,374,1367,382,1325,396,1265,405,1143,414"/>
+<area shape="rect" id="Node000015" href="$structborder__component.html" title=" " alt="" coords="1404,399,1548,425"/>
+<area shape="poly" id="edge18_Node000015_Node000014" title=" " alt="" coords="1143,415,1216,423,1291,426,1365,423,1403,419,1404,425,1366,428,1291,431,1216,428,1143,421"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="1562,415,1616,410,1644,404,1669,394,1699,375,1724,350,1758,305,1762,308,1728,354,1702,379,1672,398,1645,409,1617,415,1562,421"/>
+<area shape="poly" id="edge19_Node000015_Node000015" title=" " alt="" coords="1446,385,1455,376,1476,373,1494,375,1504,381,1507,391,1502,401,1497,398,1502,390,1500,385,1492,380,1476,378,1457,381,1450,389"/>
+<area shape="rect" id="Node000016" href="$structheader__element__data.html" title=" " alt="" coords="1394,449,1558,474"/>
+<area shape="poly" id="edge20_Node000001_Node000016" title=" " alt="" coords="1571,463,1622,455,1647,446,1669,435,1703,406,1730,369,1749,333,1761,305,1765,307,1754,335,1734,372,1707,409,1672,440,1649,451,1623,460,1572,468"/>
+</map>

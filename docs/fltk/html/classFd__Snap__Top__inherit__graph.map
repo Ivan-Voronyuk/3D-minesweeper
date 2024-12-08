@@ -1,0 +1,15 @@
+<map id="Fd_Snap_Top" name="Fd_Snap_Top">
+<area shape="rect" id="Node000001" title=" " alt="" coords="179,80,285,105"/>
+<area shape="rect" id="Node000003" href="$classFd__Snap__Top__Group__Edge.html" title=" " alt="" coords="340,5,531,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="267,71,332,41,374,28,376,33,334,46,269,76"/>
+<area shape="rect" id="Node000004" href="$classFd__Snap__Top__Group__Margin.html" title=" " alt="" coords="333,55,537,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="299,82,333,77,334,83,299,87"/>
+<area shape="rect" id="Node000006" href="$classFd__Snap__Top__Window__Edge.html" title=" " alt="" coords="333,104,537,129"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="299,98,333,102,333,107,299,103"/>
+<area shape="rect" id="Node000007" href="$classFd__Snap__Top__Window__Margin.html" title=" " alt="" coords="353,154,518,194"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="270,109,334,140,367,151,365,156,332,144,268,114"/>
+<area shape="rect" id="Node000002" href="$classFd__Snap__Action.html" title="Find points of interest when moving the bounding box of all selected widgets." alt="" coords="5,80,131,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,90,178,90,178,95,144,95"/>
+<area shape="rect" id="Node000005" href="$classFd__Snap__Top__Tabs__Margin.html" title=" " alt="" coords="585,55,780,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="551,65,585,65,585,70,551,70"/>
+</map>
