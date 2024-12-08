@@ -5,7 +5,7 @@
 
 using namespace VMath;
 
-//------------------------------------------------------------------------------
+//---------------------------------- VECTOR3 -----------------------------------
 
 Vector3& Vector3::operator+=(const Vector3& other) {
   this->x += other.x;
@@ -54,7 +54,7 @@ Vector3 VMath::cross(const Vector3& A, const Vector3& B) {
 
 Vector3 VMath::normalize(const Vector3& V) { return V / V.len(); }
 
-//------------------------------------------------------------------------------
+//----------------------------------- POINT3 -----------------------------------
 
 Point3& Point3::operator+=(const Vector3& other) {
   this->x += other.x;
@@ -88,14 +88,14 @@ Point3 VMath::operator*(const Point3& A, float k) { return Point3(A.x * k, A.y *
 Point3 VMath::operator/(float k, const Point3& A) { return Point3(A.x / k, A.y / k, A.z / k); }
 Point3 VMath::operator/(const Point3& A, float k) { return Point3(A.x / k, A.y / k, A.z / k); }
 
-//------------------------------------------------------------------------------
+//------------------------------- VECTOR - POINT -------------------------------
 
-Point3 operator+(const Point3& A, const Vector3& B) { return Point3(A.x + B.x, A.y + B.y, A.z + B.z); }
-Point3 operator+(const Vector3& A, const Point3& B) { return Point3(A.x + B.x, A.y + B.y, A.z + B.z); }
-Point3 operator-(const Point3& A, const Vector3& B) { return Point3(A.x - B.x, A.y - B.y, A.z - B.z); }
-Vector3 operator-(const Point3& A, const Point3& B) { return Vector3(A.x - B.x, A.y - B.y, A.z - B.z); }
+Point3 VMath::operator+(const Point3& A, const Vector3& B) { return Point3(A.x + B.x, A.y + B.y, A.z + B.z); }
+Point3 VMath::operator+(const Vector3& A, const Point3& B) { return Point3(A.x + B.x, A.y + B.y, A.z + B.z); }
+Point3 VMath::operator-(const Point3& A, const Vector3& B) { return Point3(A.x - B.x, A.y - B.y, A.z - B.z); }
+Vector3 VMath::operator-(const Point3& A, const Point3& B) { return Vector3(A.x - B.x, A.y - B.y, A.z - B.z); }
 
-//------------------------------------------------------------------------------
+//--------------------------------- QUATERNION ---------------------------------
 
 Quaternion& Quaternion::operator+=(const Quaternion& other) {
   w += other.w;
@@ -134,12 +134,18 @@ void Quaternion::normalize() { *this /= this->len(); }
 Quaternion Quaternion::normalized() const { return *this / this->len(); }
 
 void Quaternion::inv() {
+#ifndef NDEBUG
+  if (this->L2() < 1e-9) throw std::runtime_error("Zero division in Quaternion reversion");
+#endif  // !NDEBUG
   x = -x;
   y = -y;
   z = -z;
   *this /= this->L2();
 }
 Quaternion Quaternion::operator~() const {
+#ifndef NDEBUG
+  if (this->L2() < 1e-9) throw std::runtime_error("Zero division in Quaternion reversion");
+#endif  // !NDEBUG
   Quaternion res{w, -x, -y, -z};
   return res / res.L2();
 }
@@ -167,19 +173,26 @@ Quaternion VMath::operator*(const Quaternion& A, const Quaternion& B) {
 }
 Quaternion VMath::normalize(const Quaternion& Q) { return Q.normalized(); }
 
-//------------------------------------------------------------------------------
+//----------------------------------- SO3 --------------------------------------
 
-SO3 SO3::operator*=(const SO3& more_recent) {
-  Q = more_recent.Q * Q;
-  T = (more_recent.Q * Quaternion(T) * ~more_recent.Q).xyz() + more_recent.T;
+SO3 SO3::operator*=(const SO3& Lhs) {
+  Q = Lhs.Q * Q;
+  T = (Lhs.Q * Quaternion(T) * ~Lhs.Q).vec() + Lhs.T;
   return *this;
 }
 
-SO3 SO3::operator*(const SO3& Rhs) const { return SO3(Q * Rhs.Q, (Q * Quaternion(Rhs.T) * ~Q).xyz() + T); }
+SO3 SO3::operator*(const SO3& Rhs) const { return SO3(Q * Rhs.Q, (Q * Quaternion(Rhs.T) * ~Q).vec() + T); }
 
 Vector3 SO3::operator*(const Vector3& V) const { return (Q * Quaternion(V) * ~Q).vec(); }
 Point3 SO3::operator*(const Point3& V) const {
-  return (Q * Quaternion(V - Point3::ZERO) * ~Q).vec() + Point3::ZERO + T;
+  return (Q * Quaternion(V - Point3::ZERO()) * ~Q).vec() + Point3::ZERO() + T;
+}
+
+SO3 SO3::RotateAroundPoint(float angle, const Vector3& axe, const Point3& point) {
+  return SO3(point - Point3::ZERO()) * SO3::Rotation(angle, axe) * SO3(Point3::ZERO() - point);
+}
+SO3 SO3::RotateAroundPoint(const Quaternion& Q, const Point3& point) {
+  return SO3(point - Point3::ZERO()) * SO3::Rotation(Q) * SO3(Point3::ZERO() - point);
 }
 
 void SO3::inv() {

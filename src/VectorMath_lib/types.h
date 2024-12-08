@@ -6,14 +6,13 @@
 namespace VMath {
 
 //------------------------------------------------------------------------------
-
 struct Vector3 {
   float x = 0, y = 0, z = 0;
 
   Vector3() = default;  // default constructor
-  explicit Vector3(float x, float y, float z) : x(x), y(y), z(z){};
+  explicit Vector3(float x, float y, float z = 0) : x(x), y(y), z(z){};
 
-  static const Vector3 ZERO;
+  static const Vector3 ZERO() { return Vector3(0, 0, 0); };
 
   Vector3& operator+=(const Vector3& other);
   Vector3& operator-=(const Vector3& other);
@@ -47,9 +46,9 @@ struct Point3 {
   float x = 0, y = 0, z = 0;
 
   Point3() = default;  // default constructor
-  explicit Point3(float x, float y, float z) : x(x), y(y), z(z){};
+  explicit Point3(float x, float y, float z = 0) : x(x), y(y), z(z){};
 
-  static const Point3 ZERO;
+  static const Point3 ZERO() { return Point3(0, 0, 0); };
 
   Point3& operator+=(const Vector3& other);
   Point3& operator-=(const Vector3& other);
@@ -73,7 +72,7 @@ Vector3 operator-(const Point3& A, const Point3& B);
 //------------------------------------------------------------------------------
 
 struct Quaternion {
-  float w = 0, x = 0, y = 0, z = 0;
+  float w = 1, x = 0, y = 0, z = 0;
 
   Quaternion() = default;
   Quaternion(float w, float x, float y, float z) : w(w), x(x), y(y), z(z){};
@@ -116,12 +115,18 @@ class SO3 {
  public:
   SO3() = default;
   SO3(const SO3&) = default;
-  SO3(const Quaternion& Q) : Q(Q), T() {}
-  SO3(const Vector3& T) : Q(), T(T) {}
+  SO3(const Quaternion& Q) : Q(Q), T(0, 0, 0) {}
+  SO3(const Vector3& T) : Q(1, 0, 0, 0), T(T) {}
   SO3(const Quaternion& Q, const Vector3& T) : Q(Q), T(T) {}
 
   static SO3 Translation(const Vector3& T) { return SO3(T); }
   static SO3 Rotation(const Quaternion& Q) { return SO3(Q); }
+  static SO3 Rotation(float angle, const Vector3& axe) {
+    return SO3(Quaternion(std::cos(angle / 2), axe.normalized() * std::sin(angle / 2)));
+  }
+
+  static SO3 RotateAroundPoint(float angle, const Vector3& axe, const Point3& point);
+  static SO3 RotateAroundPoint(const Quaternion& Q, const Point3& point);
 
   SO3 operator*=(const SO3& more_recent);
 
