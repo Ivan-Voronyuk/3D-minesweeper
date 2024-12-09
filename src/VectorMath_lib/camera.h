@@ -1,10 +1,10 @@
+#ifndef VMATH_CAMERA
+#define VMATH_CAMERA
+
 #include <cmath>
 #include <functional>
 
 #include "types.h"
-
-#ifndef VMATH_CAMERA
-#define VMATH_CAMERA
 
 namespace Camera {
 using namespace VMath;
@@ -28,13 +28,14 @@ class CameraTransform {
   CameraTransform() = default;
 
  public:
-  const float &wisth = w, &height = h, &scale = scale_;
-  virtual Point3 operator()(Point3) const;
-  virtual std::function<Point3(const Point3&)> get_screen2plane(Point3 a, Point3 b, Point3 c,  // screen space
-                                                                Point3 A, Point3 B, Point3 C)  // global space
-      const;
-  virtual Ray raycast(const Point3& screen_point) const;
-  virtual void resize(int w, int h);
+  const float &width = w, &height = h, &scale = scale_;
+  virtual Point3 operator()(Point3) const = 0;
+  virtual std::function<Point3(float x, float y)> get_map_tex_coord(Point3 a, Point3 b, Point3 c,  // screen space
+                                                                    Point3 A, Point3 B, Point3 C)  // tex space
+      const = 0;
+  virtual Ray raycast(const Point3& screen_point) const = 0;
+  virtual void resize(int w, int h) = 0;
+  virtual ~CameraTransform() {}
 };
 
 //------------------------------------------------------------------------------
@@ -53,8 +54,8 @@ class PerspectiveProjection : public CameraTransform {
   PerspectiveProjection(int screen_width, int screen_height, float angle, float scale);
   Point3 operator()(Point3) const override;
   Ray raycast(const Point3& screen_point) const override;
-  std::function<Point3(const Point3&)> get_screen2plane(Point3 a, Point3 b, Point3 c,  // screen space
-                                                        Point3 A, Point3 B, Point3 C)  // global space
+  std::function<Point3(float x, float y)> get_map_tex_coord(Point3 a, Point3 b, Point3 c,  // screen space
+                                                            Point3 A, Point3 B, Point3 C)  // global space
       const override;
   void resize(int w, int h) override;
 };
@@ -74,8 +75,8 @@ class OrthogonalProjection : public CameraTransform {
   OrthogonalProjection(int screen_width, int screen_height, float scale);
   Point3 operator()(Point3 p) const override;
   Ray raycast(const Point3& screen_point) const override;
-  std::function<Point3(const Point3&)> get_screen2plane(Point3 a, Point3 b, Point3 c,  // screen space
-                                                        Point3 A, Point3 B, Point3 C)  // global space
+  std::function<Point3(float x, float y)> get_map_tex_coord(Point3 a, Point3 b, Point3 c,  // screen space
+                                                            Point3 A, Point3 B, Point3 C)  // global space
       const override;
   void resize(int w, int h) override;
 };

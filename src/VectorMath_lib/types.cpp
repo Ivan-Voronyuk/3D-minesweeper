@@ -49,7 +49,7 @@ Vector3 VMath::operator/(const Vector3& A, float k) { return Vector3(A.x / k, A.
 
 float VMath::dot(const Vector3& A, const Vector3& B) { return A.x * B.x + A.y * B.y + A.z * B.z; }
 Vector3 VMath::cross(const Vector3& A, const Vector3& B) {
-  return Vector3(A.y * B.z - A.z * B.y, A.z * B.x - B.z * A.x, A.x * B.y - A.y * B.x);
+  return -Vector3(A.y * B.z - A.z * B.y, A.z * B.x - B.z * A.x, A.x * B.y - A.y * B.x);
 }
 
 Vector3 VMath::normalize(const Vector3& V) { return V / V.len(); }
