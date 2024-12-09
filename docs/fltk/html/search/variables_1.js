@@ -1,12 +1,19 @@
 var searchData=
 [
-  ['batch_5fmode_0',['batch_mode',['../group__globals.html#ga049844d47066eb241c6d9446b69b713d',1,'batch_mode:&#160;fluid.cxx'],['../group__globals.html#ga049844d47066eb241c6d9446b69b713d',1,'batch_mode:&#160;fluid.cxx']]],
-  ['block_5fbuffer_5f_1',['block_buffer_',['../classFd__Code__Writer.html#a050ddabd59982b7d3ea7a946cccb84f2',1,'Fd_Code_Writer']]],
-  ['block_5fbuffer_5fsize_5f_2',['block_buffer_size_',['../classFd__Code__Writer.html#a63a03d8a0b1af896cf0a2c1e6de64133',1,'Fd_Code_Writer']]],
-  ['block_5fcrc_5f_3',['block_crc_',['../classFd__Code__Writer.html#a0ed9cbca669b33de2c48bcdee0bfe92c',1,'Fd_Code_Writer']]],
-  ['block_5fline_5fstart_5f_4',['block_line_start_',['../classFd__Code__Writer.html#ac278e78c629152feb661524f714afc84',1,'Fd_Code_Writer']]],
-  ['bottom_5ftabs_5fmargin_5',['bottom_tabs_margin',['../classFd__Layout__Preset.html#a0b63dc85228875a82c46a3a7137a1024',1,'Fd_Layout_Preset']]],
-  ['bt_6',['bt',['../structFd__Snap__Data.html#a9683acb1dbfe74e48f0d5bcdf87af340',1,'Fd_Snap_Data']]],
-  ['buffer_7',['buffer',['../classFd__Project__Reader.html#ac4d98072550c9b048b763f770d3cc2da',1,'Fd_Project_Reader']]],
-  ['buflen_8',['buflen',['../classFd__Project__Reader.html#ab8f7338a0a7d43949b3a589fea6222da',1,'Fd_Project_Reader']]]
+  ['about_0',['about',['../classFl__Mac__App__Menu.html#a82abc5244ce5dcbc5018e74f05463f04',1,'Fl_Mac_App_Menu']]],
+  ['absolute_5fhistory_1',['absolute_history',['../group__globals.html#gae14cff7d49880262dcfd8f1e0dea0157',1,'absolute_history:&#160;fluid.cxx'],['../group__globals.html#gae14cff7d49880262dcfd8f1e0dea0157',1,'absolute_history:&#160;fluid.cxx']]],
+  ['add_5ffavorites_5flabel_2',['add_favorites_label',['../classFl__File__Chooser.html#a44f0d61d85845a957f5ee7a5fbbf0958',1,'Fl_File_Chooser']]],
+  ['align_5f_3',['align_',['../structFl__Label.html#a7c1c8fefd7dae7e87835c7dfd78c0691',1,'Fl_Label']]],
+  ['all_4',['ALL',['../classFl__Preferences.html#a9c2077ee80cd4131d8107fc9c43604b9',1,'Fl_Preferences']]],
+  ['all_5ffiles_5flabel_5',['all_files_label',['../classFl__File__Chooser.html#a585447d7918f57caad0a735c9c407023',1,'Fl_File_Chooser']]],
+  ['all_5fread_5fok_6',['ALL_READ_OK',['../classFl__Preferences.html#aa785dd800da6387821cccb2ed4ea381a',1,'Fl_Preferences']]],
+  ['all_5fwrite_5fok_7',['ALL_WRITE_OK',['../classFl__Preferences.html#a0eef56a1b36999142994ec128f8d3231',1,'Fl_Preferences']]],
+  ['alloc_5farray_8',['alloc_array',['../classFl__Bitmap.html#a5ff5bdc4e093728d84f2fcbce76a4aba',1,'Fl_Bitmap::alloc_array'],['../classFl__RGB__Image.html#ab30c313c5eeb1b4f4f729b822a482860',1,'Fl_RGB_Image::alloc_array']]],
+  ['allow_5flayout_9',['allow_layout',['../group__fl__type.html#gae9d930e9f55e11e778b6d6dbfb0ae4c0',1,'Fl_Type']]],
+  ['animate_10',['animate',['../classFl__GIF__Image.html#a5d99be0c6bb031aade53d2719e2fb747',1,'Fl_GIF_Image']]],
+  ['app_5fok_11',['APP_OK',['../classFl__Preferences.html#a66dd7f34a9e67c9ed4f3e6ec7907e2df',1,'Fl_Preferences']]],
+  ['array_12',['array',['../classFl__Bitmap.html#a2fe6a97b247740b5e0a2723818e69504',1,'Fl_Bitmap::array'],['../classFl__RGB__Image.html#a1a47fb9450614a398a9aa9db7289876d',1,'Fl_RGB_Image::array']]],
+  ['atclose_13',['atclose',['../group__fl__windows.html#ga51afae3e9f75ffb9bbac49844195715c',1,'Fl']]],
+  ['attr_14',['attr',['../structFl__Text__Display_1_1Style__Table__Entry.html#aa67bded6858f732de5c205ffa0a564ba',1,'Fl_Text_Display::Style_Table_Entry']]],
+  ['avoid_5fearly_5fincludes_15',['avoid_early_includes',['../classFluid__Project.html#ac4a262827a8f522e8117ca2498b90fc6',1,'Fluid_Project']]]
 ];

@@ -1,0 +1,18 @@
+<map id="Fl_Tree_Item::swap_children" name="Fl_Tree_Item::swap_children">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,33,152,73"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree__Item.html#ae1ecee0a3fae8bed7161b5710a13ddb9" title="Return the number of children this item has." alt="" coords="796,13,961,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,48,782,26,782,31,152,53"/>
+<area shape="rect" id="Node000004" href="$classFl__Tree__Item.html#a834a57f49a36b8fbebb2000b4b682304" title=" " alt="" coords="200,61,347,101"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="152,61,187,66,186,71,152,66"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree__Item__Array.html#a1b76ee8f1c8e3d07449bfc6c1a16e9c6" title="Return the total items in the array, or 0 if empty." alt="" coords="1009,5,1156,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="962,23,996,23,996,28,962,28"/>
+<area shape="rect" id="Node000005" href="$classFl__Tree__Item__Array.html#a2db61ec3dfc486d10f032c02bacf2609" title="Swap the two items at index positions ax and bx." alt="" coords="395,61,541,101"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="347,79,381,79,381,84,347,84"/>
+<area shape="rect" id="Node000006" href="$classFl__Tree__Item.html#ab14a9e7a9be0b17fbf5909be3f2f82a5" title=" " alt="" coords="589,61,748,101"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="541,79,576,79,576,84,541,84"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="744,59,816,39,818,44,745,64"/>
+<area shape="rect" id="Node000007" href="$classFl__Tree__Item.html#a59b33b5824ea2f87eb3388ec51802d67" title="Return the child item for the given &#39;index&#39;." alt="" coords="807,66,951,91"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="748,78,793,77,793,82,748,83"/>
+<area shape="rect" id="Node000008" href="$classFl__Tree__Item.html#a5371023b11fd4b32a93f9cd7936fc5fb" title="Return the parent for this item. Returns NULL if we are the root." alt="" coords="801,115,956,141"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="749,96,808,110,807,115,748,102"/>
+</map>

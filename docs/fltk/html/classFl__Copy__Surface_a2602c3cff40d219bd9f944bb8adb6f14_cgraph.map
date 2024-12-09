@@ -1,0 +1,9 @@
+<map id="Fl_Copy_Surface::Fl_Copy_Surface" name="Fl_Copy_Surface::Fl_Copy_Surface">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,63,156,103"/>
+<area shape="rect" id="Node000002" href="$classFl__Surface__Device.html#aa84d290fba5e95e552bf017525cb14cb" title="Returns the graphics driver of this drawing surface." alt="" coords="204,5,355,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,60,195,47,197,52,151,65"/>
+<area shape="rect" id="Node000003" href="$classFl__Copy__Surface.html#a1ceefacaef73a8388fba84fe1d27ce64" title=" " alt="" coords="206,70,353,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="156,80,192,80,192,85,156,85"/>
+<area shape="rect" id="Node000004" href="$classFl__Copy__Surface.html#a9a3fb1fb760ac33dff62c8fb044a2935" title=" " alt="" coords="205,119,354,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="157,99,215,113,214,119,155,104"/>
+</map>

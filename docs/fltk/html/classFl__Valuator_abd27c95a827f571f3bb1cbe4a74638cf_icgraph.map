@@ -1,0 +1,9 @@
+<map id="Fl_Valuator::softclamp" name="Fl_Valuator::softclamp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="233,55,400,80"/>
+<area shape="rect" id="Node000002" href="$classFl__Adjuster.html#a9202148a1ee5307af7f43af99539dfb3" title=" " alt="" coords="22,5,169,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,54,153,33,154,28,246,49"/>
+<area shape="rect" id="Node000003" href="$classFl__Value__Input.html#a8673cac06a32720da3676de35f248957" title=" " alt="" coords="11,55,180,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,70,180,70,180,65,220,65"/>
+<area shape="rect" id="Node000004" href="$classFl__Value__Output.html#a1114a40e87a4087e90a3c96bd2f59126" title=" " alt="" coords="5,104,185,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="246,86,154,107,153,101,245,80"/>
+</map>

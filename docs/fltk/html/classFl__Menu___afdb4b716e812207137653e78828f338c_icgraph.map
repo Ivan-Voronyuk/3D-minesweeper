@@ -1,0 +1,9 @@
+<map id="Fl_Menu_::textcolor" name="Fl_Menu_::textcolor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="435,31,585,56"/>
+<area shape="rect" id="Node000002" href="$classFl__Choice.html#af8f333917266000da58380ddfbd80c37" title=" " alt="" coords="255,5,381,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="421,34,381,29,382,24,421,29"/>
+<area shape="rect" id="Node000003" href="$classFl__Choice.html#aab5c9eb774b40da50c18446b0e515dbb" title=" " alt="" coords="249,55,387,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="421,57,388,61,387,56,421,52"/>
+<area shape="rect" id="Node000004" href="$classFl__Scheme__Choice.html#a641172d20ee142b11366ce23a252186a" title="Handle FLTK events." alt="" coords="5,55,201,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="236,70,201,70,201,65,236,65"/>
+</map>

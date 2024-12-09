@@ -1,0 +1,13 @@
+<map id="Fl_Scrollbar::linesize" name="Fl_Scrollbar::linesize">
+<area shape="rect" id="Node000001" title=" " alt="" coords="841,35,997,60"/>
+<area shape="rect" id="Node000002" href="$classFl__Browser__.html#a16559daf1c4519bb18d9360a1e9f4158" title=" " alt="" coords="635,5,776,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="827,37,776,30,777,25,828,32"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Display.html#a261e2e626a6448307fe718c7868b24d9" title="Update vertical scrollbar." alt="" coords="617,55,793,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="828,62,794,66,793,61,828,57"/>
+<area shape="rect" id="Node000004" href="$classFl__Text__Display.html#a2c2089df8e61ec00991abda79026f1fe" title=" " alt="" coords="399,55,569,95"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="603,78,570,78,570,73,603,73"/>
+<area shape="rect" id="Node000005" href="$classFl__Text__Display.html#a2db0c8c740c19c6903a860fa3ceb9a4f" title="Draw the widget." alt="" coords="188,63,351,88"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="385,78,351,78,351,73,385,73"/>
+<area shape="rect" id="Node000006" href="$classTextViewer.html#a22b249735474c3350976630198d9ed24" title=" " alt="" coords="5,63,140,88"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="174,78,140,78,140,73,174,73"/>
+</map>

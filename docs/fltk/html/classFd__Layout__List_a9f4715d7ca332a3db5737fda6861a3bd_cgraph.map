@@ -1,0 +1,17 @@
+<map id="Fd_Layout_List::rename" name="Fd_Layout_List::rename">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,183,31"/>
+<area shape="rect" id="Node000002" href="$structFl__Menu__Item.html#a77ad83a8af95310fa3c153ce4a3f9100" title=" " alt="" coords="904,5,1059,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,14,481,10,856,11,890,12,890,17,856,17,481,15,183,19"/>
+<area shape="rect" id="Node000003" href="$classFd__Layout__Suite.html#a2de65f49b9dbc0e1e1ef69321cd51279" title="Update the Suite name and the Suite menu_label. Also updates the FLUID user interface." alt="" coords="231,33,405,59"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,26,218,31,217,36,182,32"/>
+<area shape="rect" id="Node000004" href="$group__fl__string.html#ga92e95129ef38d56b493bec53a3802d05" title=" " alt="" coords="731,91,809,116"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="365,56,454,75,597,92,717,99,717,104,596,97,453,81,364,61"/>
+<area shape="rect" id="Node000006" href="$classFd__Layout__Suite.html#ad069f0e0b8e00d019621acb58981eeb6" title="Update the menu_label to show a symbol representing the storage location. Also updates the FLUID user..." alt="" coords="453,26,636,66"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="406,43,440,43,440,49,406,49"/>
+<area shape="rect" id="Node000005" href="$classFl.html#a808d0335818b286be9101588a36619d2" title=" " alt="" coords="914,91,1049,116"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="810,101,900,101,900,106,810,106"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="625,63,718,88,717,93,623,69"/>
+<area shape="rect" id="Node000007" href="$classFd__Layout__List.html#aada17a9d91413588dcaf8fcfd4177c11" title=" " alt="" coords="684,26,856,66"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="637,43,670,43,670,49,637,49"/>
+<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="856,32,890,27,891,33,857,37"/>
+</map>

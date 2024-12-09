@@ -1,0 +1,13 @@
+<map id="Fl_Tree::root" name="Fl_Tree::root">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,42,108,67"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree.html#a65550a07a115845e834a28b2ff16834a" title=" " alt="" coords="156,42,264,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,52,142,52,142,57,108,57"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree__Item.html#a6c50ad9afb5a207f718b67ddeb9a48dc" title="Clear all the children for this item." alt="" coords="312,35,457,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="264,52,298,52,298,57,264,57"/>
+<area shape="rect" id="Node000004" href="$classFl__Tree__Item__Array.html#aff147d625a67219d22a43124b273e1f7" title=" " alt="" coords="525,5,671,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="458,42,511,35,511,40,458,47"/>
+<area shape="rect" id="Node000005" href="$classFl__Tree__Item.html#a7356c78b2793821b0c07e8bcafa9a149" title=" " alt="" coords="505,70,691,95"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="458,62,492,66,491,71,458,67"/>
+<area shape="rect" id="Node000006" href="$classFl__Tree.html#a5e76e962b75387a88b913a7cb8483650" title=" " alt="" coords="739,70,887,95"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="691,80,725,80,725,85,691,85"/>
+</map>

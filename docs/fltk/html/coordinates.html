@@ -79,79 +79,79 @@ $(function() {
 <div class="textblock"><p>This chapter describes the coordinate systems that apply when positioning widgets manually, and some of the basics of FLTK layout widgets that are used to position widgets automatically.</p>
 <h1><a class="anchor" id="coordinates_coordinates"></a>
 The Widget Coordinate System</h1>
-<p>All widgets have constructors with <code>x</code> and <code>y</code> parameters to let the programmer specify the desired initial position of the top left corner during explicit manual layout within Fl_Window and Fl_Group container widgets.</p>
-<p>This position is always relative to the enclosing Fl_Window, which is usually, but not always, the top-level application window, or a free-floating pop-up dialog window. In some cases it could also be a subwindow embedded in a higher-level window, as shown in the figure below.</p>
+<p>All widgets have constructors with <code>x</code> and <code>y</code> parameters to let the programmer specify the desired initial position of the top left corner during explicit manual layout within <a class="el" href="classFl__Window.html">Fl_Window</a> and <a class="el" href="classFl__Group.html">Fl_Group</a> container widgets.</p>
+<p>This position is always relative to the enclosing <a class="el" href="classFl__Window.html">Fl_Window</a>, which is usually, but not always, the top-level application window, or a free-floating pop-up dialog window. In some cases it could also be a subwindow embedded in a higher-level window, as shown in the figure below.</p>
 <div class="image">
 <img src="coordinates.png" alt=""/>
 <div class="caption">
 FLTK coordinate system</div></div>
  <p>The positions of the TL and BR sub-windows and the TR and BL groups are all relative to the top-left corner of the main window. The positions of the boxes inside the TR and BL groups are also relative to the main window, but the boxes inside the TL and BR sub-windows are positioned relative to the enclosing sub-window.</p>
 <p>In other words, the widget hierarchy and positions can be summarized as: </p><pre>
-    Fl_Window main window
-      Fl_Window TL subwindow     # x, y relative to main window
-        Fl_Box  tl box           # x, y relative to TL subwindow
-      Fl_Window BR subwindow     # x, y relative to main window
-        Fl_Box  br box           # x, y relative to BR subwindow
-      Fl_Group  TR group         # x, y relative to main window
-        Fl_Box  tr box           # x, y relative to main window
-      Fl_Group  BL group         # x, y relative to main window
-        Fl_Box  bl box           # x, y relative to main window
+    <a class="el" href="classFl__Window.html">Fl_Window</a> main window
+      <a class="el" href="classFl__Window.html">Fl_Window</a> TL subwindow     # x, y relative to main window
+        <a class="el" href="classFl__Box.html">Fl_Box</a>  tl box           # x, y relative to TL subwindow
+      <a class="el" href="classFl__Window.html">Fl_Window</a> BR subwindow     # x, y relative to main window
+        <a class="el" href="classFl__Box.html">Fl_Box</a>  br box           # x, y relative to BR subwindow
+      <a class="el" href="classFl__Group.html">Fl_Group</a>  TR group         # x, y relative to main window
+        <a class="el" href="classFl__Box.html">Fl_Box</a>  tr box           # x, y relative to main window
+      <a class="el" href="classFl__Group.html">Fl_Group</a>  BL group         # x, y relative to main window
+        <a class="el" href="classFl__Box.html">Fl_Box</a>  bl box           # x, y relative to main window
 </pre><h1><a class="anchor" id="coordinate_layout"></a>
 Layout and Container Widgets</h1>
-<p>There are four main groups of widgets derived from Fl_Group for a range of different purposes.</p>
+<p>There are four main groups of widgets derived from <a class="el" href="classFl__Group.html">Fl_Group</a> for a range of different purposes.</p>
 <p>The first group are composite widgets that each contain a fixed set of components that work together for a specific purpose, rather than layout widgets as such, and are not discussed here.</p>
-<p>The second group are basically containers offering the same manual layout features as Fl_Group, as described above, but which add one new capability. These widgets are Fl_Scroll, Fl_Tabs and Fl_Wizard.</p>
-<p>The third group are layout managers that relocate and resize the child widgets added to them in order to satisfy a particular layout algorithm. These widgets are Fl_Flex, Fl_Grid, Fl_Pack, and <a class="el" href="classFl__Tile.html">Fl_Tile</a>.</p>
-<p>The final group consists of Fl_Window and its derivatives. Their special capability is that they can be top-level application windows and dialogs that interface with the operating system window manager, but can also be embedded within other windows and groups as shown in the example above. Note that the window manager may impose its own constraints on the position of top-level windows, and the <code>x</code> and <code>y</code> position parameters may be treated as hints, or even ignored. The Fl_Window class has an extra constructor that omits them.</p>
+<p>The second group are basically containers offering the same manual layout features as <a class="el" href="classFl__Group.html">Fl_Group</a>, as described above, but which add one new capability. These widgets are <a class="el" href="classFl__Scroll.html">Fl_Scroll</a>, <a class="el" href="classFl__Tabs.html">Fl_Tabs</a> and <a class="el" href="classFl__Wizard.html">Fl_Wizard</a>.</p>
+<p>The third group are layout managers that relocate and resize the child widgets added to them in order to satisfy a particular layout algorithm. These widgets are <a class="el" href="classFl__Flex.html">Fl_Flex</a>, <a class="el" href="classFl__Grid.html">Fl_Grid</a>, <a class="el" href="classFl__Pack.html">Fl_Pack</a>, and <a class="el" href="classFl__Tile.html">Fl_Tile</a>.</p>
+<p>The final group consists of <a class="el" href="classFl__Window.html">Fl_Window</a> and its derivatives. Their special capability is that they can be top-level application windows and dialogs that interface with the operating system window manager, but can also be embedded within other windows and groups as shown in the example above. Note that the window manager may impose its own constraints on the position of top-level windows, and the <code>x</code> and <code>y</code> position parameters may be treated as hints, or even ignored. The <a class="el" href="classFl__Window.html">Fl_Window</a> class has an extra constructor that omits them.</p>
 <p>Descriptions of layout and container widgets follow in alphabetical order.</p>
 <h2><a class="anchor" id="coordinates_flex"></a>
 The Fl_Flex Layout Widget</h2>
-<p>The Fl_Flex widget allows the layout of its direct children as a single row or column. If its type() is set to give the row or horizontal layout, the children are all resized to have the same height as the Fl_Flex and are moved next to each other. If set to give the column or vertical layout, the children are all resized to have the same width as the Fl_Flex and are then stacked below each other.</p>
-<p>Widget positions (x, y) need not be given by the user because widgets are positioned inside the Fl_Flex container in the order of its children. Widget sizes can be set to (0, 0) as in Fl_Pack since they are calculated by Fl_Flex.</p>
-<p>This is similar to Fl_Pack described below and Fl_Flex is designed to act as a drop-in replacement of Fl_Pack with some minor differences.</p>
-<p>Other than Fl_Pack the Fl_Flex widget does <b>not</b> resize itself but resizes its children to fill the entire space of the Fl_Flex container. Single children of Fl_Flex can be set to fixed sizes to inhibit this resizing behavior. In this case the remaining space is distributed to all non-fixed widgets.</p>
-<p>Fl_Flex widgets can be nested inside each other and with Fl_Grid in any combination.</p>
-<p>The name Fl_Flex was inspired by the CSS 'flex' container.</p>
+<p>The <a class="el" href="classFl__Flex.html">Fl_Flex</a> widget allows the layout of its direct children as a single row or column. If its type() is set to give the row or horizontal layout, the children are all resized to have the same height as the <a class="el" href="classFl__Flex.html">Fl_Flex</a> and are moved next to each other. If set to give the column or vertical layout, the children are all resized to have the same width as the <a class="el" href="classFl__Flex.html">Fl_Flex</a> and are then stacked below each other.</p>
+<p>Widget positions (x, y) need not be given by the user because widgets are positioned inside the <a class="el" href="classFl__Flex.html">Fl_Flex</a> container in the order of its children. Widget sizes can be set to (0, 0) as in <a class="el" href="classFl__Pack.html">Fl_Pack</a> since they are calculated by <a class="el" href="classFl__Flex.html">Fl_Flex</a>.</p>
+<p>This is similar to <a class="el" href="classFl__Pack.html">Fl_Pack</a> described below and <a class="el" href="classFl__Flex.html">Fl_Flex</a> is designed to act as a drop-in replacement of <a class="el" href="classFl__Pack.html">Fl_Pack</a> with some minor differences.</p>
+<p>Other than <a class="el" href="classFl__Pack.html">Fl_Pack</a> the <a class="el" href="classFl__Flex.html">Fl_Flex</a> widget does <b>not</b> resize itself but resizes its children to fill the entire space of the <a class="el" href="classFl__Flex.html">Fl_Flex</a> container. Single children of <a class="el" href="classFl__Flex.html">Fl_Flex</a> can be set to fixed sizes to inhibit this resizing behavior. In this case the remaining space is distributed to all non-fixed widgets.</p>
+<p><a class="el" href="classFl__Flex.html">Fl_Flex</a> widgets can be nested inside each other and with <a class="el" href="classFl__Grid.html">Fl_Grid</a> in any combination.</p>
+<p>The name <a class="el" href="classFl__Flex.html">Fl_Flex</a> was inspired by the CSS 'flex' container.</p>
 <div class="image">
 <img src="Fl_Flex_simple.png" alt=""/>
 <div class="caption">
 Simple Fl_Flex Layout</div></div>
- <p>Fl_Flex was added in FLTK 1.4.0.</p>
+ <p><a class="el" href="classFl__Flex.html">Fl_Flex</a> was added in FLTK 1.4.0.</p>
 <h2><a class="anchor" id="coordinates_grid"></a>
 The Fl_Grid Layout Widget</h2>
-<p>Fl_Grid is the most flexible layout container in FLTK 1.4. It is based on a flexible grid of <b>cells</b> that can be assigned one widget per cell which is the <em>anchor</em> of the widget. Widgets can span multiple rows and columns and the cells can constitute a sparse matrix. Widgets can be aligned inside their cells in several ways (left, right, top, bottom) and can stretch horizontally, vertically, or both, i.e. fill the entire cell.</p>
+<p><a class="el" href="classFl__Grid.html">Fl_Grid</a> is the most flexible layout container in FLTK 1.4. It is based on a flexible grid of <b>cells</b> that can be assigned one widget per cell which is the <em>anchor</em> of the widget. Widgets can span multiple rows and columns and the cells can constitute a sparse matrix. Widgets can be aligned inside their cells in several ways (left, right, top, bottom) and can stretch horizontally, vertically, or both, i.e. fill the entire cell.</p>
 <p>Widget positions (x, y) need not be given by the user because widgets are assigned to a particular grid cell by row and column number. Widget sizes can be given as their <b>minimal</b> sizes and will be resized appropriately depending on the free space.</p>
 <p>Optional margins around all cells inside the widget border and gaps between rows and cells make the layout even more flexible.</p>
-<p>The Fl_Grid widget should be designed with a grid (matrix) and its minimal size in mind. It is designed to <b>enlarge</b> cells and widgets in a flexible way when the Fl_Grid widget itself is created or resized.</p>
-<p>Additional free space inside the Fl_Grid container is distributed to widgets by considering minimal row heights, column widths, sizes of widgets, and row and column <em>weights</em>. These weights are used to distribute the free space proportionally according to the row and column weights.</p>
-<p>Fl_Grid widgets can be nested inside each other and with Fl_Flex and other subclasses of Fl_Group in any combination.</p>
-<dl class="section note"><dt>Note</dt><dd>We don't recommend to use Fl_Pack as child widgets although this <b>may</b> work as well.</dd></dl>
-<p>The name Fl_Grid was inspired by the CSS 'grid' container but it has some properties in common with HTML &lt;table&gt; containers as well, for instance row and column spanning.</p>
+<p>The <a class="el" href="classFl__Grid.html">Fl_Grid</a> widget should be designed with a grid (matrix) and its minimal size in mind. It is designed to <b>enlarge</b> cells and widgets in a flexible way when the <a class="el" href="classFl__Grid.html">Fl_Grid</a> widget itself is created or resized.</p>
+<p>Additional free space inside the <a class="el" href="classFl__Grid.html">Fl_Grid</a> container is distributed to widgets by considering minimal row heights, column widths, sizes of widgets, and row and column <em>weights</em>. These weights are used to distribute the free space proportionally according to the row and column weights.</p>
+<p><a class="el" href="classFl__Grid.html">Fl_Grid</a> widgets can be nested inside each other and with <a class="el" href="classFl__Flex.html">Fl_Flex</a> and other subclasses of <a class="el" href="classFl__Group.html">Fl_Group</a> in any combination.</p>
+<dl class="section note"><dt>Note</dt><dd>We don't recommend to use <a class="el" href="classFl__Pack.html">Fl_Pack</a> as child widgets although this <b>may</b> work as well.</dd></dl>
+<p>The name <a class="el" href="classFl__Grid.html">Fl_Grid</a> was inspired by the CSS 'grid' container but it has some properties in common with HTML &lt;table&gt; containers as well, for instance row and column spanning.</p>
 <div class="image">
 <img src="Fl_Grid.png" alt=""/>
 <div class="caption">
 Simple Fl_Grid Layout</div></div>
- <p>Fl_Grid was added in FLTK 1.4.0.</p>
+ <p><a class="el" href="classFl__Grid.html">Fl_Grid</a> was added in FLTK 1.4.0.</p>
 <h2><a class="anchor" id="coordinates_pack"></a>
 The Fl_Pack Layout Widget</h2>
-<p>The Fl_Pack widget allows the layout of its direct children as a single row, or column. If its type() is set to give the row or horizontal layout, the children are all resized to have the same height as the Fl_Pack and are moved next to each other. If set to give the column or vertical layout, the children are all resized to have the same width as the Fl_Pack and are then stacked below each other. The Fl_Pack then resizes itself to shrink-wrap itself around all of the children.</p>
-<p>Fl_Pack widgets are often used inside an Fl_Scroll, as shown in the diagram below, to avoid having to deal with tricky resize behavior when used with nested widgets.</p>
+<p>The <a class="el" href="classFl__Pack.html">Fl_Pack</a> widget allows the layout of its direct children as a single row, or column. If its type() is set to give the row or horizontal layout, the children are all resized to have the same height as the <a class="el" href="classFl__Pack.html">Fl_Pack</a> and are moved next to each other. If set to give the column or vertical layout, the children are all resized to have the same width as the <a class="el" href="classFl__Pack.html">Fl_Pack</a> and are then stacked below each other. The <a class="el" href="classFl__Pack.html">Fl_Pack</a> then resizes itself to shrink-wrap itself around all of the children.</p>
+<p><a class="el" href="classFl__Pack.html">Fl_Pack</a> widgets are often used inside an <a class="el" href="classFl__Scroll.html">Fl_Scroll</a>, as shown in the diagram below, to avoid having to deal with tricky resize behavior when used with nested widgets.</p>
 <div class="image">
 <img src="pack.png" alt=""/>
 <div class="caption">
 Fl_Pack test program screenshot</div></div>
- <p>Since FLTK 1.4.0 Fl_Flex (described above) can in many cases be used as a drop-in replacement for Fl_Pack if this "shrink-wrap" behavior is not required. Note that the Fl_Pack layout algorithm can cause some issues because its widget size can change depending on its children and particularly because this is done late, i.e. during draw() and not as usual during resize of the window.</p>
-<dl class="section note"><dt>Note</dt><dd>We recommend that developers evaluate whether using Fl_Flex or Fl_Grid instead of Fl_Pack can be a better solution with more predictable and reliable resizing behavior of the overall program layout.</dd></dl>
+ <p>Since FLTK 1.4.0 <a class="el" href="classFl__Flex.html">Fl_Flex</a> (described above) can in many cases be used as a drop-in replacement for <a class="el" href="classFl__Pack.html">Fl_Pack</a> if this "shrink-wrap" behavior is not required. Note that the <a class="el" href="classFl__Pack.html">Fl_Pack</a> layout algorithm can cause some issues because its widget size can change depending on its children and particularly because this is done late, i.e. during draw() and not as usual during resize of the window.</p>
+<dl class="section note"><dt>Note</dt><dd>We recommend that developers evaluate whether using <a class="el" href="classFl__Flex.html">Fl_Flex</a> or <a class="el" href="classFl__Grid.html">Fl_Grid</a> instead of <a class="el" href="classFl__Pack.html">Fl_Pack</a> can be a better solution with more predictable and reliable resizing behavior of the overall program layout.</dd></dl>
 <h2><a class="anchor" id="coordinates_scroll"></a>
 The Fl_Scroll Container Widget</h2>
-<p>The Fl_Scroll container widget can hold an assortment of widgets that may extend beyond its own width and height, in which case horizontal and/or vertical scrollbars may appear automatically so that you can scroll and view the entire contents.</p>
+<p>The <a class="el" href="classFl__Scroll.html">Fl_Scroll</a> container widget can hold an assortment of widgets that may extend beyond its own width and height, in which case horizontal and/or vertical scrollbars may appear automatically so that you can scroll and view the entire contents.</p>
 <div class="image">
 <img src="Fl_Scroll.png" alt=""/>
 <div class="caption">
 Fl_Scroll container widget</div></div>
  <h2><a class="anchor" id="coordinates_tabs"></a>
 The Fl_Tabs Container Widget</h2>
-<p>The Fl_Tabs widget provides a front-to-back stack of individual panels which usually contain Fl_Group widgets and their children. The user can switch between panels by clicking on the small tabs that protrude from the panels. The appearance of each tab is determined by the child widget's label and related attributes.</p>
+<p>The <a class="el" href="classFl__Tabs.html">Fl_Tabs</a> widget provides a front-to-back stack of individual panels which usually contain <a class="el" href="classFl__Group.html">Fl_Group</a> widgets and their children. The user can switch between panels by clicking on the small tabs that protrude from the panels. The appearance of each tab is determined by the child widget's label and related attributes.</p>
 <div class="image">
 <img src="tabs.png" alt=""/>
 <div class="caption">
@@ -165,7 +165,7 @@ The Fl_Tile Layout Widget</h2>
 The Fl_Tile layout widget</div></div>
  <h2><a class="anchor" id="coordinates_wizard"></a>
 The Fl_Wizard Container Widget</h2>
-<p>The Fl_Wizard widget derives from the Fl_Tabs class, but instead of having tabs that the user can click to select the corresponding panel, the programmer uses the prev(), next() or value() methods to show the appropriate panel. For example, the user might be able to click on "Next" and "Prev" navigation buttons or keys, as shown below.</p>
+<p>The <a class="el" href="classFl__Wizard.html">Fl_Wizard</a> widget derives from the <a class="el" href="classFl__Tabs.html">Fl_Tabs</a> class, but instead of having tabs that the user can click to select the corresponding panel, the programmer uses the prev(), next() or value() methods to show the appropriate panel. For example, the user might be able to click on "Next" and "Prev" navigation buttons or keys, as shown below.</p>
 <div class="image">
 <img src="wizard.png" alt=""/>
 <div class="caption">

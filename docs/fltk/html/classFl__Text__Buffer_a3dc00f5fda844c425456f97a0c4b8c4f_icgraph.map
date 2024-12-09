@@ -1,0 +1,24 @@
+<map id="Fl_Text_Buffer::estimate_lines" name="Fl_Text_Buffer::estimate_lines">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1087,120,1267,160"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Display.html#a35933071176822679acdb00c449428d9" title="Count the number of lines between two positions." alt="" coords="872,120,1039,160"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1073,143,1039,143,1039,137,1073,137"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Display.html#ac5de2af1a6744d3f7be1fc7c53343f75" title="Scroll the display to bring insertion cursor into view." alt="" coords="631,5,810,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="910,115,823,66,779,48,781,43,825,62,912,110"/>
+<area shape="rect" id="Node000004" href="$classFl__Text__Display.html#a2c2089df8e61ec00991abda79026f1fe" title=" " alt="" coords="399,31,569,71"/>
+<area shape="poly" id="edge10_Node000002_Node000004" title=" " alt="" coords="863,119,823,111,569,66,570,61,825,105,864,114"/>
+<area shape="rect" id="Node000007" href="$classFl__Text__Editor.html#a0850941f742d72c394f9c7d63e017ea9" title=" " alt="" coords="653,120,788,160"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="858,143,788,143,788,137,858,137"/>
+<area shape="rect" id="Node000009" href="$classFl__Text__Editor.html#a13c17e2c7219289f617f10ad5a2bb5e8" title=" " alt="" coords="653,184,788,224"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="869,166,789,188,788,183,867,161"/>
+<area shape="rect" id="Node000011" href="$classFl__Text__Display.html#ab9378d48b949f8fc7da04c6be4142c54" title="Set the new text wrap mode." alt="" coords="617,249,824,274"/>
+<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="924,171,879,206,825,238,790,251,788,246,823,234,876,202,920,167"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="618,39,570,44,569,39,617,34"/>
+<area shape="rect" id="Node000005" href="$classFl__Text__Display.html#a2db0c8c740c19c6903a860fa3ceb9a4f" title="Draw the widget." alt="" coords="188,38,351,63"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="385,53,351,53,351,48,385,48"/>
+<area shape="rect" id="Node000006" href="$classTextViewer.html#a22b249735474c3350976630198d9ed24" title=" " alt="" coords="5,38,140,63"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="174,53,140,53,140,48,174,48"/>
+<area shape="rect" id="Node000008" href="$classFl__Text__Editor.html#ad85a97850abf815927fb8268625d5843" title=" " alt="" coords="417,120,551,160"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="640,143,552,143,552,137,640,137"/>
+<area shape="rect" id="Node000010" href="$classFl__Text__Editor.html#a44dac0be7b8a8cc82560c1f3c2f45d44" title=" " alt="" coords="417,184,551,224"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="640,207,552,207,552,201,640,201"/>
+</map>

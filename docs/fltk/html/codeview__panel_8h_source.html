@@ -101,48 +101,59 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#ifndef codeview_panel_h</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#define codeview_panel_h</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;FL/Fl.H&gt;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;<a class="code" href="Fl_8H.html">FL/Fl.H</a>&gt;</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">extern</span> <span class="keywordtype">int</span> cv_code_choice;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keywordtype">void</span> update_codeview_position();</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keywordtype">void</span> update_codeview_position_cb(<span class="keyword">class</span> Fl_Tabs*, <span class="keywordtype">void</span>*);</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keywordtype">void</span> update_codeview_cb(<span class="keyword">class</span> Fl_Button*, <span class="keywordtype">void</span>*);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keywordtype">void</span> update_codeview_position_cb(<span class="keyword">class</span> <a class="code hl_class" href="classFl__Tabs.html">Fl_Tabs</a>*, <span class="keywordtype">void</span>*);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keywordtype">void</span> update_codeview_cb(<span class="keyword">class</span> <a class="code hl_class" href="classFl__Button.html">Fl_Button</a>*, <span class="keywordtype">void</span>*);</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keywordtype">void</span> update_codeview_timer(<span class="keywordtype">void</span>*);</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keywordtype">void</span> codeview_defer_update();</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keywordtype">void</span> codeview_toggle_visibility();</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &lt;FL/Fl_Double_Window.H&gt;</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="group__globals.html#ga0174f16e6b05a3f1b8c4a0b1fc89435c">toggle_codeview_cb</a>(Fl_Double_Window*, <span class="keywordtype">void</span>*);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">extern</span> Fl_Double_Window *codeview_panel;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="group__globals.html#ga0174f16e6b05a3f1b8c4a0b1fc89435c">toggle_codeview_cb</a>(<a class="code hl_class" href="classFl__Double__Window.html">Fl_Double_Window</a>*, <span class="keywordtype">void</span>*);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">extern</span> <a class="code hl_class" href="classFl__Double__Window.html">Fl_Double_Window</a> *codeview_panel;</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#include &lt;FL/Fl_Tabs.H&gt;</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">extern</span> Fl_Tabs *cv_tab;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#include &lt;FL/Fl_Group.H&gt;</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">extern</span> Fl_Group *cv_source_tab;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">extern</span> <a class="code hl_class" href="classFl__Tabs.html">Fl_Tabs</a> *cv_tab;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#include &lt;<a class="code" href="Fl__Group_8H.html">FL/Fl_Group.H</a>&gt;</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">extern</span> <a class="code hl_class" href="classFl__Group.html">Fl_Group</a> *cv_source_tab;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#include &quot;CodeEditor.h&quot;</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">extern</span> <a class="code hl_class" href="classCodeViewer.html">CodeViewer</a> *cv_source;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">extern</span> <a class="code hl_class" href="classCodeViewer.html">CodeViewer</a> *cv_header;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">extern</span> <a class="code hl_class" href="classTextViewer.html">TextViewer</a> *cv_strings;</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">extern</span> <a class="code hl_class" href="classTextViewer.html">TextViewer</a> *cv_project;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">extern</span> Fl_Group *cv_find_row;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">extern</span> <a class="code hl_class" href="classFl__Group.html">Fl_Group</a> *cv_find_row;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#include &lt;FL/Fl_Button.H&gt;</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">extern</span> Fl_Button *cv_find_text_case;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">extern</span> <a class="code hl_class" href="classFl__Button.html">Fl_Button</a> *cv_find_text_case;</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#include &lt;FL/Fl_Input.H&gt;</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">extern</span> Fl_Input *cv_find_text;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#include &lt;FL/Fl_Box.H&gt;</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">extern</span> Fl_Group *cv_settings_row;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">extern</span> <a class="code hl_class" href="classFl__Input.html">Fl_Input</a> *cv_find_text;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#include &lt;<a class="code" href="Fl__Box_8H.html">FL/Fl_Box.H</a>&gt;</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">extern</span> <a class="code hl_class" href="classFl__Group.html">Fl_Group</a> *cv_settings_row;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#include &lt;FL/Fl_Light_Button.H&gt;</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">extern</span> Fl_Light_Button *cv_autorefresh;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">extern</span> Fl_Light_Button *cv_autoposition;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">extern</span> <a class="code hl_class" href="classFl__Light__Button.html">Fl_Light_Button</a> *cv_autorefresh;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">extern</span> <a class="code hl_class" href="classFl__Light__Button.html">Fl_Light_Button</a> *cv_autoposition;</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#include &lt;FL/Fl_Choice.H&gt;</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">extern</span> Fl_Choice *cv_code_choice_w;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="group__globals.html#gae57f44d1e8bbd12d38eafeea4d41aec5">toggle_codeview_b_cb</a>(Fl_Button*, <span class="keywordtype">void</span>*);</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>Fl_Double_Window* make_codeview();</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">extern</span> Fl_Menu_Item menu_cv_code_choice_w[];</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">extern</span> <a class="code hl_class" href="classFl__Choice.html">Fl_Choice</a> *cv_code_choice_w;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="group__globals.html#gae57f44d1e8bbd12d38eafeea4d41aec5">toggle_codeview_b_cb</a>(<a class="code hl_class" href="classFl__Button.html">Fl_Button</a>*, <span class="keywordtype">void</span>*);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><a class="code hl_class" href="classFl__Double__Window.html">Fl_Double_Window</a>* make_codeview();</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">extern</span> <a class="code hl_struct" href="structFl__Menu__Item.html">Fl_Menu_Item</a> menu_cv_code_choice_w[];</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment">//</span></div>
+<div class="ttc" id="aFl_8H_html"><div class="ttname"><a href="Fl_8H.html">Fl.H</a></div><div class="ttdoc">Fl static class.</div></div>
+<div class="ttc" id="aFl__Box_8H_html"><div class="ttname"><a href="Fl__Box_8H.html">Fl_Box.H</a></div><div class="ttdoc">Fl_Box widget.</div></div>
+<div class="ttc" id="aFl__Group_8H_html"><div class="ttname"><a href="Fl__Group_8H.html">Fl_Group.H</a></div><div class="ttdoc">Fl_Group and Fl_End classes.</div></div>
 <div class="ttc" id="aclassCodeViewer_html"><div class="ttname"><a href="classCodeViewer.html">CodeViewer</a></div><div class="ttdef"><b>Definition</b> CodeEditor.h:79</div></div>
+<div class="ttc" id="aclassFl__Button_html"><div class="ttname"><a href="classFl__Button.html">Fl_Button</a></div><div class="ttdoc">Buttons generate callbacks when they are clicked by the user.</div><div class="ttdef"><b>Definition</b> Fl_Button.H:76</div></div>
+<div class="ttc" id="aclassFl__Choice_html"><div class="ttname"><a href="classFl__Choice.html">Fl_Choice</a></div><div class="ttdoc">A button that is used to pop up a menu.</div><div class="ttdef"><b>Definition</b> Fl_Choice.H:104</div></div>
+<div class="ttc" id="aclassFl__Double__Window_html"><div class="ttname"><a href="classFl__Double__Window.html">Fl_Double_Window</a></div><div class="ttdef"><b>Definition</b> Fl_Double_Window.H:31</div></div>
+<div class="ttc" id="aclassFl__Group_html"><div class="ttname"><a href="classFl__Group.html">Fl_Group</a></div><div class="ttdef"><b>Definition</b> Fl_Group.H:56</div></div>
+<div class="ttc" id="aclassFl__Input_html"><div class="ttname"><a href="classFl__Input.html">Fl_Input</a></div><div class="ttdef"><b>Definition</b> Fl_Input.H:220</div></div>
+<div class="ttc" id="aclassFl__Light__Button_html"><div class="ttname"><a href="classFl__Light__Button.html">Fl_Light_Button</a></div><div class="ttdef"><b>Definition</b> Fl_Light_Button.H:36</div></div>
+<div class="ttc" id="aclassFl__Tabs_html"><div class="ttname"><a href="classFl__Tabs.html">Fl_Tabs</a></div><div class="ttdef"><b>Definition</b> Fl_Tabs.H:239</div></div>
 <div class="ttc" id="aclassTextViewer_html"><div class="ttname"><a href="classTextViewer.html">TextViewer</a></div><div class="ttdef"><b>Definition</b> CodeEditor.h:95</div></div>
 <div class="ttc" id="agroup__globals_html_ga0174f16e6b05a3f1b8c4a0b1fc89435c"><div class="ttname"><a href="group__globals.html#ga0174f16e6b05a3f1b8c4a0b1fc89435c">toggle_codeview_cb</a></div><div class="ttdeci">void toggle_codeview_cb(Fl_Double_Window *, void *)</div><div class="ttdef"><b>Definition</b> fluid.cxx:1875</div></div>
 <div class="ttc" id="agroup__globals_html_gae57f44d1e8bbd12d38eafeea4d41aec5"><div class="ttname"><a href="group__globals.html#gae57f44d1e8bbd12d38eafeea4d41aec5">toggle_codeview_b_cb</a></div><div class="ttdeci">void toggle_codeview_b_cb(Fl_Button *, void *)</div><div class="ttdef"><b>Definition</b> fluid.cxx:1882</div></div>
+<div class="ttc" id="astructFl__Menu__Item_html"><div class="ttname"><a href="structFl__Menu__Item.html">Fl_Menu_Item</a></div><div class="ttdef"><b>Definition</b> Fl_Menu_Item.H:124</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

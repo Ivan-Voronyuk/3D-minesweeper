@@ -1,0 +1,15 @@
+<map id="Fl_Tree_Prefs::userdeicon" name="Fl_Tree_Prefs::userdeicon">
+<area shape="rect" id="Node000001" title=" " alt="" coords="543,93,729,119"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree__Item.html#adaaaeb29fb4f63f01d76c18e570562a8" title=" " alt="" coords="347,56,492,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="548,94,492,84,493,79,549,88"/>
+<area shape="rect" id="Node000005" href="$classFl__Tree__Item.html#ae391611a9b9ac068a5f02da29564d2b7" title=" " alt="" coords="344,114,495,154"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="529,123,495,127,494,122,528,117"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree.html#a6fcfe040bbd38725a7e411672120cb2c" title=" " alt="" coords="161,5,296,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="357,55,277,33,278,28,358,50"/>
+<area shape="rect" id="Node000004" href="$classFl__Tree.html#a187c737dac78034b0ad74557b5648928" title="Standard FLTK draw() method, handles drawing the tree widget." alt="" coords="5,31,113,56"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="333,65,113,50,114,44,333,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="148,33,114,38,113,33,147,27"/>
+<area shape="rect" id="Node000006" href="$classFl__Tree.html#ab368f798085f0cd4415ac84d4afcbd3a" title=" " alt="" coords="169,131,289,156"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="330,141,289,143,289,138,330,136"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="258,120,249,112,229,109,211,111,202,116,200,122,205,129,201,132,195,122,198,113,209,106,229,104,252,107,262,116"/>
+</map>

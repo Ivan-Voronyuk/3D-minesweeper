@@ -1,0 +1,18 @@
+<map id="Fl_Text_Display::scroll_timer_cb" name="Fl_Text_Display::scroll_timer_cb">
+<area shape="rect" id="Node000001" title="Timer callback for scroll events." alt="" coords="5,88,172,128"/>
+<area shape="poly" id="edge7_Node000001_Node000001" title=" " alt="" coords="49,88,47,78,53,69,67,63,89,61,113,64,127,72,124,76,112,69,89,67,68,69,56,73,52,79,54,87"/>
+<area shape="rect" id="Node000002" href="$classFl.html#a46e5695dca672130f615c438f2a067a3" title=" " alt="" coords="228,70,371,95"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,95,214,90,214,96,173,101"/>
+<area shape="rect" id="Node000008" href="$classFl__Widget.html#a991b94150c2c3d7e62b47c38c171ce00" title=" " alt="" coords="220,119,379,145"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="173,115,207,119,206,124,172,120"/>
+<area shape="rect" id="Node000003" href="$classFl__Timeout.html#a10af022f9af477dee57a186ad453c5a4" title=" " alt="" coords="427,63,572,103"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="371,80,413,80,413,85,371,85"/>
+<area shape="rect" id="Node000004" href="$classFl__Timeout.html#a7fba2345265e333dca2d0f24dad9d9e4" title=" " alt="" coords="620,5,767,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="567,60,611,47,613,52,568,65"/>
+<area shape="rect" id="Node000005" href="$classFl__Timeout.html#aebbd789fcf00e2a337c664b6a05d44d4" title=" " alt="" coords="631,70,755,95"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="572,80,618,80,618,85,572,85"/>
+<area shape="rect" id="Node000007" href="$classFl__Timeout.html#a4e524fda4e30b4a7b14a98d15c2a3aa8" title=" " alt="" coords="623,119,763,145"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="573,99,630,113,629,118,572,104"/>
+<area shape="rect" id="Node000006" href="$classFl__Timeout.html#a829f8278fadb961aac842433cf4b6daa" title=" " alt="" coords="815,70,953,95"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="756,80,800,80,800,85,756,85"/>
+</map>

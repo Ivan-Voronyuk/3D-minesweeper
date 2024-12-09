@@ -1,0 +1,51 @@
+<map id="/home/ivan/Documents/INF/3D&#45;minesweeper/thirdparty/fltk/FL/Fl_Window.H" name="/home/ivan/Documents/INF/3D&#45;minesweeper/thirdparty/fltk/FL/Fl_Window.H">
+<area shape="rect" id="Node000001" title=" " alt="" coords="533,5,763,60"/>
+<area shape="rect" id="Node000002" href="$Fl_8H.html" title="Fl static class." alt="" coords="556,328,623,353"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="673,59,694,89,713,126,723,167,722,187,717,208,698,243,672,275,619,322,616,318,668,271,693,240,712,206,717,187,718,167,708,128,690,92,669,62"/>
+<area shape="rect" id="Node000016" href="$Fl__Group_8H.html" title="Fl_Group and Fl_End classes." alt="" coords="590,181,703,207"/>
+<area shape="poly" id="edge23_Node000001_Node000016" title=" " alt="" coords="650,60,650,168,644,168,645,60"/>
+<area shape="rect" id="Node000018" href="$Fl__Bitmap_8H_source.html" title=" " alt="" coords="489,108,610,133"/>
+<area shape="poly" id="edge26_Node000001_Node000018" title=" " alt="" coords="620,62,575,101,571,97,616,58"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="700,548,807,573"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="623,338,663,341,708,350,753,368,772,382,789,400,798,416,802,435,799,472,786,508,771,537,766,535,782,506,794,471,797,435,793,418,785,403,769,386,750,373,707,355,662,346,623,344"/>
+<area shape="rect" id="Node000004" href="$Fl__Export_8H_source.html" title=" " alt="" coords="341,548,457,573"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="556,344,516,346,471,355,427,373,409,386,393,403,384,418,379,435,377,470,383,505,391,535,386,536,377,506,372,471,374,434,379,416,389,400,405,382,425,368,470,349,516,341,556,338"/>
+<area shape="rect" id="Node000005" href="$platform__types_8h.html" title=" " alt="" coords="564,475,716,500"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="623,340,659,344,698,353,737,371,753,384,768,400,773,412,773,424,759,445,732,461,701,473,699,468,730,456,755,441,768,423,768,413,763,403,750,388,734,376,697,358,658,349,623,345"/>
+<area shape="rect" id="Node000008" href="$fl__casts_8H_source.html" title=" " alt="" coords="649,401,753,427"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="609,351,673,391,670,396,606,356"/>
+<area shape="rect" id="Node000009" href="$fl__utf8_8h.html" title="header for Unicode and UTF&#45;8 character handling" alt="" coords="211,401,285,427"/>
+<area shape="poly" id="edge11_Node000002_Node000009" title=" " alt="" coords="557,352,300,405,298,399,555,346"/>
+<area shape="rect" id="Node000014" href="$Enumerations_8H.html" title=" " alt="" coords="403,401,530,427"/>
+<area shape="poly" id="edge17_Node000002_Node000014" title=" " alt="" coords="571,356,500,397,497,392,568,351"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="554,401,625,427"/>
+<area shape="poly" id="edge22_Node000002_Node000015" title=" " alt="" coords="592,354,592,388,587,388,587,354"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="660,498,725,538,722,543,657,502"/>
+<area shape="poly" id="edge8_Node000005_Node000004" title=" " alt="" coords="602,503,452,547,450,541,600,497"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="609,548,673,573"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="643,500,644,534,638,535,638,500"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="513,548,585,573"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="627,502,577,541,573,537,624,498"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="693,429,661,466,657,462,689,425"/>
+<area shape="poly" id="edge12_Node000009_Node000004" title=" " alt="" coords="262,425,379,537,375,540,258,429"/>
+<area shape="rect" id="Node000010" href="$fl__types_8h.html" title=" " alt="" coords="205,475,291,500"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="251,427,251,461,245,461,245,427"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="115,475,181,500"/>
+<area shape="poly" id="edge15_Node000009_Node000012" title=" " alt="" coords="233,429,177,469,174,464,230,425"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="5,475,91,500"/>
+<area shape="poly" id="edge16_Node000009_Node000013" title=" " alt="" coords="217,429,95,472,93,467,215,424"/>
+<area shape="rect" id="Node000011" href="$fl__attr_8h.html" title=" " alt="" coords="213,548,283,573"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="251,500,251,534,245,534,245,500"/>
+<area shape="poly" id="edge18_Node000014_Node000003" title=" " alt="" coords="531,424,652,448,702,461,730,473,741,486,748,502,755,533,750,535,743,504,736,489,726,477,700,466,650,453,530,429"/>
+<area shape="poly" id="edge19_Node000014_Node000004" title=" " alt="" coords="464,428,412,537,407,534,459,426"/>
+<area shape="poly" id="edge21_Node000014_Node000005" title=" " alt="" coords="496,424,600,467,598,472,494,429"/>
+<area shape="poly" id="edge20_Node000014_Node000010" title=" " alt="" coords="432,429,297,473,296,468,431,424"/>
+<area shape="rect" id="Node000017" href="$Fl__Widget_8H.html" title="Fl_Widget and Fl_Label classes." alt="" coords="521,255,623,280"/>
+<area shape="poly" id="edge24_Node000016_Node000017" title=" " alt="" coords="637,209,596,247,592,243,633,205"/>
+<area shape="poly" id="edge25_Node000017_Node000002" title=" " alt="" coords="577,280,586,314,581,316,572,281"/>
+<area shape="poly" id="edge30_Node000018_Node000017" title=" " alt="" coords="554,133,571,241,565,241,549,134"/>
+<area shape="rect" id="Node000019" href="$Fl__Image_8H.html" title=" " alt="" coords="419,181,515,207"/>
+<area shape="poly" id="edge27_Node000018_Node000019" title=" " alt="" coords="538,135,492,174,489,170,534,131"/>
+<area shape="poly" id="edge28_Node000019_Node000014" title=" " alt="" coords="469,207,469,387,464,387,464,207"/>
+<area shape="poly" id="edge29_Node000019_Node000017" title=" " alt="" coords="485,204,545,245,542,249,482,209"/>
+</map>

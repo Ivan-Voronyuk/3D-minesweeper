@@ -1,0 +1,9 @@
+<map id="Fl_Clock::handle" name="Fl_Clock::handle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,135,56"/>
+<area shape="rect" id="Node000002" href="$classFl__Widget.html#a9cb17cc092697dfd05a3fab55856d218" title=" " alt="" coords="189,5,327,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,32,175,27,175,32,135,37"/>
+<area shape="rect" id="Node000003" href="$classFl.html#acc9aec286a10ff0eefb3e9f4d93f5b29" title=" " alt="" coords="183,55,333,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="135,49,170,53,169,59,135,54"/>
+<area shape="rect" id="Node000004" href="$classFl__Timeout.html#a2afe4152f4bccd990e0d85498c0e0b09" title=" " alt="" coords="381,47,535,87"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="333,65,367,65,367,70,333,70"/>
+</map>

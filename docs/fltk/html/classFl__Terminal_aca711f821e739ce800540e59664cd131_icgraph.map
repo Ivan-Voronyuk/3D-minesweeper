@@ -1,0 +1,13 @@
+<map id="Fl_Terminal::get_selection" name="Fl_Terminal::get_selection">
+<area shape="rect" id="Node000001" title=" " alt="" coords="911,29,1103,55"/>
+<area shape="rect" id="Node000002" href="$classFl__Terminal.html#a5ec2401268989c42a6cb6aa2690e184f" title=" " alt="" coords="660,29,863,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="897,45,863,45,863,39,897,39"/>
+<area shape="rect" id="Node000003" href="$classFl__Terminal.html#a220f5b2f26be1c53517c87d747e0d012" title=" " alt="" coords="203,29,400,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="646,41,612,41,448,41,400,42,400,36,448,35,612,35,646,36"/>
+<area shape="rect" id="Node000005" href="$classFl__Terminal.html#a6822a8fae8f836a35f86956c51605338" title=" " alt="" coords="448,50,612,90"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="647,59,613,63,612,57,646,53"/>
+<area shape="rect" id="Node000004" href="$classFl__Terminal.html#a4dd24ef7347b52e5483e666f4cc6520c" title=" " alt="" coords="5,29,155,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="189,45,155,45,155,39,189,39"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="120,20,109,11,80,8,56,10,44,15,41,20,48,28,44,31,36,21,40,11,55,5,80,3,111,6,123,15"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="434,61,400,57,400,51,434,56"/>
+</map>

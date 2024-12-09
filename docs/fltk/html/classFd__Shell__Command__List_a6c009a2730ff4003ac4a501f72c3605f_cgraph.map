@@ -1,0 +1,37 @@
+<map id="Fd_Shell_Command_List::rebuild_shell_menu" name="Fd_Shell_Command_List::rebuild_shell_menu">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,241,187,281"/>
+<area shape="rect" id="Node000002" href="$structFl__Menu__Item.html#a09f06d655f055fbfedf140a40a83b879" title=" " alt="" coords="244,5,429,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,239,119,197,146,143,184,87,207,62,233,40,241,35,244,39,236,44,211,65,188,90,151,145,123,199,107,241"/>
+<area shape="rect" id="Node000003" href="$structFl__Menu__Item.html#a78eda86db3d602c828478430ddf5c3e5" title=" " alt="" coords="249,55,425,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="106,239,125,206,154,165,190,124,233,89,244,83,247,88,236,94,194,128,158,168,130,209,110,242"/>
+<area shape="rect" id="Node000004" href="$classFl__Menu__.html#a83e66d9b948df288e9f36d812093e922" title=" " alt="" coords="260,104,413,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="113,239,164,189,197,162,233,140,253,131,255,136,236,144,200,167,167,193,117,243"/>
+<area shape="rect" id="Node000008" href="$group__fl__string.html#ga92e95129ef38d56b493bec53a3802d05" title=" " alt="" coords="535,219,613,244"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="187,252,521,232,521,237,187,258"/>
+<area shape="rect" id="Node000010" href="$classFd__Shell__Command.html#a7cfcd32fb3b5fb401c0b9decf68f771a" title=" " alt="" coords="251,154,422,194"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="152,238,266,196,268,201,153,243"/>
+<area shape="rect" id="Node000012" href="$structFl__Menu__Item.html#a77ad83a8af95310fa3c153ce4a3f9100" title=" " alt="" coords="497,305,651,331"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="133,278,181,301,235,318,299,327,364,331,483,326,483,332,364,336,299,333,234,323,179,306,131,283"/>
+<area shape="rect" id="Node000013" href="$classFd__Shell__Command__List.html#a404a1dbd06deec3000eccd3a9bd80f27" title=" " alt="" coords="246,434,427,474"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="113,279,162,344,197,381,236,413,258,426,255,430,233,418,194,385,158,348,108,283"/>
+<area shape="rect" id="Node000014" href="$structFl__Menu__Item.html#a026eeb4b0d2aa5b03f9865d9a320edf2" title=" " alt="" coords="487,355,661,380"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="126,279,175,310,236,337,296,352,358,361,473,368,473,373,357,366,294,357,234,342,173,315,123,283"/>
+<area shape="rect" id="Node000015" href="$classFd__Shell__Command.html#a5ea8766636bc99add64dde051659eada" title=" " alt="" coords="235,269,439,309"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="187,269,221,273,221,278,187,274"/>
+<area shape="rect" id="Node000016" href="$structFl__Menu__Item.html#a2abcdc1355d6b56694c4466e8af96d09" title=" " alt="" coords="243,499,430,524"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="106,280,123,323,150,378,187,436,210,462,236,484,247,490,244,495,233,488,207,465,183,439,145,381,118,325,101,282"/>
+<area shape="rect" id="Node000005" href="$classFl__Menu__.html#aacc5f170e9c8961b7d3916c2849a1636" title=" " alt="" coords="495,104,653,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="414,114,481,114,481,119,414,119"/>
+<area shape="rect" id="Node000006" href="$classFl__Menu__.html#a2e1f09f0534831c647173d160e641e00" title=" " alt="" coords="717,104,836,129"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="654,114,703,114,703,119,654,119"/>
+<area shape="rect" id="Node000007" href="$structFl__Menu__Item.html#aa06209e2140c18cb3055bb169f076c13" title=" " alt="" coords="892,104,1040,129"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="836,114,878,114,878,119,836,119"/>
+<area shape="rect" id="Node000009" href="$classFl.html#a808d0335818b286be9101588a36619d2" title=" " alt="" coords="709,192,844,217"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="613,224,695,213,696,218,614,229"/>
+<area shape="rect" id="Node000011" href="$group__fl__unicode.html#ga3396a1bbcf14adc06066d791791464da" title=" " alt="" coords="533,165,615,191"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="422,173,519,174,519,180,422,178"/>
+<area shape="poly" id="edge11_Node000011_Node000009" title=" " alt="" coords="616,181,696,191,696,197,615,186"/>
+<area shape="poly" id="edge16_Node000015_Node000008" title=" " alt="" coords="419,266,521,241,522,246,421,271"/>
+<area shape="poly" id="edge17_Node000015_Node000012" title=" " alt="" coords="439,299,483,304,482,309,439,304"/>
+<area shape="poly" id="edge18_Node000015_Node000014" title=" " alt="" coords="392,306,488,339,515,348,513,353,486,345,391,311"/>
+</map>

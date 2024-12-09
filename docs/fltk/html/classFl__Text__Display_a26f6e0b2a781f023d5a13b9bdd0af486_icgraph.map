@@ -1,0 +1,12 @@
+<map id="Fl_Text_Display::scrollbar_align" name="Fl_Text_Display::scrollbar_align">
+<area shape="rect" id="Node000001" title=" " alt="" coords="617,37,804,77"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Display.html#afc77f4bedb15408180b704a91252af80" title="Refresh the line number area." alt="" coords="403,5,565,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="603,45,565,39,566,34,604,40"/>
+<area shape="rect" id="Node000005" href="$classFl__Text__Display.html#a2c2089df8e61ec00991abda79026f1fe" title=" " alt="" coords="399,69,569,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="604,75,570,80,569,75,603,70"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Display.html#a2db0c8c740c19c6903a860fa3ceb9a4f" title="Draw the widget." alt="" coords="188,45,351,70"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="390,42,351,48,351,43,389,37"/>
+<area shape="rect" id="Node000004" href="$classTextViewer.html#a22b249735474c3350976630198d9ed24" title=" " alt="" coords="5,45,140,70"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="174,60,140,60,140,55,174,55"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="385,77,351,72,351,67,385,72"/>
+</map>

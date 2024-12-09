@@ -1,0 +1,37 @@
+<map id="/home/ivan/Documents/INF/3D&#45;minesweeper/thirdparty/fltk/FL/Fl.H" name="/home/ivan/Documents/INF/3D&#45;minesweeper/thirdparty/fltk/FL/Fl.H">
+<area shape="rect" id="Node000001" title="Fl static class." alt="" coords="213,5,443,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,255,112,280"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,42,175,51,138,64,104,83,75,110,59,141,52,176,52,211,56,241,51,242,47,212,47,176,54,139,71,106,101,79,135,59,173,46,211,37"/>
+<area shape="rect" id="Node000003" href="$Fl__Export_8H_source.html" title=" " alt="" coords="321,255,437,280"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="368,58,390,80,406,107,414,143,412,180,403,215,393,243,388,241,398,213,407,179,409,144,402,109,385,83,364,62"/>
+<area shape="rect" id="Node000004" href="$platform__types_8h.html" title=" " alt="" coords="151,181,303,207"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="297,62,275,84,256,109,242,139,234,169,229,167,237,137,251,107,271,81,293,58"/>
+<area shape="rect" id="Node000007" href="$fl__casts_8H_source.html" title=" " alt="" coords="85,108,189,133"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="271,63,176,105,174,100,269,58"/>
+<area shape="rect" id="Node000008" href="$fl__utf8_8h.html" title="header for Unicode and UTF&#45;8 character handling" alt="" coords="489,108,564,133"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="390,58,489,100,486,105,388,63"/>
+<area shape="rect" id="Node000013" href="$Enumerations_8H.html" title=" " alt="" coords="265,108,391,133"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="331,60,331,94,325,94,325,60"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="589,108,659,133"/>
+<area shape="poly" id="edge21_Node000001_Node000014" title=" " alt="" coords="419,58,576,103,575,108,418,63"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="201,209,100,252,98,247,199,204"/>
+<area shape="poly" id="edge7_Node000004_Node000003" title=" " alt="" coords="252,204,343,246,341,251,250,209"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="232,255,296,280"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="235,206,254,241,249,244,230,208"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="136,255,208,280"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="220,209,191,245,187,242,216,205"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="153,131,203,170,200,175,150,135"/>
+<area shape="poly" id="edge11_Node000008_Node000003" title=" " alt="" coords="537,132,551,168,553,189,546,208,530,222,505,234,443,254,441,249,503,229,527,217,542,205,548,188,546,169,532,135"/>
+<area shape="rect" id="Node000009" href="$fl__types_8h.html" title=" " alt="" coords="447,181,532,207"/>
+<area shape="poly" id="edge12_Node000008_Node000009" title=" " alt="" coords="523,135,504,171,499,168,518,132"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="607,181,673,207"/>
+<area shape="poly" id="edge14_Node000008_Node000011" title=" " alt="" coords="546,131,612,172,609,176,543,136"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="697,181,783,207"/>
+<area shape="poly" id="edge15_Node000008_Node000012" title=" " alt="" coords="562,131,693,174,692,179,560,136"/>
+<area shape="rect" id="Node000010" href="$fl__attr_8h.html" title=" " alt="" coords="461,255,531,280"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="493,207,496,241,491,241,488,207"/>
+<area shape="poly" id="edge17_Node000013_Node000002" title=" " alt="" coords="265,136,202,154,170,167,140,184,104,213,77,245,73,241,101,209,137,179,168,163,201,149,264,131"/>
+<area shape="poly" id="edge18_Node000013_Node000003" title=" " alt="" coords="335,133,373,241,368,243,330,135"/>
+<area shape="poly" id="edge20_Node000013_Node000004" title=" " alt="" coords="313,136,256,175,253,171,310,131"/>
+<area shape="poly" id="edge19_Node000013_Node000009" title=" " alt="" coords="355,131,452,173,449,178,353,136"/>
+</map>

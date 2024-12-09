@@ -1,0 +1,25 @@
+<map id="Fl::args" name="Fl::args">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,179,76,204"/>
+<area shape="rect" id="Node000002" href="$classFl.html#a1576b8c9ca3e900daaa5c36ca0e7ae48" title=" " alt="" coords="124,179,187,204"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,189,110,189,110,194,76,194"/>
+<area shape="rect" id="Node000003" href="$classFl__Tooltip.html#afd43338e8270131996d66b024aa6acdc" title=" " alt="" coords="251,5,389,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="157,178,166,149,181,112,203,73,233,40,240,35,243,39,236,44,207,76,185,114,171,151,162,179"/>
+<area shape="rect" id="Node000004" href="$classFl.html#aae157def51e4dabe5f75298b676ddea2" title=" " alt="" coords="255,55,385,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="161,177,188,134,209,110,233,89,243,83,246,88,236,94,213,114,193,137,165,180"/>
+<area shape="rect" id="Node000005" href="$classFl__Tooltip.html#aad7ec1340800ab9d883a035118f20995" title=" " alt="" coords="252,104,388,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="172,176,200,157,234,138,251,131,253,136,236,143,203,161,175,181"/>
+<area shape="rect" id="Node000008" href="$classFl.html#a1fb645ed69b6be60ff971b58a20853ec" title=" " alt="" coords="273,153,367,179"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="186,184,259,173,260,178,187,189"/>
+<area shape="rect" id="Node000009" href="$classFl.html#a5f50cdc3a9b33837434f01ee4742dc37" title=" " alt="" coords="255,203,385,228"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="187,193,242,201,241,206,186,198"/>
+<area shape="rect" id="Node000010" href="$classFl__Window.html#a8d70664db261c3d43cd6c2773cc3f27c" title=" " alt="" coords="235,253,405,293"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="177,202,236,237,252,245,250,250,233,242,174,206"/>
+<area shape="rect" id="Node000011" href="$classFl.html#a808d0335818b286be9101588a36619d2" title=" " alt="" coords="253,317,387,343"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="164,203,191,252,211,279,236,303,247,309,245,314,233,307,207,283,186,255,160,206"/>
+<area shape="rect" id="Node000012" href="$classFl.html#ae9eaddd02a0aa637078ee2dd80b85b2f" title=" " alt="" coords="257,367,383,392"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="162,203,169,234,184,274,206,316,236,352,246,359,243,363,233,356,201,319,179,276,164,235,157,205"/>
+<area shape="rect" id="Node000006" href="$classFl.html#abc49722be45fb56cad89c7c067eda5e3" title="FLTK library options management." alt="" coords="453,104,536,129"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="388,114,439,114,439,119,388,119"/>
+<area shape="rect" id="Node000007" href="$classFl__Preferences.html#a0991a0bea2800ce5cd362ff6a778c0d3" title=" " alt="" coords="584,104,731,129"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="536,114,570,114,570,119,536,119"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Fl_Text_Display::linenumber_font" name="Fl_Text_Display::linenumber_font">
+<area shape="rect" id="Node000001" title=" " alt="" coords="609,13,848,38"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Display.html#afc77f4bedb15408180b704a91252af80" title="Refresh the line number area." alt="" coords="399,5,561,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="595,28,561,28,561,23,595,23"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Display.html#a2db0c8c740c19c6903a860fa3ceb9a4f" title="Draw the widget." alt="" coords="188,13,351,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="385,28,351,28,351,23,385,23"/>
+<area shape="rect" id="Node000004" href="$classTextViewer.html#a22b249735474c3350976630198d9ed24" title=" " alt="" coords="5,13,140,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="174,28,140,28,140,23,174,23"/>
+</map>

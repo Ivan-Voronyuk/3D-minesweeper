@@ -1,0 +1,21 @@
+<map id="Fl_Tree::first_visible" name="Fl_Tree::first_visible">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,156,80"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree.html#aa3f9fbfac221ff7716b12e5a5ba63db2" title=" " alt="" coords="204,55,392,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,65,190,65,190,70,156,70"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree.html#a04ecefd677f9321532dad465de6864be" title=" " alt="" coords="457,5,559,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="352,52,443,30,445,35,353,57"/>
+<area shape="rect" id="Node000004" href="$classFl__Tree.html#a323b9140af8cec63d5ff2b650481b663" title=" " alt="" coords="455,55,561,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="392,65,442,65,442,70,392,70"/>
+<area shape="rect" id="Node000009" href="$classFl__Tree.html#abb300c0ff90d19d1098ac5c1ea21d6a0" title="Returns 1 if the root item is to be shown, or 0 if not." alt="" coords="440,104,576,129"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="353,77,441,98,439,103,352,83"/>
+<area shape="rect" id="Node000005" href="$classFl__Tree__Item.html#a512b6591af7ca7b517e09e98df8f2deb" title=" " alt="" coords="641,55,783,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="561,65,627,65,627,70,561,70"/>
+<area shape="rect" id="Node000006" href="$classFl__Tree__Item.html#a59b33b5824ea2f87eb3388ec51802d67" title="Return the child item for the given &#39;index&#39;." alt="" coords="873,5,1017,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="772,52,871,31,872,36,773,57"/>
+<area shape="rect" id="Node000007" href="$classFl__Tree__Item.html#a01f57370911692b960d306fc00d824a0" title="See if this item has children." alt="" coords="848,55,1043,80"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="784,65,834,65,834,70,784,70"/>
+<area shape="rect" id="Node000008" href="$classFl__Tree__Item.html#a5371023b11fd4b32a93f9cd7936fc5fb" title="Return the parent for this item. Returns NULL if we are the root." alt="" coords="868,104,1023,129"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="773,77,872,98,871,104,772,83"/>
+<area shape="rect" id="Node000010" href="$classFl__Tree__Prefs.html#a2a28b5cc1d5f08620e3f3a233fb5ff24" title="Returns 1 if the root item is to be shown, or 0 if not." alt="" coords="624,104,800,129"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="576,114,610,114,610,119,576,119"/>
+</map>

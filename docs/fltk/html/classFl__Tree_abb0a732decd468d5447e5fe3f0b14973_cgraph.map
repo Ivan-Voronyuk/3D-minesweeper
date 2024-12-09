@@ -1,0 +1,11 @@
+<map id="Fl_Tree::labelmarginleft" name="Fl_Tree::labelmarginleft">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,180,80"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree__Prefs.html#aa1a838cd508a9258ebb6d25980664719" title="Get the label&#39;s left margin value in pixels." alt="" coords="228,5,443,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,52,258,31,259,36,156,57"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree.html#a5e76e962b75387a88b913a7cb8483650" title=" " alt="" coords="261,55,409,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,65,248,65,248,70,180,70"/>
+<area shape="rect" id="Node000004" href="$classFl__Widget.html#aa63ce68cbf4620cf8750b868368ea02b" title=" " alt="" coords="265,104,405,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="156,77,259,99,258,104,155,83"/>
+<area shape="rect" id="Node000005" href="$classFl__Widget.html#ada8bb104e4501a2b123e813b32b6ed95" title=" " alt="" coords="491,104,639,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="406,114,477,114,477,119,406,119"/>
+</map>

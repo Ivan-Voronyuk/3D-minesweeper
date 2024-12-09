@@ -1,0 +1,11 @@
+<map id="fl_clip_region" name="fl_clip_region">
+<area shape="rect" id="Node000001" title=" " alt="" coords="464,77,572,102"/>
+<area shape="rect" id="Node000002" href="$classFl__Cocoa__Printer__Driver.html#ad4e07a273d702d35b4500db263e577fa" title="Begins a new printed page." alt="" coords="235,5,413,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="465,75,385,48,386,43,466,70"/>
+<area shape="rect" id="Node000003" href="$classFl__WinAPI__Printer__Driver.html#a8b8f0beaf44c565048854b87576a20e4" title="Begins a new printed page." alt="" coords="232,69,416,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="450,92,416,92,416,87,450,87"/>
+<area shape="rect" id="Node000004" href="$classFl__Window.html#a418cef08cf54f1dd794538501f15f08b" title=" " alt="" coords="259,134,389,159"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="466,109,417,124,373,137,371,131,415,119,464,104"/>
+<area shape="rect" id="Node000005" href="$classFl__Single__Window.html#a4ea59fd169c4824109c0b274b0c2e7fe" title=" " alt="" coords="5,134,184,159"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="244,149,184,149,184,144,244,144"/>
+</map>

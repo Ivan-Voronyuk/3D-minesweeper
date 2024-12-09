@@ -79,13 +79,13 @@ $(function() {
 <div class="textblock"><p>This chapter discusses using FLTK for your OpenGL applications.</p>
 <h1><a class="anchor" id="opengl_using"></a>
 Using OpenGL in FLTK</h1>
-<p>The easiest way to make an OpenGL display is to subclass Fl_Gl_Window. Your subclass must implement a <code>draw()</code> method which uses OpenGL calls to draw the display. Your main program should call <code>redraw()</code> when the display needs to change, and (somewhat later) FLTK will call <code>draw()</code>.</p>
+<p>The easiest way to make an OpenGL display is to subclass <a class="el" href="classFl__Gl__Window.html">Fl_Gl_Window</a>. Your subclass must implement a <code>draw()</code> method which uses OpenGL calls to draw the display. Your main program should call <code>redraw()</code> when the display needs to change, and (somewhat later) FLTK will call <code>draw()</code>.</p>
 <p>With a bit of care you can also use OpenGL to draw into normal FLTK windows (see <a class="el" href="opengl.html#opengl_normal">Using OpenGL in Normal FLTK Windows</a> below). This allows you to use Gouraud shading for drawing your widgets. To do this you use the <a class="el" href="opengl.html#opengl_gl_start">gl_start()</a> and <a class="el" href="opengl.html#opengl_gl_finish">gl_finish()</a> functions around your OpenGL code.</p>
 <p>You must include FLTK's <code>&lt;<a class="el" href="gl_8h.html">FL/gl.h</a>&gt;</code> header file. It will include the file <code>&lt;GL/gl.h&gt;</code> (on macOS: <code>&lt;OpenGL/gl.h&gt;</code>), define some extra drawing functions provided by FLTK, and include the <code>&lt;windows.h&gt;</code> header file needed by Windows applications.</p>
 <p>Some simple coding rules (see <a class="el" href="opengl.html#opengl_highdpi">OpenGL and support of HighDPI displays</a>) allow to write cross-platform code that will support OpenGL run on HighDPI displays (including the 'retina' displays of Apple hardware).</p>
 <h1><a class="anchor" id="opengl_subclass"></a>
 Making a Subclass of Fl_Gl_Window</h1>
-<p>To make a subclass of Fl_Gl_Window, you must provide:</p>
+<p>To make a subclass of <a class="el" href="classFl__Gl__Window.html">Fl_Gl_Window</a>, you must provide:</p>
 <ul>
 <li>A class definition. </li>
 <li>A <code>draw()</code> method. </li>
@@ -94,16 +94,18 @@ Making a Subclass of Fl_Gl_Window</h1>
 <p>If your subclass provides static controls in the window, they must be redrawn whenever the <code>FL_DAMAGE_ALL</code> bit is set in the value returned by <code>damage()</code>.</p>
 <h2><a class="anchor" id="opengl_defining"></a>
 Defining the Subclass</h2>
-<p>To define the subclass you just subclass the Fl_Gl_Window class:</p>
-<div class="fragment"><div class="line"><span class="keyword">class </span><a class="code hl_class" href="classMyWindow.html">MyWindow</a> : <span class="keyword">public</span> Fl_Gl_Window {</div>
-<div class="line">  <span class="keywordtype">void</span> draw();</div>
-<div class="line">  <span class="keywordtype">int</span> handle(<span class="keywordtype">int</span>);</div>
+<p>To define the subclass you just subclass the <a class="el" href="classFl__Gl__Window.html">Fl_Gl_Window</a> class:</p>
+<div class="fragment"><div class="line"><span class="keyword">class </span>MyWindow : <span class="keyword">public</span> <a class="code hl_class" href="classFl__Gl__Window.html">Fl_Gl_Window</a> {</div>
+<div class="line">  <span class="keywordtype">void</span> <a class="code hl_function" href="classFl__Gl__Window.html#a4b83cda632bc997e79ca1c365701fb69">draw</a>();</div>
+<div class="line">  <span class="keywordtype">int</span> <a class="code hl_function" href="classFl__Gl__Window.html#ae9c9783bb13403ba197a954ca63f345a">handle</a>(<span class="keywordtype">int</span>);</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">public</span>:</div>
-<div class="line">  <a class="code hl_class" href="classMyWindow.html">MyWindow</a>(<span class="keywordtype">int</span> X, <span class="keywordtype">int</span> Y, <span class="keywordtype">int</span> W, <span class="keywordtype">int</span> H, <span class="keyword">const</span> <span class="keywordtype">char</span> *L)</div>
-<div class="line">    : Fl_Gl_Window(X, Y, W, H, L) {}</div>
+<div class="line">  MyWindow(<span class="keywordtype">int</span> X, <span class="keywordtype">int</span> Y, <span class="keywordtype">int</span> W, <span class="keywordtype">int</span> H, <span class="keyword">const</span> <span class="keywordtype">char</span> *L)</div>
+<div class="line">    : <a class="code hl_class" href="classFl__Gl__Window.html">Fl_Gl_Window</a>(X, Y, W, H, L) {}</div>
 <div class="line">};</div>
-<div class="ttc" id="aclassMyWindow_html"><div class="ttname"><a href="classMyWindow.html">MyWindow</a></div><div class="ttdef"><b>Definition</b> keyboard.h:23</div></div>
+<div class="ttc" id="aclassFl__Gl__Window_html"><div class="ttname"><a href="classFl__Gl__Window.html">Fl_Gl_Window</a></div><div class="ttdef"><b>Definition</b> Fl_Gl_Window.H:56</div></div>
+<div class="ttc" id="aclassFl__Gl__Window_html_a4b83cda632bc997e79ca1c365701fb69"><div class="ttname"><a href="classFl__Gl__Window.html#a4b83cda632bc997e79ca1c365701fb69">Fl_Gl_Window::draw</a></div><div class="ttdeci">void draw() FL_OVERRIDE</div></div>
+<div class="ttc" id="aclassFl__Gl__Window_html_ae9c9783bb13403ba197a954ca63f345a"><div class="ttname"><a href="classFl__Gl__Window.html#ae9c9783bb13403ba197a954ca63f345a">Fl_Gl_Window::handle</a></div><div class="ttdeci">int handle(int) FL_OVERRIDE</div></div>
 </div><!-- fragment --><p>The <code>draw()</code> and <code>handle()</code> methods are described below. Like any widget, you can include additional private and public data in your class (such as scene graph information, etc.)</p>
 <h2><a class="anchor" id="opengl_draw"></a>
 The draw() Method</h2>
@@ -111,47 +113,55 @@ The draw() Method</h2>
 <div class="fragment"><div class="line"><span class="keywordtype">void</span> MyWindow::draw() {</div>
 <div class="line">  <span class="keywordflow">if</span> (!valid()) {</div>
 <div class="line">    ... set up projection, viewport, etc ...</div>
-<div class="line">    ... <a class="code hl_class" href="classwindow.html">window</a> size is in w() and h().</div>
+<div class="line">    ... window size is in w() and h().</div>
 <div class="line">    ... valid() is turned on by FLTK after draw() returns</div>
 <div class="line">  }</div>
 <div class="line">  ... draw ...</div>
 <div class="line">}</div>
-<div class="ttc" id="aclasswindow_html"><div class="ttname"><a href="classwindow.html">window</a></div><div class="ttdef"><b>Definition</b> animated.cxx:108</div></div>
 </div><!-- fragment --><h2><a class="anchor" id="opengl_handle"></a>
 The handle() Method</h2>
 <p>The <code>handle()</code> method handles mouse and keyboard events for the window:</p>
 <div class="fragment"><div class="line"><span class="keywordtype">int</span> MyWindow::handle(<span class="keywordtype">int</span> event) {</div>
 <div class="line">  <span class="keywordflow">switch</span>(event) {</div>
-<div class="line">  <span class="keywordflow">case</span> FL_PUSH:</div>
+<div class="line">  <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3a44972d76423f3e380ae12c36827944e3">FL_PUSH</a>:</div>
 <div class="line">    ... mouse down <span class="keyword">event</span> ...</div>
-<div class="line">    ... position in Fl::event_x() and Fl::event_y()</div>
+<div class="line">    ... position in <a class="code hl_function" href="group__fl__events.html#ga91585fcbaa1e79f7452fd2d16a82136e">Fl::event_x</a>() and <a class="code hl_class" href="classFl.html">Fl</a>::event_y()</div>
 <div class="line">    return 1;</div>
-<div class="line">  case FL_DRAG:</div>
+<div class="line">  case <a class="code hl_enumvalue" href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3aaad5c7b2302d7bfe6c6d37b50b4c70f0">FL_DRAG</a>:</div>
 <div class="line">    ... mouse moved while down event ...</div>
 <div class="line">    return 1;</div>
-<div class="line">  case FL_RELEASE:</div>
+<div class="line">  case <a class="code hl_enumvalue" href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3a5949b5ff170a8236d2745eddb1e9fd9a">FL_RELEASE</a>:</div>
 <div class="line">    ... mouse up event ...</div>
 <div class="line">    return 1;</div>
-<div class="line">  case FL_FOCUS :</div>
-<div class="line">  case FL_UNFOCUS :</div>
+<div class="line">  case <a class="code hl_enumvalue" href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3adaac2a187beb309443d668a20a59986b">FL_FOCUS</a> :</div>
+<div class="line">  case <a class="code hl_enumvalue" href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3a7d2e5eb9247b1927ba5cc26dc82acaf3">FL_UNFOCUS</a> :</div>
 <div class="line">    ... Return 1 if you want keyboard events, 0 otherwise</div>
 <div class="line">    return 1;</div>
-<div class="line">  case FL_KEYBOARD:</div>
-<div class="line">    ... keypress, key is in Fl::event_key(), ascii in Fl::event_text()</div>
+<div class="line">  case <a class="code hl_enumvalue" href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3a1387c0430ec873aa44704954a369143b">FL_KEYBOARD</a>:</div>
+<div class="line">    ... keypress, key is in <a class="code hl_class" href="classFl.html">Fl</a>::event_key(), ascii in <a class="code hl_class" href="classFl.html">Fl</a>::event_text()</div>
 <div class="line">    ... Return 1 if you understand/use the keyboard event, 0 otherwise...</div>
 <div class="line">    return 1;</div>
-<div class="line">  case FL_SHORTCUT:</div>
-<div class="line">    ... shortcut, key is in Fl::event_key(), ascii in Fl::event_text()</div>
+<div class="line">  case <a class="code hl_enumvalue" href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3a6161f0e91cc6b2947200323e3bda8156">FL_SHORTCUT</a>:</div>
+<div class="line">    ... shortcut, key is in <a class="code hl_class" href="classFl.html">Fl</a>::event_key(), ascii in <a class="code hl_class" href="classFl.html">Fl</a>::event_text()</div>
 <div class="line">    ... Return 1 if you understand/use the shortcut event, 0 otherwise...</div>
 <div class="line">    return 1;</div>
 <div class="line">  default:</div>
 <div class="line">    <span class="comment">// pass other events to the base class...</span></div>
-<div class="line">    return Fl_Gl_Window::handle(event);</div>
+<div class="line">    return <a class="code hl_class" href="classFl__Gl__Window.html">Fl_Gl_Window</a>::handle(event);</div>
 <div class="line">  }</div>
 <div class="line">}</div>
+<div class="ttc" id="aEnumerations_8H_html_ad16daf120d9a0501cccaee563af0b9a3a1387c0430ec873aa44704954a369143b"><div class="ttname"><a href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3a1387c0430ec873aa44704954a369143b">FL_KEYBOARD</a></div><div class="ttdeci">@ FL_KEYBOARD</div><div class="ttdef"><b>Definition</b> Enumerations.H:290</div></div>
+<div class="ttc" id="aEnumerations_8H_html_ad16daf120d9a0501cccaee563af0b9a3a44972d76423f3e380ae12c36827944e3"><div class="ttname"><a href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3a44972d76423f3e380ae12c36827944e3">FL_PUSH</a></div><div class="ttdeci">@ FL_PUSH</div><div class="ttdef"><b>Definition</b> Enumerations.H:211</div></div>
+<div class="ttc" id="aEnumerations_8H_html_ad16daf120d9a0501cccaee563af0b9a3a5949b5ff170a8236d2745eddb1e9fd9a"><div class="ttname"><a href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3a5949b5ff170a8236d2745eddb1e9fd9a">FL_RELEASE</a></div><div class="ttdeci">@ FL_RELEASE</div><div class="ttdef"><b>Definition</b> Enumerations.H:219</div></div>
+<div class="ttc" id="aEnumerations_8H_html_ad16daf120d9a0501cccaee563af0b9a3a6161f0e91cc6b2947200323e3bda8156"><div class="ttname"><a href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3a6161f0e91cc6b2947200323e3bda8156">FL_SHORTCUT</a></div><div class="ttdeci">@ FL_SHORTCUT</div><div class="ttdef"><b>Definition</b> Enumerations.H:324</div></div>
+<div class="ttc" id="aEnumerations_8H_html_ad16daf120d9a0501cccaee563af0b9a3a7d2e5eb9247b1927ba5cc26dc82acaf3"><div class="ttname"><a href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3a7d2e5eb9247b1927ba5cc26dc82acaf3">FL_UNFOCUS</a></div><div class="ttdeci">@ FL_UNFOCUS</div><div class="ttdef"><b>Definition</b> Enumerations.H:263</div></div>
+<div class="ttc" id="aEnumerations_8H_html_ad16daf120d9a0501cccaee563af0b9a3aaad5c7b2302d7bfe6c6d37b50b4c70f0"><div class="ttname"><a href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3aaad5c7b2302d7bfe6c6d37b50b4c70f0">FL_DRAG</a></div><div class="ttdeci">@ FL_DRAG</div><div class="ttdef"><b>Definition</b> Enumerations.H:243</div></div>
+<div class="ttc" id="aEnumerations_8H_html_ad16daf120d9a0501cccaee563af0b9a3adaac2a187beb309443d668a20a59986b"><div class="ttname"><a href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3adaac2a187beb309443d668a20a59986b">FL_FOCUS</a></div><div class="ttdeci">@ FL_FOCUS</div><div class="ttdef"><b>Definition</b> Enumerations.H:258</div></div>
+<div class="ttc" id="aclassFl_html"><div class="ttname"><a href="classFl.html">Fl</a></div><div class="ttdef"><b>Definition</b> Fl.H:140</div></div>
+<div class="ttc" id="agroup__fl__events_html_ga91585fcbaa1e79f7452fd2d16a82136e"><div class="ttname"><a href="group__fl__events.html#ga91585fcbaa1e79f7452fd2d16a82136e">Fl::event_x</a></div><div class="ttdeci">static int event_x()</div><div class="ttdef"><b>Definition</b> Fl.H:631</div></div>
 </div><!-- fragment --><p>When <code>handle()</code> is called, the OpenGL context is not set up! If your display changes, you should call <code>redraw()</code> and let <code>draw()</code> do the work. Don't call any OpenGL drawing functions from inside <code>handle()!</code> </p>
 <p>You can call <em>some</em> OpenGL stuff like hit detection and texture loading functions by doing:</p>
-<div class="fragment"><div class="line"><span class="keywordflow">case</span> FL_PUSH:</div>
+<div class="fragment"><div class="line"><span class="keywordflow">case</span> <a class="code hl_enumvalue" href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3a44972d76423f3e380ae12c36827944e3">FL_PUSH</a>:</div>
 <div class="line">  make_current();     <span class="comment">// make OpenGL context current</span></div>
 <div class="line">  <span class="keywordflow">if</span> (!valid()) {</div>
 <div class="line"> </div>
@@ -162,86 +172,95 @@ The handle() Method</h2>
 <div class="line">  ... ok to call NON-DRAWING OpenGL <a class="code hl_struct" href="structcode.html">code</a> here, such as hit</div>
 <div class="line">  detection, loading textures, etc...</div>
 <div class="ttc" id="astructcode_html"><div class="ttname"><a href="structcode.html">code</a></div><div class="ttdef"><b>Definition</b> inftrees.h:24</div></div>
-</div><!-- fragment --><p>Your main program can now create one of your windows by doing <code>new <a class="el" href="classMyWindow.html">MyWindow(...)</a></code>.</p>
+</div><!-- fragment --><p>Your main program can now create one of your windows by doing <code>new MyWindow(...)</code>.</p>
 <p>You can also use your new window class in FLUID by:</p>
 <ol type="1">
 <li>Putting your class definition in a <code>MyWindow.H</code> file.</li>
-<li>Creating a Fl_Box widget in FLUID.</li>
-<li>In the widget panel fill in the "class" field with <code><a class="el" href="classMyWindow.html">MyWindow</a></code>. This will make FLUID produce constructors for your new class.</li>
+<li>Creating a <a class="el" href="classFl__Box.html">Fl_Box</a> widget in FLUID.</li>
+<li>In the widget panel fill in the "class" field with <code>MyWindow</code>. This will make FLUID produce constructors for your new class.</li>
 <li>In the "Extra Code" field put <code>#include "MyWindow.H"</code>, so that the FLUID output file will compile.</li>
 </ol>
 <p>You must put <code>glwindow-&gt;show()</code> in your main code after calling <code>show()</code> on the window containing the OpenGL window.</p>
 <h1><a class="anchor" id="opengl_highdpi"></a>
 OpenGL and support of HighDPI displays</h1>
-<p>HighDPI displays (including the so-called 'retina' displays of Apple hardware) are supported by FLTK in such a way that 1 unit of an FLTK quantity (say, the value given by Fl_Gl_Window::w()) corresponds to more than 1 pixel on the display. Conversely, when a program specifies the width and height of the OpenGL viewport, it is necessary to use an API that returns quantities expressed in pixels. That can be done as follows: </p><div class="fragment"><div class="line">Fl_Gl_Window *glw = ...;</div>
+<p>HighDPI displays (including the so-called 'retina' displays of Apple hardware) are supported by FLTK in such a way that 1 unit of an FLTK quantity (say, the value given by <a class="el" href="classFl__Widget.html#ad59ece778aaf15acc4dd01a8bf5f8012">Fl_Gl_Window::w()</a>) corresponds to more than 1 pixel on the display. Conversely, when a program specifies the width and height of the OpenGL viewport, it is necessary to use an API that returns quantities expressed in pixels. That can be done as follows: </p><div class="fragment"><div class="line"><a class="code hl_class" href="classFl__Gl__Window.html">Fl_Gl_Window</a> *glw = ...;</div>
 <div class="line">glViewport(0, 0, glw-&gt;pixel_w(), glw-&gt;pixel_h());</div>
-</div><!-- fragment --><p> which makes use of the Fl_Gl_Window::pixel_w() and Fl_Gl_Window::pixel_h() methods giving the size in pixels of an Fl_Gl_Window that is potentially mapped to a HighDPI display. Method Fl_Gl_Window::pixels_per_unit() can also be useful in this context. </p><dl class="section note"><dt>Note</dt><dd>A further coding rule is necessary to properly support retina displays and OpenGL under macOS (see <a class="el" href="osissues.html#osissues_retina">OpenGL and 'retina' displays</a>)</dd></dl>
+</div><!-- fragment --><p> which makes use of the <a class="el" href="classFl__Gl__Window.html#a91671f6172a8c01f61dbff75afdea864">Fl_Gl_Window::pixel_w()</a> and <a class="el" href="classFl__Gl__Window.html#a080d304174ec7658ea82328044ce20ce">Fl_Gl_Window::pixel_h()</a> methods giving the size in pixels of an <a class="el" href="classFl__Gl__Window.html">Fl_Gl_Window</a> that is potentially mapped to a HighDPI display. Method Fl_Gl_Window::pixels_per_unit() can also be useful in this context. </p><dl class="section note"><dt>Note</dt><dd>A further coding rule is necessary to properly support retina displays and OpenGL under macOS (see <a class="el" href="osissues.html#osissues_retina">OpenGL and 'retina' displays</a>)</dd></dl>
 <h1><a class="anchor" id="opengl_normal"></a>
 Using OpenGL in Normal FLTK Windows</h1>
-<dl class="section note"><dt>Note</dt><dd><a class="el" href="classDrawing.html">Drawing</a> both with OpenGL and Quartz in a normal FLTK window is not possible with the macOS platform. This technique is therefore not useful under macOS because it permits nothing more than what is possible with class Fl_Gl_Window.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Drawing both with OpenGL and Quartz in a normal FLTK window is not possible with the macOS platform. This technique is therefore not useful under macOS because it permits nothing more than what is possible with class <a class="el" href="classFl__Gl__Window.html">Fl_Gl_Window</a>.</dd></dl>
 <p>You can put OpenGL code into the <code>draw()</code> method, as described in <a class="el" href="subclassing.html#subclassing_drawing">Drawing the Widget</a> in the previous chapter, or into the code for a <a class="el" href="common.html#common_boxtypes">boxtype</a> or other places with some care.</p>
 <p>Most importantly, before you show <em>any</em> windows, including those that don't have OpenGL drawing, you <b>must</b> initialize FLTK so that it knows it is going to use OpenGL. You may use any of the symbols described for <code>Fl_Gl_Window::mode()</code> to describe how you intend to use OpenGL:</p>
-<div class="fragment"><div class="line">Fl::gl_visual(FL_RGB);</div>
+<div class="fragment"><div class="line"><a class="code hl_function" href="classFl.html#a7a149f42db33b581e1dbe47ffb626abf">Fl::gl_visual</a>(FL_RGB);</div>
+<div class="ttc" id="aclassFl_html_a7a149f42db33b581e1dbe47ffb626abf"><div class="ttname"><a href="classFl.html#a7a149f42db33b581e1dbe47ffb626abf">Fl::gl_visual</a></div><div class="ttdeci">static int gl_visual(int, int *alist=0)</div></div>
 </div><!-- fragment --><p><a class="anchor" id="opengl_gl_start"></a><a class="anchor" id="opengl_gl_finish"></a>You can then put OpenGL drawing code anywhere you can draw normally by surrounding it with gl_start() and gl_finish() to set up, and later release, an OpenGL context with an orthographic projection so that 0,0 is the lower-left corner of the window and each pixel is one unit. The current clipping is reproduced with OpenGL <code>glScissor()</code> commands. These functions also synchronize the OpenGL graphics stream with the drawing done by other X, Windows, or FLTK functions.</p>
 <div class="fragment"><div class="line">gl_start();</div>
 <div class="line">... put your OpenGL <a class="code hl_struct" href="structcode.html">code</a> here ...</div>
 <div class="line">gl_finish();</div>
 </div><!-- fragment --><p>The same context is reused each time. If your code changes the projection transformation or anything else you should use <code>glPushMatrix()</code> and <code>glPopMatrix()</code> functions to put the state back before calling <code>gl_finish()</code>.</p>
-<p>You may want to use <code>Fl_Window::current()-&gt;h()</code> to get the drawable height so that you can flip the Y coordinates.</p>
+<p>You may want to use <code><a class="el" href="classFl__Window.html#af5e20a946ba316850cff08c09ed8e9e2">Fl_Window::current()</a>-&gt;h()</code> to get the drawable height so that you can flip the Y coordinates.</p>
 <p>Unfortunately, there are a bunch of limitations you must adhere to for maximum portability:</p>
 <ul>
-<li>You must choose a default visual with Fl::gl_visual().</li>
+<li>You must choose a default visual with <a class="el" href="classFl.html#a7a149f42db33b581e1dbe47ffb626abf">Fl::gl_visual()</a>.</li>
 </ul>
 <ul>
-<li>You cannot pass <code>FL_DOUBLE</code> to Fl::gl_visual().</li>
+<li>You cannot pass <code>FL_DOUBLE</code> to <a class="el" href="classFl.html#a7a149f42db33b581e1dbe47ffb626abf">Fl::gl_visual()</a>.</li>
 </ul>
 <ul>
-<li>You cannot use Fl_Double_Window or Fl_Overlay_Window.</li>
+<li>You cannot use <a class="el" href="classFl__Double__Window.html">Fl_Double_Window</a> or <a class="el" href="classFl__Overlay__Window.html">Fl_Overlay_Window</a>.</li>
 </ul>
-<p>Do <em>not</em> call <code>gl_start()</code> or <code>gl_finish()</code> when drawing into an Fl_Gl_Window !</p>
+<p>Do <em>not</em> call <code>gl_start()</code> or <code>gl_finish()</code> when drawing into an <a class="el" href="classFl__Gl__Window.html">Fl_Gl_Window</a> !</p>
 <h1><a class="anchor" id="opengl_with_fltk_widgets"></a>
 Using FLTK widgets in OpenGL Windows</h1>
-<p>FLTK widgets can be added to <code>Fl_Gl_Window</code>s just as they would be added to <code>Fl_Window</code>s. They are rendered as an overlay over the user defined OpenGL graphics using 'fl_..' graphics calls that are implemented in GL.</p>
-<p><code>Fl_Gl_Window</code> does not add subsequent widgets as children by default as <code>Fl_Window</code> does. Call <code>myGlWindow-&gt;begin()</code> after creating the GL window to automatically add following widgets. Remember to call <code>myGlWindow-&gt;end()</code>.</p>
-<div class="fragment"><div class="line"><span class="keyword">class </span>My_Gl_Window : <span class="keyword">public</span> Fl_Gl_Window {</div>
+<p>FLTK widgets can be added to <code><a class="el" href="classFl__Gl__Window.html">Fl_Gl_Window</a></code>s just as they would be added to <code><a class="el" href="classFl__Window.html">Fl_Window</a></code>s. They are rendered as an overlay over the user defined OpenGL graphics using 'fl_..' graphics calls that are implemented in GL.</p>
+<p><code><a class="el" href="classFl__Gl__Window.html">Fl_Gl_Window</a></code> does not add subsequent widgets as children by default as <code><a class="el" href="classFl__Window.html">Fl_Window</a></code> does. Call <code>myGlWindow-&gt;begin()</code> after creating the GL window to automatically add following widgets. Remember to call <code>myGlWindow-&gt;end()</code>.</p>
+<div class="fragment"><div class="line"><span class="keyword">class </span>My_Gl_Window : <span class="keyword">public</span> <a class="code hl_class" href="classFl__Gl__Window.html">Fl_Gl_Window</a> {</div>
 <div class="line">...</div>
-<div class="line">  <span class="keywordtype">void</span> draw();</div>
+<div class="line">  <span class="keywordtype">void</span> <a class="code hl_function" href="classFl__Gl__Window.html#a4b83cda632bc997e79ca1c365701fb69">draw</a>();</div>
 <div class="line">...</div>
 <div class="line">};</div>
 <div class="line"> </div>
 <div class="line">...</div>
 <div class="line">myGlWindow = <span class="keyword">new</span> My_Gl_Window(0, 0, 500, 500);</div>
 <div class="line">myGlWindow-&gt;begin();</div>
-<div class="line">myButton = <span class="keyword">new</span> Fl_Button(10, 10, 120, 24, <span class="stringliteral">&quot;Hello!&quot;</span>);</div>
+<div class="line">myButton = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Button.html">Fl_Button</a>(10, 10, 120, 24, <span class="stringliteral">&quot;Hello!&quot;</span>);</div>
 <div class="line">myGlWindow-&gt;end();</div>
 <div class="line">...</div>
 <div class="line"> </div>
 <div class="line">void My_Gl_Window::draw() {</div>
 <div class="line">  <span class="comment">// ... user GL drawing code</span></div>
-<div class="line">  Fl_Gl_Window::draw(); <span class="comment">// Draw FLTK child widgets.</span></div>
+<div class="line">  <a class="code hl_function" href="classFl__Gl__Window.html#a4b83cda632bc997e79ca1c365701fb69">Fl_Gl_Window::draw</a>(); <span class="comment">// Draw FLTK child widgets.</span></div>
 <div class="line">}</div>
+<div class="ttc" id="aclassFl__Button_html"><div class="ttname"><a href="classFl__Button.html">Fl_Button</a></div><div class="ttdoc">Buttons generate callbacks when they are clicked by the user.</div><div class="ttdef"><b>Definition</b> Fl_Button.H:76</div></div>
 </div><!-- fragment --><p>Users can draw into the overlay by using GL graphics calls as well as all <code>fl_...</code> graphics calls from the "Drawing Fast Shapes" section.</p>
 <div class="fragment"><div class="line"><span class="keywordtype">void</span> My_Gl_Window::draw() {</div>
 <div class="line">  <span class="comment">// ... user GL drawing code</span></div>
 <div class="line">  Fl_Gl_Window::draw_begin(); <span class="comment">// Set up 1:1 projection</span></div>
-<div class="line">  Fl_Window::draw();          <span class="comment">// Draw FLTK children</span></div>
-<div class="line">  fl_color(FL_RED);</div>
-<div class="line">  fl_rect(10, 10, 100, 100);</div>
+<div class="line">  <a class="code hl_function" href="classFl__Window.html#a84803ecdce66b5681c3a8685b51809b2">Fl_Window::draw</a>();          <span class="comment">// Draw FLTK children</span></div>
+<div class="line">  <a class="code hl_function" href="group__fl__attributes.html#gaea8392e995de663b0d8063af199cf085">fl_color</a>(FL_RED);</div>
+<div class="line">  <a class="code hl_function" href="group__fl__drawings.html#ga690c83e11f49fa837b563f4c0bc4fd1b">fl_rect</a>(10, 10, 100, 100);</div>
 <div class="line">  Fl_Gl_Window::draw_end();   <span class="comment">// Restore GL state</span></div>
 <div class="line">}</div>
+<div class="ttc" id="aclassFl__Window_html_a84803ecdce66b5681c3a8685b51809b2"><div class="ttname"><a href="classFl__Window.html#a84803ecdce66b5681c3a8685b51809b2">Fl_Window::draw</a></div><div class="ttdeci">void draw() FL_OVERRIDE</div><div class="ttdef"><b>Definition</b> Fl_Window.cxx:491</div></div>
+<div class="ttc" id="agroup__fl__attributes_html_gaea8392e995de663b0d8063af199cf085"><div class="ttname"><a href="group__fl__attributes.html#gaea8392e995de663b0d8063af199cf085">fl_color</a></div><div class="ttdeci">Fl_Color fl_color()</div><div class="ttdef"><b>Definition</b> fl_draw.H:74</div></div>
+<div class="ttc" id="agroup__fl__drawings_html_ga690c83e11f49fa837b563f4c0bc4fd1b"><div class="ttname"><a href="group__fl__drawings.html#ga690c83e11f49fa837b563f4c0bc4fd1b">fl_rect</a></div><div class="ttdeci">void fl_rect(int x, int y, int w, int h)</div><div class="ttdef"><b>Definition</b> fl_draw.H:298</div></div>
 </div><!-- fragment --><p>Widgets can be drawn with transparencies by assigning an alpha value to a colormap entry and using that color in the widget.</p>
-<div class="fragment"><div class="line">Fl::set_color(FL_FREE_COLOR, 255, 255, 0, 127); <span class="comment">// 50% transparent yellow</span></div>
+<div class="fragment"><div class="line"><a class="code hl_function" href="group__fl__attributes.html#gac62f634ba8089a9d0e48bf57154c61b0">Fl::set_color</a>(<a class="code hl_define" href="Enumerations_8H.html#aa8fe2e5047a2dd1be37e8336dfca918d">FL_FREE_COLOR</a>, 255, 255, 0, 127); <span class="comment">// 50% transparent yellow</span></div>
 <div class="line">myGlWindow = <span class="keyword">new</span> My_Gl_Window(0, 0, 500, 500);</div>
 <div class="line">myGlWindow-&gt;begin();</div>
-<div class="line">myButton = <span class="keyword">new</span> Fl_Button(10, 10, 120, 24, <span class="stringliteral">&quot;Hello!&quot;</span>);</div>
-<div class="line">myButton-&gt;box(FL_BORDER_BOX);</div>
-<div class="line">myButton-&gt;color(FL_FREE_COLOR);</div>
+<div class="line">myButton = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Button.html">Fl_Button</a>(10, 10, 120, 24, <span class="stringliteral">&quot;Hello!&quot;</span>);</div>
+<div class="line">myButton-&gt;box(<a class="code hl_enumvalue" href="Enumerations_8H.html#ae48bf9070f8541de17829f54ccacc6bca0d2152522f0745a38901b39a2e06ff3c">FL_BORDER_BOX</a>);</div>
+<div class="line">myButton-&gt;color(<a class="code hl_define" href="Enumerations_8H.html#aa8fe2e5047a2dd1be37e8336dfca918d">FL_FREE_COLOR</a>);</div>
 <div class="line">myGlWindow-&gt;end();</div>
+<div class="ttc" id="aEnumerations_8H_html_aa8fe2e5047a2dd1be37e8336dfca918d"><div class="ttname"><a href="Enumerations_8H.html#aa8fe2e5047a2dd1be37e8336dfca918d">FL_FREE_COLOR</a></div><div class="ttdeci">#define FL_FREE_COLOR</div><div class="ttdef"><b>Definition</b> Enumerations.H:1153</div></div>
+<div class="ttc" id="aEnumerations_8H_html_ae48bf9070f8541de17829f54ccacc6bca0d2152522f0745a38901b39a2e06ff3c"><div class="ttname"><a href="Enumerations_8H.html#ae48bf9070f8541de17829f54ccacc6bca0d2152522f0745a38901b39a2e06ff3c">FL_BORDER_BOX</a></div><div class="ttdeci">@ FL_BORDER_BOX</div><div class="ttdoc">see figure Standard Box Types</div><div class="ttdef"><b>Definition</b> Enumerations.H:651</div></div>
+<div class="ttc" id="agroup__fl__attributes_html_gac62f634ba8089a9d0e48bf57154c61b0"><div class="ttname"><a href="group__fl__attributes.html#gac62f634ba8089a9d0e48bf57154c61b0">Fl::set_color</a></div><div class="ttdeci">static void set_color(Fl_Color, uchar, uchar, uchar)</div><div class="ttdef"><b>Definition</b> fl_color.cxx:62</div></div>
 </div><!-- fragment --><p>Transparencies can also be set directly when drawing. This can be used to create custom box types and RGB overlay drawings with an alpha channel.</p>
-<div class="fragment"><div class="line">fl_color(0, 255, 0, 127); <span class="comment">// 50% transparent green</span></div>
-<div class="line">fl_rectf(10, 10, 100, 100);</div>
-<div class="line">fl_color(FL_RED); <span class="comment">// back to opaque red</span></div>
-<div class="line">fl_rect(20, 20, 80, 80);</div>
+<div class="fragment"><div class="line"><a class="code hl_function" href="group__fl__attributes.html#gaea8392e995de663b0d8063af199cf085">fl_color</a>(0, 255, 0, 127); <span class="comment">// 50% transparent green</span></div>
+<div class="line"><a class="code hl_function" href="group__fl__drawings.html#ga2986a868e9cc8d9141acde94c0fe8ab0">fl_rectf</a>(10, 10, 100, 100);</div>
+<div class="line"><a class="code hl_function" href="group__fl__attributes.html#gaea8392e995de663b0d8063af199cf085">fl_color</a>(FL_RED); <span class="comment">// back to opaque red</span></div>
+<div class="line"><a class="code hl_function" href="group__fl__drawings.html#ga690c83e11f49fa837b563f4c0bc4fd1b">fl_rect</a>(20, 20, 80, 80);</div>
+<div class="ttc" id="agroup__fl__drawings_html_ga2986a868e9cc8d9141acde94c0fe8ab0"><div class="ttname"><a href="group__fl__drawings.html#ga2986a868e9cc8d9141acde94c0fe8ab0">fl_rectf</a></div><div class="ttdeci">void fl_rectf(int x, int y, int w, int h)</div><div class="ttdef"><b>Definition</b> fl_draw.H:339</div></div>
 </div><!-- fragment --><h1><a class="anchor" id="opengl_drawing"></a>
 OpenGL Drawing Functions</h1>
 <p>FLTK provides some useful OpenGL drawing functions. They can be freely mixed with any OpenGL calls, and are defined by including <code>&lt;<a class="el" href="gl_8h.html">FL/gl.h</a>&gt;</code> which you should include instead of the OpenGL header <code>&lt;GL/gl.h&gt;</code>.</p>
@@ -270,7 +289,7 @@ OpenGL Drawing Functions</h1>
 <dl class="section user"><dt></dt><dd>Draws a string formatted into a box, with newlines and tabs expanded, other control characters changed to ^X, and aligned with the edges or center. Exactly the same output as <a class="el" href="drawing.html#drawing_text">fl_draw()</a>.</dd></dl>
 <h1><a class="anchor" id="opengl_speed"></a>
 Speeding up OpenGL</h1>
-<p>Performance of Fl_Gl_Window may be improved on some types of OpenGL implementations, in particular MESA and other software emulators, by setting the <code>GL_SWAP_TYPE</code> environment variable. This variable declares what is in the backbuffer after you do a swapbuffers.</p>
+<p>Performance of <a class="el" href="classFl__Gl__Window.html">Fl_Gl_Window</a> may be improved on some types of OpenGL implementations, in particular MESA and other software emulators, by setting the <code>GL_SWAP_TYPE</code> environment variable. This variable declares what is in the backbuffer after you do a swapbuffers.</p>
 <ul>
 <li><code>setenv GL_SWAP_TYPE COPY</code> <br  />
  <br  />
@@ -290,34 +309,35 @@ Using OpenGL Optimizer with FLTK</h1>
 <p><a href="http://www.sgi.com/software/optimizer">OpenGL Optimizer</a> is a scene graph toolkit for OpenGL available from Silicon Graphics for IRIX and Microsoft Windows. It allows you to view large scenes without writing a lot of OpenGL code.</p>
 <dl class="section user"><dt>OptimizerWindow Class Definition</dt><dd></dd></dl>
 <dl class="section user"><dt></dt><dd>To use <a href="http://www.sgi.com/software/optimizer">OpenGL Optimizer</a> with FLTK you'll need to create a subclass of Fl_Gl_Widget that includes several state variables:</dd></dl>
-<div class="fragment"><div class="line"><span class="keyword">class </span>OptimizerWindow : <span class="keyword">public</span> Fl_Gl_Window {</div>
+<div class="fragment"><div class="line"><span class="keyword">class </span>OptimizerWindow : <span class="keyword">public</span> <a class="code hl_class" href="classFl__Gl__Window.html">Fl_Gl_Window</a> {</div>
 <div class="line">  csContext *context_; <span class="comment">// Initialized to 0 and set by draw()...</span></div>
 <div class="line">  csDrawAction *draw_action_; <span class="comment">// Draw action...</span></div>
 <div class="line">  csGroup *scene_; <span class="comment">// Scene to draw...</span></div>
 <div class="line">  csCamara *camera_; <span class="comment">// Viewport for scene...</span></div>
 <div class="line"> </div>
-<div class="line">  <span class="keywordtype">void</span> draw();</div>
+<div class="line">  <span class="keywordtype">void</span> <a class="code hl_function" href="classFl__Gl__Window.html#a4b83cda632bc997e79ca1c365701fb69">draw</a>();</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">public</span>:</div>
 <div class="line">  OptimizerWindow(<span class="keywordtype">int</span> X, <span class="keywordtype">int</span> Y, <span class="keywordtype">int</span> W, <span class="keywordtype">int</span> H, <span class="keyword">const</span> <span class="keywordtype">char</span> *L)</div>
-<div class="line">    : Fl_Gl_Window(X, Y, W, H, L) {</div>
+<div class="line">    : <a class="code hl_class" href="classFl__Gl__Window.html">Fl_Gl_Window</a>(X, Y, W, H, L) {</div>
 <div class="line">      context_ = (csContext *)0;</div>
 <div class="line">      draw_action_ = (csDrawAction *)0;</div>
 <div class="line">      scene_ = (csGroup *)0;</div>
 <div class="line">      camera_ = (csCamera *)0;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">  <span class="keywordtype">void</span> scene(csGroup *g) { scene_ = g; redraw(); }</div>
+<div class="line">  <span class="keywordtype">void</span> scene(csGroup *g) { scene_ = g; <a class="code hl_function" href="classFl__Widget.html#aa63ce68cbf4620cf8750b868368ea02b">redraw</a>(); }</div>
 <div class="line"> </div>
 <div class="line">  <span class="keywordtype">void</span> camera(csCamera *c) {</div>
 <div class="line">    camera_ = c;</div>
 <div class="line">    <span class="keywordflow">if</span> (context_) {</div>
 <div class="line">      draw_action_-&gt;setCamera(camera_);</div>
 <div class="line">      camera_-&gt;draw(draw_action_);</div>
-<div class="line">      redraw();</div>
+<div class="line">      <a class="code hl_function" href="classFl__Widget.html#aa63ce68cbf4620cf8750b868368ea02b">redraw</a>();</div>
 <div class="line">    }</div>
 <div class="line">  }</div>
 <div class="line">};</div>
+<div class="ttc" id="aclassFl__Widget_html_aa63ce68cbf4620cf8750b868368ea02b"><div class="ttname"><a href="classFl__Widget.html#aa63ce68cbf4620cf8750b868368ea02b">Fl_Widget::redraw</a></div><div class="ttdeci">void redraw()</div><div class="ttdef"><b>Definition</b> Fl.cxx:1668</div></div>
 </div><!-- fragment --><dl class="section user"><dt>The camera() Method</dt><dd></dd></dl>
 <dl class="section user"><dt></dt><dd>The <code>camera()</code> method sets the camera (projection and viewpoint) to use when drawing the scene. The scene is redrawn after this call.</dd></dl>
 <dl class="section user"><dt>The draw() Method</dt><dd></dd></dl>
@@ -375,7 +395,7 @@ Using OpenGL Optimizer with FLTK</h1>
 <h1><a class="anchor" id="opengl3"></a>
 Using OpenGL 3.0 (or higher versions)</h1>
 <p>The examples subdirectory contains OpenGL3test.cxx, a toy program showing how to use OpenGL 3.0 (or higher versions) with FLTK in a cross-platform fashion. It contains also OpenGL3-glut-test.cxx which shows how to use FLTK's GLUT compatibility and OpenGL 3.</p>
-<p>To access OpenGL 3.0 (or higher versions), use the <code>FL_OPENGL3</code> flag when calling Fl_Gl_Window::mode(int a) or glutInitDisplayMode().</p>
+<p>To access OpenGL 3.0 (or higher versions), use the <code>FL_OPENGL3</code> flag when calling <a class="el" href="classFl__Gl__Window.html#ae15f083570bcbf260dddf0bf6efbdd6e">Fl_Gl_Window::mode(int a)</a> or glutInitDisplayMode().</p>
 <p><b>On the Windows and Linux platforms</b>, FLTK creates contexts implementing the highest OpenGL version supported by the hardware. Such contexts may also be compatible with lower OpenGL versions. Access to functions from OpenGL versions above 1.1 requires to load function pointers at runtime on these platforms. FLTK recommends to use the GLEW library to perform this. It is therefore necessary to install the GLEW library (see below).</p>
 <p><b>On the macOS platform</b>, MacOS 10.7 or above is required; GLEW is possible but not necessary. FLTK creates contexts for OpenGL versions 1 and 2 without the FL_OPENGL3 flag and for OpenGL versions 3.2 and above (<b>but not below</b>) with it.</p>
 <dl class="section user"><dt>GLEW installation (Linux and Windows platforms)</dt><dd>FLTK needs a header file, <code>GL/glew.h</code>, and a library, <code>libGLEW</code>.* or equivalent, to support OpenGL 3 and above. <br  />
@@ -404,15 +424,16 @@ x86_64: install GLEW as an MSYS2 package with command : <div class="fragment"><d
 <div class="line"><span class="preprocessor">#  include &lt;GL/glew.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#endif</span></div>
 </div><!-- fragment --> </li>
-<li>Add the <code>FL_OPENGL3</code> flag when calling Fl_Gl_Window::mode(int a) or glutInitDisplayMode(). </li>
+<li>Add the <code>FL_OPENGL3</code> flag when calling <a class="el" href="classFl__Gl__Window.html#ae15f083570bcbf260dddf0bf6efbdd6e">Fl_Gl_Window::mode(int a)</a> or glutInitDisplayMode(). </li>
 <li>Put this in the <code>handle(int event)</code> member function of the first to be created among your Fl_Gl_Window-derived classes: <div class="fragment"><div class="line"><span class="preprocessor">#ifndef __APPLE__</span></div>
 <div class="line">    <span class="keyword">static</span> <span class="keywordtype">int</span> first = 1;</div>
-<div class="line">    <span class="keywordflow">if</span> (first &amp;&amp; event == FL_SHOW &amp;&amp; shown()) {</div>
+<div class="line">    <span class="keywordflow">if</span> (first &amp;&amp; event == <a class="code hl_enumvalue" href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3a9edbfd236c9ea348dcaae935a76bd885">FL_SHOW</a> &amp;&amp; shown()) {</div>
 <div class="line">      first = 0;</div>
 <div class="line">      make_current();</div>
 <div class="line">      glewInit(); <span class="comment">// defines pters to functions of OpenGL V 1.2 and above</span></div>
 <div class="line">    }</div>
 <div class="line"><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aEnumerations_8H_html_ad16daf120d9a0501cccaee563af0b9a3a9edbfd236c9ea348dcaae935a76bd885"><div class="ttname"><a href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3a9edbfd236c9ea348dcaae935a76bd885">FL_SHOW</a></div><div class="ttdeci">@ FL_SHOW</div><div class="ttdef"><b>Definition</b> Enumerations.H:352</div></div>
 </div><!-- fragment --> </li>
 <li>Alternatively, if you use GLUT, put <div class="fragment"><div class="line"><span class="preprocessor">#ifndef __APPLE__</span></div>
 <div class="line">  glewInit(); <span class="comment">// defines pters to functions of OpenGL V 1.2 and above</span></div>
@@ -424,7 +445,7 @@ If GLEW is installed on the Mac OS development platform, it is possible to use t
 <div class="line"><span class="preprocessor">#endif</span></div>
 </div><!-- fragment --> before the glewInit() call.</dd></dl>
 <dl class="section user"><dt>Testing for success of the glewInit() call</dt><dd>Testing whether the glewInit() call is successful is to be done as follows: <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;FL/platform.H&gt;</span> <span class="comment">// defines FLTK_USE_WAYLAND under the Wayland platform</span></div>
-<div class="line"><span class="preprocessor">#include &lt;FL/Fl.H&gt;</span> <span class="comment">// for Fl::warning()</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="Fl_8H.html">FL/Fl.H</a>&gt;</span> <span class="comment">// for Fl::warning()</span></div>
 <div class="line"><span class="preprocessor">#ifndef __APPLE__</span></div>
 <div class="line"><span class="preprocessor">#  if defined(_WIN32)</span></div>
 <div class="line"><span class="preprocessor">#    define GLEW_STATIC 1</span></div>
@@ -434,10 +455,13 @@ If GLEW is installed on the Mac OS development platform, it is possible to use t
 <div class="line">  GLenum err = glewInit(); <span class="comment">// defines pters to functions of OpenGL V 1.2 and above</span></div>
 <div class="line"><span class="preprocessor">#  ifdef FLTK_USE_WAYLAND</span></div>
 <div class="line">      <span class="comment">// glewInit returns GLEW_ERROR_NO_GLX_DISPLAY with Wayland</span></div>
-<div class="line">      <span class="keywordflow">if</span> (fl_wl_display() &amp;&amp; err == GLEW_ERROR_NO_GLX_DISPLAY) err = GLEW_OK;</div>
+<div class="line">      <span class="keywordflow">if</span> (<a class="code hl_function" href="wayland_8H.html#a53b288e95abde96a842bcc39f895df0a">fl_wl_display</a>() &amp;&amp; err == GLEW_ERROR_NO_GLX_DISPLAY) err = GLEW_OK;</div>
 <div class="line"><span class="preprocessor">#  endif</span></div>
-<div class="line">  <span class="keywordflow">if</span> (err != GLEW_OK) Fl::warning(<span class="stringliteral">&quot;glewInit() failed returning %u&quot;</span>, err);</div>
+<div class="line">  <span class="keywordflow">if</span> (err != GLEW_OK) <a class="code hl_variable" href="group__group__comdlg.html#gadec4624fcfc09e75fdaf59c2553fe8a9">Fl::warning</a>(<span class="stringliteral">&quot;glewInit() failed returning %u&quot;</span>, err);</div>
 <div class="line"><span class="preprocessor">#endif </span><span class="comment">// ! __APPLE__</span></div>
+<div class="ttc" id="aFl_8H_html"><div class="ttname"><a href="Fl_8H.html">Fl.H</a></div><div class="ttdoc">Fl static class.</div></div>
+<div class="ttc" id="agroup__group__comdlg_html_gadec4624fcfc09e75fdaf59c2553fe8a9"><div class="ttname"><a href="group__group__comdlg.html#gadec4624fcfc09e75fdaf59c2553fe8a9">Fl::warning</a></div><div class="ttdeci">static void(* warning)(const char *,...)</div><div class="ttdef"><b>Definition</b> Fl.H:531</div></div>
+<div class="ttc" id="awayland_8H_html_a53b288e95abde96a842bcc39f895df0a"><div class="ttname"><a href="wayland_8H.html#a53b288e95abde96a842bcc39f895df0a">fl_wl_display</a></div><div class="ttdeci">FL_EXPORT struct wl_display * fl_wl_display()</div><div class="ttdef"><b>Definition</b> Fl_Wayland_Screen_Driver.cxx:1963</div></div>
 </div><!-- fragment --></dd></dl>
 <dl class="section user"><dt>Changes in the build process</dt><dd>Link with libGLEW.so (with X11 or Wayland), libglew32.a (with MinGW) or glew32.lib (with MS Visual Studio); no change is needed on the Mac OS platform.</dd></dl>
 <p> 

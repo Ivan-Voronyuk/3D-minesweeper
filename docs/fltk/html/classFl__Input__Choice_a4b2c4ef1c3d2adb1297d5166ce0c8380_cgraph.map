@@ -1,0 +1,9 @@
+<map id="Fl_Input_Choice::add" name="Fl_Input_Choice::add">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,163,31"/>
+<area shape="rect" id="Node000002" href="$structFl__Menu__Item.html#af9a1be4dfffcff2ba77cfccfec655588" title=" " alt="" coords="211,5,357,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,15,197,15,197,21,163,21"/>
+<area shape="rect" id="Node000003" href="$structFl__Menu__Item.html#a6983103fb99e1fee59dd705bb2d23147" title=" " alt="" coords="405,5,564,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="357,15,392,15,392,21,357,21"/>
+<area shape="rect" id="Node000004" href="$structFl__Menu__Item.html#aa06209e2140c18cb3055bb169f076c13" title=" " alt="" coords="612,5,760,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="565,15,598,15,598,21,565,21"/>
+</map>

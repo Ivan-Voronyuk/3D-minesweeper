@@ -73,52 +73,52 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#functional_function">Function and Method Panel</a><ul><ul><li class="level3"><a href="#autotoc_md5">Parents</a></li>
-<li class="level3"><a href="#autotoc_md6">Children</a></li>
-<li class="level3"><a href="#autotoc_md7">Declaring a Function</a><ul><li class="level4"><a href="#autotoc_md8">Options for Functions</a></li>
+<ul><li class="level1"><a href="#functional_function">Function and Method Panel</a><ul><ul><li class="level3"><a href="#autotoc_md6">Parents</a></li>
+<li class="level3"><a href="#autotoc_md7">Children</a></li>
+<li class="level3"><a href="#autotoc_md8">Declaring a Function</a><ul><li class="level4"><a href="#autotoc_md9">Options for Functions</a></li>
 </ul>
 </li>
-<li class="level3"><a href="#autotoc_md9">Declaring a Method</a><ul><li class="level4"><a href="#autotoc_md10">Options for Methods</a></li>
-<li class="level4"><a href="#autotoc_md11">Further Options</a></li>
+<li class="level3"><a href="#autotoc_md10">Declaring a Method</a><ul><li class="level4"><a href="#autotoc_md11">Options for Methods</a></li>
+<li class="level4"><a href="#autotoc_md12">Further Options</a></li>
 </ul>
 </li>
-</ul>
-</ul>
-</li>
-<li class="level1"><a href="#functional_code">C Source Code</a><ul><ul><li class="level3"><a href="#autotoc_md12">Parents</a></li>
 </ul>
 </ul>
 </li>
-<li class="level1"><a href="#functional_codeblock">Code Block</a><ul><ul><li class="level3"><a href="#autotoc_md13">Parents</a></li>
-<li class="level3"><a href="#autotoc_md14">Children</a></li>
+<li class="level1"><a href="#functional_code">C Source Code</a><ul><ul><li class="level3"><a href="#autotoc_md13">Parents</a></li>
 </ul>
 </ul>
 </li>
-<li class="level1"><a href="#functional_decl">Declaration</a><ul><ul><li class="level3"><a href="#autotoc_md15">Parents</a></li>
+<li class="level1"><a href="#functional_codeblock">Code Block</a><ul><ul><li class="level3"><a href="#autotoc_md14">Parents</a></li>
+<li class="level3"><a href="#autotoc_md15">Children</a></li>
 </ul>
 </ul>
 </li>
-<li class="level1"><a href="#functional_declblock">Declaration Block</a><ul><ul><li class="level3"><a href="#autotoc_md16">Parents</a></li>
-<li class="level3"><a href="#autotoc_md17">Children</a></li>
+<li class="level1"><a href="#functional_decl">Declaration</a><ul><ul><li class="level3"><a href="#autotoc_md16">Parents</a></li>
 </ul>
 </ul>
 </li>
-<li class="level1"><a href="#functional_class">Classes</a><ul><ul><li class="level3"><a href="#autotoc_md18">Parents</a></li>
-<li class="level3"><a href="#autotoc_md19">Children</a></li>
+<li class="level1"><a href="#functional_declblock">Declaration Block</a><ul><ul><li class="level3"><a href="#autotoc_md17">Parents</a></li>
+<li class="level3"><a href="#autotoc_md18">Children</a></li>
 </ul>
 </ul>
 </li>
-<li class="level1"><a href="#functional_widgetclass">Widget Class</a><ul><ul><li class="level3"><a href="#autotoc_md20">Parents</a></li>
-<li class="level3"><a href="#autotoc_md21">Children</a></li>
-<li class="level3"><a href="#autotoc_md22">Properties</a></li>
+<li class="level1"><a href="#functional_class">Classes</a><ul><ul><li class="level3"><a href="#autotoc_md19">Parents</a></li>
+<li class="level3"><a href="#autotoc_md20">Children</a></li>
 </ul>
 </ul>
 </li>
-<li class="level1"><a href="#functional_comment">Comments</a><ul><ul><li class="level3"><a href="#autotoc_md23">Parents</a></li>
+<li class="level1"><a href="#functional_widgetclass">Widget Class</a><ul><ul><li class="level3"><a href="#autotoc_md21">Parents</a></li>
+<li class="level3"><a href="#autotoc_md22">Children</a></li>
+<li class="level3"><a href="#autotoc_md23">Properties</a></li>
 </ul>
 </ul>
 </li>
-<li class="level1"><a href="#functional_data">Inlined Data</a><ul><ul><li class="level3"><a href="#autotoc_md24">Parents</a></li>
+<li class="level1"><a href="#functional_comment">Comments</a><ul><ul><li class="level3"><a href="#autotoc_md24">Parents</a></li>
+</ul>
+</ul>
+</li>
+<li class="level1"><a href="#functional_data">Inlined Data</a><ul><ul><li class="level3"><a href="#autotoc_md25">Parents</a></li>
 </ul>
 </ul>
 </li>
@@ -128,25 +128,26 @@ $(function() {
 Function and Method Panel</h1>
 <p><img src="flFunction.png" alt="" class="inline"/> Functions and Methods</p>
 <p>Fluid can generate C functions, C++ functions, and methods in classes. Functions can contain widgets to build windows and dialogs. <em>Code</em> nodes can be used to add more source code to a function.</p>
-<h3><a class="anchor" id="autotoc_md5"></a>
+<h3><a class="anchor" id="autotoc_md6"></a>
 Parents</h3>
 <p>To generate a function, the function node must be created at the top level or inside a declaration block. If added inside a class node, this node generates a method inside that class.</p>
-<h3><a class="anchor" id="autotoc_md6"></a>
+<h3><a class="anchor" id="autotoc_md7"></a>
 Children</h3>
 <p>Function nodes can contain code nodes and windows that in turn contain widgets. If the function node has no children, only a forward declaration will be created in the header, but no source code will be generated.</p>
 <div class="image">
 <img src="function_panel.png" alt=""/>
 <div class="caption">
 Function/Method Properties</div></div>
- <h3><a class="anchor" id="autotoc_md7"></a>
+ <h3><a class="anchor" id="autotoc_md8"></a>
 Declaring a Function</h3>
 <p>A function node at the top level or inside a declaration block generates a C or C++ function.</p>
 <p>The <em>Name</em> field contains the function name and all arguments. If the <em>Name</em> field is left empty, Fluid will generate a typical 'main()' function. </p><div class="fragment"><div class="line"><span class="comment">// .cxx</span></div>
 <div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> **argv) {</div>
 <div class="line">  <span class="comment">// code generated by children</span></div>
 <div class="line">  w-&gt;show(argc, argv); <span class="comment">// &lt;-- code generated if function has a child widget</span></div>
-<div class="line">  Fl::run();</div>
+<div class="line">  <a class="code hl_function" href="classFl.html#a7a3b1236b41800d24267288c564b187a">Fl::run</a>();</div>
 <div class="line">}</div>
+<div class="ttc" id="aclassFl_html_a7a3b1236b41800d24267288c564b187a"><div class="ttname"><a href="classFl.html#a7a3b1236b41800d24267288c564b187a">Fl::run</a></div><div class="ttdeci">static int run()</div><div class="ttdef"><b>Definition</b> Fl.cxx:651</div></div>
 </div><!-- fragment --><p>If a function node has a name but no children, a forward declaration is generated in the header, but the implementation in the source file is omitted. This is used to reference functions in other modules. </p><div class="fragment"><div class="line"><span class="comment">// .h</span></div>
 <div class="line"><span class="keywordtype">void</span> make_window();</div>
 </div><!-- fragment --><p>If the function contains one or more Code nodes, the implementation code will be generated. The default return type is <code>void</code>. Text in the <em>Return Type</em> field overrides the default type. </p><div class="fragment"><div class="line"><span class="comment">// .cxx</span></div>
@@ -154,29 +155,30 @@ Declaring a Function</h3>
 <div class="line">  <span class="comment">// code generated by children</span></div>
 <div class="line">}</div>
 </div><!-- fragment --><p>If the function contains one or more windows, a pointer to the first window will be returned. The default return type will match the window class. </p><div class="fragment"><div class="line"><span class="comment">// .h</span></div>
-<div class="line">Fl_Window* make_window();</div>
+<div class="line"><a class="code hl_class" href="classFl__Window.html">Fl_Window</a>* make_window();</div>
+<div class="ttc" id="aclassFl__Window_html"><div class="ttname"><a href="classFl__Window.html">Fl_Window</a></div><div class="ttdef"><b>Definition</b> Fl_Window.H:55</div></div>
 </div><!-- fragment --><div class="fragment"><div class="line"><span class="comment">// .cxx</span></div>
-<div class="line">Fl_Window* make_window() {</div>
-<div class="line">  Fl_Window* w;</div>
+<div class="line"><a class="code hl_class" href="classFl__Window.html">Fl_Window</a>* make_window() {</div>
+<div class="line">  <a class="code hl_class" href="classFl__Window.html">Fl_Window</a>* w;</div>
 <div class="line">  <span class="comment">// code generated by children:</span></div>
 <div class="line">  <span class="comment">// w = new Fl_Window(...)</span></div>
 <div class="line">  <span class="keywordflow">return</span> w;</div>
 <div class="line">}</div>
-</div><!-- fragment --><h4><a class="anchor" id="autotoc_md8"></a>
+</div><!-- fragment --><h4><a class="anchor" id="autotoc_md9"></a>
 Options for Functions</h4>
 <p>Choosing <em>static</em> in the pulldown menu will generate the function <code>static</code> in the source file. No forward declaration will be generated in the header file. </p><div class="fragment"><div class="line"><span class="comment">// .cxx</span></div>
-<div class="line"><span class="keyword">static</span> Fl_Window* make_window() { ... }</div>
+<div class="line"><span class="keyword">static</span> <a class="code hl_class" href="classFl__Window.html">Fl_Window</a>* make_window() { ... }</div>
 </div><!-- fragment --><p>Choosing <em>global</em> will generate a forward declaration of the function in the header file and no <code>static</code> attribute in the source file. </p><div class="fragment"><div class="line"><span class="comment">// .h</span></div>
 <div class="line"><span class="keywordtype">void</span> make_window();</div>
 <div class="line"><span class="comment">// .cxx</span></div>
-<div class="line">Fl_Window* make_window() { ... }</div>
+<div class="line"><a class="code hl_class" href="classFl__Window.html">Fl_Window</a>* make_window() { ... }</div>
 </div><!-- fragment --><p>Additionally, if the <em>C</em> option is checked, the function will be declared as a plain C function in the header file. </p><div class="fragment"><div class="line"><span class="comment">// .h</span></div>
 <div class="line"><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> { <span class="keywordtype">void</span> my_plain_c_function(); }</div>
 <div class="line"><span class="comment">// .cxx</span></div>
 <div class="line"><span class="keywordtype">void</span> my_plain_c_function() { ... }</div>
 </div><!-- fragment --><p>The <em>local</em> option will generate a function in the source file with no <code>static</code> attribute. No forward declaration will be generated in the header file. </p><div class="fragment"><div class="line"><span class="comment">// .cxx</span></div>
-<div class="line">Fl_Window* make_window() { ... }</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md9"></a>
+<div class="line"><a class="code hl_class" href="classFl__Window.html">Fl_Window</a>* make_window() { ... }</div>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md10"></a>
 Declaring a Method</h3>
 <p>A function node inside a class node generates a C++ method. If a method node has no children, the declaration is generated in the header, but no implementation in the source file. </p><div class="fragment"><div class="line"><span class="comment">// .h</span></div>
 <div class="line"><span class="keyword">class </span>UserInterface {</div>
@@ -191,33 +193,34 @@ Declaring a Method</h3>
 </div><!-- fragment --><p>If the method contains at least one widget, a pointer to the topmost widget will be returned and the return type will be generated accordingly. </p><div class="fragment"><div class="line"><span class="comment">// .h</span></div>
 <div class="line"><span class="keyword">class </span>UserInterface {</div>
 <div class="line"><span class="keyword">public</span>:</div>
-<div class="line">  Fl_Double_Window* make_window();</div>
+<div class="line">  <a class="code hl_class" href="classFl__Double__Window.html">Fl_Double_Window</a>* make_window();</div>
 <div class="line">};</div>
+<div class="ttc" id="aclassFl__Double__Window_html"><div class="ttname"><a href="classFl__Double__Window.html">Fl_Double_Window</a></div><div class="ttdef"><b>Definition</b> Fl_Double_Window.H:31</div></div>
 </div><!-- fragment --><div class="fragment"><div class="line"><span class="comment">// .cxx</span></div>
-<div class="line">Fl_Double_Window* UserInterface::make_window() {</div>
-<div class="line">  Fl_Double_Window* w;</div>
+<div class="line"><a class="code hl_class" href="classFl__Double__Window.html">Fl_Double_Window</a>* UserInterface::make_window() {</div>
+<div class="line">  <a class="code hl_class" href="classFl__Double__Window.html">Fl_Double_Window</a>* w;</div>
 <div class="line">  <span class="comment">// code generated by children</span></div>
 <div class="line">  <span class="keywordflow">return</span> w;</div>
 <div class="line">}</div>
-</div><!-- fragment --><h4><a class="anchor" id="autotoc_md10"></a>
+</div><!-- fragment --><h4><a class="anchor" id="autotoc_md11"></a>
 Options for Methods</h4>
 <p>Class access can be defined with the pulldown menu. It provides a choice of <code>private</code>, <code>protected</code>, and <code>public</code>.</p>
 <p>Fluid recognizes the keyword <code>static</code> or <code>virtual</code> at the beginning of the return type* and will generate the declaration including the keyword, but will omit it in the implementation. The return type defaults still apply if there is no text after the keyword.</p>
-<h4><a class="anchor" id="autotoc_md11"></a>
+<h4><a class="anchor" id="autotoc_md12"></a>
 Further Options</h4>
 <p>Users can define a comment text in the <em>comment</em> field. The first line of the comment will be shown in the widget browser. The comment text will be generated in the source file before the function. </p><div class="fragment"><div class="line"><span class="comment">// .cxx</span></div>
 <div class="line"><span class="comment">//</span></div>
 <div class="line"><span class="comment">// My multilen comment will be here... .</span></div>
 <div class="line"><span class="comment">// Fluid may actually use C style comment markers.</span></div>
 <div class="line"><span class="comment">//</span></div>
-<div class="line">Fl_Window* make_window() {</div>
+<div class="line"><a class="code hl_class" href="classFl__Window.html">Fl_Window</a>* make_window() {</div>
 </div><!-- fragment --><p>FLUID recognizes default values in the argument list and generates them in the declaration, but omits them in the implementation.</p>
 <p>A short function body can be appended in the <em>Name</em> field. With no child, this creates an inlined function in the header file.</p>
 <h1><a class="anchor" id="functional_code"></a>
 C Source Code</h1>
 <p><img src="flCode.png" alt="" class="inline"/> Code</p>
 <p>Code nodes hold arbitrary C++ code that is copied verbatim into the source code file. They are commonly used inside Function nodes.</p>
-<h3><a class="anchor" id="autotoc_md12"></a>
+<h3><a class="anchor" id="autotoc_md13"></a>
 Parents</h3>
 <p>Code nodes can be added inside Functions, Code Blocks, and Widget Classes.</p>
 <div class="image">
@@ -230,10 +233,10 @@ Code Properties</div></div>
 Code Block</h1>
 <p><img src="flCodeBlock.png" alt="" class="inline"/> Code <a class="el" href="structBlock.html">Block</a></p>
 <p>Code Blocks are used when a single function generates different GUI elements conditionally.</p>
-<h3><a class="anchor" id="autotoc_md13"></a>
+<h3><a class="anchor" id="autotoc_md14"></a>
 Parents</h3>
 <p>Code Blocks are used inside functions and methods.</p>
-<h3><a class="anchor" id="autotoc_md14"></a>
+<h3><a class="anchor" id="autotoc_md15"></a>
 Children</h3>
 <p>Code Blocks can contain widgets, code, or more code blocks.</p>
 <div class="image">
@@ -245,7 +248,7 @@ Code Block Properties</div></div>
 <h1><a class="anchor" id="functional_decl"></a>
 Declaration</h1>
 <p><img src="flDeclaration.png" alt="" class="inline"/> Declaration</p>
-<h3><a class="anchor" id="autotoc_md15"></a>
+<h3><a class="anchor" id="autotoc_md16"></a>
 Parents</h3>
 <p>Declarations can be added at the top level or inside classes and widget classes.</p>
 <div class="image">
@@ -258,10 +261,10 @@ Declaration Properties</div></div>
 Declaration Block</h1>
 <p><img src="flDeclarationBlock.png" alt="" class="inline"/> Declaration <a class="el" href="structBlock.html">Block</a></p>
 <p>Declaration Blocks are a way to selectively compile child nodes via preprocessor commands, typically <code>#ifdef TEST</code> and <code>#endif</code>.</p>
-<h3><a class="anchor" id="autotoc_md16"></a>
+<h3><a class="anchor" id="autotoc_md17"></a>
 Parents</h3>
 <p>Declaration Blocks can be created at the top level or inside classes.</p>
-<h3><a class="anchor" id="autotoc_md17"></a>
+<h3><a class="anchor" id="autotoc_md18"></a>
 Children</h3>
 <p>Declaration Blocks can contain classes, functions, methods, declarations, and comments.</p>
 <div class="image">
@@ -279,10 +282,10 @@ Declaration Block Properties</div></div>
 Classes</h1>
 <p><img src="flClass.png" alt="" class="inline"/> Class</p>
 <p>FLUID can generate code to implement C++ classes. Classes can be used to keep dialogs and groups of UI elements organized. See Widget Class nodes as an alternative to implement compound widgets.</p>
-<h3><a class="anchor" id="autotoc_md18"></a>
+<h3><a class="anchor" id="autotoc_md19"></a>
 Parents</h3>
 <p>Class nodes can be created at top level or inside a Class or Widget Class node.</p>
-<h3><a class="anchor" id="autotoc_md19"></a>
+<h3><a class="anchor" id="autotoc_md20"></a>
 Children</h3>
 <p>Class nodes can contain Functions, Declarations, Widgets, Data, and other classes.</p>
 <div class="image">
@@ -295,33 +298,34 @@ Class Properties</div></div>
 <h1><a class="anchor" id="functional_widgetclass"></a>
 Widget Class</h1>
 <p><img src="flWidgetClass.png" alt="" class="inline"/> Widget Class</p>
-<p>The Widget Class node creates a new widget type by deriving a class from another widget class. These are often compound widgets derived from <code>Fl_Group</code>. A less automated but more flexible way to implement compound widgets is the Class node.</p>
-<h3><a class="anchor" id="autotoc_md20"></a>
+<p>The Widget Class node creates a new widget type by deriving a class from another widget class. These are often compound widgets derived from <code><a class="el" href="classFl__Group.html">Fl_Group</a></code>. A less automated but more flexible way to implement compound widgets is the Class node.</p>
+<h3><a class="anchor" id="autotoc_md21"></a>
 Parents</h3>
 <p>Widget Class nodes can be created at top level or inside a Class or Widget Class node.</p>
-<h3><a class="anchor" id="autotoc_md21"></a>
+<h3><a class="anchor" id="autotoc_md22"></a>
 Children</h3>
 <p>Widget Class nodes can contain Functions, Declarations, Widgets, Data, and other classes.</p>
-<h3><a class="anchor" id="autotoc_md22"></a>
+<h3><a class="anchor" id="autotoc_md23"></a>
 Properties</h3>
-<p>Widget Class nodes use the Widget panel to edit their properties. The super class can be set in the <em>C++</em> tab in the <em>Class</em> field. If that field is empty, FLUID derives from <code>Fl_Group</code>.</p>
+<p>Widget Class nodes use the Widget panel to edit their properties. The super class can be set in the <em>C++</em> tab in the <em>Class</em> field. If that field is empty, FLUID derives from <code><a class="el" href="classFl__Group.html">Fl_Group</a></code>.</p>
 <p>The Widget Class always creates a constructor with the common widget parameters: </p><div class="fragment"><div class="line">MyWidget::MyWidget(<span class="keywordtype">int</span> X, <span class="keywordtype">int</span> Y, <span class="keywordtype">int</span> W, <span class="keywordtype">int</span> H, <span class="keyword">const</span> <span class="keywordtype">char</span> *L)</div>
-<div class="line">: Fl_Group(X, Y, W, H, L) { ... }</div>
+<div class="line">: <a class="code hl_class" href="classFl__Group.html">Fl_Group</a>(X, Y, W, H, L) { ... }</div>
+<div class="ttc" id="aclassFl__Group_html"><div class="ttname"><a href="classFl__Group.html">Fl_Group</a></div><div class="ttdef"><b>Definition</b> Fl_Group.H:56</div></div>
 </div><!-- fragment --><p>If the super class name contains the text <code>Window</code>, two more constructors and a common initializer method are created: </p><div class="fragment"><div class="line">MyWidget::MyWidget(<span class="keywordtype">int</span> W, <span class="keywordtype">int</span> H, <span class="keyword">const</span> <span class="keywordtype">char</span> *L) :</div>
-<div class="line">  Fl_Window(0, 0, W, H, L) { ... }</div>
+<div class="line">  <a class="code hl_class" href="classFl__Window.html">Fl_Window</a>(0, 0, W, H, L) { ... }</div>
 <div class="line"> </div>
 <div class="line">MyWidget::MyWidget() :</div>
-<div class="line">  Fl_Window(0, 0, 480, 320, 0) { ... }</div>
+<div class="line">  <a class="code hl_class" href="classFl__Window.html">Fl_Window</a>(0, 0, 480, 320, 0) { ... }</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span> MyWidget::_MyWidget() { ... }</div>
 </div><!-- fragment --><p>Code and Widget nodes are then added to the constructor. Function nodes are added as methods to the class. Declarations are added as class members. Data nodes generate static class members.</p>
-<p>It may be useful to design compound widgets with a variable size. The Widget <a class="el" href="classPanel.html">Panel</a> provides a choice menu in the <em>GUI</em> tab's <em>Position</em> row under Children*. The options <em>resize</em> and <em>reposition</em> generate code to fix up the coordinates of the widget after instantiation.</p>
+<p>It may be useful to design compound widgets with a variable size. The Widget Panel provides a choice menu in the <em>GUI</em> tab's <em>Position</em> row under Children*. The options <em>resize</em> and <em>reposition</em> generate code to fix up the coordinates of the widget after instantiation.</p>
 <p>Note that methods without a code or widget node are only declared in the header file, but no code is generated for them in the source file.</p>
 <h1><a class="anchor" id="functional_comment"></a>
 Comments</h1>
 <p><img src="flComment.png" alt="" class="inline"/> Comment</p>
 <p>This node adds a comment block to the generated source code.</p>
-<h3><a class="anchor" id="autotoc_md23"></a>
+<h3><a class="anchor" id="autotoc_md24"></a>
 Parents</h3>
 <p>Comment nodes can be added inside Functions, Code Blocks, and Widget Classes. If a Comment node is the top node in a tree, it will appear in the source files even before the <code>// generated by FLUID ...</code> line.</p>
 <div class="image">
@@ -336,7 +340,7 @@ Comment Properties</div></div>
 Inlined Data</h1>
 <p><img src="flData.png" alt="" class="inline"/> Inlined Data</p>
 <p>The Data node makes it easy to inline data from an external file into the source code.</p>
-<h3><a class="anchor" id="autotoc_md24"></a>
+<h3><a class="anchor" id="autotoc_md25"></a>
 Parents</h3>
 <p>Data nodes can be added at the top level or inside Widget Classes, Classes, and Declaration Blocks.</p>
 <div class="image">

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['uchar_0',['uchar',['../fl__types_8h.html#a65f85814a8290f9797005d3b28e7e5fc',1,'fl_types.h']]],
-  ['ulong_1',['ulong',['../fl__types_8h.html#a718b4eb2652c286f4d42dc18a8e71a1a',1,'fl_types.h']]]
+  ['id_0',['ID',['../classFl__Preferences.html#a7050f8b1c0cbb70693e61bcfbf4f5853',1,'Fl_Preferences']]]
 ];

@@ -1,13 +1,26 @@
 <map id="menustate" name="menustate">
-<area shape="rect" id="Node000001" title=" " alt="" coords="40,345,132,371"/>
-<area shape="rect" id="Node000002" href="$classmenuwindow.html" title=" " alt="" coords="31,243,141,268"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,282,89,345,83,345,83,282"/>
-<area shape="poly" id="edge6_Node000002_Node000002" title=" " alt="" coords="156,247,167,255,159,263,141,266,140,261,157,258,162,255,153,251"/>
-<area shape="rect" id="Node000003" href="$classwindow__with__items.html" title=" " alt="" coords="5,80,156,105"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,119,88,243,83,243,79,119"/>
-<area shape="rect" id="Node000005" href="$classmenutitle.html" title=" " alt="" coords="102,155,187,180"/>
-<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="102,114,136,153,132,156,98,118"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="13,5,149,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="83,45,83,80,78,80,78,45"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="131,193,96,244,92,241,127,190"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="38,685,130,711"/>
+<area shape="rect" id="Node000002" href="$structFl__Menu__Item.html" title=" " alt="" coords="5,332,120,357"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,371,65,431,65,596,72,646,82,684,77,686,66,647,60,597,60,431,60,371"/>
+<area shape="rect" id="Node000004" href="$classwindow__with__items.html" title=" " alt="" coords="125,420,275,445"/>
+<area shape="poly" id="edge11_Node000004_Node000002" title=" " alt="" coords="94,362,183,417,180,422,91,367"/>
+<area shape="rect" id="Node000003" href="$classmenuwindow.html" title=" " alt="" coords="133,583,243,608"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,620,98,687,94,683,164,616"/>
+<area shape="poly" id="edge14_Node000003_Node000003" title=" " alt="" coords="258,587,269,595,261,603,243,606,242,601,259,598,264,595,255,591"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="201,459,192,583,186,582,195,459"/>
+<area shape="rect" id="Node000010" href="$classmenutitle.html" title=" " alt="" coords="225,495,311,520"/>
+<area shape="poly" id="edge13_Node000010_Node000004" title=" " alt="" coords="222,454,259,493,255,496,219,458"/>
+<area shape="rect" id="Node000005" href="$classFl__Menu__Window.html" title=" " alt="" coords="144,332,280,357"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="211,371,204,420,199,419,206,370"/>
+<area shape="rect" id="Node000006" href="$classFl__Single__Window.html" title=" " alt="" coords="142,257,282,283"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="215,297,215,332,209,332,209,297"/>
+<area shape="rect" id="Node000007" href="$classFl__Window.html" title=" " alt="" coords="165,183,259,208"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="215,222,215,257,209,257,209,222"/>
+<area shape="poly" id="edge10_Node000007_Node000007" title=" " alt="" coords="274,187,285,195,277,203,259,205,259,200,275,198,280,195,271,192"/>
+<area shape="rect" id="Node000008" href="$classFl__Group.html" title=" " alt="" coords="172,108,252,133"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="215,148,215,182,209,182,209,148"/>
+<area shape="rect" id="Node000009" href="$classFl__Widget.html" title=" " alt="" coords="169,5,255,31"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="213,45,212,55,212,84,214,107,208,108,207,84,207,55,207,44"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="215,45,215,108,209,108,209,45"/>
+<area shape="poly" id="edge12_Node000003_Node000010" title=" " alt="" coords="250,532,201,584,197,580,246,528"/>
 </map>

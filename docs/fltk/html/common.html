@@ -81,86 +81,92 @@ $(function() {
 Buttons</h1>
 <p>FLTK provides many types of buttons:</p>
 <ul>
-<li>Fl_Button - A standard push button.</li>
+<li><a class="el" href="classFl__Button.html" title="Buttons generate callbacks when they are clicked by the user.">Fl_Button</a> - A standard push button.</li>
 </ul>
 <ul>
 <li><a class="el" href="classFl__Check__Button.html" title="A button with a &quot;checkmark&quot; to show its status.">Fl_Check_Button</a> - A button with a check box.</li>
 </ul>
 <ul>
-<li>Fl_Light_Button - A push button with a light.</li>
+<li><a class="el" href="classFl__Light__Button.html">Fl_Light_Button</a> - A push button with a light.</li>
 </ul>
 <ul>
-<li>Fl_Repeat_Button - A push button that repeats when held.</li>
+<li><a class="el" href="classFl__Repeat__Button.html">Fl_Repeat_Button</a> - A push button that repeats when held.</li>
 </ul>
 <ul>
-<li>Fl_Return_Button - A push button that is activated by the <code>Enter</code> key.</li>
+<li><a class="el" href="classFl__Return__Button.html">Fl_Return_Button</a> - A push button that is activated by the <code>Enter</code> key.</li>
 </ul>
 <ul>
-<li>Fl_Round_Button - A button with a radio circle.</li>
+<li><a class="el" href="classFl__Round__Button.html">Fl_Round_Button</a> - A button with a radio circle.</li>
 </ul>
 <div class="image">
 <img src="buttons.png" alt=""/>
 <div class="caption">
 FLTK Button Widgets</div></div>
  <p>All of these buttons just need the corresponding <code>&lt;FL/Fl_xyz_Button.H&gt;</code> header file. The constructor takes the bounding box of the button and optionally a label string:</p>
-<div class="fragment"><div class="line">Fl_Button *button = <span class="keyword">new</span> Fl_Button(x, y, width, height, <span class="stringliteral">&quot;label&quot;</span>);</div>
-<div class="line">Fl_Light_Button *lbutton = <span class="keyword">new</span> Fl_Light_Button(x, y, width, height);</div>
-<div class="line">Fl_Round_Button *rbutton = <span class="keyword">new</span> Fl_Round_Button(x, y, width, height, <span class="stringliteral">&quot;label&quot;</span>);</div>
+<div class="fragment"><div class="line"><a class="code hl_class" href="classFl__Button.html">Fl_Button</a> *button = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Button.html">Fl_Button</a>(x, y, width, height, <span class="stringliteral">&quot;label&quot;</span>);</div>
+<div class="line"><a class="code hl_class" href="classFl__Light__Button.html">Fl_Light_Button</a> *lbutton = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Light__Button.html">Fl_Light_Button</a>(x, y, width, height);</div>
+<div class="line"><a class="code hl_class" href="classFl__Round__Button.html">Fl_Round_Button</a> *rbutton = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Round__Button.html">Fl_Round_Button</a>(x, y, width, height, <span class="stringliteral">&quot;label&quot;</span>);</div>
+<div class="ttc" id="aclassFl__Button_html"><div class="ttname"><a href="classFl__Button.html">Fl_Button</a></div><div class="ttdoc">Buttons generate callbacks when they are clicked by the user.</div><div class="ttdef"><b>Definition</b> Fl_Button.H:76</div></div>
+<div class="ttc" id="aclassFl__Light__Button_html"><div class="ttname"><a href="classFl__Light__Button.html">Fl_Light_Button</a></div><div class="ttdef"><b>Definition</b> Fl_Light_Button.H:36</div></div>
+<div class="ttc" id="aclassFl__Round__Button_html"><div class="ttname"><a href="classFl__Round__Button.html">Fl_Round_Button</a></div><div class="ttdef"><b>Definition</b> Fl_Round_Button.H:34</div></div>
 </div><!-- fragment --><p>Each button has an associated <code>type()</code> which allows it to behave as a push button, toggle button, or radio button:</p>
-<div class="fragment"><div class="line">button-&gt;type(FL_NORMAL_BUTTON);</div>
-<div class="line">lbutton-&gt;type(FL_TOGGLE_BUTTON);</div>
-<div class="line">rbutton-&gt;type(FL_RADIO_BUTTON);</div>
+<div class="fragment"><div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#adda2e8f162b3ea0332eb8d762350bbd5">type</a>(FL_NORMAL_BUTTON);</div>
+<div class="line">lbutton-&gt;<a class="code hl_function" href="classFl__Widget.html#adda2e8f162b3ea0332eb8d762350bbd5">type</a>(FL_TOGGLE_BUTTON);</div>
+<div class="line">rbutton-&gt;<a class="code hl_function" href="classFl__Widget.html#adda2e8f162b3ea0332eb8d762350bbd5">type</a>(FL_RADIO_BUTTON);</div>
+<div class="ttc" id="aclassFl__Widget_html_adda2e8f162b3ea0332eb8d762350bbd5"><div class="ttname"><a href="classFl__Widget.html#adda2e8f162b3ea0332eb8d762350bbd5">Fl_Widget::type</a></div><div class="ttdeci">uchar type() const</div><div class="ttdef"><b>Definition</b> Fl_Widget.H:351</div></div>
 </div><!-- fragment --><p>For toggle and radio buttons, the <code>value()</code> method returns the current button state (0 = off, 1 = on). The <code>set()</code> and <code>clear()</code> methods can be used on toggle buttons to turn a toggle button on or off, respectively. Radio buttons can be turned on with the <code>setonly()</code> method; this will also turn off other radio buttons in the same group.</p>
 <h1><a class="anchor" id="common_text"></a>
 Text</h1>
 <p>FLTK provides several text widgets for displaying and receiving text:</p>
 <ul>
-<li>Fl_Input - A one-line text input field.</li>
+<li><a class="el" href="classFl__Input.html">Fl_Input</a> - A one-line text input field.</li>
 </ul>
 <ul>
-<li>Fl_Output - A one-line text output field.</li>
+<li><a class="el" href="classFl__Output.html">Fl_Output</a> - A one-line text output field.</li>
 </ul>
 <ul>
-<li>Fl_Multiline_Input - A multi-line text input field.</li>
+<li><a class="el" href="classFl__Multiline__Input.html">Fl_Multiline_Input</a> - A multi-line text input field.</li>
 </ul>
 <ul>
-<li>Fl_Multiline_Output - A multi-line text output field.</li>
+<li><a class="el" href="classFl__Multiline__Output.html">Fl_Multiline_Output</a> - A multi-line text output field.</li>
 </ul>
 <ul>
-<li>Fl_Text_Display - A multi-line text display widget.</li>
+<li><a class="el" href="classFl__Text__Display.html" title="Rich text display widget.">Fl_Text_Display</a> - A multi-line text display widget.</li>
 </ul>
 <ul>
-<li>Fl_Text_Editor - A multi-line text editing widget.</li>
+<li><a class="el" href="classFl__Text__Editor.html">Fl_Text_Editor</a> - A multi-line text editing widget.</li>
 </ul>
 <ul>
-<li>Fl_Help_View - A HTML text display widget.</li>
+<li><a class="el" href="classFl__Help__View.html">Fl_Help_View</a> - A HTML text display widget.</li>
 </ul>
-<p>The Fl_Output and Fl_Multiline_Output widgets allow the user to copy text from the output field but not change it.</p>
+<p>The <a class="el" href="classFl__Output.html">Fl_Output</a> and <a class="el" href="classFl__Multiline__Output.html">Fl_Multiline_Output</a> widgets allow the user to copy text from the output field but not change it.</p>
 <p>The <code>value()</code> method is used to get or set the string that is displayed:</p>
-<div class="fragment"><div class="line">Fl_Input *input = <span class="keyword">new</span> Fl_Input(x, y, width, height, <span class="stringliteral">&quot;label&quot;</span>);</div>
-<div class="line">input-&gt;value(<span class="stringliteral">&quot;Now is the time for all good men...&quot;</span>);</div>
+<div class="fragment"><div class="line"><a class="code hl_class" href="classFl__Input.html">Fl_Input</a> *input = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Input.html">Fl_Input</a>(x, y, width, height, <span class="stringliteral">&quot;label&quot;</span>);</div>
+<div class="line">input-&gt;<a class="code hl_function" href="classFl__Input__.html#aaccaca04083dc6d2f1c1a4fa273d9048">value</a>(<span class="stringliteral">&quot;Now is the time for all good men...&quot;</span>);</div>
+<div class="ttc" id="aclassFl__Input___html_aaccaca04083dc6d2f1c1a4fa273d9048"><div class="ttname"><a href="classFl__Input__.html#aaccaca04083dc6d2f1c1a4fa273d9048">Fl_Input_::value</a></div><div class="ttdeci">int value(const char *)</div><div class="ttdef"><b>Definition</b> Fl_Input_.cxx:1461</div></div>
+<div class="ttc" id="aclassFl__Input_html"><div class="ttname"><a href="classFl__Input.html">Fl_Input</a></div><div class="ttdef"><b>Definition</b> Fl_Input.H:220</div></div>
 </div><!-- fragment --><p>The string is copied to the widget's own storage when you set the <code>value()</code> of the widget.</p>
-<p>The Fl_Text_Display and Fl_Text_Editor widgets use an associated Fl_Text_Buffer class for the value, instead of a simple string.</p>
+<p>The <a class="el" href="classFl__Text__Display.html" title="Rich text display widget.">Fl_Text_Display</a> and <a class="el" href="classFl__Text__Editor.html">Fl_Text_Editor</a> widgets use an associated <a class="el" href="classFl__Text__Buffer.html">Fl_Text_Buffer</a> class for the value, instead of a simple string.</p>
 <h1><a class="anchor" id="common_valuators"></a>
 Valuators</h1>
 <p>Unlike text widgets, valuators keep track of numbers instead of strings. FLTK provides the following valuators:</p>
 <ul>
-<li>Fl_Counter - A widget with arrow buttons that shows the current value.</li>
+<li><a class="el" href="classFl__Counter.html">Fl_Counter</a> - A widget with arrow buttons that shows the current value.</li>
 </ul>
 <ul>
-<li>Fl_Dial - A round knob.</li>
+<li><a class="el" href="classFl__Dial.html">Fl_Dial</a> - A round knob.</li>
 </ul>
 <ul>
-<li>Fl_Roller - An SGI-like dolly widget.</li>
+<li><a class="el" href="classFl__Roller.html">Fl_Roller</a> - An SGI-like dolly widget.</li>
 </ul>
 <ul>
-<li>Fl_Scrollbar - A standard scrollbar widget.</li>
+<li><a class="el" href="classFl__Scrollbar.html">Fl_Scrollbar</a> - A standard scrollbar widget.</li>
 </ul>
 <ul>
-<li>Fl_Slider - A scrollbar with a knob.</li>
+<li><a class="el" href="classFl__Slider.html">Fl_Slider</a> - A scrollbar with a knob.</li>
 </ul>
 <ul>
-<li>Fl_Value_Slider - A slider that shows the current value.</li>
+<li><a class="el" href="classFl__Value__Slider.html">Fl_Value_Slider</a> - A slider that shows the current value.</li>
 </ul>
 <div class="image">
 <img src="valuators.png" alt=""/>
@@ -169,48 +175,48 @@ FLTK valuator widgets</div></div>
  <p>The <code>value()</code> method gets and sets the current value of the widget. The <code>minimum()</code> and <code>maximum()</code> methods set the range of values that are reported by the widget.</p>
 <h1><a class="anchor" id="common_groups"></a>
 Groups</h1>
-<p>The Fl_Group widget class is used as a general purpose "container" widget. Besides grouping radio buttons, the groups are used to encapsulate windows, tabs, and scrolled windows. The following group classes are available with FLTK:</p>
+<p>The <a class="el" href="classFl__Group.html">Fl_Group</a> widget class is used as a general purpose "container" widget. Besides grouping radio buttons, the groups are used to encapsulate windows, tabs, and scrolled windows. The following group classes are available with FLTK:</p>
 <ul>
-<li>Fl_Double_Window - A double-buffered window on the screen.</li>
+<li><a class="el" href="classFl__Double__Window.html">Fl_Double_Window</a> - A double-buffered window on the screen.</li>
 </ul>
 <ul>
-<li>Fl_Flex - A flexible container of one row or column of widgets. Fl_Flex widgets may be nested, but see also Fl_Grid.</li>
+<li><a class="el" href="classFl__Flex.html">Fl_Flex</a> - A flexible container of one row or column of widgets. <a class="el" href="classFl__Flex.html">Fl_Flex</a> widgets may be nested, but see also <a class="el" href="classFl__Grid.html">Fl_Grid</a>.</li>
 </ul>
 <ul>
-<li>Fl_Gl_Window - An OpenGL window on the screen.</li>
+<li><a class="el" href="classFl__Gl__Window.html">Fl_Gl_Window</a> - An OpenGL window on the screen.</li>
 </ul>
 <ul>
-<li>Fl_Grid - A flexible container of one or more rows and columns of widgets arranged in a "grid" with auto-layout features. Fl_Grid widgets can be nested with other Fl_Grid or many Fl_Group type widgets. Nesting with other self-resizing containers like Fl_Pack and <a class="el" href="classFl__Tile.html">Fl_Tile</a> is not recommended but <b>may</b> work.</li>
+<li><a class="el" href="classFl__Grid.html">Fl_Grid</a> - A flexible container of one or more rows and columns of widgets arranged in a "grid" with auto-layout features. <a class="el" href="classFl__Grid.html">Fl_Grid</a> widgets can be nested with other <a class="el" href="classFl__Grid.html">Fl_Grid</a> or many <a class="el" href="classFl__Group.html">Fl_Group</a> type widgets. Nesting with other self-resizing containers like <a class="el" href="classFl__Pack.html">Fl_Pack</a> and <a class="el" href="classFl__Tile.html">Fl_Tile</a> is not recommended but <b>may</b> work.</li>
 </ul>
 <ul>
-<li>Fl_Group - The base container class; can be used to group any widgets together.</li>
+<li><a class="el" href="classFl__Group.html">Fl_Group</a> - The base container class; can be used to group any widgets together.</li>
 </ul>
 <ul>
-<li>Fl_Pack - A collection of widgets that are packed into the group area.</li>
+<li><a class="el" href="classFl__Pack.html">Fl_Pack</a> - A collection of widgets that are packed into the group area.</li>
 </ul>
 <ul>
-<li>Fl_Scroll - A scrolled window area.</li>
+<li><a class="el" href="classFl__Scroll.html">Fl_Scroll</a> - A scrolled window area.</li>
 </ul>
 <ul>
-<li>Fl_Tabs - Displays child widgets as tabs.</li>
+<li><a class="el" href="classFl__Tabs.html">Fl_Tabs</a> - Displays child widgets as tabs.</li>
 </ul>
 <ul>
 <li><a class="el" href="classFl__Tile.html">Fl_Tile</a> - A tiled window area.</li>
 </ul>
 <ul>
-<li>Fl_Window - A window on the screen.</li>
+<li><a class="el" href="classFl__Window.html">Fl_Window</a> - A window on the screen.</li>
 </ul>
 <ul>
-<li>Fl_Wizard - Displays one group of widgets at a time.</li>
+<li><a class="el" href="classFl__Wizard.html">Fl_Wizard</a> - Displays one group of widgets at a time.</li>
 </ul>
 <h1><a class="anchor" id="common_sizeposition"></a>
 Setting the Size and Position of Widgets</h1>
 <p>The size and position of widgets is usually set when you create them. You can access them with the <code>x()</code>, <code>y()</code>, <code>w()</code>, and <code>h()</code> methods.</p>
 <p>You can change the size and position by using the <code>position()</code>, <code>resize()</code>, and <code>size()</code> methods:</p>
-<div class="fragment"><div class="line">button-&gt;position(x, y);</div>
+<div class="fragment"><div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#ac45bdb80c3e66c571d0420ebefd4aaa5">position</a>(x, y);</div>
 <div class="line">group-&gt;resize(x, y, width, height);</div>
-<div class="line"><a class="code hl_class" href="classwindow.html">window</a>-&gt;size(width, height);</div>
-<div class="ttc" id="aclasswindow_html"><div class="ttname"><a href="classwindow.html">window</a></div><div class="ttdef"><b>Definition</b> animated.cxx:108</div></div>
+<div class="line">window-&gt;size(width, height);</div>
+<div class="ttc" id="aclassFl__Widget_html_ac45bdb80c3e66c571d0420ebefd4aaa5"><div class="ttname"><a href="classFl__Widget.html#ac45bdb80c3e66c571d0420ebefd4aaa5">Fl_Widget::position</a></div><div class="ttdeci">void position(int X, int Y)</div><div class="ttdef"><b>Definition</b> Fl_Widget.H:409</div></div>
 </div><!-- fragment --><p>If you change a widget's size or position after it is displayed you will have to call <code>redraw()</code> on the widget's parent.</p>
 <h1><a class="anchor" id="common_colors"></a>
 Colors</h1>
@@ -235,24 +241,29 @@ Colors</h1>
 <li><code>FL_SELECTION_COLOR</code> </li>
 </ul>
 <p>The full list of named color values can be found in <a class="el" href="enumerations.html#enumerations_colors">FLTK Enumerations</a>.</p>
-<p>A color value can be created from its RGB components by using the <code>fl_rgb_color</code>() function, and decomposed again with <code>Fl::get_color()</code>:</p>
-<div class="fragment"><div class="line">Fl_Color c = fl_rgb_color(85, 170, 255);    <span class="comment">// RGB to Fl_Color</span></div>
-<div class="line">Fl::get_color(c, r, g, b);                  <span class="comment">// Fl_Color to RGB</span></div>
+<p>A color value can be created from its RGB components by using the <code>fl_rgb_color</code>() function, and decomposed again with <code><a class="el" href="group__fl__attributes.html#ga9977c7ef50c9f51efd0d7909020a16da">Fl::get_color()</a></code>:</p>
+<div class="fragment"><div class="line"><a class="code hl_typedef" href="Enumerations_8H.html#a8b762953646f8abee866061f1af78a6a">Fl_Color</a> c = <a class="code hl_function" href="Enumerations_8H.html#a7c5acc4633fbab7016bce2fb69046494">fl_rgb_color</a>(85, 170, 255);    <span class="comment">// RGB to Fl_Color</span></div>
+<div class="line"><a class="code hl_function" href="group__fl__attributes.html#ga9977c7ef50c9f51efd0d7909020a16da">Fl::get_color</a>(c, r, g, b);                  <span class="comment">// Fl_Color to RGB</span></div>
+<div class="ttc" id="aEnumerations_8H_html_a7c5acc4633fbab7016bce2fb69046494"><div class="ttname"><a href="Enumerations_8H.html#a7c5acc4633fbab7016bce2fb69046494">fl_rgb_color</a></div><div class="ttdeci">Fl_Color fl_rgb_color(uchar r, uchar g, uchar b)</div><div class="ttdef"><b>Definition</b> Enumerations.H:1225</div></div>
+<div class="ttc" id="aEnumerations_8H_html_a8b762953646f8abee866061f1af78a6a"><div class="ttname"><a href="Enumerations_8H.html#a8b762953646f8abee866061f1af78a6a">Fl_Color</a></div><div class="ttdeci">unsigned int Fl_Color</div><div class="ttdef"><b>Definition</b> Enumerations.H:1111</div></div>
+<div class="ttc" id="agroup__fl__attributes_html_ga9977c7ef50c9f51efd0d7909020a16da"><div class="ttname"><a href="group__fl__attributes.html#ga9977c7ef50c9f51efd0d7909020a16da">Fl::get_color</a></div><div class="ttdeci">static unsigned get_color(Fl_Color i)</div><div class="ttdef"><b>Definition</b> fl_color.cxx:51</div></div>
 </div><!-- fragment --><p>The widget color is set using the <code>color()</code> method:</p>
-<div class="fragment"><div class="line">button-&gt;color(FL_RED);                      <span class="comment">// set color using named value</span></div>
+<div class="fragment"><div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#a0f4654d4d9aab8a1c1078fca5660742a">color</a>(FL_RED);                      <span class="comment">// set color using named value</span></div>
+<div class="ttc" id="aclassFl__Widget_html_a0f4654d4d9aab8a1c1078fca5660742a"><div class="ttname"><a href="classFl__Widget.html#a0f4654d4d9aab8a1c1078fca5660742a">Fl_Widget::color</a></div><div class="ttdeci">Fl_Color color() const</div><div class="ttdef"><b>Definition</b> Fl_Widget.H:455</div></div>
 </div><!-- fragment --><p>Similarly, the label color is set using the <code>labelcolor()</code> method:</p>
-<div class="fragment"><div class="line">button-&gt;labelcolor(FL_WHITE);</div>
+<div class="fragment"><div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#a01404bc412b13a9dfe4dda33f204abe0">labelcolor</a>(FL_WHITE);</div>
+<div class="ttc" id="aclassFl__Widget_html_a01404bc412b13a9dfe4dda33f204abe0"><div class="ttname"><a href="classFl__Widget.html#a01404bc412b13a9dfe4dda33f204abe0">Fl_Widget::labelcolor</a></div><div class="ttdeci">Fl_Color labelcolor() const</div><div class="ttdef"><b>Definition</b> Fl_Widget.H:550</div></div>
 </div><!-- fragment --><p>The Fl_Color encoding maps to a 32-bit unsigned integer representing RGBI, so it is also possible to specify a color using a hex constant as a color map index:</p>
-<div class="fragment"><div class="line">button-&gt;color(0x000000ff);                  <span class="comment">// colormap index #255 (FL_WHITE)</span></div>
+<div class="fragment"><div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#a0f4654d4d9aab8a1c1078fca5660742a">color</a>(0x000000ff);                  <span class="comment">// colormap index #255 (FL_WHITE)</span></div>
 </div><!-- fragment --><p>or specify a color using a hex constant for the RGB components:</p>
-<div class="fragment"><div class="line">button-&gt;color(0xff000000);                  <span class="comment">// RGB: red</span></div>
-<div class="line">button-&gt;color(0x00ff0000);                  <span class="comment">// RGB: green</span></div>
-<div class="line">button-&gt;color(0x0000ff00);                  <span class="comment">// RGB: blue</span></div>
-<div class="line">button-&gt;color(0xffffff00);                  <span class="comment">// RGB: white</span></div>
+<div class="fragment"><div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#a0f4654d4d9aab8a1c1078fca5660742a">color</a>(0xff000000);                  <span class="comment">// RGB: red</span></div>
+<div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#a0f4654d4d9aab8a1c1078fca5660742a">color</a>(0x00ff0000);                  <span class="comment">// RGB: green</span></div>
+<div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#a0f4654d4d9aab8a1c1078fca5660742a">color</a>(0x0000ff00);                  <span class="comment">// RGB: blue</span></div>
+<div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#a0f4654d4d9aab8a1c1078fca5660742a">color</a>(0xffffff00);                  <span class="comment">// RGB: white</span></div>
 </div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>If TrueColor is not available, any RGB colors will be set to the nearest entry in the colormap.</dd></dl>
 <h1><a class="anchor" id="common_boxtypes"></a>
 Box Types</h1>
-<p>The type Fl_Boxtype stored and returned in Fl_Widget::box() is an enumeration defined in Enumerations.H.</p>
+<p>The type Fl_Boxtype stored and returned in <a class="el" href="classFl__Widget.html#a9d1f48fbbe4d885e81df38b2a93b614f">Fl_Widget::box()</a> is an enumeration defined in <a class="el" href="Enumerations_8H.html">Enumerations.H</a>.</p>
 <p>These are the standard box types included with FLTK:</p>
 <div class="image">
 <img src="boxtypes.png" alt=""/>
@@ -264,28 +275,32 @@ Making Your Own Boxtypes</h2>
 <p>You can define your own boxtypes by making a small function that draws the box and adding it to the table of boxtypes.</p>
 <dl class="section user"><dt>The Drawing Function</dt><dd></dd></dl>
 <p>The drawing function is passed the bounding box and background color for the widget:</p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> xyz_draw(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, Fl_Color c) {</div>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> xyz_draw(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <a class="code hl_typedef" href="Enumerations_8H.html#a8b762953646f8abee866061f1af78a6a">Fl_Color</a> c) {</div>
 <div class="line">...</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>A simple drawing function might fill a rectangle with the given color and then draw a black outline:</p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> xyz_draw(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, Fl_Color c) {</div>
-<div class="line">  fl_color(c);</div>
-<div class="line">  fl_rectf(x, y, w, h);</div>
-<div class="line">  fl_color(FL_BLACK);</div>
-<div class="line">  fl_rect(x, y, w, h);</div>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> xyz_draw(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <a class="code hl_typedef" href="Enumerations_8H.html#a8b762953646f8abee866061f1af78a6a">Fl_Color</a> c) {</div>
+<div class="line">  <a class="code hl_function" href="group__fl__attributes.html#gaea8392e995de663b0d8063af199cf085">fl_color</a>(c);</div>
+<div class="line">  <a class="code hl_function" href="group__fl__drawings.html#ga2986a868e9cc8d9141acde94c0fe8ab0">fl_rectf</a>(x, y, w, h);</div>
+<div class="line">  <a class="code hl_function" href="group__fl__attributes.html#gaea8392e995de663b0d8063af199cf085">fl_color</a>(FL_BLACK);</div>
+<div class="line">  <a class="code hl_function" href="group__fl__drawings.html#ga690c83e11f49fa837b563f4c0bc4fd1b">fl_rect</a>(x, y, w, h);</div>
 <div class="line">}</div>
-</div><!-- fragment --><p><a class="anchor" id="common_fl_down"></a>Fl_Boxtype fl_down(Fl_Boxtype b)</p>
-<dl class="section user"><dt></dt><dd>fl_down() returns the "pressed" or "down" version of a box. If no "down" version of a given box exists, the behavior of this function is undefined and some random box or frame is returned. See <a class="el" href="drawing.html#drawing_fl_frame">Drawing Functions</a> for more details.</dd></dl>
-<p><a class="anchor" id="common_fl_frame"></a>Fl_Boxtype fl_frame(Fl_Boxtype b)</p>
-<dl class="section user"><dt></dt><dd><a class="el" href="fl__boxtype_8cxx.html#aeb7d9862b7d98015acad84386f6bdd45">fl_frame()</a> returns the unfilled, frame-only version of a box. If no frame version of a given box exists, the behavior of this function is undefined and some random box or frame is returned. See <a class="el" href="drawing.html#drawing_fl_frame">Drawing Functions</a> for more details.</dd></dl>
-<p>Fl_Boxtype fl_box(Fl_Boxtype b)</p>
-<dl class="section user"><dt></dt><dd>fl_box() returns the filled version of a frame. If no filled version of a given frame exists, the behavior of this function is undefined and some random box or frame is returned. See <a class="el" href="drawing.html#drawing_fl_frame">Drawing Functions</a> for more details.</dd></dl>
+<div class="ttc" id="agroup__fl__attributes_html_gaea8392e995de663b0d8063af199cf085"><div class="ttname"><a href="group__fl__attributes.html#gaea8392e995de663b0d8063af199cf085">fl_color</a></div><div class="ttdeci">Fl_Color fl_color()</div><div class="ttdef"><b>Definition</b> fl_draw.H:74</div></div>
+<div class="ttc" id="agroup__fl__drawings_html_ga2986a868e9cc8d9141acde94c0fe8ab0"><div class="ttname"><a href="group__fl__drawings.html#ga2986a868e9cc8d9141acde94c0fe8ab0">fl_rectf</a></div><div class="ttdeci">void fl_rectf(int x, int y, int w, int h)</div><div class="ttdef"><b>Definition</b> fl_draw.H:339</div></div>
+<div class="ttc" id="agroup__fl__drawings_html_ga690c83e11f49fa837b563f4c0bc4fd1b"><div class="ttname"><a href="group__fl__drawings.html#ga690c83e11f49fa837b563f4c0bc4fd1b">fl_rect</a></div><div class="ttdeci">void fl_rect(int x, int y, int w, int h)</div><div class="ttdef"><b>Definition</b> fl_draw.H:298</div></div>
+</div><!-- fragment --><p><a class="anchor" id="common_fl_down"></a>Fl_Boxtype <a class="el" href="Enumerations_8H.html#a6aa37e8d5c59e2e4f40848f9b2b93a70">fl_down(Fl_Boxtype b)</a></p>
+<dl class="section user"><dt></dt><dd><a class="el" href="Enumerations_8H.html#a6aa37e8d5c59e2e4f40848f9b2b93a70">fl_down()</a> returns the "pressed" or "down" version of a box. If no "down" version of a given box exists, the behavior of this function is undefined and some random box or frame is returned. See <a class="el" href="drawing.html#drawing_fl_frame">Drawing Functions</a> for more details.</dd></dl>
+<p><a class="anchor" id="common_fl_frame"></a>Fl_Boxtype <a class="el" href="Enumerations_8H.html#a06e61a87a8570f7debc751a1e2f5340f">fl_frame(Fl_Boxtype b)</a></p>
+<dl class="section user"><dt></dt><dd><a class="el" href="Enumerations_8H.html#a06e61a87a8570f7debc751a1e2f5340f">fl_frame()</a> returns the unfilled, frame-only version of a box. If no frame version of a given box exists, the behavior of this function is undefined and some random box or frame is returned. See <a class="el" href="drawing.html#drawing_fl_frame">Drawing Functions</a> for more details.</dd></dl>
+<p>Fl_Boxtype <a class="el" href="Enumerations_8H.html#a9296d2ab39525c54c84ce392b9f06ebe">fl_box(Fl_Boxtype b)</a></p>
+<dl class="section user"><dt></dt><dd><a class="el" href="Enumerations_8H.html#a9296d2ab39525c54c84ce392b9f06ebe">fl_box()</a> returns the filled version of a frame. If no filled version of a given frame exists, the behavior of this function is undefined and some random box or frame is returned. See <a class="el" href="drawing.html#drawing_fl_frame">Drawing Functions</a> for more details.</dd></dl>
 <dl class="section user"><dt>Adding Your Box Type</dt><dd></dd></dl>
-<p>The Fl::set_boxtype() method adds or replaces the specified box type:</p>
+<p>The <a class="el" href="classFl.html#a968719f5d37113d262b155b2d3ddb0c3">Fl::set_boxtype()</a> method adds or replaces the specified box type:</p>
 <div class="fragment"><div class="line"><span class="preprocessor">#define XYZ_BOX FL_FREE_BOXTYPE</span></div>
 <div class="line"> </div>
-<div class="line">Fl::set_boxtype(XYZ_BOX, xyz_draw, 1, 1, 2, 2);</div>
-</div><!-- fragment --><p> The last 4 arguments to Fl::set_boxtype() are the offsets for the <code>x</code>, <code>y</code>, <code>width</code>, and <code>height</code> values that should be subtracted when drawing the label inside the box.</p>
+<div class="line"><a class="code hl_function" href="classFl.html#a968719f5d37113d262b155b2d3ddb0c3">Fl::set_boxtype</a>(XYZ_BOX, xyz_draw, 1, 1, 2, 2);</div>
+<div class="ttc" id="aclassFl_html_a968719f5d37113d262b155b2d3ddb0c3"><div class="ttname"><a href="classFl.html#a968719f5d37113d262b155b2d3ddb0c3">Fl::set_boxtype</a></div><div class="ttdeci">static void set_boxtype(Fl_Boxtype, Fl_Box_Draw_F *, uchar, uchar, uchar, uchar, Fl_Box_Draw_Focus_F *=NULL)</div><div class="ttdef"><b>Definition</b> fl_boxtype.cxx:448</div></div>
+</div><!-- fragment --><p> The last 4 arguments to <a class="el" href="classFl.html#a968719f5d37113d262b155b2d3ddb0c3">Fl::set_boxtype()</a> are the offsets for the <code>x</code>, <code>y</code>, <code>width</code>, and <code>height</code> values that should be subtracted when drawing the label inside the box.</p>
 <p>A complete box design contains four box types in this order: a filled, neutral box (<code>UP_BOX</code>), a filled, depressed box (<code>DOWN_BOX</code>), and the same as outlines only (<code>UP_FRAME</code> and <code>DOWN_FRAME</code>). The function <a class="el" href="common.html#common_fl_down">fl_down(Fl_Boxtype)</a> expects the neutral design on a boxtype with a numerical value evenly dividable by two. <a class="el" href="common.html#common_fl_frame">fl_frame(Fl_Boxtype)</a> expects the <code>UP_BOX</code> design at a value dividable by four.</p>
 <h1><a class="anchor" id="common_labels"></a>
 Labels and Label Types</h1>
@@ -344,59 +359,66 @@ FLTK symbols and text</div></div>
 <li><code>FL_SHADOW_LABEL</code> - draws a drop shadow under the text.</li>
 <li><code>FL_ENGRAVED_LABEL</code> - draws edges as though the text is engraved.</li>
 <li><code>FL_EMBOSSED_LABEL</code> - draws edges as though the text is raised.</li>
-<li><code>FL_ICON_LABEL</code> - draws the icon (Fl_Image) associated with the text.</li>
-<li><code>FL_IMAGE_LABEL</code> - draws the image (Fl_Image) associated with the text.</li>
-<li><code>FL_MULTI_LABEL</code> - draws multiple parts side by side, see Fl_Multi_Label.</li>
+<li><code>FL_ICON_LABEL</code> - draws the icon (<a class="el" href="classFl__Image.html">Fl_Image</a>) associated with the text.</li>
+<li><code>FL_IMAGE_LABEL</code> - draws the image (<a class="el" href="classFl__Image.html">Fl_Image</a>) associated with the text.</li>
+<li><code>FL_MULTI_LABEL</code> - draws multiple parts side by side, see <a class="el" href="structFl__Multi__Label.html">Fl_Multi_Label</a>.</li>
 </ul>
-<dl class="section note"><dt>Note</dt><dd>Some of these labeltypes are no longer necessary for normal widgets. Widgets allow for an image and a text side by side, depending on the widget's align() flag. FL_MULTI_LABEL was designed to be used with Fl_Menu_Item's to support icons or small images, typically left of the menu text.<br  />
- As of this writing (FLTK 1.4.0) Fl_Menu_Items support only one label part (text <b>or</b> image), but using Fl_Multi_Label as the label can extend this to more than one part.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd>class Fl_Multi_Label, Fl_Widget::align()</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Some of these labeltypes are no longer necessary for normal widgets. Widgets allow for an image and a text side by side, depending on the widget's align() flag. FL_MULTI_LABEL was designed to be used with <a class="el" href="structFl__Menu__Item.html">Fl_Menu_Item</a>'s to support icons or small images, typically left of the menu text.<br  />
+ As of this writing (FLTK 1.4.0) Fl_Menu_Items support only one label part (text <b>or</b> image), but using <a class="el" href="structFl__Multi__Label.html">Fl_Multi_Label</a> as the label can extend this to more than one part.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>class <a class="el" href="structFl__Multi__Label.html">Fl_Multi_Label</a>, <a class="el" href="classFl__Widget.html#a6a3c44d082f89ba3aefd405c388187c5">Fl_Widget::align()</a></dd></dl>
 <dl class="section user"><dt>image() and deimage()</dt><dd></dd></dl>
 <p>The <code>image()</code> and <code>deimage()</code> methods set an image that will be displayed with the widget. The <code>deimage()</code> method sets the image that is shown when the widget is inactive, while the <code>image()</code> method sets the image that is shown when the widget is active.</p>
 <p>To make an image you use a subclass of <a class="el" href="drawing.html#drawing_Fl_Image">Fl_Image</a>.</p>
 <dl class="section user"><dt>Making Your Own Label Types</dt><dd></dd></dl>
-<p>Label types are actually indexes into a table of functions that draw them. The primary purpose of this is to use this to draw the labels in ways inaccessible through the fl_font() mechanism (e.g. <code>FL_ENGRAVED_LABEL</code>) or with program-generated letters or symbology.</p>
+<p>Label types are actually indexes into a table of functions that draw them. The primary purpose of this is to use this to draw the labels in ways inaccessible through the <a class="el" href="group__fl__attributes.html#gad234d90fe63191609ec196e1b8041d1a">fl_font()</a> mechanism (e.g. <code>FL_ENGRAVED_LABEL</code>) or with program-generated letters or symbology.</p>
 <dl class="section user"><dt>Label Type Functions</dt><dd></dd></dl>
-<p>To setup your own label type you will need to write two functions: one to draw and one to measure the label. The draw function is called with a pointer to a Fl_Label structure containing the label information, the bounding box for the label, and the label alignment:</p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> xyz_draw(<span class="keyword">const</span> Fl_Label *label, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, Fl_Align align) {</div>
+<p>To setup your own label type you will need to write two functions: one to draw and one to measure the label. The draw function is called with a pointer to a <a class="el" href="structFl__Label.html">Fl_Label</a> structure containing the label information, the bounding box for the label, and the label alignment:</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> xyz_draw(<span class="keyword">const</span> <a class="code hl_struct" href="structFl__Label.html">Fl_Label</a> *label, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <a class="code hl_typedef" href="Enumerations_8H.html#a44e8bcd1e030e65e4f88cbae64a7c3e3">Fl_Align</a> align) {</div>
 <div class="line">...</div>
 <div class="line">}</div>
+<div class="ttc" id="aEnumerations_8H_html_a44e8bcd1e030e65e4f88cbae64a7c3e3"><div class="ttname"><a href="Enumerations_8H.html#a44e8bcd1e030e65e4f88cbae64a7c3e3">Fl_Align</a></div><div class="ttdeci">unsigned Fl_Align</div><div class="ttdef"><b>Definition</b> Enumerations.H:977</div></div>
+<div class="ttc" id="astructFl__Label_html"><div class="ttname"><a href="structFl__Label.html">Fl_Label</a></div><div class="ttdef"><b>Definition</b> Fl_Widget.H:49</div></div>
 </div><!-- fragment --><p>The label should be drawn <em>inside</em> this bounding box, even if <code>FL_ALIGN_INSIDE</code> is not enabled. The function is not called if the label value is <code>NULL</code>.</p>
-<p>The measure function is called with a pointer to a Fl_Label structure and references to the width and height:</p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> xyz_measure(<span class="keyword">const</span> Fl_Label *label, <span class="keywordtype">int</span> &amp;w, <span class="keywordtype">int</span> &amp;h) {</div>
+<p>The measure function is called with a pointer to a <a class="el" href="structFl__Label.html">Fl_Label</a> structure and references to the width and height:</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> xyz_measure(<span class="keyword">const</span> <a class="code hl_struct" href="structFl__Label.html">Fl_Label</a> *label, <span class="keywordtype">int</span> &amp;w, <span class="keywordtype">int</span> &amp;h) {</div>
 <div class="line">...</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>The function should measure the size of the label and set <code>w</code> and <code>h</code> to the size it will occupy.</p>
 <dl class="section user"><dt>Adding Your Label Type</dt><dd></dd></dl>
-<p>The Fl::set_labeltype() method creates a label type using your draw and measure functions:</p>
+<p>The <a class="el" href="classFl.html#a2041799ff3f57f4cced52d7e3b3a544a">Fl::set_labeltype()</a> method creates a label type using your draw and measure functions:</p>
 <div class="fragment"><div class="line"><span class="preprocessor">#define XYZ_LABEL FL_FREE_LABELTYPE</span></div>
 <div class="line"> </div>
-<div class="line">Fl::set_labeltype(XYZ_LABEL, xyz_draw, xyz_measure);</div>
+<div class="line"><a class="code hl_function" href="classFl.html#a2041799ff3f57f4cced52d7e3b3a544a">Fl::set_labeltype</a>(XYZ_LABEL, xyz_draw, xyz_measure);</div>
+<div class="ttc" id="aclassFl_html_a2041799ff3f57f4cced52d7e3b3a544a"><div class="ttname"><a href="classFl.html#a2041799ff3f57f4cced52d7e3b3a544a">Fl::set_labeltype</a></div><div class="ttdeci">static void set_labeltype(Fl_Labeltype, Fl_Label_Draw_F *, Fl_Label_Measure_F *)</div><div class="ttdef"><b>Definition</b> fl_labeltype.cxx:75</div></div>
 </div><!-- fragment --><p>The label type number <code>n</code> can be any integer value starting at the constant <code>FL_FREE_LABELTYPE</code>. Once you have added the label type you can use the <code>labeltype()</code> method to select your label type.</p>
-<p>The Fl::set_labeltype() method can also be used to overload an existing label type such as <code>FL_NORMAL_LABEL</code>.</p>
+<p>The <a class="el" href="classFl.html#a2041799ff3f57f4cced52d7e3b3a544a">Fl::set_labeltype()</a> method can also be used to overload an existing label type such as <code>FL_NORMAL_LABEL</code>.</p>
 <dl class="section user"><dt>Making your own symbols</dt><dd></dd></dl>
 <p>It is also possible to define your own drawings and add them to the symbol list, so they can be rendered as part of any label.</p>
-<p>To create a new symbol, you implement a drawing function <code>void drawit(Fl_Color c)</code> which typically uses the functions described in <a class="el" href="drawing.html#drawing_complex">Drawing Complex Shapes</a> to generate a vector shape inside a two-by-two units sized box around the origin. This function is then linked into the symbols table using fl_add_symbol():</p>
-<div class="fragment"><div class="line"><span class="keywordtype">int</span> fl_add_symbol(<span class="keyword">const</span> <span class="keywordtype">char</span> *name, <span class="keywordtype">void</span> (*drawit)(Fl_Color), <span class="keywordtype">int</span> scalable)</div>
+<p>To create a new symbol, you implement a drawing function <code>void drawit(Fl_Color c)</code> which typically uses the functions described in <a class="el" href="drawing.html#drawing_complex">Drawing Complex Shapes</a> to generate a vector shape inside a two-by-two units sized box around the origin. This function is then linked into the symbols table using <a class="el" href="group__fl__drawings.html#ga4a4771df55d9ab87de12da62799e290b">fl_add_symbol()</a>:</p>
+<div class="fragment"><div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="group__fl__drawings.html#ga4a4771df55d9ab87de12da62799e290b">fl_add_symbol</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *name, <span class="keywordtype">void</span> (*drawit)(<a class="code hl_typedef" href="Enumerations_8H.html#a8b762953646f8abee866061f1af78a6a">Fl_Color</a>), <span class="keywordtype">int</span> scalable)</div>
+<div class="ttc" id="agroup__fl__drawings_html_ga4a4771df55d9ab87de12da62799e290b"><div class="ttname"><a href="group__fl__drawings.html#ga4a4771df55d9ab87de12da62799e290b">fl_add_symbol</a></div><div class="ttdeci">FL_EXPORT int fl_add_symbol(const char *name, void(*drawit)(Fl_Color), int scalable)</div><div class="ttdef"><b>Definition</b> fl_symbols.cxx:76</div></div>
 </div><!-- fragment --><p><code>name</code> is the name of the symbol without the "@"; <code>scalable</code> must be set to 1 if the symbol is generated using scalable vector drawing functions.</p>
-<div class="fragment"><div class="line"><span class="keywordtype">int</span> fl_draw_symbol(<span class="keyword">const</span> <span class="keywordtype">char</span> *name,<span class="keywordtype">int</span> x,<span class="keywordtype">int</span> y,<span class="keywordtype">int</span> w,<span class="keywordtype">int</span> h,Fl_Color col)</div>
+<div class="fragment"><div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="group__fl__drawings.html#ga3b10c6ecdacc693bb97f6af1371e140f">fl_draw_symbol</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *name,<span class="keywordtype">int</span> x,<span class="keywordtype">int</span> y,<span class="keywordtype">int</span> w,<span class="keywordtype">int</span> h,<a class="code hl_typedef" href="Enumerations_8H.html#a8b762953646f8abee866061f1af78a6a">Fl_Color</a> col)</div>
+<div class="ttc" id="agroup__fl__drawings_html_ga3b10c6ecdacc693bb97f6af1371e140f"><div class="ttname"><a href="group__fl__drawings.html#ga3b10c6ecdacc693bb97f6af1371e140f">fl_draw_symbol</a></div><div class="ttdeci">FL_EXPORT int fl_draw_symbol(const char *label, int x, int y, int w, int h, Fl_Color)</div><div class="ttdef"><b>Definition</b> fl_symbols.cxx:101</div></div>
 </div><!-- fragment --><p>This function draws a named symbol fitting the given rectangle.</p>
 <h1><a class="anchor" id="common_callbacks"></a>
 Callbacks</h1>
-<p>Callbacks are functions that are called when the value of a widget changes. A callback function is sent a Fl_Widget pointer of the widget that changed and a pointer to data that you provide:</p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> xyz_callback(Fl_Widget *w, <span class="keywordtype">void</span> *data) {</div>
+<p>Callbacks are functions that are called when the value of a widget changes. A callback function is sent a <a class="el" href="classFl__Widget.html">Fl_Widget</a> pointer of the widget that changed and a pointer to data that you provide:</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> xyz_callback(<a class="code hl_class" href="classFl__Widget.html">Fl_Widget</a> *w, <span class="keywordtype">void</span> *data) {</div>
 <div class="line">...</div>
 <div class="line">}</div>
+<div class="ttc" id="aclassFl__Widget_html"><div class="ttname"><a href="classFl__Widget.html">Fl_Widget</a></div><div class="ttdef"><b>Definition</b> Fl_Widget.H:112</div></div>
 </div><!-- fragment --><p>The <code>callback()</code> method sets the callback function for a widget. You can optionally pass a pointer to some data needed for the callback:</p>
 <div class="fragment"><div class="line"><span class="keywordtype">int</span> xyz_data;</div>
 <div class="line"> </div>
-<div class="line">button-&gt;callback(xyz_callback, &amp;xyz_data);</div>
-</div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>You cannot delete a widget inside a callback, as the widget may still be accessed by FLTK after your callback is completed. Instead, use the Fl::delete_widget() method to mark your widget for deletion when it is safe to do so.</dd></dl>
+<div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#ac32acdcfb3b722fccd2d3f946b01e799">callback</a>(xyz_callback, &amp;xyz_data);</div>
+<div class="ttc" id="aclassFl__Widget_html_ac32acdcfb3b722fccd2d3f946b01e799"><div class="ttname"><a href="classFl__Widget.html#ac32acdcfb3b722fccd2d3f946b01e799">Fl_Widget::callback</a></div><div class="ttdeci">Fl_Callback_p callback() const</div><div class="ttdef"><b>Definition</b> Fl_Widget.H:740</div></div>
+</div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>You cannot delete a widget inside a callback, as the widget may still be accessed by FLTK after your callback is completed. Instead, use the <a class="el" href="group__fl__del__widget.html#ga609413ac47ba433d1e7da8678a27164f">Fl::delete_widget()</a> method to mark your widget for deletion when it is safe to do so.</dd></dl>
 <p>Many programmers new to FLTK or C++ try to use a non-static class method instead of a static class method or function for their callback. Since callbacks are done outside a C++ class, the <code>this</code> pointer is not initialized for class methods.</p>
 <p>To work around this problem, define a static method in your class that accepts a pointer to the class, and then have the static method call the class method(s) as needed. The data pointer you provide to the <code>callback()</code> method of the widget can be a pointer to the instance of your class.</p>
 <div class="fragment"><div class="line"><span class="keyword">class </span>Foo {</div>
-<div class="line">  <span class="keywordtype">void</span> my_callback(Fl_Widget *w);</div>
-<div class="line">  <span class="keyword">static</span> <span class="keywordtype">void</span> my_static_callback(Fl_Widget *w, <span class="keywordtype">void</span> *f) { ((Foo *)f)-&gt;my_callback(w); }</div>
+<div class="line">  <span class="keywordtype">void</span> my_callback(<a class="code hl_class" href="classFl__Widget.html">Fl_Widget</a> *w);</div>
+<div class="line">  <span class="keyword">static</span> <span class="keywordtype">void</span> my_static_callback(<a class="code hl_class" href="classFl__Widget.html">Fl_Widget</a> *w, <span class="keywordtype">void</span> *f) { ((Foo *)f)-&gt;my_callback(w); }</div>
 <div class="line">  ...</div>
 <div class="line">}</div>
 <div class="line">...</div>
@@ -408,43 +430,56 @@ Callbacks</h1>
 <li><code>FL_INLINE_CALLBACK_#(WIDGET, ..., FUNCTION_BODY)</code> creates code for callback functions that are very close to (almost in the same line) the widget creation code, similar to lambda function in C++11. The last argument of this macro is the callback code.</li>
 </ul>
 <p>The syntax is a bit unconventional, but the resulting code is flexible and needs no additional maintenance. It is also C++98 compatible. For example:</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;FL/fl_callback_macros.H&gt;</span></div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="fl__callback__macros_8H.html">FL/fl_callback_macros.H</a>&gt;</span></div>
 <div class="line">...</div>
 <div class="line">Fl_String *str = <span class="keyword">new</span> Fl_String(<span class="stringliteral">&quot;FLTK&quot;</span>);</div>
-<div class="line">Fl_Button *btn = <span class="keyword">new</span> Fl_Button(10, 10, 100, 100);</div>
+<div class="line"><a class="code hl_class" href="classFl__Button.html">Fl_Button</a> *btn = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Button.html">Fl_Button</a>(10, 10, 100, 100);</div>
 <div class="line">FL_METHOD_CALLBACK_2(btn,  Fl_String, str, insert,  <span class="keywordtype">int</span>, 2,  <span class="keyword">const</span> <span class="keywordtype">char</span>*, <span class="stringliteral">&quot;...&quot;</span>);</div>
 <div class="line">...</div>
-<div class="line">Fl_Button *inline_cb_btn_2 = <span class="keyword">new</span> Fl_Button(390, 60, 180, 25, <span class="stringliteral">&quot;2 args&quot;</span>);</div>
+<div class="line">Fl_Button *inline_cb_btn_2 = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Button.html">Fl_Button</a>(390, 60, 180, 25, <span class="stringliteral">&quot;2 args&quot;</span>);</div>
 <div class="line">FL_INLINE_CALLBACK_2( inline_cb_btn_2,</div>
 <div class="line">                      <span class="keyword">const</span> <span class="keywordtype">char</span> *, text, <span class="stringliteral">&quot;FLTK&quot;</span>,   <span class="keywordtype">int</span>, number, 2,</div>
 <div class="line">                      {</div>
-<div class="line">                        <a class="code hl_function" href="group__group__comdlg.html#ga570c50cf7641b7d85f949b6d61f51c43">fl_message</a>(<span class="stringliteral">&quot;We received the message %s with %d!&quot;</span>, text, number);</div>
+<div class="line">                        fl_message(<span class="stringliteral">&quot;We received the message %s with %d!&quot;</span>, text, number);</div>
 <div class="line">                      }</div>
 <div class="line">                    );</div>
-<div class="ttc" id="agroup__group__comdlg_html_ga570c50cf7641b7d85f949b6d61f51c43"><div class="ttname"><a href="group__group__comdlg.html#ga570c50cf7641b7d85f949b6d61f51c43">fl_message</a></div><div class="ttdeci">void fl_message(const char *fmt,...)</div><div class="ttdef"><b>Definition</b> fl_ask.cxx:106</div></div>
-</div><!-- fragment --><dl class="section see"><dt>See also</dt><dd>Fl_Widget::callback(Fl_Callback*, void*), FL_FUNCTION_CALLBACK_3, FL_METHOD_CALLBACK_1, FL_INLINE_CALLBACK_2</dd></dl>
+<div class="ttc" id="afl__callback__macros_8H_html"><div class="ttname"><a href="fl__callback__macros_8H.html">fl_callback_macros.H</a></div></div>
+</div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="classFl__Widget.html#ad5fe4ff0d0f777af13f3d8818c869689">Fl_Widget::callback(Fl_Callback*, void*)</a>, FL_FUNCTION_CALLBACK_3, FL_METHOD_CALLBACK_1, FL_INLINE_CALLBACK_2</dd></dl>
 <h1><a class="anchor" id="common_when"></a>
 When and Reason</h1>
-<p>Normally callbacks are performed only when the value of the widget changes. You can change this using the Fl_Widget::when() method:</p>
-<div class="fragment"><div class="line">button-&gt;when(FL_WHEN_NEVER);</div>
-<div class="line">button-&gt;when(FL_WHEN_CHANGED);</div>
-<div class="line">button-&gt;when(FL_WHEN_RELEASE);</div>
-<div class="line">button-&gt;when(FL_WHEN_RELEASE_ALWAYS);</div>
-<div class="line">button-&gt;when(FL_WHEN_ENTER_KEY);</div>
-<div class="line">button-&gt;when(FL_WHEN_ENTER_KEY_ALWAYS);</div>
-<div class="line">button-&gt;when(FL_WHEN_CHANGED | FL_WHEN_NOT_CHANGED);</div>
-</div><!-- fragment --><p>Within the callback, you can query why the callback was called using Fl::callback_reason(). For example, setting</p>
-<div class="fragment"><div class="line">myInput-&gt;when(FL_WHEN_RELEASE|FL_WHEN_CHANGED) </div>
-</div><!-- fragment --><p>for a text input field may return FL_REASON_LOST_FOCUS or FL_REASON_CHANGED as a callback reason.</p>
+<p>Normally callbacks are performed only when the value of the widget changes. You can change this using the <a class="el" href="classFl__Widget.html#ad4ef380ffb50f4d00fe93f7b6677e9e1">Fl_Widget::when()</a> method:</p>
+<div class="fragment"><div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#ad4ef380ffb50f4d00fe93f7b6677e9e1">when</a>(<a class="code hl_enumvalue" href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665adfa635a2abba2b9d9fbfc10294d87f3c">FL_WHEN_NEVER</a>);</div>
+<div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#ad4ef380ffb50f4d00fe93f7b6677e9e1">when</a>(<a class="code hl_enumvalue" href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665ae504aaa4de36a9ff606530956c68887a">FL_WHEN_CHANGED</a>);</div>
+<div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#ad4ef380ffb50f4d00fe93f7b6677e9e1">when</a>(<a class="code hl_enumvalue" href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665afbd4ae9061c3cd4bc9b4aa94fcb8137a">FL_WHEN_RELEASE</a>);</div>
+<div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#ad4ef380ffb50f4d00fe93f7b6677e9e1">when</a>(<a class="code hl_enumvalue" href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665a178d65ff4c14dbe7a4c3a430734eb677">FL_WHEN_RELEASE_ALWAYS</a>);</div>
+<div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#ad4ef380ffb50f4d00fe93f7b6677e9e1">when</a>(<a class="code hl_enumvalue" href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665a07b6d76bf4ca08fc78b646d6d5959f09">FL_WHEN_ENTER_KEY</a>);</div>
+<div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#ad4ef380ffb50f4d00fe93f7b6677e9e1">when</a>(<a class="code hl_enumvalue" href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665aa62e296209f00c30b7d4a09a7e5b169b">FL_WHEN_ENTER_KEY_ALWAYS</a>);</div>
+<div class="line">button-&gt;<a class="code hl_function" href="classFl__Widget.html#ad4ef380ffb50f4d00fe93f7b6677e9e1">when</a>(<a class="code hl_enumvalue" href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665ae504aaa4de36a9ff606530956c68887a">FL_WHEN_CHANGED</a> | <a class="code hl_enumvalue" href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665ac5385d8670aedf159e0271731fceab85">FL_WHEN_NOT_CHANGED</a>);</div>
+<div class="ttc" id="aEnumerations_8H_html_adaaa8b52b78abf3ccce4787b112e6665a07b6d76bf4ca08fc78b646d6d5959f09"><div class="ttname"><a href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665a07b6d76bf4ca08fc78b646d6d5959f09">FL_WHEN_ENTER_KEY</a></div><div class="ttdeci">@ FL_WHEN_ENTER_KEY</div><div class="ttdoc">Do the callback when the user presses the ENTER key and the value changes.</div><div class="ttdef"><b>Definition</b> Enumerations.H:432</div></div>
+<div class="ttc" id="aEnumerations_8H_html_adaaa8b52b78abf3ccce4787b112e6665a178d65ff4c14dbe7a4c3a430734eb677"><div class="ttname"><a href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665a178d65ff4c14dbe7a4c3a430734eb677">FL_WHEN_RELEASE_ALWAYS</a></div><div class="ttdeci">@ FL_WHEN_RELEASE_ALWAYS</div><div class="ttdoc">Do the callback when the button or key is released, even if the value doesn't change.</div><div class="ttdef"><b>Definition</b> Enumerations.H:431</div></div>
+<div class="ttc" id="aEnumerations_8H_html_adaaa8b52b78abf3ccce4787b112e6665aa62e296209f00c30b7d4a09a7e5b169b"><div class="ttname"><a href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665aa62e296209f00c30b7d4a09a7e5b169b">FL_WHEN_ENTER_KEY_ALWAYS</a></div><div class="ttdeci">@ FL_WHEN_ENTER_KEY_ALWAYS</div><div class="ttdoc">Do the callback when the user presses the ENTER key, even if the value doesn't change.</div><div class="ttdef"><b>Definition</b> Enumerations.H:433</div></div>
+<div class="ttc" id="aEnumerations_8H_html_adaaa8b52b78abf3ccce4787b112e6665ac5385d8670aedf159e0271731fceab85"><div class="ttname"><a href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665ac5385d8670aedf159e0271731fceab85">FL_WHEN_NOT_CHANGED</a></div><div class="ttdeci">@ FL_WHEN_NOT_CHANGED</div><div class="ttdoc">Do the callback whenever the user interacts with the widget.</div><div class="ttdef"><b>Definition</b> Enumerations.H:429</div></div>
+<div class="ttc" id="aEnumerations_8H_html_adaaa8b52b78abf3ccce4787b112e6665adfa635a2abba2b9d9fbfc10294d87f3c"><div class="ttname"><a href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665adfa635a2abba2b9d9fbfc10294d87f3c">FL_WHEN_NEVER</a></div><div class="ttdeci">@ FL_WHEN_NEVER</div><div class="ttdoc">Never call the callback.</div><div class="ttdef"><b>Definition</b> Enumerations.H:427</div></div>
+<div class="ttc" id="aEnumerations_8H_html_adaaa8b52b78abf3ccce4787b112e6665ae504aaa4de36a9ff606530956c68887a"><div class="ttname"><a href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665ae504aaa4de36a9ff606530956c68887a">FL_WHEN_CHANGED</a></div><div class="ttdeci">@ FL_WHEN_CHANGED</div><div class="ttdoc">Do the callback only when the widget value changes.</div><div class="ttdef"><b>Definition</b> Enumerations.H:428</div></div>
+<div class="ttc" id="aEnumerations_8H_html_adaaa8b52b78abf3ccce4787b112e6665afbd4ae9061c3cd4bc9b4aa94fcb8137a"><div class="ttname"><a href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665afbd4ae9061c3cd4bc9b4aa94fcb8137a">FL_WHEN_RELEASE</a></div><div class="ttdeci">@ FL_WHEN_RELEASE</div><div class="ttdoc">Do the callback when the button or key is released and the value changes.</div><div class="ttdef"><b>Definition</b> Enumerations.H:430</div></div>
+<div class="ttc" id="aclassFl__Widget_html_ad4ef380ffb50f4d00fe93f7b6677e9e1"><div class="ttname"><a href="classFl__Widget.html#ad4ef380ffb50f4d00fe93f7b6677e9e1">Fl_Widget::when</a></div><div class="ttdeci">Fl_When when() const</div><div class="ttdef"><b>Definition</b> Fl_Widget.H:827</div></div>
+</div><!-- fragment --><p>Within the callback, you can query why the callback was called using <a class="el" href="group__fl__events.html#ga5200bf611c1c4cf6b4264e6e0b05e806">Fl::callback_reason()</a>. For example, setting</p>
+<div class="fragment"><div class="line">myInput-&gt;when(<a class="code hl_enumvalue" href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665afbd4ae9061c3cd4bc9b4aa94fcb8137a">FL_WHEN_RELEASE</a>|<a class="code hl_enumvalue" href="Enumerations_8H.html#adaaa8b52b78abf3ccce4787b112e6665ae504aaa4de36a9ff606530956c68887a">FL_WHEN_CHANGED</a>) </div>
+</div><!-- fragment --><p>for a text input field may return <a class="el" href="Enumerations_8H.html#af10b03e83b7216797dff35f766641056a750de62104cd8d23a71ed5ae6e2865ea">FL_REASON_LOST_FOCUS</a> or <a class="el" href="Enumerations_8H.html#af10b03e83b7216797dff35f766641056ab31f83a21b4dd58bb32d71adf72d1f7a">FL_REASON_CHANGED</a> as a callback reason.</p>
 <h1><a class="anchor" id="common_shortcuts"></a>
 Shortcuts</h1>
 <p>Shortcuts are key sequences that activate widgets such as buttons or menu items. The <code>shortcut()</code> method sets the shortcut for a widget:</p>
-<div class="fragment"><div class="line">button-&gt;shortcut(FL_Enter);</div>
-<div class="line">button-&gt;shortcut(FL_SHIFT + <span class="charliteral">&#39;b&#39;</span>);</div>
-<div class="line">button-&gt;shortcut(FL_CTRL + <span class="charliteral">&#39;b&#39;</span>);</div>
-<div class="line">button-&gt;shortcut(FL_ALT + <span class="charliteral">&#39;b&#39;</span>);</div>
-<div class="line">button-&gt;shortcut(FL_CTRL + FL_ALT + <span class="charliteral">&#39;b&#39;</span>);</div>
-<div class="line">button-&gt;shortcut(0); <span class="comment">// no shortcut</span></div>
+<div class="fragment"><div class="line">button-&gt;<a class="code hl_function" href="classFl__Button.html#ada2b633b47d6ef80ebb79b78bd7d8473">shortcut</a>(<a class="code hl_define" href="Enumerations_8H.html#ab4a527fe4d93303976de2fbfec05e19b">FL_Enter</a>);</div>
+<div class="line">button-&gt;<a class="code hl_function" href="classFl__Button.html#ada2b633b47d6ef80ebb79b78bd7d8473">shortcut</a>(<a class="code hl_define" href="Enumerations_8H.html#aa0d93ca1bc8a0c7f84888cdf458f043d">FL_SHIFT</a> + <span class="charliteral">&#39;b&#39;</span>);</div>
+<div class="line">button-&gt;<a class="code hl_function" href="classFl__Button.html#ada2b633b47d6ef80ebb79b78bd7d8473">shortcut</a>(<a class="code hl_define" href="Enumerations_8H.html#a29324ec5ac8c1d87950127d387dc83e8">FL_CTRL</a> + <span class="charliteral">&#39;b&#39;</span>);</div>
+<div class="line">button-&gt;<a class="code hl_function" href="classFl__Button.html#ada2b633b47d6ef80ebb79b78bd7d8473">shortcut</a>(<a class="code hl_define" href="Enumerations_8H.html#a58b1ac5446b292c77043f99558eb07cb">FL_ALT</a> + <span class="charliteral">&#39;b&#39;</span>);</div>
+<div class="line">button-&gt;<a class="code hl_function" href="classFl__Button.html#ada2b633b47d6ef80ebb79b78bd7d8473">shortcut</a>(<a class="code hl_define" href="Enumerations_8H.html#a29324ec5ac8c1d87950127d387dc83e8">FL_CTRL</a> + <a class="code hl_define" href="Enumerations_8H.html#a58b1ac5446b292c77043f99558eb07cb">FL_ALT</a> + <span class="charliteral">&#39;b&#39;</span>);</div>
+<div class="line">button-&gt;<a class="code hl_function" href="classFl__Button.html#ada2b633b47d6ef80ebb79b78bd7d8473">shortcut</a>(0); <span class="comment">// no shortcut</span></div>
+<div class="ttc" id="aEnumerations_8H_html_a29324ec5ac8c1d87950127d387dc83e8"><div class="ttname"><a href="Enumerations_8H.html#a29324ec5ac8c1d87950127d387dc83e8">FL_CTRL</a></div><div class="ttdeci">#define FL_CTRL</div><div class="ttdoc">One of the ctrl keys is down.</div><div class="ttdef"><b>Definition</b> Enumerations.H:572</div></div>
+<div class="ttc" id="aEnumerations_8H_html_a58b1ac5446b292c77043f99558eb07cb"><div class="ttname"><a href="Enumerations_8H.html#a58b1ac5446b292c77043f99558eb07cb">FL_ALT</a></div><div class="ttdeci">#define FL_ALT</div><div class="ttdoc">One of the alt keys is down.</div><div class="ttdef"><b>Definition</b> Enumerations.H:573</div></div>
+<div class="ttc" id="aEnumerations_8H_html_aa0d93ca1bc8a0c7f84888cdf458f043d"><div class="ttname"><a href="Enumerations_8H.html#aa0d93ca1bc8a0c7f84888cdf458f043d">FL_SHIFT</a></div><div class="ttdeci">#define FL_SHIFT</div><div class="ttdoc">One of the shift keys is down.</div><div class="ttdef"><b>Definition</b> Enumerations.H:570</div></div>
+<div class="ttc" id="aEnumerations_8H_html_ab4a527fe4d93303976de2fbfec05e19b"><div class="ttname"><a href="Enumerations_8H.html#ab4a527fe4d93303976de2fbfec05e19b">FL_Enter</a></div><div class="ttdeci">#define FL_Enter</div><div class="ttdoc">The enter key.</div><div class="ttdef"><b>Definition</b> Enumerations.H:481</div></div>
+<div class="ttc" id="aclassFl__Button_html_ada2b633b47d6ef80ebb79b78bd7d8473"><div class="ttname"><a href="classFl__Button.html#ada2b633b47d6ef80ebb79b78bd7d8473">Fl_Button::shortcut</a></div><div class="ttdeci">int shortcut() const</div><div class="ttdef"><b>Definition</b> Fl_Button.H:123</div></div>
 </div><!-- fragment --><p>The shortcut value is the key event value - the ASCII value or one of the special keys described in <a class="el" href="enumerations.html#enumerations_event_key">Fl::event_key() Values</a> combined with any modifiers like <code>Shift</code> , <code>Alt</code> , and <code>Control</code>.</p>
 <p> 
 <hr>

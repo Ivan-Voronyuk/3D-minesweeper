@@ -1,0 +1,18 @@
+<map id="Fl_Text_Display::longest_vline" name="Fl_Text_Display::longest_vline">
+<area shape="rect" id="Node000001" title="Find the longest line of all visible lines." alt="" coords="1065,12,1244,52"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Display.html#a2c2089df8e61ec00991abda79026f1fe" title=" " alt="" coords="399,12,569,52"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1051,14,1017,10,804,10,618,12,570,19,569,13,617,7,804,4,1017,4,1052,9"/>
+<area shape="rect" id="Node000005" href="$classFl__Text__Display.html#ac59b0199f494e20eae3fb270bd20b0f9" title="Scrolls the current buffer to start at the specified line and column." alt="" coords="844,20,1017,45"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1052,35,1018,35,1018,30,1052,30"/>
+<area shape="rect" id="Node000007" href="$classFl__Text__Display.html#a392b252cf45bc123e58c2542578637d7" title="Update horizontal scrollbar." alt="" coords="619,104,795,144"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="1052,56,795,109,794,104,1051,51"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Display.html#a2db0c8c740c19c6903a860fa3ceb9a4f" title="Draw the widget." alt="" coords="188,20,351,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="385,35,351,35,351,30,385,30"/>
+<area shape="rect" id="Node000004" href="$classTextViewer.html#a22b249735474c3350976630198d9ed24" title=" " alt="" coords="5,20,140,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="174,35,140,35,140,30,174,30"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="830,32,796,31,617,31,570,32,569,27,617,26,796,26,830,27"/>
+<area shape="rect" id="Node000006" href="$classFl__Text__Display.html#ac5de2af1a6744d3f7be1fc7c53343f75" title="Scroll the display to bring insertion cursor into view." alt="" coords="617,40,796,80"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="831,48,797,52,796,47,830,42"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="603,50,569,46,570,41,604,45"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="635,102,616,95,526,55,528,50,618,90,637,97"/>
+</map>

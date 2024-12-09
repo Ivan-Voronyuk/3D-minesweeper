@@ -1,0 +1,10 @@
+<map id="Fl_Text_Buffer::select" name="Fl_Text_Buffer::select">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,66,167,91"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Buffer.html#a6f436f4fd49b7ddeab5a40d33022a606" title=" " alt="" coords="215,29,397,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,65,201,61,201,66,167,71"/>
+<area shape="rect" id="Node000004" href="$classFl__Text__Selection.html#afe8a2a6015a48659f5365d483496c191" title="Sets the selection range." alt="" coords="225,94,387,119"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="167,86,212,92,211,97,167,92"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Buffer.html#a695bd49abdcda997913315736d63e090" title=" " alt="" coords="445,29,591,69"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="398,47,431,47,431,52,398,52"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="478,30,476,20,482,10,497,5,518,3,543,6,556,13,554,18,541,11,518,8,498,10,486,15,481,21,484,28"/>
+</map>

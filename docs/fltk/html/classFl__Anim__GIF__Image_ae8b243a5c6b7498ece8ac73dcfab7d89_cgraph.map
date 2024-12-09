@@ -1,0 +1,21 @@
+<map id="Fl_Anim_GIF_Image::canvas" name="Fl_Anim_GIF_Image::canvas">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,161,165,201"/>
+<area shape="rect" id="Node000002" href="$classFl__Anim__GIF__Image.html#aafb42a06074dc94aac3ad5f0cdaa5837" title=" " alt="" coords="213,5,373,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,159,148,109,178,80,212,55,221,49,224,54,215,60,182,84,151,112,105,163"/>
+<area shape="rect" id="Node000003" href="$classFl__Image.html#aef3567278e27544da6fb8b674d367b6c" title=" " alt="" coords="244,70,343,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="115,159,160,131,212,104,230,97,232,102,214,109,162,136,118,163"/>
+<area shape="rect" id="Node000004" href="$classFl.html#a6a227105cdfc2acde46070114a360370" title=" " alt="" coords="232,119,355,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="165,160,226,145,227,150,166,165"/>
+<area shape="rect" id="Node000006" href="$classFl__Widget.html#ad31a8d00ef90b741f5f8833dfefca3e3" title=" " alt="" coords="225,169,361,194"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="165,179,211,179,211,184,165,184"/>
+<area shape="rect" id="Node000007" href="$classFl.html#acc9aec286a10ff0eefb3e9f4d93f5b29" title=" " alt="" coords="218,218,369,243"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="166,198,227,212,226,217,165,203"/>
+<area shape="rect" id="Node000009" href="$classFl__Widget.html#ae386844a68c27ea0b64313619551e786" title=" " alt="" coords="233,267,354,293"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="118,199,162,227,214,254,232,260,230,265,212,258,160,231,115,204"/>
+<area shape="rect" id="Node000010" href="$classFl__Image.html#a7cf92084aede6baa2bdb00caa8f5a010" title=" " alt="" coords="243,317,344,342"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="104,200,150,251,181,279,215,303,231,311,229,316,212,308,178,283,146,255,100,203"/>
+<area shape="rect" id="Node000005" href="$classFl__Timeout.html#a20464015b74c35410c4923cffc28cc61" title=" " alt="" coords="421,119,605,145"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="355,129,408,129,408,135,355,135"/>
+<area shape="rect" id="Node000008" href="$classFl__Timeout.html#a2afe4152f4bccd990e0d85498c0e0b09" title=" " alt="" coords="437,211,590,251"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="369,228,423,228,423,233,369,233"/>
+</map>

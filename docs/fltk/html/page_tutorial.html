@@ -97,11 +97,11 @@ Hello, World!</h1>
 Function/Method Properties Dialog</div></div>
  <p>Click OK to apply the changes you made in the Function Properties dialog. You can get this dialog back at any time by selecting the function in the main window and pressing <b>F1</b>, or by double-clicking it.</p>
 <p>Note that the function will not show up in the Code View yet. FLUID will not generate code for functions that don't have any content, and only create a forward declaration in the header file, assuming that the function will be implemented inside another module.</p>
-<p>Keep the <code>main</code> function selected and add an <code>Fl_Window</code> to the function by selecting <b>New &gt; Group &gt; Window...</b>, by clicking the <img src="flWindow.png" alt="" class="inline" title="Group/Window"/>  image in the Widget Bin, or by dragging the Group/Window image from the Widget Bin onto the desktop.</p>
-<p>A new application window will open up on the desktop. The thin red outline around the window indicates that it is selected. Dragging the red line will resize the window. Take a look at the Code View: the main function is now generated, including code to instantiate our <code>Fl_Window</code>.</p>
+<p>Keep the <code>main</code> function selected and add an <code><a class="el" href="classFl__Window.html">Fl_Window</a></code> to the function by selecting <b>New &gt; Group &gt; Window...</b>, by clicking the <img src="flWindow.png" alt="" class="inline" title="Group/Window"/>  image in the Widget Bin, or by dragging the Group/Window image from the Widget Bin onto the desktop.</p>
+<p>A new application window will open up on the desktop. The thin red outline around the window indicates that it is selected. Dragging the red line will resize the window. Take a look at the Code View: the main function is now generated, including code to instantiate our <code><a class="el" href="classFl__Window.html">Fl_Window</a></code>.</p>
 <p>To edit all the attributes of our window, make sure it is selected and press <b>F1</b>, or double-click the entry in the main FLUID window, or double-click the window itself. The "Widget Properties" dialog box will pop up. Enter some text in the "Label:" text box and see how the label is updated immediately in the window itself, in the widget list, and in the Code View.</p>
-<p>Adding a static text to our window is just as easy. Put an <code>Fl_Box</code> into our window by selecting <b>New &gt; Other &gt; <a class="el" href="classBox.html">Box</a></b>, or by clicking on the <img src="flBox.png" alt="" class="inline" title="Other/Box"/>  image in the Widget Bin, or by dragging the Other/Box image from the Widget Bin into our newly created window.</p>
-<p>Most importantly, enter the text "Hello, World!" in the "Label:" field of the <a class="el" href="classBox.html">Box</a> Widget Properties panel to achieve the goal of this tutorial. Now is also a great time to experiment with label styles, label fonts, sizes, colors, etc. .</p>
+<p>Adding a static text to our window is just as easy. Put an <code><a class="el" href="classFl__Box.html">Fl_Box</a></code> into our window by selecting <b>New &gt; Other &gt; Box</b>, or by clicking on the <img src="flBox.png" alt="" class="inline" title="Other/Box"/>  image in the Widget Bin, or by dragging the Other/Box image from the Widget Bin into our newly created window.</p>
+<p>Most importantly, enter the text "Hello, World!" in the "Label:" field of the Box Widget Properties panel to achieve the goal of this tutorial. Now is also a great time to experiment with label styles, label fonts, sizes, colors, etc. .</p>
 <p>Finally, we should save our project as an <code>.fl</code> project file somewhere. Once the project is saved, select <b>File &gt; Write Code</b> or press <b>Shift-Ctrl-C</b> to write our source code and header file to the same directory.</p>
 <p>Compile the program using a Makefile, CMake file, or fltk-config as described in the FLTK manual and the <code>README.txt</code> files in the FLTK source tree.</p>
 <h1><a class="anchor" id="fluid_1of7guis_tutorial"></a>
@@ -116,43 +116,43 @@ Task 1 of 7GUIs</div></div>
  task is to build a frame containing a label or read-only textfield T and a
  button B. Initially, the value in T is “0” and each click of B increases the
  value in T by one."</p>
-<p>Our knowledge from tutorial 1 is enough to generate the <code>main()</code> function, and add an <code>Fl_Window</code>, an <code>Fl_Output</code>, and an <code>Fl_Button</code>. To make life easy, FLUID comes with a built-in template for this tutorial. Just select <b>File &gt; New from Template...</b> and double-click "1of7GUIs" in the Template <a class="el" href="classPanel.html">Panel</a>.</p>
+<p>Our knowledge from tutorial 1 is enough to generate the <code>main()</code> function, and add an <code><a class="el" href="classFl__Window.html">Fl_Window</a></code>, an <code><a class="el" href="classFl__Output.html">Fl_Output</a></code>, and an <code><a class="el" href="classFl__Button.html" title="Buttons generate callbacks when they are clicked by the user.">Fl_Button</a></code>. To make life easy, FLUID comes with a built-in template for this tutorial. Just select <b>File &gt; New from Template...</b> and double-click "1of7GUIs" in the Template Panel.</p>
 <p>We will need to reference the output widget in our callback, so let's assign a pointer to the widget to a global variable and give that variable a name. Open the Widget Properties dialog by double-clicking the output widget. Change to the "C++" tab, and enter "`counter_widget`" in the "Name:" field.</p>
 <p>The "Count" button is the active element in our application. To tell the app what to do when the user clicks the button, we create a callback function for that button. Open the widget properties dialog for the button. In the "C++" tab, we find the input field "Callback:".</p>
-<p>The callback is called exactly once every time the user clicks the button. Our strategy here is to read the current value from the <code>counter_widget</code>, increment it by 1, and write it back to <code>counter_widget</code>. The FLTK documentation tells us that we can use <code>Fl_Output::ivalue()</code> to get text in <code>Fl_Output</code> as an integer, and we can write it back by calling <code>Fl_Output::value(int)</code>. When the value is changed, FLTK will automatically redraw the output widget for us. So here is the callback code:</p>
+<p>The callback is called exactly once every time the user clicks the button. Our strategy here is to read the current value from the <code>counter_widget</code>, increment it by 1, and write it back to <code>counter_widget</code>. The FLTK documentation tells us that we can use <code><a class="el" href="classFl__Input__.html#aa24f900ee62f6254461b9a90f6fb4ae4">Fl_Output::ivalue()</a></code> to get text in <code><a class="el" href="classFl__Output.html">Fl_Output</a></code> as an integer, and we can write it back by calling <code><a class="el" href="classFl__Input__.html#adf136a90dc375bb8f599c67a3acbdd68">Fl_Output::value(int)</a></code>. When the value is changed, FLTK will automatically redraw the output widget for us. So here is the callback code:</p>
 <div class="fragment"><div class="line"><span class="keywordtype">int</span> i = counter_widget-&gt;ivalue();</div>
 <div class="line">i++;</div>
 <div class="line">counter_widget-&gt;value(i);</div>
 </div><!-- fragment --><p>That's it. This is a complete interactive desktop application. Compile, link, run, and test it to see how it works.</p>
 <h1><a class="anchor" id="fluid_cubeview_tutorial"></a>
 Cube View</h1>
-<p>This tutorial will show you how to generate a complete user interface class with FLUID that is used for the <a class="el" href="classCubeView.html">CubeView</a> program provided with FLTK.</p>
+<p>This tutorial will show you how to generate a complete user interface class with FLUID that is used for the CubeView program provided with FLTK.</p>
 <div class="image">
 <img src="cubeview.png" alt=""/>
 <div class="caption">
 CubeView demo</div></div>
- <p>The window is of class CubeViewUI, and is completely generated by FLUID, including class member functions. The central display of the cube is a separate subclass of Fl_Gl_Window called <a class="el" href="classCubeView.html">CubeView</a>. CubeViewUI manages <a class="el" href="classCubeView.html">CubeView</a> using callbacks from the various sliders and rollers to manipulate the viewing angle and zoom of <a class="el" href="classCubeView.html">CubeView</a>.</p>
+ <p>The window is of class CubeViewUI, and is completely generated by FLUID, including class member functions. The central display of the cube is a separate subclass of <a class="el" href="classFl__Gl__Window.html">Fl_Gl_Window</a> called CubeView. CubeViewUI manages CubeView using callbacks from the various sliders and rollers to manipulate the viewing angle and zoom of CubeView.</p>
 <p>At the completion of this tutorial you will (hopefully) understand how to:</p>
 <ol type="1">
 <li>Use FLUID to create a complete user interface class, including constructor and any member functions necessary.</li>
 <li>Use FLUID to set callback member functions of custom widget classes.</li>
-<li>Subclass an Fl_Gl_Window to suit your purposes.</li>
+<li>Subclass an <a class="el" href="classFl__Gl__Window.html">Fl_Gl_Window</a> to suit your purposes.</li>
 </ol>
 <h2><a class="anchor" id="fluid_cubeview"></a>
 The CubeView Class</h2>
-<p>The <a class="el" href="classCubeView.html">CubeView</a> class is a subclass of Fl_Gl_Window. It has methods for setting the zoom, the <em>x</em> and <em>y</em> pan, and the rotation angle about the <em>x</em> and <em>y</em> axes.</p>
-<p>You can safely skip this section as long as you realize that <a class="el" href="classCubeView.html">CubeView</a> is a sublass of Fl_Gl_Window and will respond to calls from CubeViewUI, generated by FLUID.</p>
+<p>The CubeView class is a subclass of <a class="el" href="classFl__Gl__Window.html">Fl_Gl_Window</a>. It has methods for setting the zoom, the <em>x</em> and <em>y</em> pan, and the rotation angle about the <em>x</em> and <em>y</em> axes.</p>
+<p>You can safely skip this section as long as you realize that CubeView is a sublass of <a class="el" href="classFl__Gl__Window.html">Fl_Gl_Window</a> and will respond to calls from CubeViewUI, generated by FLUID.</p>
 <dl class="section user"><dt>The CubeView Class Definition</dt><dd></dd></dl>
-<p>Here is the <a class="el" href="classCubeView.html">CubeView</a> class definition, as given by its header file "test/CubeView.h": <br  />
+<p>Here is the CubeView class definition, as given by its header file "test/CubeView.h": <br  />
 </p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;FL/Fl.H&gt;</span></div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="Fl_8H.html">FL/Fl.H</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;FL/Fl_Gl_Window.H&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="gl_8h.html">FL/gl.h</a>&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">class </span><a class="code hl_class" href="classCubeView.html">CubeView</a> : <span class="keyword">public</span> Fl_Gl_Window {</div>
+<div class="line"><span class="keyword">class </span>CubeView : <span class="keyword">public</span> <a class="code hl_class" href="classFl__Gl__Window.html">Fl_Gl_Window</a> {</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">public</span>:</div>
-<div class="line">  <a class="code hl_class" href="classCubeView.html">CubeView</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <span class="keyword">const</span> <span class="keywordtype">char</span> *l = 0);</div>
+<div class="line">  CubeView(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <span class="keyword">const</span> <span class="keywordtype">char</span> *l = 0);</div>
 <div class="line"> </div>
 <div class="line">  <span class="comment">// This value determines the scaling factor used to draw the cube.</span></div>
 <div class="line">  <span class="keywordtype">double</span> size;</div>
@@ -216,18 +216,19 @@ The CubeView Class</h2>
 <div class="line"><span class="comment">  float boxv4[3]; float boxv5[3];</span></div>
 <div class="line"><span class="comment">  float boxv6[3]; float boxv7[3];</span></div>
 <div class="line"><span class="comment">};</span></div>
-<div class="ttc" id="aclassCubeView_html"><div class="ttname"><a href="classCubeView.html">CubeView</a></div><div class="ttdef"><b>Definition</b> CubeView.h:39</div></div>
+<div class="ttc" id="aFl_8H_html"><div class="ttname"><a href="Fl_8H.html">Fl.H</a></div><div class="ttdoc">Fl static class.</div></div>
+<div class="ttc" id="aclassFl__Gl__Window_html"><div class="ttname"><a href="classFl__Gl__Window.html">Fl_Gl_Window</a></div><div class="ttdef"><b>Definition</b> Fl_Gl_Window.H:56</div></div>
 <div class="ttc" id="agl_8h_html"><div class="ttname"><a href="gl_8h.html">gl.h</a></div></div>
 </div><!-- fragment --><dl class="section user"><dt>The CubeView Class Implementation</dt><dd></dd></dl>
-<p>Here is the <a class="el" href="classCubeView.html">CubeView</a> implementation. It is very similar to the "CubeView" demo included with FLTK. <br  />
+<p>Here is the CubeView implementation. It is very similar to the "CubeView" demo included with FLTK. <br  />
 </p>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;CubeView.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;math.h&gt;</span></div>
 <div class="line"> </div>
 <div class="line">CubeView::CubeView(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <span class="keyword">const</span> <span class="keywordtype">char</span> *l)</div>
-<div class="line">  : Fl_Gl_Window(x, y, w, h, l)</div>
+<div class="line">  : <a class="code hl_class" href="classFl__Gl__Window.html">Fl_Gl_Window</a>(x, y, w, h, l)</div>
 <div class="line">{</div>
-<div class="line">  Fl::use_high_res_GL(1);</div>
+<div class="line">  <a class="code hl_function" href="classFl.html#a841e929912f3604e0a3d0ef1dff245c8">Fl::use_high_res_GL</a>(1);</div>
 <div class="line">  vAng = 0.0;</div>
 <div class="line">  hAng = 0.0;</div>
 <div class="line">  size = 10.0;</div>
@@ -352,9 +353,10 @@ The CubeView Class</h2>
 <div class="line"> </div>
 <div class="line">  glPopMatrix();</div>
 <div class="line">}</div>
+<div class="ttc" id="aclassFl_html_a841e929912f3604e0a3d0ef1dff245c8"><div class="ttname"><a href="classFl.html#a841e929912f3604e0a3d0ef1dff245c8">Fl::use_high_res_GL</a></div><div class="ttdeci">static int use_high_res_GL()</div><div class="ttdef"><b>Definition</b> Fl.H:1419</div></div>
 </div><!-- fragment --><h2><a class="anchor" id="fluid_cubeview_ui"></a>
 The CubeViewUI Class</h2>
-<p>We will completely construct a window to display and control the <a class="el" href="classCubeView.html">CubeView</a> defined in the previous section using FLUID.</p>
+<p>We will completely construct a window to display and control the CubeView defined in the previous section using FLUID.</p>
 <dl class="section user"><dt>Defining the CubeViewUI Class</dt><dd></dd></dl>
 <p>Once you have started FLUID, the first step in defining a class is to create a new class within FLUID using the <b>New-&gt;Code-&gt;Class</b> menu item. Name the class "CubeViewUI" and leave the subclass blank. We do not need any inheritance for this window. You should see the new class declaration in the FLUID browser window.</p>
 <div class="image">
@@ -379,21 +381,22 @@ FLUID file for CubeView</div></div>
 FLUID window containing CubeView demo</div></div>
  <p>We will talk about the <code>show()</code> method that is highlighted shortly.</p>
 <dl class="section user"><dt>Adding the CubeView Widget</dt><dd></dd></dl>
-<p>What we have is nice, but does little to show our cube. We have already defined the <a class="el" href="classCubeView.html">CubeView</a> class and we would like to show it within the CubeViewUI.</p>
-<p>The <a class="el" href="classCubeView.html">CubeView</a> class inherits the Fl_Gl_Window class, which is created in the same way as an Fl_Box widget. Use <b>New-&gt;Other-&gt;<a class="el" href="classBox.html">Box</a></b> to add a square box to the main window. This will be no ordinary box, however.</p>
-<p>The <a class="el" href="classBox.html">Box</a> properties window will appear. The key to letting CubeViewUI display <a class="el" href="classCubeView.html">CubeView</a> is to enter <a class="el" href="classCubeView.html">CubeView</a> in the <b>Class:</b> text entry box. This tells FLUID that it is not an Fl_Box, but a similar widget with the same constructor.</p>
+<p>What we have is nice, but does little to show our cube. We have already defined the CubeView class and we would like to show it within the CubeViewUI.</p>
+<p>The CubeView class inherits the <a class="el" href="classFl__Gl__Window.html">Fl_Gl_Window</a> class, which is created in the same way as an <a class="el" href="classFl__Box.html">Fl_Box</a> widget. Use <b>New-&gt;Other-&gt;Box</b> to add a square box to the main window. This will be no ordinary box, however.</p>
+<p>The Box properties window will appear. The key to letting CubeViewUI display CubeView is to enter CubeView in the <b>Class:</b> text entry box. This tells FLUID that it is not an <a class="el" href="classFl__Box.html">Fl_Box</a>, but a similar widget with the same constructor.</p>
 <p>In the <b>Extra Code:</b> field enter <code>#include "CubeView.h"</code></p>
-<p>This <code>#include</code> is important, as we have just included <a class="el" href="classCubeView.html">CubeView</a> as a member of CubeViewUI, so any public <a class="el" href="classCubeView.html">CubeView</a> methods are now available to CubeViewUI.</p>
+<p>This <code>#include</code> is important, as we have just included CubeView as a member of CubeViewUI, so any public CubeView methods are now available to CubeViewUI.</p>
 <div class="image">
 <img src="fluid3-cxx.png" alt=""/>
 <div class="caption">
 CubeView methods</div></div>
  <dl class="section user"><dt>Defining the Callbacks</dt><dd></dd></dl>
-<p>Each of the widgets we defined before adding <a class="el" href="classCubeView.html">CubeView</a> can have callbacks that call <a class="el" href="classCubeView.html">CubeView</a> methods. You can call an external function or put a short amount of code in the <b>Callback</b> field of the widget panel. For example, the callback for the <code>ypan</code> slider is:</p>
-<div class="fragment"><div class="line">cube-&gt;pany(((Fl_Slider *)o)-&gt;value());</div>
+<p>Each of the widgets we defined before adding CubeView can have callbacks that call CubeView methods. You can call an external function or put a short amount of code in the <b>Callback</b> field of the widget panel. For example, the callback for the <code>ypan</code> slider is:</p>
+<div class="fragment"><div class="line">cube-&gt;pany(((<a class="code hl_class" href="classFl__Slider.html">Fl_Slider</a> *)o)-&gt;value());</div>
 <div class="line">cube-&gt;redraw();</div>
-</div><!-- fragment --><p>We call <code>cube-&gt;redraw()</code> after changing the value to update the <a class="el" href="classCubeView.html">CubeView</a> window. <a class="el" href="classCubeView.html">CubeView</a> could easily be modified to do this, but it is nice to keep this exposed. In the case where you may want to do more than one view change only redrawing once saves a lot of time.</p>
-<p>There is no reason to wait until after you have added <a class="el" href="classCubeView.html">CubeView</a> to enter these callbacks. FLUID assumes you are smart enough not to refer to members or functions that don't exist.</p>
+<div class="ttc" id="aclassFl__Slider_html"><div class="ttname"><a href="classFl__Slider.html">Fl_Slider</a></div><div class="ttdef"><b>Definition</b> Fl_Slider.H:59</div></div>
+</div><!-- fragment --><p>We call <code>cube-&gt;redraw()</code> after changing the value to update the CubeView window. CubeView could easily be modified to do this, but it is nice to keep this exposed. In the case where you may want to do more than one view change only redrawing once saves a lot of time.</p>
+<p>There is no reason to wait until after you have added CubeView to enter these callbacks. FLUID assumes you are smart enough not to refer to members or functions that don't exist.</p>
 <dl class="section user"><dt>Adding a Class Method</dt><dd></dd></dl>
 <p>You can add class methods within FLUID that have nothing to do with the GUI. As an example add a show function so that CubeViewUI can actually appear on the screen.</p>
 <p>Make sure the top level CubeViewUI is selected and select <b>New-&gt;Code-&gt;Function/Method</b>. Just use the name <code>show()</code>. We don't need a return value here, and since we will not be adding any widgets to this method FLUID will assign it a return type of <code>void</code>.</p>
@@ -404,7 +407,7 @@ CubeView constructor</div></div>
  <p>Once the new method has been added, highlight its name and select <b>New-&gt;Code-&gt;Code.</b> Enter the method's code in the code window.</p>
 <h2><a class="anchor" id="fluid_addconst"></a>
 Adding Constructor Initialization Code</h2>
-<p>If you need to add code to initialize a class, for example setting initial values of the horizontal and vertical angles in the <a class="el" href="classCubeView.html">CubeView</a>, you can simply highlight the constructor and select <b>New-&gt;Code-&gt;Code</b>. Add any required code.</p>
+<p>If you need to add code to initialize a class, for example setting initial values of the horizontal and vertical angles in the CubeView, you can simply highlight the constructor and select <b>New-&gt;Code-&gt;Code</b>. Add any required code.</p>
 <h2><a class="anchor" id="fluid_gencode"></a>
 Generating the Code</h2>
 <p>Now that we have completely defined the CubeViewUI, we have to generate the code. There is one last trick to ensure this all works. Open the preferences dialog from <b>Edit-&gt;Preferences</b>.</p>

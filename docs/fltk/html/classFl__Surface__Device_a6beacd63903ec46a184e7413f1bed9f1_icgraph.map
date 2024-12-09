@@ -1,0 +1,43 @@
+<map id="Fl_Surface_Device::pop_current" name="Fl_Surface_Device::pop_current">
+<area shape="rect" id="Node000001" title=" " alt="" coords="868,285,1019,325"/>
+<area shape="rect" id="Node000002" href="$classFl__WinAPI__Printer__Driver.html#a8b8f0beaf44c565048854b87576a20e4" title="Begins a new printed page." alt="" coords="635,5,819,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="931,273,916,227,892,172,860,116,818,66,791,48,794,43,822,62,864,113,897,170,921,225,936,271"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget__Surface.html#a298d5b329713adada34d718ebd99502b" title="Draws the widget on the drawing surface." alt="" coords="635,121,818,146"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="920,276,877,221,849,192,819,168,779,149,781,144,821,163,853,188,881,217,924,272"/>
+<area shape="rect" id="Node000004" href="$classFl__Widget__Surface.html#aa9d386d61cb3d9baf8ec6ba0644f3844" title=" " alt="" coords="397,56,579,96"/>
+<area shape="poly" id="edge10_Node000001_Node000004" title=" " alt="" coords="929,273,914,233,890,188,859,145,840,126,819,110,791,96,761,84,699,70,637,65,579,67,579,61,637,60,700,65,763,79,793,91,821,106,843,122,863,141,895,186,919,231,934,271"/>
+<area shape="rect" id="Node000007" href="$group__fl__drawings.html#gad7fa074dfea63e85271e49175d8387dd" title=" " alt="" coords="440,185,536,210"/>
+<area shape="poly" id="edge15_Node000001_Node000007" title=" " alt="" coords="913,277,871,241,846,224,819,212,782,201,744,193,667,186,595,187,537,193,536,187,595,182,667,181,745,188,784,196,821,207,849,220,874,237,916,273"/>
+<area shape="rect" id="Node000011" href="$classFl__PostScript__File__Device.html#ab4d1d22acaa67ac5b8a5c2484a7785a8" title="To be called at the end of each page. This function also stops this surface from being the current dr..." alt="" coords="654,221,799,261"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="861,284,794,264,796,259,863,279"/>
+<area shape="rect" id="Node000012" href="$classFl__Cocoa__Printer__Driver.html#aae37c820bdee4a92d8cf3d0daa37431c" title="To be called at the end of each page. This function also stops this surface from being the current dr..." alt="" coords="637,285,816,325"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="854,308,816,308,816,303,854,303"/>
+<area shape="rect" id="Node000013" href="$classFl__WinAPI__Printer__Driver.html#aab409b92d6775b78ff6cdb4562dbdccd" title="To be called at the end of each page. This function also stops this surface from being the current dr..." alt="" coords="635,349,819,389"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="863,332,796,352,794,347,861,327"/>
+<area shape="rect" id="Node000014" href="$group__fl__drawings.html#ga2eb6c8ec0c8d829ef1eda436c0482196" title=" " alt="" coords="663,414,791,439"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="914,337,872,372,821,404,789,416,787,411,819,399,868,367,910,333"/>
+<area shape="rect" id="Node000015" href="$classFl__Image__Surface.html#a720b21c8ef4ab44d0577bcf289ab51e2" title=" " alt="" coords="633,463,820,489"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="926,339,883,397,854,427,821,453,795,466,792,461,819,448,850,423,879,394,921,336"/>
+<area shape="rect" id="Node000017" href="$classFl__Image__Surface.html#a36150a50c0ff7505804e84c85a402ef7" title=" " alt="" coords="391,514,585,539"/>
+<area shape="poly" id="edge22_Node000001_Node000017" title=" " alt="" coords="934,340,919,379,895,425,863,469,843,488,821,504,791,519,758,531,691,543,624,546,565,542,566,537,624,541,690,538,757,526,789,514,819,499,840,484,859,465,891,422,914,377,929,338"/>
+<area shape="rect" id="Node000019" href="$classFl__Widget__Surface.html#a88c628ab14aa4f3a00c09300dce99c9a" title=" " alt="" coords="651,564,802,604"/>
+<area shape="poly" id="edge21_Node000001_Node000019" title=" " alt="" coords="936,340,920,385,897,440,864,497,822,547,794,566,791,562,818,543,860,494,892,438,915,383,931,338"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="659,120,571,99,572,93,661,115"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="668,152,586,175,537,188,536,182,585,169,666,147"/>
+<area shape="rect" id="Node000010" href="$classFl__Paged__Device.html#a39e2c0919372ded31a94288fc8b50a89" title=" " alt="" coords="403,120,573,160"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="622,139,574,140,574,135,622,134"/>
+<area shape="rect" id="Node000005" href="$classFl__Paged__Device.html#a6a0c5ec16651baa95e34ade76117d166" title=" " alt="" coords="172,56,343,96"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="383,79,343,79,343,73,383,73"/>
+<area shape="rect" id="Node000006" href="$group__globals.html#gaf5dcf594e577c0e9254b411908a9aa98" title=" " alt="" coords="5,63,124,89"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="158,79,124,79,124,73,158,73"/>
+<area shape="rect" id="Node000008" href="$group__fl__drawings.html#ga2ffafd560466c831de2ed874c94ff61a" title=" " alt="" coords="209,161,305,186"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="426,194,305,181,306,176,427,188"/>
+<area shape="rect" id="Node000009" href="$group__fl__drawings.html#ga8694e4b0634771b6194758e72683eea3" title=" " alt="" coords="209,210,305,235"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="427,207,306,220,305,215,426,201"/>
+<area shape="poly" id="edge17_Node000015_Node000007" title=" " alt="" coords="642,460,632,453,601,425,575,392,533,322,505,257,490,211,495,209,510,255,538,320,579,389,605,421,635,449,645,455"/>
+<area shape="rect" id="Node000016" href="$classFl__Image__Surface.html#a1629467ad4bf1aca678b2c71853edfeb" title=" " alt="" coords="391,449,585,489"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="619,476,585,475,585,469,619,470"/>
+<area shape="poly" id="edge19_Node000015_Node000017" title=" " alt="" coords="653,494,549,517,548,511,652,489"/>
+<area shape="rect" id="Node000018" href="$group__fl__drawings.html#ga3f790f7afb6b4a2ee640087a3f9a2b89" title=" " alt="" coords="182,514,333,539"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="378,529,333,529,333,524,378,524"/>
+</map>

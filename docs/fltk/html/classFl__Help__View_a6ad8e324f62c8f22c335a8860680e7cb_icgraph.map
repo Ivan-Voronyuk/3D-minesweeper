@@ -1,0 +1,20 @@
+<map id="Fl_Help_View::clear_selection" name="Fl_Help_View::clear_selection">
+<area shape="rect" id="Node000001" title=" " alt="" coords="620,73,769,113"/>
+<area shape="rect" id="Node000002" href="$classFl__Help__View.html#a8f676e61e6ab6e1714d6c4ee3e353163" title=" " alt="" coords="383,5,545,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="637,70,571,45,529,33,531,28,573,39,639,65"/>
+<area shape="rect" id="Node000003" href="$classFl__Help__View.html#a70786a7db2d6a049c673b8bcd4a095d8" title=" " alt="" coords="391,55,537,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="606,86,537,78,537,73,607,80"/>
+<area shape="rect" id="Node000006" href="$classFl__Help__View.html#adefe614a70fbe249dd9cb47278c1cb02" title=" " alt="" coords="387,104,541,129"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="607,104,541,111,541,106,606,99"/>
+<area shape="rect" id="Node000009" href="$classFl__Help__View.html#ac12a07242886c1cdd811de20ce3a3447" title=" " alt="" coords="356,153,572,179"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="636,120,573,143,526,156,525,151,571,138,634,115"/>
+<area shape="rect" id="Node000004" href="$classFl__Help__Dialog.html#a2672206850443cf3852292bce97f8147" title="Loads the specified HTML file into the Fl_Help_View widget. The filename can also contain a target na..." alt="" coords="148,55,304,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="377,70,304,70,304,65,377,65"/>
+<area shape="rect" id="Node000005" href="$group__globals.html#ga191744ffc243128e8e5c20078ed9333e" title=" " alt="" coords="5,104,96,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="168,86,97,107,96,101,166,81"/>
+<area shape="rect" id="Node000007" href="$classFl__Help__Dialog.html#aee8ddb8ddb1fc986c85052bb71a0d86e" title=" " alt="" coords="144,104,308,129"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="373,119,308,119,308,114,373,114"/>
+<area shape="rect" id="Node000008" href="$classFl__Help__Dialog.html#a9ef4ffa7a7b50da50e43d6beeda12beb" title=" " alt="" coords="144,153,308,179"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="390,135,289,156,288,151,388,130"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="166,152,96,132,97,127,168,147"/>
+</map>

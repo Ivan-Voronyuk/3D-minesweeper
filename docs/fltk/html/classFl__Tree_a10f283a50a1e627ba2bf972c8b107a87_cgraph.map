@@ -1,0 +1,31 @@
+<map id="Fl_Tree::first_selected_item" name="Fl_Tree::first_selected_item">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,104,205,129"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree.html#a63bdc369548cc4287ee633c92ada9af9" title=" " alt="" coords="253,104,457,129"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,114,240,114,240,119,205,119"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree.html#a04ecefd677f9321532dad465de6864be" title=" " alt="" coords="548,5,649,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="377,101,434,71,504,40,534,30,535,35,506,44,436,76,380,106"/>
+<area shape="rect" id="Node000004" href="$classFl__Tree__Item.html#a917cb6f76f53855708d430a40337b536" title="See if the item is selected." alt="" coords="505,55,692,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="418,101,521,80,522,85,419,107"/>
+<area shape="rect" id="Node000005" href="$classFl__Tree.html#a9a0dfe7eba5e4f58a86f73a659ad3189" title=" " alt="" coords="549,104,649,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="457,114,535,114,535,119,457,119"/>
+<area shape="rect" id="Node000010" href="$classFl__Tree__Item.html#a512b6591af7ca7b517e09e98df8f2deb" title=" " alt="" coords="527,203,670,228"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="380,127,437,157,506,188,532,196,531,201,504,192,435,161,378,132"/>
+<area shape="rect" id="Node000012" href="$classFl__Tree__Item.html#a8a98b2c48ec5069aaed25d7c1e95f6cd" title=" " alt="" coords="527,153,670,179"/>
+<area shape="poly" id="edge13_Node000002_Node000012" title=" " alt="" coords="419,127,522,148,521,153,418,132"/>
+<area shape="rect" id="Node000006" href="$classFl__Tree__Item.html#a59b33b5824ea2f87eb3388ec51802d67" title="Return the child item for the given &#39;index&#39;." alt="" coords="765,128,909,153"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="649,119,752,129,751,135,649,124"/>
+<area shape="rect" id="Node000007" href="$classFl__Tree__Item.html#ae1ecee0a3fae8bed7161b5710a13ddb9" title="Return the number of children this item has." alt="" coords="755,79,920,104"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="649,109,741,99,742,104,649,114"/>
+<area shape="rect" id="Node000009" href="$classFl__Tree__Item.html#a01f57370911692b960d306fc00d824a0" title="See if this item has children." alt="" coords="740,177,935,203"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="650,125,693,138,741,162,768,171,766,176,739,167,691,143,648,130"/>
+<area shape="rect" id="Node000008" href="$classFl__Tree__Item__Array.html#a1b76ee8f1c8e3d07449bfc6c1a16e9c6" title="Return the total items in the array, or 0 if empty." alt="" coords="983,71,1129,111"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="920,89,969,89,969,94,920,94"/>
+<area shape="poly" id="edge10_Node000010_Node000006" title=" " alt="" coords="653,200,691,188,715,175,739,162,762,155,763,160,741,167,717,180,693,192,655,205"/>
+<area shape="poly" id="edge11_Node000010_Node000009" title=" " alt="" coords="670,205,726,199,726,204,670,210"/>
+<area shape="rect" id="Node000011" href="$classFl__Tree__Item.html#a5371023b11fd4b32a93f9cd7936fc5fb" title="Return the parent for this item. Returns NULL if we are the root." alt="" coords="760,227,915,252"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="670,220,747,228,746,233,670,225"/>
+<area shape="poly" id="edge14_Node000012_Node000006" title=" " alt="" coords="670,156,752,147,752,152,670,161"/>
+<area shape="poly" id="edge15_Node000012_Node000007" title=" " alt="" coords="653,151,691,138,715,126,739,113,762,105,763,110,741,118,717,130,693,143,655,156"/>
+<area shape="poly" id="edge16_Node000012_Node000009" title=" " alt="" coords="670,170,726,176,726,181,670,176"/>
+<area shape="poly" id="edge17_Node000012_Node000011" title=" " alt="" coords="657,176,693,188,741,212,768,220,766,225,739,216,691,192,656,181"/>
+</map>

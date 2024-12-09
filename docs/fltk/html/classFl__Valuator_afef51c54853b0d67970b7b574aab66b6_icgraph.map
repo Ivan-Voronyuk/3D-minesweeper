@@ -1,0 +1,26 @@
+<map id="Fl_Valuator::horizontal" name="Fl_Valuator::horizontal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="663,129,831,155"/>
+<area shape="rect" id="Node000002" href="$classFl__Roller.html#a2dfb1062b82769e8a570390762d1cc64" title=" " alt="" coords="469,5,587,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="721,122,673,83,613,44,585,33,587,28,616,40,677,78,724,118"/>
+<area shape="rect" id="Node000003" href="$classFl__Scrollbar.html#ae85fb437c1de43a62100382a34cc8770" title=" " alt="" coords="459,55,597,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="702,127,614,94,577,83,579,78,616,89,703,122"/>
+<area shape="rect" id="Node000004" href="$classFl__Value__Slider.html#ab9d045b901182bd9c0953aed38f4144d" title=" " alt="" coords="447,104,609,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="649,133,608,129,609,123,649,128"/>
+<area shape="rect" id="Node000005" href="$classFl__Roller.html#a0bfe40f3d3723efcbdbfa5b4398173b0" title=" " alt="" coords="463,153,593,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="649,155,594,162,593,156,649,150"/>
+<area shape="rect" id="Node000006" href="$classFl__Scrollbar.html#a0cb60201dc6a9c191bbacb4274a044e7" title=" " alt="" coords="453,203,603,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="700,162,616,193,575,205,573,200,614,187,699,157"/>
+<area shape="rect" id="Node000011" href="$classFl__Value__Slider.html#a745a63500a433d8d3a200dcec5ff44f3" title=" " alt="" coords="441,252,615,277"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="723,166,676,204,616,242,584,254,582,249,613,237,673,200,720,162"/>
+<area shape="rect" id="Node000007" href="$classFl__Terminal.html#a4dd24ef7347b52e5483e666f4cc6520c" title=" " alt="" coords="231,167,381,192"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="439,204,380,194,381,189,440,198"/>
+<area shape="rect" id="Node000008" href="$classFl__Text__Display.html#a97c837f06cfbaed3e7cdfc2e43f1089d" title="Event handling." alt="" coords="219,240,393,265"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="439,233,382,243,381,237,438,228"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="345,157,334,149,306,145,283,147,271,152,268,158,275,165,271,168,263,158,267,148,282,142,306,140,336,144,348,153"/>
+<area shape="poly" id="edge9_Node000008_Node000008" title=" " alt="" coords="345,230,334,222,306,219,283,221,271,226,268,231,275,238,271,242,263,232,267,222,282,216,306,213,336,217,348,226"/>
+<area shape="rect" id="Node000009" href="$classFl__Text__Editor.html#a78bf6b2be5602853038b30618661b1e6" title="Event handling." alt="" coords="5,215,171,240"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="205,244,170,240,171,234,205,238"/>
+<area shape="rect" id="Node000010" href="$classCodeViewer.html#adf73dfd2380344ca294544d8be456cf0" title="Limit event handling to viewing, not editing." alt="" coords="12,264,164,289"/>
+<area shape="poly" id="edge12_Node000008_Node000010" title=" " alt="" coords="205,266,165,271,164,266,204,261"/>
+<area shape="poly" id="edge11_Node000009_Node000009" title=" " alt="" coords="127,205,116,197,88,193,65,195,53,200,50,206,57,213,53,216,45,206,49,196,64,190,88,188,118,192,130,201"/>
+</map>

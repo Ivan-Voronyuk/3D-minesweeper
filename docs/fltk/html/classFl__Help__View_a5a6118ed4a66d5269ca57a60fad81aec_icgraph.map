@@ -1,0 +1,8 @@
+<map id="Fl_Help_View::text_selected" name="Fl_Help_View::text_selected">
+<area shape="rect" id="Node000001" title="Check if the user selected text in this view." alt="" coords="411,23,553,63"/>
+<area shape="rect" id="Node000002" href="$classFl__Help__View.html#a0ad3eeca8ff544fa1bb560a0f5e3900e" title="If text is selected in this view, copy it to a clipboard." alt="" coords="215,5,363,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="397,35,362,30,363,25,397,30"/>
+<area shape="rect" id="Node000003" href="$classFl__Help__View.html#a8f676e61e6ab6e1714d6c4ee3e353163" title=" " alt="" coords="5,31,167,56"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="397,46,167,46,167,41,397,41"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="202,32,167,36,166,31,201,26"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="Fl_Text_Buffer::count_displayed_characters" name="Fl_Text_Buffer::count_displayed_characters">
+<area shape="rect" id="Node000001" title=" " alt="" coords="705,105,872,145"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Display.html#ae612b71447f03a6ad1f46ae8c1cc9f38" title="Replaces text at the current insert position." alt="" coords="461,55,657,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="694,104,610,83,612,77,696,99"/>
+<area shape="rect" id="Node000007" href="$classFl__Text__Display.html#a772ace0180ebf38f2dc7b6402fd62501" title="Find the line and column number of position pos." alt="" coords="468,105,651,145"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="691,127,651,127,651,122,691,122"/>
+<area shape="rect" id="Node000008" href="$classFl__Text__Display.html#a9507d73613f6166a99283cacd7d2b0d7" title="Nobody knows what this function does." alt="" coords="466,169,653,209"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="704,151,632,171,631,166,703,146"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Editor.html#a78bf6b2be5602853038b30618661b1e6" title="Event handling." alt="" coords="5,29,171,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="486,55,413,45,286,39,171,41,171,35,286,34,414,39,486,50"/>
+<area shape="rect" id="Node000004" href="$classFl__Text__Editor.html#ad91b1716f8d9eea6d1c5ac2ab084077a" title=" " alt="" coords="219,55,413,80"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="447,70,414,70,414,65,447,65"/>
+<area shape="rect" id="Node000005" href="$classFl__Text__Editor.html#ac8507ab7f2feccd8f7a1fdbbcd64e9d0" title=" " alt="" coords="249,105,383,145"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="492,86,384,112,383,106,491,81"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="129,20,118,11,88,8,64,10,51,15,48,20,55,27,51,31,43,21,47,11,63,5,88,3,120,7,132,16"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="205,58,170,54,171,48,205,52"/>
+<area shape="rect" id="Node000006" href="$classFl__Text__Editor.html#ae62a6e795b53c0f01f267cb616080335" title=" " alt="" coords="21,105,155,145"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="235,127,155,127,155,122,235,122"/>
+</map>

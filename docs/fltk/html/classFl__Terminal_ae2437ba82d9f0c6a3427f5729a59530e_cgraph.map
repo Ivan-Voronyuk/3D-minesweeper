@@ -1,0 +1,11 @@
+<map id="Fl_Terminal::cursor_down" name="Fl_Terminal::cursor_down">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,192,80"/>
+<area shape="rect" id="Node000002" href="$classFl__Terminal.html#ab992c9cb8ec52d6848bfdadfcc56e7e9" title="Return the number of rows in the display area." alt="" coords="240,5,411,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,52,252,31,253,36,158,57"/>
+<area shape="rect" id="Node000003" href="$classFl__Terminal.html#ab550fcc963d49da285a26fa6571d97fa" title="Return the number of rows in the ring buffer." alt="" coords="241,55,409,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,65,228,65,228,70,192,70"/>
+<area shape="rect" id="Node000004" href="$classFl__Terminal.html#a8766779e6eb75ff1740e4321b818e2e4" title=" " alt="" coords="255,104,395,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="158,77,253,98,252,104,157,83"/>
+<area shape="rect" id="Node000005" href="$classFl__Terminal.html#a8b969a22db23c99ec31d90e6e7fbde37" title="Clear any current mouse selection." alt="" coords="459,97,597,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="395,114,445,114,445,119,395,119"/>
+</map>

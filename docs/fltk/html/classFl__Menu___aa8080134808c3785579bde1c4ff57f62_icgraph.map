@@ -1,0 +1,34 @@
+<map id="Fl_Menu_::shortcut" name="Fl_Menu_::shortcut">
+<area shape="rect" id="Node000001" title=" " alt="" coords="899,208,1044,233"/>
+<area shape="rect" id="Node000002" href="$classFl__Menu__.html#ac380c9009765c4288577f01af9a3e4d5" title=" " alt="" coords="457,157,573,183"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="900,208,850,199,700,183,573,175,573,170,701,178,851,194,901,203"/>
+<area shape="rect" id="Node000012" href="$classFl__Menu__.html#a4a6d21b279e679a93b13eee2534f9f64" title=" " alt="" coords="687,208,817,233"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="885,223,817,223,817,218,885,218"/>
+<area shape="rect" id="Node000015" href="$classFl__Sys__Menu__Bar.html#aac8a5b85bd059dd77db4b38ff714427e" title=" " alt="" coords="653,257,851,283"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="902,239,810,260,809,255,900,234"/>
+<area shape="rect" id="Node000003" href="$classFl__Menu__.html#a67b693829c184e98bb9b9cd0eb165a84" title=" " alt="" coords="227,5,343,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="493,149,443,96,410,68,375,44,342,31,344,26,377,40,414,64,447,92,497,145"/>
+<area shape="rect" id="Node000004" href="$classFl__Sys__Menu__Bar.html#ad41479400953f29cbdafbddd1aed335a" title=" " alt="" coords="201,55,369,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="482,152,433,122,375,94,342,83,344,78,377,89,435,118,485,147"/>
+<area shape="rect" id="Node000005" href="$classFl__Sys__Menu__Bar.html#ad9d9b1af865fb2acbac2dd687f23a36b" title="Add a new menu item to the system menu bar." alt="" coords="201,317,369,343"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="446,186,426,199,414,212,408,225,403,252,397,280,390,294,378,308,360,319,357,315,374,304,386,291,392,278,398,251,403,223,410,209,422,195,443,182"/>
+<area shape="rect" id="Node000006" href="$classFl__Sys__Menu__Bar.html#a735ab2fbae8b9f306fad962e391d8a43" title=" " alt="" coords="201,104,369,129"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="445,157,339,132,341,127,446,152"/>
+<area shape="rect" id="Node000007" href="$classFl__File__Chooser.html#ad547bf13b074a625b92a81602a66d100" title=" " alt="" coords="203,153,366,179"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="443,171,366,170,366,165,443,166"/>
+<area shape="rect" id="Node000010" href="$classFl__Scheme__Choice.html#a287fa6a42c1a3b0394f5bf45292badac" title=" " alt="" coords="203,203,367,243"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="446,188,367,207,366,202,445,183"/>
+<area shape="rect" id="Node000011" href="$classFl__Comment__Type.html#ac26b0c3f2ec365ef2ae98c9b9b4bc2fe" title=" " alt="" coords="193,268,376,293"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="445,189,426,199,411,213,402,227,394,243,378,258,351,270,349,266,374,253,389,239,398,225,407,209,422,194,442,184"/>
+<area shape="rect" id="Node000008" href="$group__group__comdlg.html#ga24f703a97e90934198a474d19b22732d" title=" " alt="" coords="5,114,145,154"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="189,154,145,147,146,142,190,149"/>
+<area shape="rect" id="Node000009" href="$group__group__comdlg.html#ga5bc7a0eda4de38cbc33d3a16d5cfd32f" title=" " alt="" coords="5,178,145,218"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="190,183,146,190,145,185,189,178"/>
+<area shape="poly" id="edge12_Node000012_Node000002" title=" " alt="" coords="678,208,572,185,573,180,679,202"/>
+<area shape="rect" id="Node000013" href="$classFl__Sys__Menu__Bar.html#ac2b4c97648f88414bbf8e76926a3dad9" title=" " alt="" coords="424,208,605,233"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="673,223,606,223,606,218,673,218"/>
+<area shape="rect" id="Node000014" href="$classFl__Sys__Menu__Bar.html#a1e3ff678e9804d60688acd8dc8ba4b87" title="insert in the system menu bar a new menu item" alt="" coords="424,257,605,283"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="677,239,577,260,576,255,676,234"/>
+<area shape="poly" id="edge16_Node000015_Node000005" title=" " alt="" coords="670,288,606,298,369,325,369,320,605,293,669,282"/>
+<area shape="poly" id="edge17_Node000015_Node000014" title=" " alt="" coords="640,273,606,273,606,267,640,267"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="Fl_Help_View::leftline" name="Fl_Help_View::leftline">
+<area shape="rect" id="Node000001" title=" " alt="" coords="557,31,720,56"/>
+<area shape="rect" id="Node000002" href="$classFl__Help__View.html#adefe614a70fbe249dd9cb47278c1cb02" title=" " alt="" coords="356,31,509,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="543,46,510,46,510,41,543,41"/>
+<area shape="rect" id="Node000003" href="$classFl__Help__Dialog.html#aee8ddb8ddb1fc986c85052bb71a0d86e" title=" " alt="" coords="144,5,308,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="342,35,308,31,309,25,343,30"/>
+<area shape="rect" id="Node000004" href="$classFl__Help__Dialog.html#a9ef4ffa7a7b50da50e43d6beeda12beb" title=" " alt="" coords="144,55,308,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="343,56,309,60,308,55,342,51"/>
+<area shape="rect" id="Node000005" href="$group__globals.html#ga191744ffc243128e8e5c20078ed9333e" title=" " alt="" coords="5,55,96,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="130,70,96,70,96,65,130,65"/>
+</map>

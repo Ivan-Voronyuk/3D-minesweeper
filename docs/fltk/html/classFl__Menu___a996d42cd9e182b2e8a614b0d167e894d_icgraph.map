@@ -1,0 +1,11 @@
+<map id="Fl_Menu_::remove" name="Fl_Menu_::remove">
+<area shape="rect" id="Node000001" title=" " alt="" coords="472,62,615,87"/>
+<area shape="rect" id="Node000002" href="$classFl__Menu__.html#a9f5d44f76658dc88431e4c5e53a2aaf5" title=" " alt="" coords="231,13,422,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="473,62,383,41,384,35,474,56"/>
+<area shape="rect" id="Node000004" href="$classFl__Comment__Type.html#ac26b0c3f2ec365ef2ae98c9b9b4bc2fe" title=" " alt="" coords="235,62,418,87"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="458,77,418,77,418,72,458,72"/>
+<area shape="rect" id="Node000005" href="$classFl__Sys__Menu__Bar.html#ac7bfcc1ad04ee91eb4f66fe9f9f5623f" title="remove an item from the system menu bar" alt="" coords="229,111,424,137"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="474,93,384,114,383,109,473,88"/>
+<area shape="rect" id="Node000003" href="$classFl__Sys__Menu__Bar.html#af2b8b866c162d11abb2ce3422139ad0e" title=" " alt="" coords="5,5,181,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="217,28,182,28,182,23,217,23"/>
+</map>

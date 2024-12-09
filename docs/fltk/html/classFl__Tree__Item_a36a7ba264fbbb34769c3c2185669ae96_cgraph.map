@@ -1,0 +1,9 @@
+<map id="Fl_Tree_Item::find_child" name="Fl_Tree_Item::find_child">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,143,63"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree__Item.html#a59b33b5824ea2f87eb3388ec51802d67" title="Return the child item for the given &#39;index&#39;." alt="" coords="201,5,345,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,32,187,26,188,32,143,37"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree__Item.html#ae1ecee0a3fae8bed7161b5710a13ddb9" title="Return the number of children this item has." alt="" coords="191,55,356,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="143,49,177,53,177,58,143,54"/>
+<area shape="rect" id="Node000004" href="$classFl__Tree__Item__Array.html#a1b76ee8f1c8e3d07449bfc6c1a16e9c6" title="Return the total items in the array, or 0 if empty." alt="" coords="404,47,551,87"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="357,65,390,65,390,70,357,70"/>
+</map>

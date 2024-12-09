@@ -77,8 +77,8 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="section note"><dt>Note</dt><dd>This file is not actively maintained any more, but is left here as a reference, until the doxygen documentation is completed.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd>FL/Enumerations.H.</dd></dl>
-<p>This appendix lists the enumerations provided in the &lt;FL/Enumerations.H&gt; header file, organized by section. Constants whose value are zero are marked with "(0)", this is often useful to know when programming.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="Enumerations_8H.html">FL/Enumerations.H</a>.</dd></dl>
+<p>This appendix lists the enumerations provided in the &lt;<a class="el" href="Enumerations_8H.html">FL/Enumerations.H</a>&gt; header file, organized by section. Constants whose value are zero are marked with "(0)", this is often useful to know when programming.</p>
 <h1><a class="anchor" id="enumerations_versions"></a>
 Version Numbers</h1>
 <p>The FLTK version number is stored in a number of compile-time constants:</p>
@@ -93,7 +93,7 @@ Version Numbers</h1>
 <dl class="section note"><dt>Note</dt><dd>The ABI version (FL_ABI_VERSION) is usually constant throughout one major/minor release version, for instance 10300 if FL_API_VERSION is 10304. Hence the ABI is constant if only the patch version is changed. You can change this with configure or CMake though if you want the latest enhancements (called "ABI features", see CHANGES).</dd></dl>
 <h1><a class="anchor" id="enumerations_events"></a>
 Events</h1>
-<p>Events are identified by an Fl_Event enumeration value. The following events are currently defined:</p>
+<p>Events are identified by an <a class="el" href="Enumerations_8H.html#ad16daf120d9a0501cccaee563af0b9a3">Fl_Event</a> enumeration value. The following events are currently defined:</p>
 <ul>
 <li>FL_NO_EVENT - No event (or an event fltk does not understand) occurred (0).</li>
 <li>FL_PUSH - A mouse button was pushed.</li>
@@ -147,7 +147,7 @@ Fl::event_button() Values</h1>
 Fl::event_key() Values</h1>
 <p>The following constants define the non-ASCII keys on the keyboard for FL_KEYBOARD and FL_SHORTCUT events:</p>
 <ul>
-<li>FL_Button - A mouse button; use <code>Fl_Button + n</code> for mouse button <code>n</code>.</li>
+<li>FL_Button - A mouse button; use <code><a class="el" href="classFl__Button.html" title="Buttons generate callbacks when they are clicked by the user.">Fl_Button</a> + n</code> for mouse button <code>n</code>.</li>
 <li>FL_BackSpace - The backspace key.</li>
 <li>FL_Tab - The tab key.</li>
 <li>FL_Enter - The enter key.</li>
@@ -183,7 +183,7 @@ Fl::event_key() Values</h1>
 </ul>
 <h1><a class="anchor" id="enumerations_event_state"></a>
 Fl::event_state() Values</h1>
-<p>The following constants define bits in the Fl::event_state() value:</p>
+<p>The following constants define bits in the <a class="el" href="group__fl__events.html#gafa17a5b4d8d9163631c88142e60447ed">Fl::event_state()</a> value:</p>
 <ul>
 <li>FL_SHIFT - One of the shift keys is down.</li>
 <li>FL_CAPS_LOCK - The caps lock is on.</li>
@@ -200,11 +200,11 @@ Fl::event_state() Values</h1>
 <li>FL_BUTTON4 - Mouse button 4 (back) is pushed.</li>
 <li>FL_BUTTON5 - Mouse button 5 (forward) is pushed.</li>
 <li>FL_BUTTONS - Any mouse button (1..5) is pushed.</li>
-<li>FL_BUTTON(n) - Mouse button <code>n</code> ( where <code>n &gt; 0</code>) is pushed.</li>
+<li><a class="el" href="Enumerations_8H.html#a9c1d8f71cc0a6c159eac4f250ead7687">FL_BUTTON(n)</a> - Mouse button <code>n</code> ( where <code>n &gt; 0</code>) is pushed.</li>
 </ul>
 <h1><a class="anchor" id="enumerations_alignment"></a>
 Alignment Values</h1>
-<p>The following constants define bits that can be used with Fl_Widget::align() to control the positioning of the label:</p>
+<p>The following constants define bits that can be used with <a class="el" href="classFl__Widget.html#a6a3c44d082f89ba3aefd405c388187c5">Fl_Widget::align()</a> to control the positioning of the label:</p>
 <ul>
 <li>FL_ALIGN_CENTER - The label is centered (0).</li>
 <li>FL_ALIGN_TOP - The label is top-aligned.</li>
@@ -322,7 +322,7 @@ Damage Masks</h1>
 <ul>
 <li>FL_DAMAGE_CHILD - A child needs to be redrawn.</li>
 <li>FL_DAMAGE_EXPOSE - The window was exposed.</li>
-<li>FL_DAMAGE_SCROLL - The Fl_Scroll widget was scrolled.</li>
+<li>FL_DAMAGE_SCROLL - The <a class="el" href="classFl__Scroll.html">Fl_Scroll</a> widget was scrolled.</li>
 <li>FL_DAMAGE_OVERLAY - The overlay planes need to be redrawn.</li>
 <li>FL_DAMAGE_USER1 - First user-defined damage bit.</li>
 <li>FL_DAMAGE_USER2 - Second user-defined damage bit.</li>

@@ -1,0 +1,7 @@
+<map id="fl_draw_radio" name="fl_draw_radio">
+<area shape="rect" id="Node000001" title=" " alt="" coords="216,31,325,56"/>
+<area shape="rect" id="Node000002" href="$classFl__Light__Button.html#ac91a3cf5774d0c8482c41ca6540d59e3" title=" " alt="" coords="5,5,168,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,37,168,32,169,27,203,31"/>
+<area shape="rect" id="Node000003" href="$structFl__Menu__Item.html#a6f9672ace322a67dccf75c33f26c2a52" title=" " alt="" coords="9,55,164,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,55,165,60,164,55,202,50"/>
+</map>

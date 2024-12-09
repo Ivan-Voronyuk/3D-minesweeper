@@ -1,0 +1,44 @@
+<map id="Fl_Tree::open_toggle" name="Fl_Tree::open_toggle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,277,161,303"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree.html#a58d9fdf3d2878adcd7d148fabf4cace5" title=" " alt="" coords="209,227,320,252"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,275,205,253,206,258,130,280"/>
+<area shape="rect" id="Node000016" href="$classFl__Tree__Item.html#acb4770a898d3bcd59e09de805993a36a" title="See if the item is &#39;open&#39;." alt="" coords="369,333,532,359"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="147,300,210,311,356,332,355,337,209,317,146,305"/>
+<area shape="rect" id="Node000017" href="$classFl__Tree.html#a033f874426e5085291ec3b258ed9e151" title=" " alt="" coords="211,277,319,303"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="161,287,197,287,197,293,161,293"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree__Item.html#a9d045540a28f635706eb8dfc8d604832" title="Close this item and all its children." alt="" coords="377,55,524,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="269,225,303,160,331,122,366,89,375,84,378,88,370,93,335,126,308,163,274,228"/>
+<area shape="rect" id="Node000008" href="$classFl__Tree.html#ab1aecaf4fc6238df746df25e38999422" title=" " alt="" coords="374,219,527,259"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="320,237,360,237,360,242,320,242"/>
+<area shape="rect" id="Node000013" href="$classFl__Tree__Item.html#a64eabbcb09b56c83455866dbce18cc0c" title="See if the item is &#39;closed&#39;." alt="" coords="368,104,533,129"/>
+<area shape="poly" id="edge13_Node000002_Node000013" title=" " alt="" coords="274,225,311,182,338,159,367,138,379,132,382,137,369,143,341,163,315,186,278,228"/>
+<area shape="rect" id="Node000014" href="$classFl__Widget.html#aa63ce68cbf4620cf8750b868368ea02b" title=" " alt="" coords="381,284,521,309"/>
+<area shape="poly" id="edge14_Node000002_Node000014" title=" " alt="" coords="307,250,369,269,396,277,394,282,367,274,306,255"/>
+<area shape="rect" id="Node000004" href="$classFl__Tree__Item.html#a7356c78b2793821b0c07e8bcafa9a149" title=" " alt="" coords="581,5,767,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="508,52,602,31,603,36,509,57"/>
+<area shape="rect" id="Node000006" href="$classFl__Tree__Item.html#acc14cd00b35da2f0cbaeedec9d1de58c" title="Set a flag to an on or off value. val is 0 or 1." alt="" coords="592,55,756,80"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="524,65,578,65,578,70,524,70"/>
+<area shape="rect" id="Node000007" href="$classFl__Tree__Item__Array.html#a1b76ee8f1c8e3d07449bfc6c1a16e9c6" title="Return the total items in the array, or 0 if empty." alt="" coords="601,105,747,145"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="502,77,588,100,586,105,500,83"/>
+<area shape="rect" id="Node000005" href="$classFl__Tree.html#a5e76e962b75387a88b913a7cb8483650" title=" " alt="" coords="815,5,963,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="767,15,801,15,801,21,767,21"/>
+<area shape="rect" id="Node000009" href="$classFl__Tree.html#ad576e00b3f3c5e2c6dae62fdf513ece2" title=" " alt="" coords="591,341,757,367"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="515,257,535,269,550,284,559,299,568,313,583,326,597,334,594,339,580,331,564,317,555,302,546,288,532,273,512,262"/>
+<area shape="rect" id="Node000010" href="$classFl__Tree.html#adec2707eb6ae68f87106835565aaae11" title=" " alt="" coords="583,169,765,195"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="527,217,610,196,611,201,529,222"/>
+<area shape="rect" id="Node000011" href="$classFl__Widget.html#afcfa06d94e7317130b826e7df0e90eb4" title=" " alt="" coords="588,243,760,268"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="528,242,575,246,574,251,528,247"/>
+<area shape="rect" id="Node000012" href="$classFl__Widget.html#a991b94150c2c3d7e62b47c38c171ce00" title=" " alt="" coords="595,292,753,317"/>
+<area shape="poly" id="edge12_Node000008_Node000012" title=" " alt="" coords="516,257,582,277,613,286,612,291,581,282,515,262"/>
+<area shape="poly" id="edge11_Node000011_Node000011" title=" " alt="" coords="639,244,632,234,635,224,650,218,674,216,704,220,715,229,712,233,702,225,674,221,651,223,639,228,637,234,643,241"/>
+<area shape="rect" id="Node000015" href="$classFl__Widget.html#ada8bb104e4501a2b123e813b32b6ed95" title=" " alt="" coords="600,391,748,416"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="512,307,535,318,551,333,560,349,568,363,583,377,593,383,590,387,580,381,564,367,555,351,547,337,532,323,510,312"/>
+<area shape="poly" id="edge18_Node000017_Node000008" title=" " alt="" coords="312,275,363,261,364,266,313,280"/>
+<area shape="poly" id="edge24_Node000017_Node000014" title=" " alt="" coords="319,289,367,291,367,296,319,295"/>
+<area shape="poly" id="edge19_Node000017_Node000016" title=" " alt="" coords="308,300,395,327,394,332,307,305"/>
+<area shape="rect" id="Node000018" href="$classFl__Tree__Item.html#a560d5f506413ece45df791d474d3c520" title="Open this item and all its children." alt="" coords="378,153,523,179"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="296,275,318,261,333,247,342,234,351,220,366,205,404,182,406,187,370,209,355,224,346,237,337,251,322,265,299,279"/>
+<area shape="poly" id="edge21_Node000018_Node000004" title=" " alt="" coords="511,151,532,139,542,127,549,115,554,90,561,65,568,52,580,40,586,35,589,39,583,44,572,55,566,67,560,92,554,117,547,130,535,143,514,156"/>
+<area shape="poly" id="edge22_Node000018_Node000006" title=" " alt="" coords="505,151,532,138,546,127,555,115,565,103,580,90,596,83,598,87,583,95,568,106,559,118,550,131,535,143,507,156"/>
+<area shape="poly" id="edge23_Node000018_Node000007" title=" " alt="" coords="520,151,586,138,587,143,520,156"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="Fl_Terminal::clear" name="Fl_Terminal::clear">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,111,143,137"/>
+<area shape="rect" id="Node000002" href="$classFl__Terminal.html#a1b8d1820af6b94bf3c5472481c5c4d03" title=" " alt="" coords="211,75,349,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,112,197,104,198,109,143,117"/>
+<area shape="rect" id="Node000009" href="$classFl__Terminal.html#aa2b12d5117dc738a364d823aa44b3fa2" title="Return text&#39;s current background color." alt="" coords="191,139,369,165"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="143,131,177,135,177,141,143,136"/>
+<area shape="rect" id="Node000003" href="$classFl__Terminal.html#aecc5b4e1e60a690495e1a6acf4afc890" title=" " alt="" coords="443,45,581,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="349,83,429,73,430,78,349,89"/>
+<area shape="rect" id="Node000008" href="$classFl__Terminal.html#a3e6c83360e0282c40d32d4bfdf2e0eb3" title=" " alt="" coords="417,110,607,135"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="349,100,404,107,403,112,349,105"/>
+<area shape="rect" id="Node000004" href="$classFl__Terminal.html#a8b969a22db23c99ec31d90e6e7fbde37" title="Clear any current mouse selection." alt="" coords="873,45,1012,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="558,43,604,26,654,13,740,3,778,5,826,13,861,23,893,37,891,42,859,28,825,19,778,10,740,8,655,19,605,31,560,48"/>
+<area shape="rect" id="Node000005" href="$classFl__Terminal.html#abb995a2ff6716431f916920286772d3a" title="Return the number of columns in the display area." alt="" coords="657,29,823,54"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="581,55,643,49,644,54,581,61"/>
+<area shape="rect" id="Node000006" href="$classFl__Terminal.html#ab992c9cb8ec52d6848bfdadfcc56e7e9" title="Return the number of rows in the display area." alt="" coords="655,78,825,103"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="581,70,641,77,640,82,581,76"/>
+<area shape="rect" id="Node000007" href="$classFl__Terminal.html#a8766779e6eb75ff1740e4321b818e2e4" title=" " alt="" coords="670,127,810,153"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="571,83,608,96,656,113,679,121,678,126,654,118,606,101,569,88"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="789,125,824,113,886,88,888,93,826,118,791,130"/>
+</map>

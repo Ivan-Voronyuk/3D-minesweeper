@@ -1,0 +1,12 @@
+<map id="Fl_Cocoa_Printer_Driver::end_page" name="Fl_Cocoa_Printer_Driver::end_page">
+<area shape="rect" id="Node000001" title="To be called at the end of each page. This function also stops this surface from being the current dr..." alt="" coords="5,35,184,75"/>
+<area shape="rect" id="Node000002" href="$classFl__Surface__Device.html#aa84d290fba5e95e552bf017525cb14cb" title="Returns the graphics driver of this drawing surface." alt="" coords="629,5,780,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,48,616,27,616,32,184,53"/>
+<area shape="rect" id="Node000003" href="$classFl__Surface__Device.html#a6beacd63903ec46a184e7413f1bed9f1" title=" " alt="" coords="232,63,383,103"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,64,219,68,218,74,184,69"/>
+<area shape="rect" id="Node000004" href="$classFl__Surface__Device.html#a552dbc7bfdbf91ad4ad035de963e4aae" title=" " alt="" coords="431,63,581,103"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="383,80,417,80,417,85,383,85"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="575,60,621,47,622,52,577,65"/>
+<area shape="rect" id="Node000005" href="$classFl__Surface__Device.html#a3d88439f3e36d6c91652bc6e286829f6" title=" " alt="" coords="629,69,780,109"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="582,83,616,84,616,89,581,88"/>
+</map>

@@ -1,5 +1,29 @@
 var searchData=
 [
-  ['varused_0',['varused',['../classFd__Code__Writer.html#aa3d086fc068731edebd0495dc70d1eb1',1,'Fd_Code_Writer']]],
-  ['varused_5ftest_1',['varused_test',['../classFd__Code__Writer.html#a6f2008669d9a7ba09a3ac92be09d37ef',1,'Fd_Code_Writer']]]
+  ['s_0',['s',['../structFl__Help__Font__Style.html#a6669f9feb7222711efae1aed788ecd48',1,'Fl_Help_Font_Style']]],
+  ['save_5fitem_1',['save_item',['../group__globals.html#ga533a9a2560bc9f2ea4a1ac0af799f9fa',1,'save_item:&#160;fluid.cxx'],['../group__globals.html#ga533a9a2560bc9f2ea4a1ac0af799f9fa',1,'save_item:&#160;fluid.cxx']]],
+  ['save_5flabel_2',['save_label',['../classFl__File__Chooser.html#afaafb1669c0e896d2d9d019d7cf3a024',1,'Fl_File_Chooser']]],
+  ['scrollbar_3',['scrollbar',['../classFl__Browser__.html#ac76f28c936430d7884ac98d44ff4e3ad',1,'Fl_Browser_::scrollbar'],['../classFl__Terminal.html#a638a49aea50513785919138b1ad94d60',1,'Fl_Terminal::scrollbar']]],
+  ['scrollsize_4',['scrollsize',['../structFl__Scroll_1_1ScrollInfo.html#a4057566bd6430cadf21f9dcce9cb84a7',1,'Fl_Scroll::ScrollInfo']]],
+  ['select_5fcol_5',['select_col',['../classFl__Table.html#a8555eb73e47b4ca0cd4e5eb4e5f305b3',1,'Fl_Table']]],
+  ['select_5frow_6',['select_row',['../classFl__Table.html#a2d3de6372e2564f0e091986faeeac1cf',1,'Fl_Table']]],
+  ['selected_7',['selected',['../classFl__Type.html#a52691ca3cdde11a8103384faae547886',1,'Fl_Type::selected'],['../structFl__Check__Browser_1_1cb__item.html#af2cd44ce7d60f486b56341e307c5e813',1,'Fl_Check_Browser::cb_item::selected']]],
+  ['services_8',['services',['../classFl__Mac__App__Menu.html#ae5c4e1a51fab7a6c3a141959d53173f4',1,'Fl_Mac_App_Menu']]],
+  ['shortcut_5f_9',['shortcut_',['../structFl__Menu__Item.html#a996db6347b53fc0ea8ab6ae763a44a2c',1,'Fl_Menu_Item']]],
+  ['show_10',['show',['../classFl__Mac__App__Menu.html#a780f8a358cd2bc4567b0aba47ca2bfd6',1,'Fl_Mac_App_Menu']]],
+  ['show_5fcomments_11',['show_comments',['../group__globals.html#ga3dc085cfbb8c763efe846750692c305f',1,'show_comments:&#160;fluid.cxx'],['../group__globals.html#ga3dc085cfbb8c763efe846750692c305f',1,'show_comments:&#160;fluid.cxx']]],
+  ['show_5fghosted_5foutline_12',['show_ghosted_outline',['../group__globals.html#ga117f589b9ecf0b0e92dd377aad189962',1,'show_ghosted_outline:&#160;fluid.cxx'],['../group__globals.html#ga117f589b9ecf0b0e92dd377aad189962',1,'show_ghosted_outline:&#160;fluid.cxx']]],
+  ['show_5fguides_13',['show_guides',['../group__globals.html#ga768e737fb16279a5cc49defae2c6b92b',1,'show_guides:&#160;fluid.cxx'],['../group__globals.html#ga768e737fb16279a5cc49defae2c6b92b',1,'show_guides:&#160;fluid.cxx']]],
+  ['show_5flabel_14',['show_label',['../classFl__File__Chooser.html#a8a0d0775de4ed44e4541d6c8f98d1045',1,'Fl_File_Chooser']]],
+  ['show_5frestricted_15',['show_restricted',['../group__globals.html#gac71b2f268566d7b01be478380ae8ed4e',1,'show_restricted:&#160;fluid.cxx'],['../group__globals.html#gac71b2f268566d7b01be478380ae8ed4e',1,'show_restricted:&#160;fluid.cxx']]],
+  ['showhiddenbutton_16',['showHiddenButton',['../classFl__File__Chooser.html#a11a1dc9142581b7fbf857541e7352efe',1,'Fl_File_Chooser']]],
+  ['size_17',['size',['../structFl__Label.html#a391e859f1c1bafa283b8b04981d1f173',1,'Fl_Label::size'],['../structFl__Text__Display_1_1Style__Table__Entry.html#a9be7c26469179361896bdc58474a90fe',1,'Fl_Text_Display::Style_Table_Entry::size'],['../structFl__Scroll_1_1Fl__Scrollbar__Data.html#a6baf6f1401347ed9fee7e5cf2aded7de',1,'Fl_Scroll::Fl_Scrollbar_Data::size']]],
+  ['sort_18',['sort',['../classFl__File__Chooser.html#ac6c1e16f732c81ad4a49dcd72ce7d0c4',1,'Fl_File_Chooser']]],
+  ['spacing_19',['spacing',['../structFl__Label.html#ac529a96040adfdf459da78492cae92ae',1,'Fl_Label']]],
+  ['state_20',['state',['../structFl__Text__Editor_1_1Key__Binding.html#a8b1a0963bac88fdfbcca38d8d079f5ae',1,'Fl_Text_Editor::Key_Binding']]],
+  ['storage_5f_21',['storage_',['../classFd__Layout__Suite.html#a54c785670a8889e25110be712d774cce',1,'Fd_Layout_Suite']]],
+  ['str_22',['str',['../structFL__CHART__ENTRY.html#ac87a71bfa4f7beb321a7b0ada94f3b61',1,'FL_CHART_ENTRY']]],
+  ['system_5fok_23',['SYSTEM_OK',['../classFl__Preferences.html#a269414236605c8e7f9689b7ea165c74d',1,'Fl_Preferences']]],
+  ['system_5fread_5fok_24',['SYSTEM_READ_OK',['../classFl__Preferences.html#a8a75c10843f8a8449a39783aa6d2a19d',1,'Fl_Preferences']]],
+  ['system_5fwrite_5fok_25',['SYSTEM_WRITE_OK',['../classFl__Preferences.html#a98596f99c9cb5bcf3f5df7c90dbc6f52',1,'Fl_Preferences']]]
 ];

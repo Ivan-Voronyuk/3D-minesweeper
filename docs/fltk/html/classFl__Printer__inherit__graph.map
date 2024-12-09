@@ -1,0 +1,9 @@
+<map id="Fl_Printer" name="Fl_Printer">
+<area shape="rect" id="Node000001" title="OS&#45;independent print support. Fl_Printer allows to use all drawing, color, text, image,..." alt="" coords="35,225,119,251"/>
+<area shape="rect" id="Node000002" href="$classFl__Paged__Device.html" title="Represents page&#45;structured drawing surfaces." alt="" coords="11,152,143,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,191,79,225,74,225,74,191"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget__Surface.html" title=" " alt="" coords="5,79,148,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="79,118,79,152,74,152,74,118"/>
+<area shape="rect" id="Node000004" href="$classFl__Surface__Device.html" title=" " alt="" coords="5,5,148,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="79,44,79,79,74,79,74,44"/>
+</map>

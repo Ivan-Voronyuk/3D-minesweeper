@@ -1,0 +1,17 @@
+<map id="Fl_Browser" name="Fl_Browser">
+<area shape="rect" id="Node000001" title=" " alt="" coords="251,225,345,251"/>
+<area shape="rect" id="Node000005" href="$classFl__File__Browser.html" title=" " alt="" coords="5,299,129,324"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="248,257,105,301,104,296,247,252"/>
+<area shape="rect" id="Node000006" href="$classFl__Hold__Browser.html" title=" " alt="" coords="154,299,285,324"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="277,262,234,300,230,296,273,258"/>
+<area shape="rect" id="Node000007" href="$classFl__Multi__Browser.html" title=" " alt="" coords="309,299,444,324"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="323,258,366,296,362,300,319,262"/>
+<area shape="rect" id="Node000008" href="$classFl__Select__Browser.html" title=" " alt="" coords="469,299,610,324"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="351,252,501,296,500,301,349,257"/>
+<area shape="rect" id="Node000002" href="$classFl__Browser__.html" title=" " alt="" coords="247,152,349,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="301,191,301,225,295,225,295,191"/>
+<area shape="rect" id="Node000003" href="$classFl__Group.html" title=" " alt="" coords="258,79,338,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="301,118,301,152,295,152,295,118"/>
+<area shape="rect" id="Node000004" href="$classFl__Widget.html" title=" " alt="" coords="255,5,341,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="301,44,301,79,295,79,295,44"/>
+</map>

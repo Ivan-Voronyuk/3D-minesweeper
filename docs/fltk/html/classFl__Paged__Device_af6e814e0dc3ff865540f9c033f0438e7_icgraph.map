@@ -1,0 +1,7 @@
+<map id="Fl_Paged_Device::rotate" name="Fl_Paged_Device::rotate">
+<area shape="rect" id="Node000001" title="Rotates the graphics operations relatively to paper." alt="" coords="207,42,385,67"/>
+<area shape="rect" id="Node000002" href="$classFl__PDF__File__Surface.html#a3dc07325062cace462a97e5202112636" title="Rotates the graphics operations relatively to paper." alt="" coords="5,5,159,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,43,159,39,160,33,193,38"/>
+<area shape="rect" id="Node000003" href="$classFl__Printer.html#ae11abae5ec418fa86dbc54da9103670f" title="Rotates the graphics operations relatively to paper." alt="" coords="17,70,147,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,71,148,77,147,72,192,66"/>
+</map>

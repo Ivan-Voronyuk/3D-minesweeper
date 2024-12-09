@@ -1,0 +1,13 @@
+<map id="Fl_Tree_Item_Array::insert" name="Fl_Tree_Item_Array::insert">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,152,87"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree__Item.html#ab14a9e7a9be0b17fbf5909be3f2f82a5" title=" " alt="" coords="200,47,359,87"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,65,187,65,187,70,152,70"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree__Item.html#a59b33b5824ea2f87eb3388ec51802d67" title="Return the child item for the given &#39;index&#39;." alt="" coords="417,5,561,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="358,46,421,31,422,36,360,51"/>
+<area shape="rect" id="Node000004" href="$classFl__Tree__Item.html#ae1ecee0a3fae8bed7161b5710a13ddb9" title="Return the number of children this item has." alt="" coords="407,55,572,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="359,65,393,65,393,70,359,70"/>
+<area shape="rect" id="Node000006" href="$classFl__Tree__Item.html#a5371023b11fd4b32a93f9cd7936fc5fb" title="Return the parent for this item. Returns NULL if we are the root." alt="" coords="412,104,567,129"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="360,83,422,98,421,103,358,89"/>
+<area shape="rect" id="Node000005" href="$classFl__Tree__Item__Array.html#a1b76ee8f1c8e3d07449bfc6c1a16e9c6" title="Return the total items in the array, or 0 if empty." alt="" coords="620,47,767,87"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="573,65,606,65,606,70,573,70"/>
+</map>

@@ -1,0 +1,31 @@
+<map id="Fl_Button::value" name="Fl_Button::value">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,129,133,155"/>
+<area shape="rect" id="Node000002" href="$classFl__Widget.html#a9d1f48fbbe4d885e81df38b2a93b614f" title=" " alt="" coords="433,5,552,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,127,125,95,180,65,242,45,305,32,419,18,419,23,306,37,243,50,182,70,128,100,87,131"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget.html#abd83334100f22d5880cf34a233a35831" title=" " alt="" coords="181,203,371,228"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="98,152,182,187,210,196,209,201,180,193,96,157"/>
+<area shape="rect" id="Node000004" href="$classFl__Widget.html#aa63ce68cbf4620cf8750b868368ea02b" title=" " alt="" coords="206,80,346,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="123,127,208,106,209,111,124,132"/>
+<area shape="rect" id="Node000006" href="$classFl__Widget.html#a22b6faff91b6056e55ba4270723734b7" title=" " alt="" coords="187,153,365,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="134,147,173,151,173,157,133,152"/>
+<area shape="rect" id="Node000005" href="$classFl__Widget.html#ada8bb104e4501a2b123e813b32b6ed95" title=" " alt="" coords="419,55,567,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="346,82,405,75,405,80,347,87"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="310,151,340,135,369,115,384,96,391,77,400,59,417,40,425,35,428,39,420,44,404,62,396,79,388,98,373,119,343,140,312,156"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="301,151,418,89,435,82,437,87,420,94,303,155"/>
+<area shape="rect" id="Node000007" href="$classFl__Widget.html#a6a3c44d082f89ba3aefd405c388187c5" title=" " alt="" coords="429,400,556,425"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="357,177,373,188,391,213,399,238,400,264,398,289,396,314,397,338,404,362,421,387,424,390,421,394,417,390,399,365,392,339,391,313,393,288,395,264,394,239,386,216,369,192,354,181"/>
+<area shape="rect" id="Node000008" href="$classFl__Widget.html#a56c09392686ee558104fd7550496894f" title=" " alt="" coords="441,104,544,129"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="332,151,428,129,429,134,333,156"/>
+<area shape="rect" id="Node000009" href="$structFl__Label.html#a30b371b7193a9ff17191e330eacfe631" title=" " alt="" coords="422,153,563,179"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="366,163,408,163,408,169,366,169"/>
+<area shape="rect" id="Node000010" href="$classFl__Widget.html#a9c582969d134d01916816daf73a35402" title=" " alt="" coords="439,203,546,228"/>
+<area shape="poly" id="edge11_Node000006_Node000010" title=" " alt="" coords="333,176,426,198,425,203,332,181"/>
+<area shape="rect" id="Node000011" href="$classFl__Widget.html#a8bb349938c5adfa975180605bcf0a899" title=" " alt="" coords="420,252,565,277"/>
+<area shape="poly" id="edge12_Node000006_Node000011" title=" " alt="" coords="346,176,372,188,388,200,397,213,406,225,420,237,433,244,431,249,417,242,402,229,393,216,384,204,369,192,344,181"/>
+<area shape="rect" id="Node000013" href="$classFl__Widget.html#aeed320ce65d02a7f0fcab1363f0136b0" title=" " alt="" coords="441,301,544,327"/>
+<area shape="poly" id="edge14_Node000006_Node000013" title=" " alt="" coords="353,176,372,188,384,200,391,213,398,238,404,263,410,275,420,287,431,294,427,298,417,291,406,278,399,265,393,239,387,215,380,203,369,192,351,181"/>
+<area shape="rect" id="Node000014" href="$classFl__Widget.html#a4665aaf0850ed0d334600e2cac58c360" title=" " alt="" coords="441,351,544,376"/>
+<area shape="poly" id="edge15_Node000006_Node000014" title=" " alt="" coords="356,177,372,188,388,207,395,226,398,263,400,300,407,318,421,336,431,344,427,349,417,340,402,321,395,301,393,263,390,227,383,209,369,192,353,181"/>
+<area shape="rect" id="Node000012" href="$classFl__Widget.html#accde05cf78a23ba6a1e9547cc034f499" title=" " alt="" coords="615,252,752,277"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="566,262,601,262,601,267,566,267"/>
+</map>

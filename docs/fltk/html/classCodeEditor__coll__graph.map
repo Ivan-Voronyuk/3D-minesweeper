@@ -1,5 +1,34 @@
 <map id="CodeEditor" name="CodeEditor">
-<area shape="rect" id="Node000001" title=" " alt="" coords="15,79,109,104"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,119,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,44,65,79,59,79,59,44"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="113,602,207,627"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Editor.html" title=" " alt="" coords="159,492,273,517"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,530,189,543,175,574,166,602,160,601,170,572,184,540,194,526"/>
+<area shape="poly" id="edge18_Node000002_Node000002" title=" " alt="" coords="288,497,299,505,291,512,273,514,273,509,289,507,294,505,285,501"/>
+<area shape="rect" id="Node000014" href="$structFl__Text__Editor_1_1Key__Binding.html" title=" " alt="" coords="231,595,377,635"/>
+<area shape="poly" id="edge16_Node000014_Node000002" title=" " alt="" coords="211,531,209,551,214,569,225,582,240,592,237,597,222,586,210,572,203,551,205,530"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Display.html" title="Rich text display widget." alt="" coords="154,417,278,443"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="219,457,219,492,213,492,213,457"/>
+<area shape="rect" id="Node000004" href="$classFl__Group.html" title=" " alt="" coords="5,108,85,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="48,147,58,235,71,288,92,339,111,365,135,386,187,415,184,419,132,390,107,368,87,341,66,290,53,236,43,147"/>
+<area shape="rect" id="Node000005" href="$classFl__Widget.html" title=" " alt="" coords="46,5,133,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="74,44,66,56,56,84,50,109,45,107,51,82,62,54,69,41"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="81,45,53,109,48,107,76,42"/>
+<area shape="rect" id="Node000013" href="$classFl__Valuator.html" title=" " alt="" coords="110,108,205,133"/>
+<area shape="poly" id="edge14_Node000013_Node000005" title=" " alt="" coords="115,39,128,53,144,81,155,107,151,109,139,84,123,56,111,42"/>
+<area shape="rect" id="Node000006" href="$classFl__Text__Buffer.html" title=" " alt="" coords="224,307,339,333"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="273,347,248,395,229,418,225,415,243,392,269,344"/>
+<area shape="rect" id="Node000007" href="$classFl__Text__Selection.html" title="This is an internal class for Fl_Text_Buffer to manage text selections." alt="" coords="214,183,349,208"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="284,222,284,307,279,307,279,222"/>
+<area shape="rect" id="Node000008" href="$classFl__Text__Undo__Action.html" title=" " alt="" coords="373,183,531,208"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="435,220,405,249,369,278,311,310,309,305,367,274,402,245,431,216"/>
+<area shape="rect" id="Node000009" href="$classFl__Text__Undo__Action__List.html" title=" " alt="" coords="555,183,741,208"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="616,217,552,248,475,279,414,292,353,303,323,310,322,305,351,297,413,287,474,273,550,243,614,212"/>
+<area shape="rect" id="Node000010" href="$structFl__Text__Display_1_1Style__Table__Entry.html" title=" " alt="" coords="363,300,527,340"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="417,351,388,375,353,396,316,410,279,421,277,415,315,405,351,391,385,370,414,347"/>
+<area shape="rect" id="Node000011" href="$classFl__Scrollbar.html" title=" " alt="" coords="101,307,200,333"/>
+<area shape="poly" id="edge11_Node000003_Node000011" title=" " alt="" coords="149,347,150,370,157,392,169,405,185,415,182,420,166,409,152,395,144,371,144,347"/>
+<area shape="rect" id="Node000012" href="$classFl__Slider.html" title=" " alt="" coords="111,183,190,208"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="153,222,153,307,148,307,148,222"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="158,147,154,183,149,182,152,147"/>
+<area shape="poly" id="edge15_Node000002_Node000014" title=" " alt="" coords="293,582,285,562,273,543,258,530,241,520,244,515,261,526,277,540,290,559,298,580"/>
+<area shape="poly" id="edge17_Node000014_Node000014" title=" " alt="" coords="392,604,400,608,403,615,395,624,377,628,376,623,393,619,398,614,396,612,389,609"/>
 </map>

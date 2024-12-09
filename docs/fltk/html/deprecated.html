@@ -73,13 +73,93 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
+<dt>Member <a class="el" href="classFl.html#a656023b0db49ae9b88e277ccdb27ce1b">Fl::release</a>  ()</dt>
+<dd><a class="anchor" id="_deprecated000005"></a>Use Fl::grab(0) instead.  </dd>
+<dt>Member <a class="el" href="classFl.html#a77955ad2f2b83fc5e3925b94e4533b20">Fl::set_idle</a>  (Fl_Old_Idle_Handler cb)</dt>
+<dd><a class="anchor" id="_deprecated000004"></a>This method is obsolete - use the <a class="el" href="classFl.html#a4e7a1b5d18c2f073238a8466a62a3e7a">add_idle()</a> method instead.  </dd>
+<dt>Member <a class="el" href="classFl.html#ad65803adc5e4936111bd31a52f1d61a7">Fl::version</a>  ()</dt>
+<dd><a class="anchor" id="_deprecated000020"></a>Use int <a class="el" href="classFl.html#a7600b0ef3dcd4311850ab4b2988d5d6d">Fl::api_version()</a> instead.  </dd>
 <dt>Member <a class="el" href="group__group__comdlg.html#gad3800d6fffef60c0153e6befecdfa650">fl_ask</a>  (const char *fmt,...)</dt>
-<dd><a class="anchor" id="_deprecated000005"></a><a class="el" href="group__group__comdlg.html#gad3800d6fffef60c0153e6befecdfa650">fl_ask()</a> is deprecated since it uses "Yes" and "No" for the buttons which does not conform to the current FLTK Human Interface Guidelines. Use <a class="el" href="group__group__comdlg.html#ga36c19b29fcd5c261f3eafdf9f7126b16">fl_choice()</a> with the appropriate verbs instead.  </dd>
+<dd><a class="anchor" id="_deprecated000022"></a>fl_ask() is deprecated since it uses "Yes" and "No" for the buttons which does not conform to the current FLTK Human Interface Guidelines. Use fl_choice() with the appropriate verbs instead.  </dd>
+<dt>Member <a class="el" href="classFl__Browser__.html#a397cd7d2550ca3d87032fa1ffd3e4bbc">Fl_Browser_::scrollbar_width</a>  () const</dt>
+<dd><p class="startdd"><a class="anchor" id="_deprecated000006"></a>Use <a class="el" href="classFl__Browser__.html#a89f6b1be07fc063bf8a8d83cb39d5fa0">scrollbar_size()</a> instead. </p>
+<p class="enddd"></p>
+</dd>
+<dt>Member <a class="el" href="classFl__Browser__.html#a4d59d5c7d78393a7a5d5bfaa01694580">Fl_Browser_::scrollbar_width</a>  (int width)</dt>
+<dd><p class="startdd"><a class="anchor" id="_deprecated000007"></a>Use <a class="el" href="classFl__Browser__.html#a89f6b1be07fc063bf8a8d83cb39d5fa0">scrollbar_size()</a> instead. </p>
+<p class="enddd"></p>
+</dd>
+<dt>Member <a class="el" href="group__fl__drawings.html#ga1e330dc60b9ba89b6db2433f7ab029bc">fl_clip</a>  (int x, int y, int w, int h)</dt>
+<dd><a class="anchor" id="_deprecated000008"></a> Please use <a class="el" href="group__fl__drawings.html#gabe60242ba3b975800717b95cb6bc06d2">fl_push_clip(int x, int y, int w, int h)</a> instead. <a class="el" href="group__fl__drawings.html#ga1e330dc60b9ba89b6db2433f7ab029bc">fl_clip(int, int, int, int)</a> will be removed in FLTK 1.5.  </dd>
+<dt>Member <a class="el" href="classFl__File__Input.html#a7e5f2f3b29dccd1ecee9426c07cd5df1">Fl_File_Input::errorcolor</a>  () const</dt>
+<dd><p class="startdd"><a class="anchor" id="_deprecated000009"></a>Will be removed in FLTK 1.5.0 or higher. </p>
+<p class="enddd"></p>
+</dd>
+<dt>Member <a class="el" href="classFl__File__Input.html#a4ddfe232300adb2fc693ae99e356ea7b">Fl_File_Input::errorcolor</a>  (Fl_Color c)</dt>
+<dd><p class="startdd"><a class="anchor" id="_deprecated000010"></a>Will be removed in FLTK 1.5.0 or higher. </p>
+<p class="enddd"></p>
+</dd>
 <dt>Member <a class="el" href="Fl_8cxx.html#a5a06367398495e574e5eecb2d872d288">fl_find</a>  (Window xid)</dt>
-<dd><a class="anchor" id="_deprecated000004"></a>Kept in the X11, Windows, and macOS platforms for compatibility with FLTK versions before 1.4. Please use fl_x11_find(Window), fl_wl_find(struct wld_window*), fl_win32_find(HWND) or fl_mac_find(FLWindow*) with FLTK 1.4.0 and above.  </dd>
+<dd><a class="anchor" id="_deprecated000021"></a>Kept in the X11, Windows, and macOS platforms for compatibility with FLTK versions before 1.4. Please use fl_x11_find(Window), <a class="el" href="wayland_8H.html#ad541995c9ba0fa66ab85c73220d8468c">fl_wl_find(struct wld_window*)</a>, fl_win32_find(HWND) or <a class="el" href="group__group__macosx.html#gaff34f093b5c6e06f7cbbe59da4091fbf">fl_mac_find(FLWindow*)</a> with FLTK 1.4.0 and above.  </dd>
+<dt>Member <a class="el" href="classFl__GIF__Image.html#a954ddf5be99c4b27ac003932733a4dae">Fl_GIF_Image::Fl_GIF_Image</a>  (const char *imagename, const unsigned char *data)</dt>
+<dd><a class="anchor" id="_deprecated000023"></a>Please use <a class="el" href="classFl__GIF__Image.html#a6642702dd70fe081be535c8f6cde71b3">Fl_GIF_Image(const char *imagename, const unsigned char *data, const size_t length)</a> instead. </dd>
+<dt>Member <a class="el" href="classFl__Group.html#a53cdffb97187987a624c1b71cc38ad3a">Fl_Group::focus</a>  (<a class="el" href="classFl__Widget.html">Fl_Widget</a> *W)</dt>
+<dd><a class="anchor" id="_deprecated000011"></a>This is for backwards compatibility only. You should use <em>W-&gt;take_focus</em>() instead.  </dd>
+<dt>Member <a class="el" href="classFl__Group.html#a9cac5fc0e274076e0faf759787667c2c">Fl_Group::sizes</a>  ()</dt>
+<dd><a class="anchor" id="_deprecated000024"></a>Deprecated since 1.4.0. Please use <a class="el" href="classFl__Group.html#a3f7d8775cc5edf03a6426e5467a62e34">bounds()</a> instead. </dd>
+<dt>Member <a class="el" href="classFl__Image.html#ae15a906c677b41cc1b88ae8b743e51f2">Fl_Image::draw_scaled</a>  (int X, int Y, int W, int H)</dt>
+<dd><a class="anchor" id="_deprecated000027"></a>Only for API compatibility with FLTK 1.3.4.  </dd>
+<dt>Member <a class="el" href="classFl__Image.html#adb936214d3cc400cc28fdafa34f5d96a">Fl_Image::label</a>  (<a class="el" href="classFl__Widget.html">Fl_Widget</a> *w)</dt>
+<dd><a class="anchor" id="_deprecated000025"></a>Please use <a class="el" href="classFl__Widget.html#ad31a8d00ef90b741f5f8833dfefca3e3">Fl_Widget::image()</a> or <a class="el" href="classFl__Widget.html#a3937c63925e1525cf3e0e5cb050bf88e">Fl_Widget::deimage()</a> instead.  </dd>
+<dt>Member <a class="el" href="classFl__Image.html#a4e8e689944e795083eb2ddd5957a1d69">Fl_Image::label</a>  (<a class="el" href="structFl__Menu__Item.html">Fl_Menu_Item</a> *m)</dt>
+<dd><a class="anchor" id="_deprecated000026"></a>Please use <a class="el" href="structFl__Menu__Item.html#a81cb08f569bfc94f7c98c2481ef945ba">Fl_Menu_Item::image()</a> instead.  </dd>
+<dt>Member <a class="el" href="classFl__Image__Surface.html#a1629467ad4bf1aca678b2c71853edfeb">Fl_Image_Surface::highres_image</a>  ()</dt>
+<dd><a class="anchor" id="_deprecated000028"></a>Use <a class="el" href="classFl__Image__Surface.html#a720b21c8ef4ab44d0577bcf289ab51e2">image()</a> instead.  </dd>
+<dt>Member <a class="el" href="structFl__Menu__Item.html#a7b762f887849570b33309537ce2d5fd4">Fl_Menu_Item::check</a>  ()</dt>
+<dd><a class="anchor" id="_deprecated000013"></a> Please use <a class="el" href="structFl__Menu__Item.html#a4d39aadf722bf13cec46314eb71a404d">Fl_Menu_Item::set()</a> instead. This method will be removed in FLTK 1.5.0 or later.  </dd>
+<dt>Member <a class="el" href="structFl__Menu__Item.html#a3ab5231b3f7785113ff57210b00f692a">Fl_Menu_Item::checked</a>  () const</dt>
+<dd><a class="anchor" id="_deprecated000012"></a> Please use <a class="el" href="structFl__Menu__Item.html#a7585b85dee7bcde73f202ba4c0585e4e">Fl_Menu_Item::value()</a> instead. This method will be removed in FLTK 1.5.0 or later.  </dd>
+<dt>Member <a class="el" href="structFl__Menu__Item.html#ae89657ebc69eebd87a0ed10a730ce941">Fl_Menu_Item::uncheck</a>  ()</dt>
+<dd><a class="anchor" id="_deprecated000014"></a> Please use <a class="el" href="structFl__Menu__Item.html#a0c2aa552ddacec2b75b319fe5bc10d3e">Fl_Menu_Item::clear()</a> instead. This method will be removed in FLTK 1.5.0 or later.  </dd>
+<dt>Member <a class="el" href="structFl__Multi__Label.html#af72aa419e40c7a64116ea19f4fee4b98">Fl_Multi_Label::label</a>  (<a class="el" href="structFl__Menu__Item.html">Fl_Menu_Item</a> *)</dt>
+<dd><a class="anchor" id="_deprecated000029"></a>since 1.4.0: please use Fl_Menu_Item::label(Fl_Multi_Label *) </dd>
+<dt>Member <a class="el" href="classFl__Text__Display.html#a461a7dc773676851db6031519fee1d7e">Fl_Text_Display::scrollbar_width</a>  (int width)</dt>
+<dd><p class="startdd"><a class="anchor" id="_deprecated000016"></a>Use <a class="el" href="classFl__Text__Display.html#a6dc75e23d3fc181683118072436ba537">scrollbar_size()</a> instead. </p>
+<p class="enddd"></p>
+</dd>
+<dt>Member <a class="el" href="classFl__Text__Display.html#a0006a273fa0a2370e6db2d6aa079fcb6">Fl_Text_Display::scrollbar_width</a>  () const</dt>
+<dd><p class="startdd"><a class="anchor" id="_deprecated000015"></a>Use <a class="el" href="classFl__Text__Display.html#a6dc75e23d3fc181683118072436ba537">scrollbar_size()</a> instead. </p>
+<p class="enddd"></p>
+</dd>
+<dt>Member <a class="el" href="classFl__Tree.html#a06b60a4eb5fd4f0610418915a1e922a0">Fl_Tree::first_visible</a>  ()</dt>
+<dd><a class="anchor" id="_deprecated000032"></a>in 1.3.3 ABI &ndash; use <a class="el" href="classFl__Tree.html#aa3f9fbfac221ff7716b12e5a5ba63db2">first_visible_item()</a> instead.  </dd>
+<dt>Member <a class="el" href="classFl__Tree.html#a47a5c02e59ac4050758cf5dcb2f53b8e">Fl_Tree::item_clicked</a>  (<a class="el" href="classFl__Tree__Item.html" title="Tree widget item.">Fl_Tree_Item</a> *val)</dt>
+<dd><a class="anchor" id="_deprecated000030"></a>in 1.3.3 ABI &ndash; use <a class="el" href="classFl__Tree.html#ad576e00b3f3c5e2c6dae62fdf513ece2">callback_item()</a> instead.  </dd>
+<dt>Member <a class="el" href="classFl__Tree.html#a719f3595b8e7a855ed0890cb7e6fdc67">Fl_Tree::item_clicked</a>  ()</dt>
+<dd><a class="anchor" id="_deprecated000031"></a>in 1.3.3 ABI &ndash; use <a class="el" href="classFl__Tree.html#ad576e00b3f3c5e2c6dae62fdf513ece2">callback_item()</a> instead.  </dd>
+<dt>Member <a class="el" href="classFl__Tree.html#a7189423dab6a6c1bc6c1fbb33735bf8a">Fl_Tree::last_visible</a>  ()</dt>
+<dd><a class="anchor" id="_deprecated000033"></a>in 1.3.3 &ndash; use <a class="el" href="classFl__Tree.html#af39bab9126b8a96722336672b53634e6">last_visible_item()</a> instead.  </dd>
+<dt>Member <a class="el" href="classFl__Tree__Item.html#a6c262c208062bf0fd3e78304c8366c48">Fl_Tree_Item::Fl_Tree_Item</a>  (const <a class="el" href="classFl__Tree__Prefs.html" title="Tree widget&#39;s preferences.">Fl_Tree_Prefs</a> &amp;prefs)</dt>
+<dd><a class="anchor" id="_deprecated000034"></a>in 1.3.3 ABI &ndash; you must use <a class="el" href="classFl__Tree__Item.html#af27ffaf49bf030118ed1657bcb5fecfb">Fl_Tree_Item(Fl_Tree*)</a> for proper horizontal scrollbar behavior.  </dd>
+<dt>Member <a class="el" href="classFl__Tree__Item.html#a15ff7295619947400e541b4b4e15e22a">Fl_Tree_Item::next_displayed</a>  (<a class="el" href="classFl__Tree__Prefs.html" title="Tree widget&#39;s preferences.">Fl_Tree_Prefs</a> &amp;prefs)</dt>
+<dd><a class="anchor" id="_deprecated000035"></a>in 1.3.3 for confusing name, use <a class="el" href="classFl__Tree__Item.html#aaff73a68d1a1440579f767e4da292848">next_visible()</a> instead  </dd>
+<dt>Member <a class="el" href="classFl__Tree__Item.html#a4b57fb2d2dc65a29bf5d81f17f96cd83">Fl_Tree_Item::prev_displayed</a>  (<a class="el" href="classFl__Tree__Prefs.html" title="Tree widget&#39;s preferences.">Fl_Tree_Prefs</a> &amp;prefs)</dt>
+<dd><a class="anchor" id="_deprecated000036"></a>in 1.3.3 for confusing name, use <a class="el" href="classFl__Tree__Item.html#a96d695d41da2c3710324b1e6bb94ad8d">prev_visible()</a>  </dd>
+<dt>Member <a class="el" href="Enumerations_8H.html#a94499c96b5f3ca212d90a2c41f947a67">FL_VERSION</a>  </dt>
+<dd><a class="anchor" id="_deprecated000003"></a>This <code>double</code> version number is retained for compatibility with existing program code. New code should use <em>int</em> FL_API_VERSION instead. FL_VERSION is deprecated because comparisons of floating point values may fail due to rounding errors. However, there are currently no plans to remove this deprecated constant. </dd>
+<dt>Member <a class="el" href="classFl__Widget.html#ae9bfda1ebdcbf0946aef558b9d9f0e3c">Fl_Widget::color2</a>  (unsigned a)</dt>
+<dd><a class="anchor" id="_deprecated000018"></a>Use selection_color(unsigned) instead.  </dd>
+<dt>Member <a class="el" href="classFl__Widget.html#ad307dbccabe1d2e71c27dae946821f06">Fl_Widget::color2</a>  () const</dt>
+<dd><a class="anchor" id="_deprecated000017"></a>Use <a class="el" href="classFl__Widget.html#aa19cad245b9a3ecdc3af8ebc4706196b">selection_color()</a> instead.  </dd>
+<dt>Member <a class="el" href="classFl__Window.html#a1e98da34a021275f42007528768c53a7">Fl_Window::free_position</a>  ()</dt>
+<dd><a class="anchor" id="_deprecated000019"></a>please use force_position(0) instead  </dd>
+<dt>Member <a class="el" href="classFl__Window.html#aebe49571396c9d9e88e6006e0d4899a1">Fl_Window::icon</a>  (const void *ic)</dt>
+<dd><a class="anchor" id="_deprecated000038"></a>in 1.3.3 in favor of platform-independent methods <a class="el" href="classFl__Window.html#a508f3acd43f9b365d35897b5ec197dbe">Fl_Window::icon(const Fl_RGB_Image *icon)</a> and <a class="el" href="classFl__Window.html#a2c67d0656099b902c17525dfb9b1ebe5">Fl_Window::icons(const Fl_RGB_Image *icons[], int count)</a>.  </dd>
+<dt>Member <a class="el" href="classFl__Window.html#a54d7cb1c8f6b7eec29cd5b93417b8dcc">Fl_Window::icon</a>  () const</dt>
+<dd><a class="anchor" id="_deprecated000037"></a>in 1.3.3  </dd>
 <dt>Page <a class="el" href="osissues.html">Operating System Issues</a>  </dt>
-<dd><p class="startdd"><a class="anchor" id="_deprecated000001"></a>Kept for compatibility with FLTK versions before 1.4. Use preferentially fl_x11_xid(const Fl_Window *) with versions 1.4 and above.</p>
-<p class="enddd"><a class="anchor" id="_deprecated000002"></a>Kept for compatibility with FLTK versions before 1.4. Use preferentially fl_x11_find(Window) with versions 1.4 and above.</p>
+<dd><p class="startdd"><a class="anchor" id="_deprecated000002"></a>Kept for compatibility with FLTK versions before 1.4. Use preferentially fl_x11_find(Window) with versions 1.4 and above.</p>
+<p class="enddd"><a class="anchor" id="_deprecated000001"></a>Kept for compatibility with FLTK versions before 1.4. Use preferentially fl_x11_xid(const Fl_Window *) with versions 1.4 and above.</p>
 </dd>
 </dl>
 </div></div><!-- contents -->

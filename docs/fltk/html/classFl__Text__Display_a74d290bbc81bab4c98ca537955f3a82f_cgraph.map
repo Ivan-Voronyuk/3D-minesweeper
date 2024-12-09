@@ -1,0 +1,16 @@
+<map id="Fl_Text_Display::find_x" name="Fl_Text_Display::find_x">
+<area shape="rect" id="Node000001" title="Find the index of the character that lies at the given x position / closest cursor position." alt="" coords="5,76,176,101"/>
+<area shape="rect" id="Node000002" href="$group__fl__unicode.html#gaf739852beaf3dacf039fdc0b1f289a5a" title=" " alt="" coords="263,47,353,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,75,248,65,249,70,177,80"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Display.html#a033fb1323b0640601240829e845598f9" title="Find the width of a string in the font of a particular style." alt="" coords="224,97,392,137"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,97,211,101,210,107,176,102"/>
+<area shape="rect" id="Node000004" href="$group__fl__attributes.html#gad234d90fe63191609ec196e1b8041d1a" title=" " alt="" coords="500,5,563,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="365,94,390,81,414,60,424,50,439,40,486,23,487,28,441,44,427,54,418,64,394,86,367,99"/>
+<area shape="rect" id="Node000005" href="$group__fl__attributes.html#ga92c762ce2fc7fa891bac6b7590f967bd" title=" " alt="" coords="495,79,568,104"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="392,105,480,94,481,100,392,110"/>
+<area shape="rect" id="Node000006" href="$classFl__Text__Display.html#aede1822b26480e2d08c3625b67f7abe3" title=" " alt="" coords="440,128,623,153"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="392,123,427,127,426,132,392,128"/>
+<area shape="rect" id="Node000007" href="$classFl__Text__Display.html#ad92e726e57de12916b1493ed2370177b" title=" " alt="" coords="440,177,623,203"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="362,134,441,162,470,171,468,176,439,167,360,139"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="495,80,487,70,491,60,506,54,531,52,562,56,574,65,571,69,560,61,531,57,508,59,495,64,493,70,499,77"/>
+</map>

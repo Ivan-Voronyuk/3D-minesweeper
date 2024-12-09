@@ -1,0 +1,12 @@
+<map id="Fl_Window::cursor" name="Fl_Window::cursor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,145,56"/>
+<area shape="rect" id="Node000002" href="$classFl__Window.html#a4b14c4708c444295140fcb291afdf551" title=" " alt="" coords="193,31,333,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,41,179,41,179,46,146,46"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="232,32,226,22,229,12,242,6,263,4,289,8,300,16,296,20,287,12,263,9,244,11,233,16,231,22,237,29"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget.html#a9c582969d134d01916816daf73a35402" title=" " alt="" coords="401,5,507,31"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="333,31,386,24,387,30,334,37"/>
+<area shape="rect" id="Node000004" href="$classFl__Widget.html#a8bb349938c5adfa975180605bcf0a899" title=" " alt="" coords="381,55,527,80"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="334,49,368,54,368,59,333,55"/>
+<area shape="rect" id="Node000005" href="$classFl__Widget.html#accde05cf78a23ba6a1e9547cc034f499" title=" " alt="" coords="575,55,712,80"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="527,65,561,65,561,70,527,70"/>
+</map>

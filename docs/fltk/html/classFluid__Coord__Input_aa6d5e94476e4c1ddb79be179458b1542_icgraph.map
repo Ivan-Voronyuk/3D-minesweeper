@@ -1,0 +1,11 @@
+<map id="Fluid_Coord_Input::text" name="Fluid_Coord_Input::text">
+<area shape="rect" id="Node000001" title=" " alt="" coords="395,77,568,102"/>
+<area shape="rect" id="Node000002" href="$classFluid__Coord__Input.html#a74df3302d46a4560e00d27012c45b767" title=" " alt="" coords="200,5,347,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="425,75,338,48,340,43,427,70"/>
+<area shape="rect" id="Node000003" href="$classFluid__Coord__Input.html#ac0c188ce872c8b370213276a7c095598" title=" " alt="" coords="200,69,347,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="380,92,347,92,347,87,380,87"/>
+<area shape="rect" id="Node000005" href="$classFluid__Coord__Input.html#a2c72a933498e93ab55671bab43953718" title=" " alt="" coords="200,133,347,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="427,109,340,136,338,131,425,104"/>
+<area shape="rect" id="Node000004" href="$classFluid__Coord__Input.html#ab3099e1225588dc1d2cb2e0d9b7de317" title=" " alt="" coords="5,69,152,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="186,92,152,92,152,87,186,87"/>
+</map>

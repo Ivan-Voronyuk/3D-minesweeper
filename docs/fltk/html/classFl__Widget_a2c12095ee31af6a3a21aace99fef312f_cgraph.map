@@ -1,0 +1,9 @@
+<map id="Fl_Widget::draw_box" name="Fl_Widget::draw_box">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,164,56"/>
+<area shape="rect" id="Node000002" href="$classFl__Widget.html#a25ebd158cb9f7ccfa7b4cf3406c2b603" title=" " alt="" coords="212,31,359,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,41,198,41,198,46,164,46"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget.html#ae10c2f227e76414e8142808eeda23c0c" title=" " alt="" coords="408,5,543,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="359,31,394,26,395,31,359,36"/>
+<area shape="rect" id="Node000004" href="$classFl__Widget.html#accde05cf78a23ba6a1e9547cc034f499" title=" " alt="" coords="407,55,544,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="359,50,393,54,392,60,359,55"/>
+</map>

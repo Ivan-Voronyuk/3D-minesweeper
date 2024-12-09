@@ -1,16 +1,18 @@
 <map id="/home/ivan/Documents/INF/3D&#45;minesweeper/thirdparty/fltk/fluid/fluid_filename.h" name="/home/ivan/Documents/INF/3D&#45;minesweeper/thirdparty/fltk/fluid/fluid_filename.h">
-<area shape="rect" id="Node000001" title="File names and URI utility functions for FLUID only." alt="" coords="84,5,315,60"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,181,121,207"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,62,138,84,113,110,92,140,76,170,72,168,88,137,109,106,134,80,161,58"/>
-<area shape="rect" id="Node000003" href="$platform__types_8h.html" title=" " alt="" coords="123,108,275,133"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,60,202,94,197,94,197,60"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="299,108,411,133"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="248,58,324,99,321,104,246,62"/>
-<area shape="poly" id="edge6_Node000003_Node000002" title=" " alt="" coords="179,136,99,177,96,173,176,131"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="146,181,253,207"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="202,134,202,168,197,168,197,134"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="277,181,341,207"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="218,131,281,171,278,176,215,136"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="365,181,437,207"/>
-<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="233,131,356,174,354,179,231,136"/>
+<area shape="rect" id="Node000001" title="File names and URI utility functions for FLUID only." alt="" coords="28,5,259,60"/>
+<area shape="rect" id="Node000002" href="$Fl__Export_8H_source.html" title=" " alt="" coords="5,255,121,280"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,62,93,84,78,109,67,143,62,179,63,241,58,241,57,179,62,142,73,107,89,80,109,58"/>
+<area shape="rect" id="Node000003" href="$platform__types_8h.html" title=" " alt="" coords="154,181,306,207"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="176,58,196,81,214,107,225,137,231,167,225,168,220,139,209,109,192,84,172,62"/>
+<area shape="rect" id="Node000007" href="$filename_8H.html" title=" " alt="" coords="87,108,199,133"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="146,60,146,94,141,94,141,60"/>
+<area shape="poly" id="edge6_Node000003_Node000002" title=" " alt="" coords="204,209,104,252,102,247,202,204"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="146,255,253,280"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="227,208,212,243,207,241,222,206"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="277,255,341,280"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="244,205,288,244,284,247,241,209"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="365,255,437,280"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="258,204,361,247,359,252,256,209"/>
+<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="139,135,79,244,74,241,134,132"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="159,131,207,170,204,175,156,135"/>
 </map>

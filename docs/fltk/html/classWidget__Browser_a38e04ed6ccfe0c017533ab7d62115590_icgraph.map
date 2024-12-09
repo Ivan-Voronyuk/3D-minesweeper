@@ -1,0 +1,33 @@
+<map id="Widget_Browser::save_scroll_position" name="Widget_Browser::save_scroll_position">
+<area shape="rect" id="Node000001" title=" " alt="" coords="844,261,1011,301"/>
+<area shape="rect" id="Node000002" href="$classWidget__Browser.html#a7e66121b4d5985261c5072e84e344870" title=" " alt="" coords="615,268,796,293"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="830,283,796,283,796,278,830,278"/>
+<area shape="rect" id="Node000003" href="$group__globals.html#ga1c2d23cf31cf404e97badeec1a643ec3" title=" " alt="" coords="432,5,496,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="694,255,678,209,651,152,614,93,591,67,565,44,531,28,496,22,497,16,533,23,568,40,595,63,618,90,656,149,683,207,699,254"/>
+<area shape="rect" id="Node000004" href="$group__globals.html#ga99fdb378dd62523fedfc9128ba8c48f8" title=" " alt="" coords="421,55,507,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="691,257,672,220,644,175,608,131,565,94,537,80,506,73,508,68,538,75,568,89,612,127,648,172,676,217,695,254"/>
+<area shape="rect" id="Node000005" href="$group__globals.html#gab5c5bb5cb9ca9f2c7720eb33df34a295" title=" " alt="" coords="412,104,516,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="685,258,636,200,603,169,565,143,541,132,516,126,517,120,543,127,568,138,606,165,640,196,689,255"/>
+<area shape="rect" id="Node000006" href="$group__fl__type.html#ga887c29914c60c0c63ceed0f0facb0660" title=" " alt="" coords="421,153,507,179"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="676,262,626,227,566,194,507,176,509,171,568,189,629,222,679,257"/>
+<area shape="rect" id="Node000007" href="$classWidget__Bin__Window__Button.html#a260728ab4d6f301c015425613fd692c8" title=" " alt="" coords="361,203,567,243"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="637,267,548,246,549,241,639,262"/>
+<area shape="rect" id="Node000008" href="$group__fl__type.html#gacc87b15c6b66f0960e4c6c27c046dd91" title=" " alt="" coords="427,268,501,293"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="601,283,502,283,502,278,601,278"/>
+<area shape="rect" id="Node000009" href="$group__globals.html#ga0b688fa9437f8b06ac2345bf6bd4a459" title=" " alt="" coords="393,317,535,343"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="630,299,528,320,526,315,629,294"/>
+<area shape="rect" id="Node000012" href="$group__globals.html#ga49ab45faaa416d4c42e1a3f85db25f1d" title=" " alt="" coords="413,367,515,392"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="674,303,625,330,568,356,516,372,514,367,566,352,622,325,671,298"/>
+<area shape="rect" id="Node000013" href="$group__globals.html#gaaf899ea2010d69dae702592841e109d8" title=" " alt="" coords="108,392,313,417"/>
+<area shape="poly" id="edge14_Node000002_Node000013" title=" " alt="" coords="689,306,640,360,606,387,568,407,530,419,490,427,410,432,335,429,272,420,272,415,335,423,410,427,489,422,528,414,566,402,603,382,636,356,685,302"/>
+<area shape="rect" id="Node000014" href="$group__globals.html#gac5ed9e9e53ce40db93583f3c93b3ac6b" title=" " alt="" coords="424,468,504,493"/>
+<area shape="poly" id="edge15_Node000002_Node000014" title=" " alt="" coords="692,307,643,378,609,417,568,451,537,467,505,476,503,471,535,462,565,446,605,413,639,375,688,304"/>
+<area shape="rect" id="Node000015" href="$group__globals.html#gaf883effc2c68a75bc68fe3ce0b0969ee" title=" " alt="" coords="423,517,505,543"/>
+<area shape="poly" id="edge16_Node000002_Node000015" title=" " alt="" coords="698,308,681,352,654,406,617,461,594,487,568,508,538,523,506,530,505,525,536,518,565,504,590,483,612,458,649,404,676,350,693,306"/>
+<area shape="rect" id="Node000010" href="$group__globals.html#ga045fb96b901065671b90d820f4ea949f" title=" " alt="" coords="144,343,277,368"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="379,341,278,351,277,346,379,336"/>
+<area shape="rect" id="Node000011" href="$group__globals.html#ga3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,343,60,368"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="130,358,60,358,60,353,130,353"/>
+<area shape="poly" id="edge13_Node000012_Node000010" title=" " alt="" coords="399,376,277,364,278,359,400,371"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="400,388,314,397,314,392,399,383"/>
+</map>

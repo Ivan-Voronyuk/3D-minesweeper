@@ -1,0 +1,15 @@
+<map id="confirm_project_clear" name="confirm_project_clear">
+<area shape="rect" id="Node000001" title=" " alt="" coords="511,55,673,80"/>
+<area shape="rect" id="Node000002" href="$group__globals.html#gacbffe6f8d55cda6a39766dc92d2e9a9c" title=" " alt="" coords="377,5,447,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="531,54,446,30,448,25,533,48"/>
+<area shape="rect" id="Node000004" href="$group__globals.html#ga49ab45faaa416d4c42e1a3f85db25f1d" title=" " alt="" coords="361,55,463,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="497,70,463,70,463,65,497,65"/>
+<area shape="rect" id="Node000006" href="$group__globals.html#ga045fb96b901065671b90d820f4ea949f" title=" " alt="" coords="144,105,277,131"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="520,85,463,95,278,116,277,110,462,90,519,80"/>
+<area shape="rect" id="Node000003" href="$group__globals.html#ga3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,56,60,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="364,21,247,27,177,34,109,46,61,60,59,55,107,41,177,29,247,22,364,16"/>
+<area shape="rect" id="Node000005" href="$group__globals.html#gaaf899ea2010d69dae702592841e109d8" title=" " alt="" coords="108,56,313,81"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="348,70,314,71,314,65,348,65"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="353,86,314,97,268,108,267,103,313,91,352,81"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="137,105,107,97,59,81,61,76,109,91,139,99"/>
+</map>

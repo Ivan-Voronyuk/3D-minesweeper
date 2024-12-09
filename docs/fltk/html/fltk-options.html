@@ -89,7 +89,7 @@ Runtime Options</h1>
 <p>FLTK keeps track of various aspects of the user interface in a system-wide database. Users have the ability to set their own preferences and override default or system settings. For instance, FLTK will display a dotted rectangle around the widget with current focus. This might not be desirable for users who do not use keyboard navigation and do not need the rectangle. This can be turned off by setting the OPTION_VISIBLE_FOCUS option to 'off' for that user, which will disable the focus rectangle in all FLTK-based applications.</p>
 <h1><a class="anchor" id="fltk-options_access"></a>
 Obtaining Current Settings</h1>
-<p>Options are kept in preference files using the signature <code>Fl_Preferences::CORE_SYSTEM, "fltk.org", "fltk"</code> for system-wide settings and <code>Fl_Preferences::CORE_USER, "fltk.org", "fltk"</code> for individual users. They can be accessed by using the function <code>bool Fl::option(Fl_Option opt)</code>. If an application needs to temporarily override user or system settings, it can use the function <code>void option(Fl_Option opt, bool val)</code>.</p>
+<p>Options are kept in preference files using the signature <code><a class="el" href="classFl__Preferences.html#a0947b73d778ca66b9fbb97b75bbbd7cbac799667f8448249efc766038b20fb00d" title="Deprecated, same as CORE | SYSTEM. Use CORE_SYSTEM_L instead.">Fl_Preferences::CORE_SYSTEM</a>, "fltk.org", "fltk"</code> for system-wide settings and <code><a class="el" href="classFl__Preferences.html#a0947b73d778ca66b9fbb97b75bbbd7cba1b9fb39bc634dd3c67e0a3f0bfea24d5" title="Deprecated, same as CORE | USER. Use CORE_USER_L instead.">Fl_Preferences::CORE_USER</a>, "fltk.org", "fltk"</code> for individual users. They can be accessed by using the function <code>bool Fl::option(Fl_Option opt)</code>. If an application needs to temporarily override user or system settings, it can use the function <code>void option(Fl_Option opt, bool val)</code>.</p>
 <p>To make changes to options permanently, FLTK provides an administrative tool called fltk-options.</p>
 <h1><a class="anchor" id="fltk-options_app"></a>
 Administrative Tool</h1>
@@ -103,7 +103,7 @@ fltk-options Application</div></div>
 <h1><a class="anchor" id="fltk-options_options"></a>
 List of Options</h1>
 <p>Calling <code>fltk-options --help</code> gives a list of all available commands, and options and their values. <code>fltk-options --help OPTION</code> prints more detailed information for OPTION if available. In interactive mode, tooltips provide this additional information.</p>
-<p>A full list of options can be found in the manual at Fl::Fl_Option.</p>
+<p>A full list of options can be found in the manual at <a class="el" href="classFl.html#a43e6e0bbbc03cad134d928d4edd48d1d">Fl::Fl_Option</a>.</p>
 <p> 
 <hr>
 <table summary="navigation bar" width="100%" border="0">

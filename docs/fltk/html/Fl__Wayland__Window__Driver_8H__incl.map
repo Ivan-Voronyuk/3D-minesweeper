@@ -1,0 +1,36 @@
+<map id="/home/ivan/Documents/INF/3D&#45;minesweeper/thirdparty/fltk/src/drivers/Wayland/Fl_Wayland_Window_Driver.H" name="/home/ivan/Documents/INF/3D&#45;minesweeper/thirdparty/fltk/src/drivers/Wayland/Fl_Wayland_Window_Driver.H">
+<area shape="rect" id="Node000001" title="Definition of Wayland window driver." alt="" coords="241,5,472,75"/>
+<area shape="rect" id="Node000002" href="$Fl__Window__Driver_8H_source.html" title=" " alt="" coords="5,130,183,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="270,77,138,128,136,123,268,72"/>
+<area shape="rect" id="Node000003" href="$Fl__Plugin_8H_source.html" title=" " alt="" coords="207,130,322,155"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="327,77,287,121,283,118,324,73"/>
+<area shape="rect" id="Node000008" href="$Fl__Wayland__Screen__Driver_8H.html" title="Definition of Wayland Screen interface." alt="" coords="346,130,554,155"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="390,73,432,118,428,121,386,77"/>
+<area shape="rect" id="Node000013" href="$Fl__Wayland__Graphics__Driver_8H.html" title="Definition of Wayland graphics driver." alt="" coords="649,123,811,163"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="473,70,647,116,646,122,472,75"/>
+<area shape="rect" id="Node000004" href="$Fl__Preferences_8H_source.html" title=" " alt="" coords="163,218,295,243"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="262,157,241,206,236,204,257,154"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="65,299,131,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="211,246,130,294,128,289,208,241"/>
+<area shape="rect" id="Node000006" href="$Fl__Export_8H_source.html" title=" " alt="" coords="156,299,253,324"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="228,244,215,286,210,284,223,243"/>
+<area shape="rect" id="Node000007" href="$fl__attr_8h.html" title=" " alt="" coords="277,299,348,324"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="243,242,292,287,288,291,239,245"/>
+<area shape="rect" id="Node000009" href="$Fl__Unix__Screen__Driver_8H_source.html" title=" " alt="" coords="325,211,493,251"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="447,157,426,199,422,197,442,154"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="517,218,647,243"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="469,153,554,208,551,213,466,158"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="372,299,445,324"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="411,251,411,285,406,285,406,251"/>
+<area shape="rect" id="Node000011" href="$Fl__Screen__Driver_8H_source.html" title=" " alt="" coords="469,299,639,324"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="445,248,522,290,519,294,442,253"/>
+<area shape="poly" id="edge17_Node000013_Node000012" title=" " alt="" coords="699,165,615,214,612,209,696,160"/>
+<area shape="rect" id="Node000014" href="$Fl__Cairo__Graphics__Driver_8H_source.html" title=" " alt="" coords="671,211,861,251"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="740,162,755,197,750,199,736,164"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="885,218,956,243"/>
+<area shape="poly" id="edge16_Node000013_Node000017" title=" " alt="" coords="773,160,884,210,882,215,771,165"/>
+<area shape="rect" id="Node000015" href="$Fl__Graphics__Driver_8H_source.html" title=" " alt="" coords="671,299,848,324"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="767,251,764,285,759,285,762,251"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="872,299,975,324"/>
+<area shape="poly" id="edge15_Node000014_Node000016" title=" " alt="" coords="805,248,889,290,887,295,803,253"/>
+</map>

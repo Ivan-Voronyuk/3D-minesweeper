@@ -1,0 +1,17 @@
+<map id="Fl_Tile::size_range" name="Fl_Tile::size_range">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,70,148,95"/>
+<area shape="rect" id="Node000002" href="$classFl__Group.html#a85b8dc3c0dfbebdba8574eb933dff5bc" title=" " alt="" coords="561,95,701,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,67,143,46,195,29,284,12,356,3,427,8,514,29,541,40,566,54,607,84,604,88,563,58,539,45,513,34,426,13,356,9,285,17,197,34,145,51,101,72"/>
+<area shape="rect" id="Node000003" href="$classFl__Group.html#ab9061761a1f8cf5a4517ce042a03e99e" title=" " alt="" coords="211,44,323,70"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,70,198,64,198,69,148,76"/>
+<area shape="rect" id="Node000005" href="$classFl__Tile.html#addd0a6100ddfa0fc0f84a66884f728ac" title=" " alt="" coords="196,95,339,120"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="148,89,183,94,182,99,148,95"/>
+<area shape="rect" id="Node000007" href="$classFl__Widget.html#a9c582969d134d01916816daf73a35402" title=" " alt="" coords="214,144,321,170"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="108,93,197,129,218,137,216,142,195,134,106,98"/>
+<area shape="rect" id="Node000004" href="$classFl__Group.html#ab5a03e490bb0dc19f8da7e3e4acdca17" title=" " alt="" coords="389,44,511,70"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="324,54,375,54,375,60,324,60"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="339,105,548,105,548,110,339,110"/>
+<area shape="rect" id="Node000006" href="$classFl__Tile.html#a8b9aa15c301f9892b2a3123f78d10259" title=" " alt="" coords="387,145,513,185"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="309,118,374,139,373,144,308,123"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="513,143,576,122,578,127,515,148"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="Fl_Tile::request_shrink_b" name="Fl_Tile::request_shrink_b">
+<area shape="rect" id="Node000001" title=" " alt="" coords="648,55,832,80"/>
+<area shape="poly" id="edge7_Node000001_Node000001" title=" " alt="" coords="782,46,771,37,740,33,715,35,702,40,699,46,706,53,702,56,694,46,698,36,714,30,740,28,773,32,785,41"/>
+<area shape="rect" id="Node000002" href="$classFl__Tile.html#a5d14aa7839c8bd9967bd4de20a4c773b" title=" " alt="" coords="413,29,600,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="634,59,600,55,600,49,634,53"/>
+<area shape="rect" id="Node000005" href="$classFl__Tile.html#afea08b981848e2c3aa3d4d5d29261ad4" title=" " alt="" coords="8,55,120,80"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="634,70,120,70,120,65,634,65"/>
+<area shape="rect" id="Node000003" href="$classFl__Tile.html#ab51e2d4a0b9a1c1f57b13650ca3aef47" title=" " alt="" coords="5,5,123,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="435,29,365,19,268,16,171,19,123,20,123,14,171,14,268,11,366,14,435,24"/>
+<area shape="rect" id="Node000004" href="$classFl__Tile.html#a9e371f7507f342da5824720d67a7e77e" title=" " alt="" coords="171,29,365,55"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="399,54,365,54,365,48,399,48"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="379,30,413,31,413,36,379,36"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="157,32,123,28,123,22,157,26"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="157,58,121,63,120,58,157,53"/>
+</map>

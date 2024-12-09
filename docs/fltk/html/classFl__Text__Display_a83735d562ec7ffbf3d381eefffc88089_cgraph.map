@@ -1,0 +1,8 @@
+<map id="Fl_Text_Display::position_to_line" name="Fl_Text_Display::position_to_line">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,188,69"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="55,30,52,20,59,10,74,5,97,3,123,6,137,13,135,18,121,11,97,8,75,10,62,15,57,21,60,28"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Display.html#a41b157af52d071ae0df64a774ef4d853" title=" " alt="" coords="238,7,407,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,35,224,30,225,35,189,40"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Display.html#a01978ca13b7ce6ad58067263cef1309c" title="Return true if there are lines visible with no corresponding buffer text." alt="" coords="236,57,409,97"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,58,223,62,222,68,188,63"/>
+</map>

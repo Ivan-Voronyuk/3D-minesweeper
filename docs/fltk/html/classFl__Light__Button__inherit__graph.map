@@ -1,0 +1,15 @@
+<map id="Fl_Light_Button" name="Fl_Light_Button">
+<area shape="rect" id="Node000001" title=" " alt="" coords="183,152,305,177"/>
+<area shape="rect" id="Node000004" href="$classFl__Check__Button.html" title="A button with a &quot;checkmark&quot; to show its status." alt="" coords="5,225,136,251"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="205,185,100,228,98,223,203,180"/>
+<area shape="rect" id="Node000005" href="$classFl__Radio__Light__Button.html" title=" " alt="" coords="161,225,327,251"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="247,191,247,225,241,225,241,191"/>
+<area shape="rect" id="Node000006" href="$classFl__Round__Button.html" title=" " alt="" coords="351,225,483,251"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="285,180,390,223,388,228,283,185"/>
+<area shape="rect" id="Node000002" href="$classFl__Button.html" title="Buttons generate callbacks when they are clicked by the user." alt="" coords="202,79,286,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,118,247,152,241,152,241,118"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget.html" title=" " alt="" coords="201,5,287,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="247,44,247,79,241,79,241,44"/>
+<area shape="rect" id="Node000007" href="$classFl__Radio__Round__Button.html" title=" " alt="" coords="329,299,505,324"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="420,264,420,299,415,299,415,264"/>
+</map>

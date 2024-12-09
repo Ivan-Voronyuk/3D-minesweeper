@@ -1,0 +1,9 @@
+<map id="Fl_Terminal::cursor_up" name="Fl_Terminal::cursor_up">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,173,56"/>
+<area shape="rect" id="Node000002" href="$classFl__Terminal.html#ab992c9cb8ec52d6848bfdadfcc56e7e9" title="Return the number of rows in the display area." alt="" coords="221,5,392,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,31,208,27,208,32,174,36"/>
+<area shape="rect" id="Node000003" href="$classFl__Terminal.html#a8766779e6eb75ff1740e4321b818e2e4" title=" " alt="" coords="237,55,377,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,50,223,55,223,61,173,55"/>
+<area shape="rect" id="Node000004" href="$classFl__Terminal.html#a8b969a22db23c99ec31d90e6e7fbde37" title="Clear any current mouse selection." alt="" coords="440,47,579,87"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="377,65,426,65,426,70,377,70"/>
+</map>

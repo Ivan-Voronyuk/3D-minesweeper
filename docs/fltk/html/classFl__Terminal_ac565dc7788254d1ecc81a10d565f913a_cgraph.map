@@ -1,0 +1,7 @@
+<map id="Fl_Terminal::textcolor" name="Fl_Terminal::textcolor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,168,60"/>
+<area shape="rect" id="Node000002" href="$classFl__Terminal.html#a7d47ed1247c40cf4c53610c538874c9e" title="Return text&#39;s current foreground color." alt="" coords="216,5,392,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,34,202,29,203,34,169,39"/>
+<area shape="rect" id="Node000003" href="$classFl__Terminal.html#aa423bee854c3e47bdb8809346a60f159" title="Return text&#39;s default foreground color." alt="" coords="216,55,392,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,55,203,60,202,65,168,60"/>
+</map>

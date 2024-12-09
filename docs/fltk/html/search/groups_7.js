@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['handling_20functions_0',['handling functions',['../group__fl__events.html',1,'Events handling functions'],['../group__fl__string.html',1,'String handling functions']]]
+  ['global_20variables_20functions_20and_20callbacks_0',['Fluid Global Variables, Functions and Callbacks',['../group__globals.html',1,'']]]
 ];

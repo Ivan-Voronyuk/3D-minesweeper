@@ -1,0 +1,11 @@
+<map id="Fl_Tree::next" name="Fl_Tree::next">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,111,80"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree__Item.html#a512b6591af7ca7b517e09e98df8f2deb" title=" " alt="" coords="159,55,301,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,65,145,65,145,70,111,70"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree__Item.html#a59b33b5824ea2f87eb3388ec51802d67" title="Return the child item for the given &#39;index&#39;." alt="" coords="375,5,519,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="286,52,376,31,378,36,287,57"/>
+<area shape="rect" id="Node000004" href="$classFl__Tree__Item.html#a01f57370911692b960d306fc00d824a0" title="See if this item has children." alt="" coords="349,55,544,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="301,65,335,65,335,70,301,70"/>
+<area shape="rect" id="Node000005" href="$classFl__Tree__Item.html#a5371023b11fd4b32a93f9cd7936fc5fb" title="Return the parent for this item. Returns NULL if we are the root." alt="" coords="369,104,524,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="287,77,378,98,376,104,286,83"/>
+</map>

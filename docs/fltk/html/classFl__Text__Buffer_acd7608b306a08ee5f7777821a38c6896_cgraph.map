@@ -1,0 +1,23 @@
+<map id="Fl_Text_Buffer::remove_selection_" name="Fl_Text_Buffer::remove_selection_">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,176,177,216"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Buffer.html#a711cdd58b3142122f6f0649aa9e610d1" title=" " alt="" coords="225,154,397,179"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,182,212,177,212,183,178,187"/>
+<area shape="rect" id="Node000010" href="$classFl__Text__Selection.html#a79f26408243fc616d056e42183c7253f" title="Returns true if any text is selected." alt="" coords="240,204,383,244"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="178,204,226,211,226,216,178,210"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Buffer.html#a695bd49abdcda997913315736d63e090" title=" " alt="" coords="462,29,607,69"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="328,152,379,117,444,79,459,72,461,77,447,84,382,121,331,156"/>
+<area shape="rect" id="Node000004" href="$classFl__Text__Buffer.html#a643de0c99aef747d6c9a01ee0daa7679" title=" " alt="" coords="455,117,614,157"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="397,153,441,147,442,152,398,158"/>
+<area shape="rect" id="Node000005" href="$classFl__Text__Buffer.html#a12bfe32020ca2221a98455265b36e096" title=" " alt="" coords="445,182,624,207"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="398,175,432,179,431,184,397,180"/>
+<area shape="rect" id="Node000009" href="$classFl__Text__Buffer.html#a3d3058cd7d430b80467775500839d415" title="Get a copy of a part of the text buffer. Return a copy of the text between start and end character po..." alt="" coords="461,232,609,272"/>
+<area shape="poly" id="edge10_Node000002_Node000009" title=" " alt="" coords="364,177,398,190,423,203,447,218,462,224,460,229,444,222,420,208,396,194,362,182"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="493,30,491,20,497,10,512,5,535,3,561,6,575,13,572,18,559,11,535,8,513,10,501,15,496,21,498,28"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="493,118,491,108,497,98,512,93,535,91,561,94,575,101,572,106,559,99,535,96,513,98,501,103,496,109,498,116"/>
+<area shape="rect" id="Node000006" href="$classFl__Text__Buffer.html#a3b7ec7d6d20d6cbb8715f07213800409" title=" " alt="" coords="672,154,863,179"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="624,181,658,177,659,182,625,187"/>
+<area shape="rect" id="Node000007" href="$classFl__Text__Buffer.html#ae9000100ca83d297dd67541fd905c6d5" title=" " alt="" coords="684,204,851,244"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="625,203,671,209,670,214,624,209"/>
+<area shape="rect" id="Node000008" href="$classFl__Text__Selection.html#ad8fa85320dcc990fb1baa4adc6cf81d0" title="Updates a selection after text was modified." alt="" coords="911,204,1053,244"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="851,221,897,221,897,227,851,227"/>
+</map>

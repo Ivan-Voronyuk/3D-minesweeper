@@ -1,7 +1,22 @@
 var searchData=
 [
-  ['name_5f_0',['name_',['../classFd__Layout__Suite.html#ae727c25f4b74858256725b5ebb65fc22',1,'Fd_Layout_Suite::name_'],['../classFl__Type.html#a052995fe7156676682d62d2ae7204927',1,'Fl_Type::name_']]],
-  ['needspace_1',['needspace',['../classFd__Project__Writer.html#a114dcec163e99df597deeeede4aedc3b',1,'Fd_Project_Writer']]],
-  ['new_5fselected_2',['new_selected',['../classFl__Type.html#a8f17aa3dd8d4afc290ce017c4513b4fd',1,'Fl_Type']]],
-  ['next_3',['next',['../group__fl__type.html#gad5e82b5d764f2295e07791873995f337',1,'Fl_Type']]]
+  ['l_0',['l',['../structFl__Scroll_1_1Fl__Region__LRTB.html#a639c8c025b30d5bec5b19880eb747724',1,'Fl_Scroll::Fl_Region_LRTB']]],
+  ['label_5f_1',['label_',['../classFl__Type.html#a057138a042f92b5ea86e0d05d6e07c53',1,'Fl_Type']]],
+  ['labela_2',['labela',['../structFl__Multi__Label.html#a6b4edb800cb21d45cd137ecd8a8d66ef',1,'Fl_Multi_Label']]],
+  ['labelb_3',['labelb',['../structFl__Multi__Label.html#a2fb8179ce00ac149aec20a4f659eb2f8',1,'Fl_Multi_Label']]],
+  ['labelcolor_5f_4',['labelcolor_',['../structFl__Menu__Item.html#a859fe109e269f057d4b216e5188f5e6e',1,'Fl_Menu_Item']]],
+  ['labelfont_5',['labelfont',['../classFd__Layout__Preset.html#a2828f3c90bec17a978d1dcbd645df67a',1,'Fd_Layout_Preset']]],
+  ['labelfont_5f_6',['labelfont_',['../structFl__Menu__Item.html#ad82ab3107c63ed28bda8749fe3f14f32',1,'Fl_Menu_Item']]],
+  ['labelsize_7',['labelsize',['../classFd__Layout__Preset.html#a8d4b6bb8862d5a6c9eb5a733517bad9e',1,'Fd_Layout_Preset']]],
+  ['labelsize_5f_8',['labelsize_',['../structFl__Menu__Item.html#a286bd88b6597d557b6ebec29dea7a942',1,'Fl_Menu_Item']]],
+  ['labeltype_5f_9',['labeltype_',['../structFl__Menu__Item.html#ac4aadd19ae4889935c5f8a8a3da381d3',1,'Fl_Menu_Item']]],
+  ['layout_10',['layout',['../classFd__Layout__Suite.html#a802b76fbacebd6f7d23e8291f7539c0c',1,'Fd_Layout_Suite']]],
+  ['left_5fgroup_5fmargin_11',['left_group_margin',['../classFd__Layout__Preset.html#aaa570df05ee8e9e922d4edbb2245f90e',1,'Fd_Layout_Preset']]],
+  ['left_5fwindow_5fmargin_12',['left_window_margin',['../classFd__Layout__Preset.html#ad884c03aa6056deb79b5d95f132abf78',1,'Fd_Layout_Preset']]],
+  ['leftcol_13',['leftcol',['../classFl__Table.html#a5acce681c1ef8540aa355f9684d065c1',1,'Fl_Table']]],
+  ['leftcol_5fscrollpos_14',['leftcol_scrollpos',['../classFl__Table.html#acb120bac09df320b70213a6a54982428',1,'Fl_Table']]],
+  ['level_15',['level',['../group__fl__type.html#ga586b422e17fdf6c4bab53a136b524260',1,'Fl_Type']]],
+  ['lineno_16',['lineno',['../classFd__Project__Reader.html#a8c8d25c82db6efa54d76d9ad57d39357',1,'Fd_Project_Reader']]],
+  ['list_17',['list',['../classFd__Snap__Action.html#a7fe4f6ccb154073d07d1d7bd6a819c86',1,'Fd_Snap_Action']]],
+  ['loop_18',['loop',['../classFl__Anim__GIF__Image.html#a62abbbef937bef28518a1434da3f5c3f',1,'Fl_Anim_GIF_Image']]]
 ];

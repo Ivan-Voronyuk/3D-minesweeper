@@ -1,0 +1,65 @@
+<map id="Fl_Text_Display::find_line_end" name="Fl_Text_Display::find_line_end">
+<area shape="rect" id="Node000001" title="Finds both the end of the current line and the start of the next line." alt="" coords="5,322,160,362"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Display.html#a41b157af52d071ae0df64a774ef4d853" title=" " alt="" coords="675,531,844,556"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,344,426,363,549,377,592,384,618,392,660,419,695,452,724,487,746,518,741,521,720,491,692,456,656,423,616,396,591,389,548,382,425,369,160,349"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Buffer.html#adf468c5b111fe9402a31cc76e8313782" title=" " alt="" coords="213,251,390,276"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,319,251,278,253,283,140,324"/>
+<area shape="rect" id="Node000008" href="$classFl__Text__Buffer.html#a4ee6c0ffe96189a4308e062c6799dc79" title=" " alt="" coords="666,351,853,376"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="160,338,367,338,617,346,653,349,652,354,617,351,366,343,160,343"/>
+<area shape="rect" id="Node000011" href="$classFl__Text__Display.html#a9d2f815f11f77305e8f440c654372133" title="Wrapping calculations." alt="" coords="208,499,395,539"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="110,360,267,489,263,493,107,364"/>
+<area shape="rect" id="Node000004" href="$classFl__Text__Buffer.html#a4204e8113fa00b5a6f453290c3432b2b" title=" " alt="" coords="443,239,617,279"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="390,259,429,258,429,264,390,264"/>
+<area shape="rect" id="Node000005" href="$classFl__Text__Buffer.html#ac137016f8cb54e5a240881014a4c690c" title=" " alt="" coords="1143,480,1313,505"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="618,275,731,301,854,337,949,371,1043,408,1188,472,1186,477,1041,413,948,376,853,342,730,307,617,280"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="582,277,619,296,643,313,667,329,702,344,699,349,664,334,640,317,616,300,579,282"/>
+<area shape="rect" id="Node000006" href="$classFl__Text__Buffer.html#a346578ec9d3b5bdf3c0d36b5f6eeef35" title=" " alt="" coords="1369,456,1543,481"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1314,481,1356,477,1356,482,1314,486"/>
+<area shape="rect" id="Node000007" href="$group__fl__unicode.html#gad80ac8abaa3ed7b8c245447d6b3aab95" title=" " alt="" coords="1401,505,1511,531"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="1314,500,1387,508,1386,513,1314,505"/>
+<area shape="rect" id="Node000009" href="$classFl__Text__Buffer.html#a5c18c7e2dd09f0fad0892411c1ac273a" title=" " alt="" coords="909,296,1079,321"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="814,348,925,322,926,327,815,353"/>
+<area shape="rect" id="Node000010" href="$group__fl__unicode.html#gaf739852beaf3dacf039fdc0b1f289a5a" title=" " alt="" coords="949,247,1039,272"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="778,348,832,315,900,281,934,269,936,275,902,286,834,320,781,353"/>
+<area shape="poly" id="edge9_Node000009_Node000006" title=" " alt="" coords="1033,319,1406,449,1404,454,1031,324"/>
+<area shape="poly" id="edge14_Node000011_Node000005" title=" " alt="" coords="395,514,1129,493,1129,498,395,519"/>
+<area shape="poly" id="edge13_Node000011_Node000006" title=" " alt="" coords="316,538,336,570,365,609,401,646,444,676,487,695,526,707,561,713,595,715,667,710,758,706,995,706,1093,711,1172,715,1208,711,1244,701,1280,682,1319,652,1335,634,1342,615,1344,575,1345,534,1352,513,1367,492,1374,487,1377,491,1371,496,1357,515,1350,535,1349,575,1348,616,1340,637,1323,656,1283,686,1246,706,1209,717,1172,720,1093,716,995,711,758,711,667,716,595,720,560,719,524,712,485,700,441,680,398,650,361,612,332,573,311,541"/>
+<area shape="poly" id="edge37_Node000011_Node000008" title=" " alt="" coords="394,502,502,477,616,441,676,412,727,381,729,386,679,417,618,446,504,482,396,507"/>
+<area shape="rect" id="Node000012" href="$classFl__Text__Buffer.html#a19266724e7f2f7f88e0eae8fb3057102" title="Returns the number of bytes in the buffer." alt="" coords="449,405,611,431"/>
+<area shape="poly" id="edge15_Node000011_Node000012" title=" " alt="" coords="340,497,442,448,478,433,480,438,444,452,342,502"/>
+<area shape="rect" id="Node000013" href="$classFl__Text__Display.html#a3c400abedbed52884e2f7c4ecc236b3d" title="Return the beginning of a line." alt="" coords="453,581,607,621"/>
+<area shape="poly" id="edge16_Node000011_Node000013" title=" " alt="" coords="340,537,441,575,439,580,339,542"/>
+<area shape="rect" id="Node000016" href="$classFl__Text__Buffer.html#a15b9a32e5a3af2fa1893dddacd13abd8" title=" " alt="" coords="1135,616,1321,641"/>
+<area shape="poly" id="edge38_Node000011_Node000016" title=" " alt="" coords="321,538,372,587,406,612,444,630,540,657,641,673,743,680,842,680,936,674,1022,664,1158,641,1158,647,1023,669,937,679,842,685,742,685,640,679,539,662,442,635,403,616,369,592,318,542"/>
+<area shape="rect" id="Node000017" href="$classFl__Text__Display.html#aff74d8254e23d1c80f32225b0688bc21" title="Wrapping calculations." alt="" coords="665,182,853,222"/>
+<area shape="poly" id="edge24_Node000011_Node000017" title=" " alt="" coords="307,498,330,435,363,352,402,274,422,244,441,225,491,200,545,186,600,181,652,183,652,188,600,187,546,192,492,205,444,229,426,248,406,277,368,354,335,437,312,500"/>
+<area shape="poly" id="edge17_Node000013_Node000002" title=" " alt="" coords="607,579,694,557,695,562,608,584"/>
+<area shape="poly" id="edge23_Node000013_Node000011" title=" " alt="" coords="491,583,394,546,396,541,493,578"/>
+<area shape="poly" id="edge22_Node000013_Node000013" title=" " alt="" coords="488,581,485,571,492,562,507,556,530,554,556,557,571,564,568,569,555,562,530,559,508,561,495,566,490,572,493,580"/>
+<area shape="rect" id="Node000014" href="$classFl__Text__Buffer.html#af23db06d9b93f14f4f4cb7223aafff6d" title=" " alt="" coords="686,581,833,621"/>
+<area shape="poly" id="edge18_Node000013_Node000014" title=" " alt="" coords="607,598,672,598,672,603,607,603"/>
+<area shape="rect" id="Node000015" href="$classFl__Text__Buffer.html#a695b45d15b18ee80df6e44cc027fe3f7" title=" " alt="" coords="907,581,1081,621"/>
+<area shape="poly" id="edge19_Node000014_Node000015" title=" " alt="" coords="833,598,893,598,893,603,833,603"/>
+<area shape="poly" id="edge20_Node000015_Node000005" title=" " alt="" coords="1037,578,1185,509,1188,514,1039,583"/>
+<area shape="poly" id="edge21_Node000015_Node000016" title=" " alt="" coords="1082,608,1122,613,1121,619,1081,614"/>
+<area shape="poly" id="edge25_Node000017_Node000009" title=" " alt="" coords="792,220,842,251,902,281,925,289,924,294,900,286,840,255,789,224"/>
+<area shape="poly" id="edge34_Node000017_Node000010" title=" " alt="" coords="842,219,936,243,934,248,841,225"/>
+<area shape="rect" id="Node000018" href="$classFl__Text__Display.html#aa4c277bb4856da69b925ba4e47435c9f" title=" " alt="" coords="901,77,1087,103"/>
+<area shape="poly" id="edge26_Node000017_Node000018" title=" " alt="" coords="794,179,900,124,944,105,946,110,902,128,797,184"/>
+<area shape="rect" id="Node000020" href="$classFl__Text__Display.html#a033fb1323b0640601240829e845598f9" title="Find the width of a string in the font of a particular style." alt="" coords="1372,97,1540,137"/>
+<area shape="poly" id="edge35_Node000017_Node000020" title=" " alt="" coords="840,179,901,167,1024,150,1148,137,1358,120,1359,125,1148,142,1025,155,902,173,841,185"/>
+<area shape="rect" id="Node000025" href="$classFl__Text__Buffer.html#aed366345be586384d0dc6fe4e3cea0f8" title=" " alt="" coords="923,182,1065,222"/>
+<area shape="poly" id="edge36_Node000017_Node000025" title=" " alt="" coords="853,199,909,199,909,205,853,205"/>
+<area shape="rect" id="Node000019" href="$classFl__Text__Display.html#a69139918fadc2ea30d5c16583fc8d0c8" title=" " alt="" coords="1159,67,1297,107"/>
+<area shape="poly" id="edge27_Node000018_Node000019" title=" " alt="" coords="1087,86,1145,86,1145,91,1087,92"/>
+<area shape="poly" id="edge28_Node000019_Node000020" title=" " alt="" coords="1298,94,1359,102,1358,107,1297,99"/>
+<area shape="rect" id="Node000021" href="$group__fl__attributes.html#gad234d90fe63191609ec196e1b8041d1a" title=" " alt="" coords="1651,5,1713,31"/>
+<area shape="poly" id="edge29_Node000020_Node000021" title=" " alt="" coords="1487,94,1534,66,1590,40,1636,25,1638,30,1592,44,1537,71,1489,99"/>
+<area shape="rect" id="Node000022" href="$group__fl__attributes.html#ga92c762ce2fc7fa891bac6b7590f967bd" title=" " alt="" coords="1645,79,1719,104"/>
+<area shape="poly" id="edge30_Node000020_Node000022" title=" " alt="" coords="1540,105,1632,94,1632,99,1541,110"/>
+<area shape="rect" id="Node000023" href="$classFl__Text__Display.html#aede1822b26480e2d08c3625b67f7abe3" title=" " alt="" coords="1591,128,1773,153"/>
+<area shape="poly" id="edge32_Node000020_Node000023" title=" " alt="" coords="1541,123,1577,127,1576,132,1540,128"/>
+<area shape="rect" id="Node000024" href="$classFl__Text__Display.html#ad92e726e57de12916b1493ed2370177b" title=" " alt="" coords="1591,177,1773,203"/>
+<area shape="poly" id="edge33_Node000020_Node000024" title=" " alt="" coords="1511,134,1591,162,1621,171,1619,176,1590,167,1509,139"/>
+<area shape="poly" id="edge31_Node000022_Node000022" title=" " alt="" coords="1645,80,1638,70,1642,60,1657,54,1682,52,1714,56,1726,65,1722,69,1712,61,1682,57,1658,59,1645,64,1643,70,1650,77"/>
+</map>

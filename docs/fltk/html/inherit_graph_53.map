@@ -1,3 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classFl__Check__Button.html" title="A button with a &quot;checkmark&quot; to show its status." alt="" coords="5,5,136,31"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,109,183,134"/>
+<area shape="rect" id="Node000001" href="$classFl__GDI__Copy__Surface__Driver.html" title=" " alt="" coords="247,5,408,45"/>
+<area shape="poly" id="edge37_Node000000_Node000001" title=" " alt="" coords="131,100,230,55,262,43,263,48,232,60,133,105"/>
+<area shape="rect" id="Node000002" href="$classFl__Quartz__Copy__Surface__Driver.html" title=" " alt="" coords="237,69,417,109"/>
+<area shape="poly" id="edge38_Node000000_Node000002" title=" " alt="" coords="196,105,237,99,238,104,197,110"/>
+<area shape="rect" id="Node000003" href="$classFl__Wayland__Copy__Surface__Driver.html" title=" " alt="" coords="231,133,424,173"/>
+<area shape="poly" id="edge39_Node000000_Node000003" title=" " alt="" coords="197,133,231,137,230,143,196,138"/>
+<area shape="rect" id="Node000004" href="$classFl__Xlib__Copy__Surface__Driver.html" title=" " alt="" coords="246,197,409,237"/>
+<area shape="poly" id="edge40_Node000000_Node000004" title=" " alt="" coords="133,138,232,183,263,195,262,200,230,188,131,142"/>
 </map>

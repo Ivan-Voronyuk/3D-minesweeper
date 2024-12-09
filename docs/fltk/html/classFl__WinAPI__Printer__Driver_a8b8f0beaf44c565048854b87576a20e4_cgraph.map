@@ -1,0 +1,24 @@
+<map id="Fl_WinAPI_Printer_Driver::begin_page" name="Fl_WinAPI_Printer_Driver::begin_page">
+<area shape="rect" id="Node000001" title="Begins a new printed page." alt="" coords="5,119,189,159"/>
+<area shape="rect" id="Node000002" href="$group__fl__drawings.html#ga259fc45a0997b1bae7660c01af943457" title=" " alt="" coords="275,5,383,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,117,172,78,236,41,261,31,263,36,238,46,175,83,124,121"/>
+<area shape="rect" id="Node000003" href="$classFl__WinAPI__Printer__Driver.html#ae00565a3b78a3a2921e88881a11d9a57" title="Computes the coordinates of the current origin of graphics functions." alt="" coords="237,55,421,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,117,243,96,244,102,171,122"/>
+<area shape="rect" id="Node000005" href="$classFl__Surface__Device.html#a6beacd63903ec46a184e7413f1bed9f1" title=" " alt="" coords="254,119,405,159"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="190,137,240,137,240,142,190,142"/>
+<area shape="rect" id="Node000009" href="$classFl__WinAPI__Printer__Driver.html#a48528a81cc99bfad2c05492463a4db24" title=" " alt="" coords="237,183,421,223"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="171,157,244,177,243,182,170,162"/>
+<area shape="rect" id="Node000010" href="$classFl__Surface__Device.html#a7d900af6e878df0a392bd2b4dbfa1172" title=" " alt="" coords="254,247,405,287"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="125,157,176,195,239,233,253,240,251,245,236,238,173,199,122,162"/>
+<area shape="rect" id="Node000004" href="$classFl__Widget__Surface.html#aad8d04960609d6d12401db1848ac07b3" title="Sets the position of the origin of graphics in the drawable part of the drawing surface." alt="" coords="469,55,620,95"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="421,73,455,73,455,78,421,78"/>
+<area shape="rect" id="Node000006" href="$classFl__Surface__Device.html#a552dbc7bfdbf91ad4ad035de963e4aae" title=" " alt="" coords="469,151,620,191"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="405,148,456,156,455,161,405,153"/>
+<area shape="rect" id="Node000007" href="$classFl__Surface__Device.html#aa84d290fba5e95e552bf017525cb14cb" title="Returns the graphics driver of this drawing surface." alt="" coords="668,119,819,159"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="620,157,654,151,655,156,621,162"/>
+<area shape="rect" id="Node000008" href="$classFl__Surface__Device.html#a3d88439f3e36d6c91652bc6e286829f6" title=" " alt="" coords="668,183,819,223"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="621,181,655,186,654,192,620,186"/>
+<area shape="poly" id="edge10_Node000010_Node000006" title=" " alt="" coords="391,245,420,233,495,196,498,200,422,238,393,250"/>
+<area shape="rect" id="Node000011" href="$classFl__Surface__Device.html#aded340f7a3623e03a6805c4bc71a8b91" title=" " alt="" coords="469,247,620,287"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="405,265,455,265,455,270,405,270"/>
+</map>

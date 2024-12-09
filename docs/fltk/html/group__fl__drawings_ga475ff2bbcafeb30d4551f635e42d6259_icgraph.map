@@ -1,0 +1,18 @@
+<map id="fl_draw_box" name="fl_draw_box">
+<area shape="rect" id="Node000001" title=" " alt="" coords="748,55,848,80"/>
+<area shape="rect" id="Node000002" href="$classFl__Tabs.html#acae601b3160a1eedc2047af7b237e10a" title=" " alt="" coords="567,5,678,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="738,53,668,33,670,28,740,48"/>
+<area shape="rect" id="Node000004" href="$structFl__Menu__Item.html#a6f9672ace322a67dccf75c33f26c2a52" title=" " alt="" coords="545,55,700,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="734,70,700,70,700,65,734,65"/>
+<area shape="rect" id="Node000005" href="$classFl__Tree__Item.html#a0308090996b0bf64a7d2d0a4f1f434d7" title=" " alt="" coords="550,105,695,145"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="746,87,685,107,683,102,745,82"/>
+<area shape="rect" id="Node000003" href="$classFl__Tabs__Proxy.html#acd4231c7f8d0d6972c96d67e12e55d53" title=" " alt="" coords="344,5,497,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="553,21,498,21,498,15,553,15"/>
+<area shape="rect" id="Node000006" href="$classFl__Tree__Item.html#adaaaeb29fb4f63f01d76c18e570562a8" title=" " alt="" coords="348,112,493,137"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="536,127,494,127,494,122,536,122"/>
+<area shape="rect" id="Node000007" href="$classFl__Tree.html#a6fcfe040bbd38725a7e411672120cb2c" title=" " alt="" coords="161,87,296,112"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="334,116,296,111,296,106,335,111"/>
+<area shape="rect" id="Node000008" href="$classFl__Tree.html#a187c737dac78034b0ad74557b5648928" title="Standard FLTK draw() method, handles drawing the tree widget." alt="" coords="5,112,113,137"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="334,127,114,127,114,122,334,122"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="148,114,114,119,113,114,147,109"/>
+</map>

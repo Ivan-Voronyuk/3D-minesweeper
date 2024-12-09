@@ -1,0 +1,18 @@
+<map id="Fl_Browser_::item_text" name="Fl_Browser_::item_text">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1072,45,1244,70"/>
+<area shape="rect" id="Node000002" href="$classFl__Browser__.html#a852d20413fc81fd0be7c63408639974e" title=" " alt="" coords="889,45,1024,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1058,60,1025,60,1025,55,1058,55"/>
+<area shape="rect" id="Node000003" href="$classFl__File__Browser.html#a5999b749fe1d6102362e573cdb6ae32d" title=" " alt="" coords="681,45,841,70"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="875,60,841,60,841,55,875,55"/>
+<area shape="rect" id="Node000004" href="$classFl__File__Chooser.html#a9b2f44473b1694a84c83afa78cdc28b3" title=" " alt="" coords="459,19,633,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="667,49,633,45,634,40,668,44"/>
+<area shape="rect" id="Node000007" href="$classFl__File__Chooser.html#a5dac45a6f5157ced0f5888c0cfe7146d" title=" " alt="" coords="228,63,403,103"/>
+<area shape="poly" id="edge8_Node000003_Node000007" title=" " alt="" coords="668,65,403,80,403,75,667,60"/>
+<area shape="rect" id="Node000005" href="$classFl__File__Chooser.html#ab69c3992f9a311c6c592a805997dfa35" title=" " alt="" coords="220,13,411,38"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="445,32,411,31,411,25,445,26"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="474,50,404,66,402,61,473,45"/>
+<area shape="rect" id="Node000006" href="$group__group__comdlg.html#ga5bc7a0eda4de38cbc33d3a16d5cfd32f" title=" " alt="" coords="19,5,159,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="206,28,159,28,159,23,206,23"/>
+<area shape="rect" id="Node000008" href="$classFl__File__Chooser.html#a2f58cce9eb3bfc34778a657f9e4ae36f" title=" " alt="" coords="5,70,172,95"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="214,85,172,85,172,80,214,80"/>
+</map>

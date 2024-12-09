@@ -1,0 +1,19 @@
+<map id="Fl_Widget::clear_visible" name="Fl_Widget::clear_visible">
+<area shape="rect" id="Node000001" title=" " alt="" coords="617,129,795,155"/>
+<area shape="rect" id="Node000002" href="$classFl__Browser__.html#a16559daf1c4519bb18d9360a1e9f4158" title=" " alt="" coords="413,5,555,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="679,122,630,83,568,44,540,33,542,28,571,40,633,78,682,118"/>
+<area shape="rect" id="Node000003" href="$classFl__Scroll.html#acb3cb1573fcd3f54119e9abbc1b41078" title=" " alt="" coords="425,55,543,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="659,127,568,94,531,83,533,77,570,89,661,122"/>
+<area shape="rect" id="Node000004" href="$classFl__Timer.html#aada0a137cbc6d1b48720bebd9de4cff5" title=" " alt="" coords="412,104,556,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="603,133,556,127,556,122,604,128"/>
+<area shape="rect" id="Node000005" href="$classFl__Window.html#a9718a55f909d150394f4a67ba762aa0c" title=" " alt="" coords="399,153,569,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="604,156,570,159,569,154,603,150"/>
+<area shape="rect" id="Node000006" href="$classFl__Window.html#a615bf5d04b79df5c8f53f3dcdf19e9b5" title=" " alt="" coords="399,203,569,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="658,162,570,193,530,205,528,200,568,187,657,157"/>
+<area shape="rect" id="Node000007" href="$classFl__Text__Display.html#a2c2089df8e61ec00991abda79026f1fe" title=" " alt="" coords="399,253,569,293"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="681,165,631,203,571,242,543,255,541,250,568,237,628,199,678,161"/>
+<area shape="rect" id="Node000008" href="$classFl__Text__Display.html#a2db0c8c740c19c6903a860fa3ceb9a4f" title="Draw the widget." alt="" coords="188,260,351,285"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="385,275,351,275,351,270,385,270"/>
+<area shape="rect" id="Node000009" href="$classTextViewer.html#a22b249735474c3350976630198d9ed24" title=" " alt="" coords="5,260,140,285"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="174,275,140,275,140,270,174,270"/>
+</map>

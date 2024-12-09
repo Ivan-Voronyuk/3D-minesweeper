@@ -1,0 +1,11 @@
+<map id="Fl_Value_Slider_Type::is_a" name="Fl_Value_Slider_Type::is_a">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,164,45"/>
+<area shape="rect" id="Node000002" href="$classFl__Slider__Type.html#a82ebed6e9b92d440fc124cc5ea4382a3" title=" " alt="" coords="212,13,361,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,23,198,23,198,28,164,28"/>
+<area shape="rect" id="Node000003" href="$classFl__Valuator__Type.html#afd56fb122a098e94e30381c13c361f1a" title=" " alt="" coords="409,13,576,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="361,23,396,23,396,28,361,28"/>
+<area shape="rect" id="Node000004" href="$classFl__Widget__Type.html#a9b349f3e0728277e013d81e79f6886f2" title=" " alt="" coords="624,13,783,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="576,23,610,23,610,28,576,28"/>
+<area shape="rect" id="Node000005" href="$classFl__Type.html#a1d33bf3fb8bf59df6dc6be18ac27b177" title=" " alt="" coords="831,13,936,38"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="783,23,817,23,817,28,783,28"/>
+</map>

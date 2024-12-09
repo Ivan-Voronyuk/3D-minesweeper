@@ -1,0 +1,31 @@
+<map id="Fl_Window" name="Fl_Window">
+<area shape="rect" id="Node000001" title=" " alt="" coords="226,152,319,177"/>
+<area shape="rect" id="Node000004" href="$classColorMenu.html" title=" " alt="" coords="5,225,97,251"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="225,184,88,228,86,223,224,179"/>
+<area shape="rect" id="Node000005" href="$classFl__Double__Window.html" title=" " alt="" coords="122,225,269,251"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="252,189,210,227,206,223,248,185"/>
+<area shape="rect" id="Node000008" href="$classFl__Gl__Window.html" title=" " alt="" coords="293,225,407,251"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="297,185,339,223,336,227,293,189"/>
+<area shape="rect" id="Node000010" href="$classFl__Single__Window.html" title=" " alt="" coords="433,225,573,251"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="324,179,467,223,465,228,322,184"/>
+<area shape="rect" id="Node000002" href="$classFl__Group.html" title=" " alt="" coords="233,79,313,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="275,118,275,152,270,152,270,118"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget.html" title=" " alt="" coords="229,5,316,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="275,44,275,79,270,79,270,44"/>
+<area shape="rect" id="Node000006" href="$classFl__Overlay__Window.html" title=" " alt="" coords="112,299,263,324"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="195,265,191,299,186,298,190,264"/>
+<area shape="rect" id="Node000007" href="$classOverlay__Window.html" title=" " alt="" coords="121,372,253,397"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="190,338,190,372,185,372,185,338"/>
+<area shape="rect" id="Node000009" href="$classFl__Glut__Window.html" title=" " alt="" coords="287,299,413,324"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="353,264,353,299,347,299,347,264"/>
+<area shape="rect" id="Node000011" href="$classFl__Menu__Window.html" title=" " alt="" coords="438,299,574,324"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="507,264,508,298,503,299,502,265"/>
+<area shape="rect" id="Node000012" href="$classFl__TooltipBox.html" title=" " alt="" coords="374,372,483,397"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="485,335,443,374,440,370,482,331"/>
+<area shape="rect" id="Node000013" href="$classwindow__with__items.html" title=" " alt="" coords="508,372,659,397"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="530,331,572,370,569,374,527,335"/>
+<area shape="rect" id="Node000014" href="$classmenutitle.html" title=" " alt="" coords="481,445,566,471"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="567,410,535,447,531,443,563,406"/>
+<area shape="rect" id="Node000015" href="$classmenuwindow.html" title=" " alt="" coords="590,445,699,471"/>
+<area shape="poly" id="edge14_Node000013_Node000015" title=" " alt="" coords="604,406,637,443,633,447,600,410"/>
+</map>

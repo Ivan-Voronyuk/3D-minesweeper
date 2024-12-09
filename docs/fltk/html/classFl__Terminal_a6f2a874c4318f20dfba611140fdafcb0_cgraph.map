@@ -1,0 +1,18 @@
+<map id="Fl_Terminal::clear" name="Fl_Terminal::clear">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,83,143,109"/>
+<area shape="rect" id="Node000002" href="$classFl__Terminal.html#a1b8d1820af6b94bf3c5472481c5c4d03" title=" " alt="" coords="191,76,328,116"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,93,177,93,177,99,143,99"/>
+<area shape="rect" id="Node000003" href="$classFl__Terminal.html#aecc5b4e1e60a690495e1a6acf4afc890" title=" " alt="" coords="402,47,539,87"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="328,84,388,75,389,81,329,89"/>
+<area shape="rect" id="Node000008" href="$classFl__Terminal.html#a3e6c83360e0282c40d32d4bfdf2e0eb3" title=" " alt="" coords="376,111,565,137"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="329,102,363,107,362,112,328,108"/>
+<area shape="rect" id="Node000004" href="$classFl__Terminal.html#a8b969a22db23c99ec31d90e6e7fbde37" title="Clear any current mouse selection." alt="" coords="832,45,971,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="515,44,562,27,613,13,661,6,699,3,737,5,785,13,819,23,852,37,850,42,818,28,783,19,736,10,699,8,661,11,614,19,563,32,517,49"/>
+<area shape="rect" id="Node000005" href="$classFl__Terminal.html#abb995a2ff6716431f916920286772d3a" title="Return the number of columns in the display area." alt="" coords="616,29,781,54"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="539,56,602,49,602,55,540,62"/>
+<area shape="rect" id="Node000006" href="$classFl__Terminal.html#ab992c9cb8ec52d6848bfdadfcc56e7e9" title="Return the number of rows in the display area." alt="" coords="613,78,784,103"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="540,71,599,78,599,83,539,77"/>
+<area shape="rect" id="Node000007" href="$classFl__Terminal.html#a8766779e6eb75ff1740e4321b818e2e4" title=" " alt="" coords="629,127,769,153"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="529,84,614,113,639,121,637,126,613,119,528,89"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="748,125,783,114,844,89,846,93,785,119,750,130"/>
+</map>

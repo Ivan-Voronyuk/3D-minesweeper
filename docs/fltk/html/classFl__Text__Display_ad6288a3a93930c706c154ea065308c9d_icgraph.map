@@ -1,0 +1,12 @@
+<map id="Fl_Text_Display::draw_vline" name="Fl_Text_Display::draw_vline">
+<area shape="rect" id="Node000001" title="Draw a single line of text." alt="" coords="643,35,805,75"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Display.html#a63df8b065f442f04eb0653318e048612" title="Draw a range of text." alt="" coords="415,5,578,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="629,45,578,38,579,33,629,40"/>
+<area shape="rect" id="Node000005" href="$classFl__Text__Display.html#a8a03d48ca14949b0a1933fbee2c0e347" title="Refresh a rectangle of the text display." alt="" coords="399,70,595,95"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="629,69,595,73,594,68,628,64"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Display.html#a2db0c8c740c19c6903a860fa3ceb9a4f" title="Draw the widget." alt="" coords="188,42,351,67"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="402,40,351,47,351,42,401,35"/>
+<area shape="rect" id="Node000004" href="$classTextViewer.html#a22b249735474c3350976630198d9ed24" title=" " alt="" coords="5,42,140,67"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="174,57,140,57,140,52,174,52"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="384,72,351,67,351,62,385,66"/>
+</map>

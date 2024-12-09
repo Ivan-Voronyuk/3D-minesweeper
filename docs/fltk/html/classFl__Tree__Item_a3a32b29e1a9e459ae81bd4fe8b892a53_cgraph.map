@@ -1,0 +1,23 @@
+<map id="Fl_Tree_Item::draw_horizontal_connector" name="Fl_Tree_Item::draw_horizontal_connector">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,146,171,186"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree__Prefs.html#a7358532e55c31573c867cb381f334559" title="Get the connector color used for tree connection lines." alt="" coords="219,5,431,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,144,150,91,182,63,217,40,231,33,234,38,220,44,185,68,153,95,106,148"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree__Prefs.html#a13164ed1d3a42b1c2f2584e25c19a078" title="Get the connector style." alt="" coords="219,55,431,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,144,163,115,218,89,240,81,242,86,220,94,166,120,120,148"/>
+<area shape="rect" id="Node000004" href="$group__fl__attributes.html#gaea8392e995de663b0d8063af199cf085" title=" " alt="" coords="290,104,359,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="171,146,276,124,277,129,172,151"/>
+<area shape="rect" id="Node000005" href="$group__fl__drawings.html#gaecc374f163a97ef67c4e58be11c47047" title=" " alt="" coords="294,203,355,228"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="172,181,281,204,280,209,171,186"/>
+<area shape="rect" id="Node000008" href="$group__fl__drawings.html#ga2145abaa848e9ce2da4d566b0dc54f6f" title=" " alt="" coords="289,153,360,179"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="171,163,275,163,275,169,171,169"/>
+<area shape="rect" id="Node000009" href="$classFl__Tree__Item.html#a46e4c4e3c348fafd024a159a90eef8c6" title=" " alt="" coords="251,252,398,277"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="121,184,166,211,220,237,246,246,244,251,218,242,164,216,118,189"/>
+<area shape="rect" id="Node000010" href="$classFl__Tree__Item.html#a8bf6f7323bf30f3095a86f0f4e69ef1c" title="The item&#39;s y position relative to the window." alt="" coords="264,301,385,327"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="106,184,153,237,185,264,220,288,252,300,250,305,217,292,182,269,150,241,102,188"/>
+<area shape="rect" id="Node000006" href="$classFl__Widget.html#aeed320ce65d02a7f0fcab1363f0136b0" title=" " alt="" coords="479,153,581,179"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="355,206,430,187,464,179,466,184,431,193,356,211"/>
+<area shape="rect" id="Node000007" href="$classFl__Widget.html#a4665aaf0850ed0d334600e2cac58c360" title=" " alt="" coords="479,203,581,228"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="355,213,465,213,465,218,355,218"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="360,163,465,163,465,169,360,169"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="361,171,431,187,468,197,467,202,430,193,360,176"/>
+</map>

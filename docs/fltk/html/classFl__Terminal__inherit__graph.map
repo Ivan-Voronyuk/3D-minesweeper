@@ -1,0 +1,9 @@
+<map id="Fl_Terminal" name="Fl_Terminal">
+<area shape="rect" id="Node000001" title="Terminal widget supporting Unicode/utf&#45;8, ANSI/xterm escape codes with full RGB color control." alt="" coords="27,152,125,177"/>
+<area shape="rect" id="Node000004" href="$classFl__Terminal__Proxy.html" title=" " alt="" coords="5,225,147,251"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="79,191,79,225,73,225,73,191"/>
+<area shape="rect" id="Node000002" href="$classFl__Group.html" title=" " alt="" coords="36,79,116,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,118,79,152,73,152,73,118"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget.html" title=" " alt="" coords="33,5,119,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="79,44,79,79,73,79,73,44"/>
+</map>

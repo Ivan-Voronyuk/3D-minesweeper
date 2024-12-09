@@ -1,0 +1,6 @@
+<map id="Fl_Cocoa_Printer_Driver::margins" name="Fl_Cocoa_Printer_Driver::margins">
+<area shape="rect" id="Node000001" title="Computes the dimensions of margins that lie between the printable page area and the full page." alt="" coords="232,29,411,69"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="360,18,346,11,321,8,300,10,286,15,282,21,284,28,279,30,276,20,283,10,298,5,321,3,348,6,362,13"/>
+<area shape="rect" id="Node000002" href="$classFl__Cocoa__Printer__Driver.html#ad4e07a273d702d35b4500db263e577fa" title="Begins a new printed page." alt="" coords="5,29,184,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,52,184,52,184,47,218,47"/>
+</map>

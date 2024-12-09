@@ -1,0 +1,13 @@
+<map id="Fl_Widget::set_visible" name="Fl_Widget::set_visible">
+<area shape="rect" id="Node000001" title=" " alt="" coords="617,55,783,80"/>
+<area shape="rect" id="Node000002" href="$classFl__Browser__.html#a16559daf1c4519bb18d9360a1e9f4158" title=" " alt="" coords="413,5,555,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="630,54,540,33,541,28,631,49"/>
+<area shape="rect" id="Node000003" href="$classFl__Scroll.html#acb3cb1573fcd3f54119e9abbc1b41078" title=" " alt="" coords="425,55,543,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="603,70,543,70,543,65,603,65"/>
+<area shape="rect" id="Node000004" href="$classFl__Text__Display.html#a2c2089df8e61ec00991abda79026f1fe" title=" " alt="" coords="399,105,569,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="639,86,560,107,559,102,638,81"/>
+<area shape="rect" id="Node000005" href="$classFl__Text__Display.html#a2db0c8c740c19c6903a860fa3ceb9a4f" title="Draw the widget." alt="" coords="188,112,351,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="385,127,351,127,351,122,385,122"/>
+<area shape="rect" id="Node000006" href="$classTextViewer.html#a22b249735474c3350976630198d9ed24" title=" " alt="" coords="5,112,140,137"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="174,127,140,127,140,122,174,122"/>
+</map>

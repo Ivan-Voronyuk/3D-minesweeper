@@ -74,7 +74,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><p><em>README.macOS.md - Building FLTK under Apple macOS</em></p>
 <p><a class="anchor" id="contents"></a> </p>
-<h2><a class="anchor" id="autotoc_md35"></a>
+<h2><a class="anchor" id="autotoc_md36"></a>
 Contents</h2>
 <ul>
 <li><a class="el" href="md__2home_2ivan_2Documents_2INF_23D-minesweeper_2thirdparty_2fltk_2README_8macOS.html#contents">Contents</a></li>
@@ -113,7 +113,7 @@ Contents</h2>
 <li><a class="el" href="md__2home_2ivan_2Documents_2INF_23D-minesweeper_2thirdparty_2fltk_2README_8macOS.html#doc_history">Document History</a></li>
 </ul>
 <p><a class="anchor" id="introduction"></a> </p>
-<h2><a class="anchor" id="autotoc_md36"></a>
+<h2><a class="anchor" id="autotoc_md37"></a>
 Introduction</h2>
 <p>FLTK supports macOS version 10.3 Panther and above. At the time of writing (Feb. 2022), FLTK compiles and runs fine on the most recent macOS 12 Monterey for both Intel and the new M1 Apple Silicon (Arm) processors.</p>
 <p>FLTK 1.4 supports the following build environments on the macOS platform:</p>
@@ -124,12 +124,12 @@ Introduction</h2>
 </ul>
 <p>All environments will generate Unix style static libraries and macOS style app bundles.</p>
 <p><a class="anchor" id="build_cmake_xcode"></a> </p>
-<h2><a class="anchor" id="autotoc_md37"></a>
+<h2><a class="anchor" id="autotoc_md38"></a>
 How to Build FLTK Using &lt;em&gt;CMake&lt;/em&gt; and &lt;em&gt;Xcode&lt;/em&gt;</h2>
 <p>This option is best for users who like to develop their apps using Apple's Xcode IDE. There is no need to ever use a command line shell in this configuration.</p>
 <p>This option requires an Apple ID and the Administrator password.</p>
 <p><a class="anchor" id="bcx_prerequisites"></a> </p>
-<h3><a class="anchor" id="autotoc_md38"></a>
+<h3><a class="anchor" id="autotoc_md39"></a>
 Prerequisites (CMake, Xcode)</h3>
 <p>In order to build FLTK, you need to install <em>CMake</em> and <em>Xcode</em>.</p>
 <p><em>Xcode</em> is Apple's IDE (Integrated Developer Environment) and can be downloaded via the <a href="https://itunes.apple.com/de/app/xcode/id497799835?l=en&amp;mt=12">App Store</a>. You will need an Apple ID and administrator right for this. Installing <em>Xcode</em> needs little to no user input, but will likely take well over an hour.</p>
@@ -138,7 +138,7 @@ compiler independent configuration files, and generate native makefiles and work
 that can be used in the compiler environment of your choice."</p>
 <p>Please download and install the macOS version of <em>CMake</em> from <a href="https://cmake.org/download/">www.cmake.org</a>. Download the .dmg file, click it, and when the Finder window opens, drag the <em>CMake</em> icon into the Applications folder.</p>
 <p><a class="anchor" id="bcx_download"></a> </p>
-<h3><a class="anchor" id="autotoc_md39"></a>
+<h3><a class="anchor" id="autotoc_md40"></a>
 Downloading FLTK and Unpacking (CMake, Xcode)</h3>
 <p>FLTK 1.4 is currently (as of May 2021) available as a source code repository via GitHub. You will need to clone the repository to check out the source code onto your machine. This has the great benefit that the source code can be updated later simply by telling <em>git</em> to <em>pull</em> the newest release.</p>
 <p>Weekly snapshots ("tarballs") can be downloaded from <a href="https://www.fltk.org/software.php">https://www.fltk.org/software.php</a> .</p>
@@ -148,7 +148,7 @@ Downloading FLTK and Unpacking (CMake, Xcode)</h3>
 <p>A file chooser appears. Navigate to your home directory. Create a new folder named <code>dev</code>. Enter <code>fltk-1.4</code> in the <em>Save As:</em> field and click <em>Clone</em>, then <em>Done</em> in the previous dialog.</p>
 <p>The local copy of your repository can be updated by loading it into <em>Xcode</em> and selecting <code>Source Control &gt;&gt; Pull...</code> in the main menu.</p>
 <p><a class="anchor" id="bcx_config"></a> </p>
-<h3><a class="anchor" id="autotoc_md40"></a>
+<h3><a class="anchor" id="autotoc_md41"></a>
 Configuring FLTK (CMake, Xcode)</h3>
 <p>Launch <em>CMake</em> by pressing Command+Spacebar, then type <em>CMake</em> and press return. <em>CMake</em> should open with a large dialog box.</p>
 <p>The first input field is labeled with <em>Where is the source code:</em> . Click on <em>Browse Source...</em> and navigate to your home folder, then <code>dev</code>, then <code>fltk-1.4</code>. Click <em>Open</em>.</p>
@@ -159,31 +159,31 @@ Configuring FLTK (CMake, Xcode)</h3>
 <p>Finally, click <em>Generate</em> to generate the <em>Xcode</em> IDE file.</p>
 <p>You may be wondering why we chose this rather involved way of creating the IDE files instead of just including the IDEs in the repo. Well, we did for the longest time, but creating new IDEs for every possible platform is quite involved. IDE file formats change, platforms change, and FLTK changes as well, and maintenance of the IDEs had become a nightmare. <em>CMake</em> on the other hand is very smart, knows about platforms and IDEs that we could never support manually, and usually needs to be run only once. Even when updating the FLTK source code later, <em>CMake</em> will be smart enough to update the build files as well.</p>
 <p><a class="anchor" id="bcx_build"></a> </p>
-<h3><a class="anchor" id="autotoc_md41"></a>
+<h3><a class="anchor" id="autotoc_md42"></a>
 Building FLTK (CMake, Xcode)</h3>
 <p>Now this is easy if all the previous steps were successful. If you are still in <em>CMake</em>, just click <em>Open Project</em> and <em>CMake</em> will launch <em>XCode</em> for you. If not, just launch <em>XCode</em> and open <code>Macintosh HD⁩ ▸ ⁨Users⁩ ▸ your_name⁩ ▸ ⁨dev⁩ ▸ ⁨fltk-1.4⁩ ▸ ⁨build⁩ ▸ ⁨Xcode⁩ ▸ ⁨FLTK.xcodeproj</code>.</p>
 <p><em>XCode</em> may or may not ask to Autocreate Schemes. Click <em>Automatically Create Schemes</em>.</p>
 <p>In <em>Xcode</em>, set the 'active Scheme' to 'hello' or any other test program and press CMD+R to compile and run that application.</p>
 <p><a class="anchor" id="bcx_test"></a> </p>
-<h3><a class="anchor" id="autotoc_md42"></a>
+<h3><a class="anchor" id="autotoc_md43"></a>
 Testing FLTK (CMake, Xcode)</h3>
 <p>After a successful build, you can test FLTK's capabilities by choosing 'ALL_BUILD' as the 'active Scheme' and pressing CMD+B to build, then choosing 'demo' and pressing CMD+R to run the demo program.</p>
 <p>Note: compiling 'demo' will not compile any of the other demo programs automatically. This is intentional so you can build the test and demo programs incrementally.</p>
 <p><a class="anchor" id="bcx_install"></a> </p>
-<h3><a class="anchor" id="autotoc_md43"></a>
+<h3><a class="anchor" id="autotoc_md44"></a>
 Installing FLTK (CMake, Xcode)</h3>
 <p>TODO: choosing the target 'INSTALL' will not work at this point because it requires root permission.</p>
 <p><a class="anchor" id="bcx_new_projects"></a> </p>
-<h3><a class="anchor" id="autotoc_md44"></a>
+<h3><a class="anchor" id="autotoc_md45"></a>
 Creating new Projects (CMake, Xcode)</h3>
 <p>See README.CMake.txt</p>
 <p><a class="anchor" id="build_cmake_make"></a> </p>
-<h2><a class="anchor" id="autotoc_md45"></a>
+<h2><a class="anchor" id="autotoc_md46"></a>
 How to Build FLTK Using &lt;em&gt;CMake&lt;/em&gt; and &lt;em&gt;make&lt;/em&gt;</h2>
 <p>This option is best for users who like to develop their apps without using Apple's Xcode IDE, but like the advantages of <em>CMake</em> over <em>autoconf</em>. Users should be comfortable with using <code>bash</code> or <code>tcsh</code> in a terminal window.</p>
 <p>This option requires neither administrator rights, nor an Apple ID.</p>
 <p><a class="anchor" id="bcm_prerequisites"></a> </p>
-<h3><a class="anchor" id="autotoc_md46"></a>
+<h3><a class="anchor" id="autotoc_md47"></a>
 Prerequisites (CMake, make)</h3>
 <p>In order to build FLTK, you need to install <em>CMake</em> and the <em>Xcode</em> command line tools.</p>
 <p>"CMake is used to control the software compilation process using simple platform and
@@ -196,11 +196,11 @@ that can be used in the compiler environment of your choice."</p>
 <div class="fragment"><div class="line">xcode-select --install</div>
 </div><!-- fragment --><p>On older versions of macOS, you will have to install <em>Xcode</em> from the <a href="https://itunes.apple.com/de/app/xcode/id497799835?l=en&amp;mt=12">App Store</a> and then install the command line tools from within <em>Xcode</em>.</p>
 <p><a class="anchor" id="bcm_download"></a> </p>
-<h3><a class="anchor" id="autotoc_md47"></a>
+<h3><a class="anchor" id="autotoc_md48"></a>
 Downloading and Unpacking (CMake, make)</h3>
 <p>Downloading FLTK is explained <a class="el" href="md__2home_2ivan_2Documents_2INF_23D-minesweeper_2thirdparty_2fltk_2README_8macOS.html#bam_download">here</a>.</p>
 <p><a class="anchor" id="bcm_config"></a> </p>
-<h3><a class="anchor" id="autotoc_md48"></a>
+<h3><a class="anchor" id="autotoc_md49"></a>
 Configuring FLTK (CMake, make)</h3>
 <p>Using your shell in the terminal, make sure that you are in the root directory of your FLTK source code tree.</p>
 <p>Create a directory where all FLTK binaries will be built:</p>
@@ -216,38 +216,38 @@ Configuring FLTK (CMake, make)</h3>
 <p><em>CMake</em> runs a number of tests to find external headers, libraries, and tools. The configuration summary should not show any errors. You can now continue to build FLTK.</p>
 <p>For the advanced user there are a few more options to the <em>CMake</em> setup. Type <code>cmake -L ../..</code> to get a complete list of options. These should be pretty self-explanatory. Some more details can be found in <a href="https://www.fltk.org/doc-1.4/intro.html#intro_unix">online documentation</a>.</p>
 <p><a class="anchor" id="bcm_build"></a> </p>
-<h3><a class="anchor" id="autotoc_md49"></a>
+<h3><a class="anchor" id="autotoc_md50"></a>
 Building FLTK (CMake, make)</h3>
 <p>Now this is easy if all the previous steps were successful. Stay in your <code>build/Makefiles</code> directory and type:</p>
 <div class="fragment"><div class="line">make</div>
 </div><!-- fragment --><p>The entire FLTK toolkit including many test programs will be built for you. No warnings should appear, but "ranlib" may complain about a few modules having no symbols. This is normal and can safely be ignored.</p>
 <p><a class="anchor" id="bcm_test"></a> </p>
-<h3><a class="anchor" id="autotoc_md50"></a>
+<h3><a class="anchor" id="autotoc_md51"></a>
 Testing FLTK (CMake, make)</h3>
 <p>After a successful build, you can test FLTK's capabilities by running</p>
 <div class="fragment"><div class="line">open bin/test/demo.app</div>
 </div><!-- fragment --><p><a class="anchor" id="bcm_install"></a> </p>
-<h3><a class="anchor" id="autotoc_md51"></a>
+<h3><a class="anchor" id="autotoc_md52"></a>
 Installing FLTK (CMake, make)</h3>
 <p>If you did not change any of the configuration settings, FLTK will be installed in <code>/usr/local/include</code>, <code>/usr/local/lib</code>, and <code>/usr/local/bin</code> by typing</p>
 <div class="fragment"><div class="line">sudo make install</div>
 </div><!-- fragment --><p>It is possible to install FLTK without superuser privileges by changing the installation path to a location within the user account by adding the <code>-D CMAKE_INSTALL_PREFIX=&lt;PREFIX&gt;</code> parameter to the <code>cmake</code> command.</p>
 <p><a class="anchor" id="bcm_new_projects"></a> </p>
-<h3><a class="anchor" id="autotoc_md52"></a>
+<h3><a class="anchor" id="autotoc_md53"></a>
 Creating new Projects (CMake, make)</h3>
 <p>FLTK provides a neat script named <code>fltk-config</code> that can provide all the flags needed to build FLTK applications using the same flags that were used to build the library itself. Running <code>fltk-config</code> without arguments will print a list of options. The easiest call to compile an FLTK application from a single source file is:</p>
 <div class="fragment"><div class="line">fltk-config --compile myProgram.cxx</div>
 </div><!-- fragment --><p><code>fltk-config</code> and our user interface designer <code>fluid</code> will be installed in <code>/usr/local/bin/</code> by default. I recommend that you add this directory to the shell <code>PATH</code> variable.</p>
 <p><a class="anchor" id="build_autoconf_make"></a> </p>
-<h2><a class="anchor" id="autotoc_md53"></a>
+<h2><a class="anchor" id="autotoc_md54"></a>
 How to Build FLTK Using &lt;em&gt;autoconf&lt;/em&gt; and &lt;em&gt;make&lt;/em&gt;</h2>
 <p>This option is best for users who like to develop their apps without using Apple's Xcode IDE and prefer minimal dependencies of a <em>Makefile</em> over <em>CMake</em>. Users should be comfortable with using <code>bash</code> or <code>tcsh</code> in a terminal window.</p>
 <p>This option requires administrator rights, but no Apple ID.</p>
 <p><a class="anchor" id="bam_prerequisites"></a> </p>
-<h3><a class="anchor" id="autotoc_md54"></a>
+<h3><a class="anchor" id="autotoc_md55"></a>
 Prerequisites (autoconf, make)</h3>
 <p>In order to build FLTK from the command line, you need to install a C++ compiler environment, <code>make</code> and <code>autoconf</code>. Installing the <em>Xcode</em> command line tools is the easiest way to get all prerequisites in one simple step.</p>
-<p><a class="anchor" id="xcode_command_line_tools"></a> Launch <em>Terminal.app</em> by pressing Command+Spacebar and typing <code><a class="el" href="classTerminal.html">Terminal</a></code> and pressing <em>return</em>. I like to keep the <a class="el" href="classTerminal.html">Terminal</a> in the Dock for future use (launch <a class="el" href="classTerminal.html">Terminal</a>, right-click or control-click on the <a class="el" href="classTerminal.html">Terminal</a> icon that is now in the docking bar, and choose <em>Options</em>-&gt;<em>Keep in Dock</em>).</p>
+<p><a class="anchor" id="xcode_command_line_tools"></a> Launch <em>Terminal.app</em> by pressing Command+Spacebar and typing <code>Terminal</code> and pressing <em>return</em>. I like to keep the Terminal in the Dock for future use (launch Terminal, right-click or control-click on the Terminal icon that is now in the docking bar, and choose <em>Options</em>-&gt;<em>Keep in Dock</em>).</p>
 <p>Installing the <em>Xcode</em> command line tools is pretty straight forward. Just enter this and follow the dialogs:</p>
 <div class="fragment"><div class="line">xcode-select --install</div>
 </div><!-- fragment --><p>On older versions of macOS, you will have to install <em>Xcode</em> from the <a href="https://itunes.apple.com/de/app/xcode/id497799835?l=en&amp;mt=12">App Store</a> and then install the command line tools from within <em>Xcode</em>.</p>
@@ -259,13 +259,13 @@ Prerequisites (autoconf, make)</h3>
 <ul>
 <li>Download file <em>autoconf-latest.tar.gz</em> from the <a href="https://ftp.gnu.org/gnu/autoconf/">autoconf ftp site</a></li>
 <li>Uncompress it to get directory <em>autoconf-x.xx/</em> (where x's indicate autoconf's version number)</li>
-<li>Set this directory as your current directory in the <a class="el" href="classTerminal.html">Terminal</a> app and type :</li>
+<li>Set this directory as your current directory in the Terminal app and type :</li>
 </ul>
 <div class="fragment"><div class="line">./configure</div>
 <div class="line">make</div>
 <div class="line">sudo make install</div>
 </div><!-- fragment --><p><a class="anchor" id="bam_download"></a> </p>
-<h3><a class="anchor" id="autotoc_md55"></a>
+<h3><a class="anchor" id="autotoc_md56"></a>
 Downloading and Unpacking (autoconf, make)</h3>
 <p>FLTK 1.4 is currently (as of May 2021) available as a source code repository via GitHub. You will need to clone the repository to check out the source code onto your machine. This has the great benefit that the source code can be updated later simply by telling <em>git</em> to <em>pull</em> the newest release.</p>
 <p>As an alternative weekly snapshots ("tarballs") can be downloaded from <a href="https://www.fltk.org/software.php">https://www.fltk.org/software.php</a> .</p>
@@ -279,7 +279,7 @@ Downloading and Unpacking (autoconf, make)</h3>
 <div class="fragment"><div class="line">git clone https://github.com/fltk/fltk.git fltk-1.4</div>
 <div class="line">cd fltk-1.4</div>
 </div><!-- fragment --><p><a class="anchor" id="bam_config"></a> </p>
-<h3><a class="anchor" id="autotoc_md56"></a>
+<h3><a class="anchor" id="autotoc_md57"></a>
 Configuring FLTK (autoconf, make)</h3>
 <p>Using your shell in the terminal, make sure that you are in the root directory of your FLTK source code tree.</p>
 <p>If you are configuring fltk for the first time, you need to instruct FLTK to create some very basic configuration files. Type:</p>
@@ -290,24 +290,24 @@ Configuring FLTK (autoconf, make)</h3>
 </div><!-- fragment --><p>The configuration script runs a number of tests to find external headers, libraries, and tools. The configuration summary should not show any errors. You can now continue to build FLTK.</p>
 <p>For the advanced user there are a few more options to the <em>configure</em> script. Type <code>./configure --help</code> to get a complete list of options. These should be pretty self-explanatory. Some more details can be found in <a href="https://www.fltk.org/doc-1.4/intro.html#intro_unix">online documentation</a>.</p>
 <p><a class="anchor" id="bam_build"></a> </p>
-<h3><a class="anchor" id="autotoc_md57"></a>
+<h3><a class="anchor" id="autotoc_md58"></a>
 Building FLTK (autoconf, make)</h3>
 <p>Now this is easy if all the previous steps were successful. Stay in your FLTK source-code directory and type:</p>
 <div class="fragment"><div class="line">make</div>
 </div><!-- fragment --><p>The entire FLTK toolkit including many test programs will be built for you. No warnings should appear, but "ranlib" may complain about a few modules having no symbols. This is normal and can safely be ignored.</p>
 <p><a class="anchor" id="bam_test"></a> </p>
-<h3><a class="anchor" id="autotoc_md58"></a>
+<h3><a class="anchor" id="autotoc_md59"></a>
 Testing FLTK (autoconf, make)</h3>
 <p>After a successful build, you can test FLTK's capabilities by running</p>
 <div class="fragment"><div class="line">test/demo</div>
 </div><!-- fragment --><p><a class="anchor" id="bam_install"></a> </p>
-<h3><a class="anchor" id="autotoc_md59"></a>
+<h3><a class="anchor" id="autotoc_md60"></a>
 Installing FLTK (autoconf, make)</h3>
 <p>If you did not change any of the configuration settings, FLTK will be installed in <code>/usr/local/include</code>, <code>/usr/local/lib</code>, and <code>/usr/local/bin</code> by typing:</p>
 <div class="fragment"><div class="line">sudo make install</div>
 </div><!-- fragment --><p>It is possible to install FLTK without superuser privileges by changing the installation path to a location within the user account by adding the <code>--prefix=PREFIX</code> parameter to the <code>./configure</code> command.</p>
 <p><a class="anchor" id="bam_new_projects"></a> </p>
-<h3><a class="anchor" id="autotoc_md60"></a>
+<h3><a class="anchor" id="autotoc_md61"></a>
 Creating new Projects (autoconf, make)</h3>
 <p>FLTK provides a neat script named <code>fltk-config</code> that can provide all the flags needed to build FLTK applications using the same flags that were used to build the library itself. Running <code>fltk-config</code> without arguments will print a list of options. The easiest call to compile an FLTK application from a single source file is:</p>
 <div class="fragment"><div class="line">cat &lt;&lt; EOF &gt; main.cxx</div>
@@ -323,7 +323,7 @@ Creating new Projects (autoconf, make)</h3>
 <div class="line">./main</div>
 </div><!-- fragment --><p><code>fltk-config</code> and our user interface designer <code>fluid</code> will be installed in <code>/usr/local/bin/</code> by default. I recommend that you add this directory to the shell <code>PATH</code> variable.</p>
 <p><a class="anchor" id="dropstart"></a> </p>
-<h2><a class="anchor" id="autotoc_md61"></a>
+<h2><a class="anchor" id="autotoc_md62"></a>
 Make an Application Launchable by Dropping Files on its Icon</h2>
 <ul>
 <li>Prepare an Info.plist file for your application derived from file <em>test/mac-resources/editor.plist</em> which allows any file to be dropped on the application icon. You can edit this file in Xcode and change CFBundleDocumentTypes/Item 0/CFBundleTypeExtensions/Item 0 from the current "*" to the desired file extension. Use several items to declare several extensions.</li>
@@ -331,11 +331,11 @@ Make an Application Launchable by Dropping Files on its Icon</h2>
 <li>In Xcode, set the "Info.plist File" build setting of your target application to the Info.plist file you have prepared.</li>
 <li>Rebuild your application.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md62"></a>
+<h2><a class="anchor" id="autotoc_md63"></a>
 Links</h2>
 <p><a href="https://gist.github.com/Chaser324/ce0505fbed06b947d962">GitHub, git, forking, fetching. and pull requests</a></p>
 <p><a class="anchor" id="doc_history"></a> </p>
-<h2><a class="anchor" id="autotoc_md63"></a>
+<h2><a class="anchor" id="autotoc_md64"></a>
 DOCUMENT HISTORY</h2>
 <ul>
 <li>Oct 29 2010 - matt: removed warnings</li>

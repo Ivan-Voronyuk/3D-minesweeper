@@ -1,0 +1,11 @@
+<map id="Fl_GDI_Image_Surface_Driver" name="Fl_GDI_Image_Surface_Driver">
+<area shape="rect" id="Node000001" title=" " alt="" coords="76,271,245,311"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,175,191,201"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,211,151,269,147,272,110,214"/>
+<area shape="rect" id="Node000003" href="$structFl__GDI__Image__Surface__Driver_1_1shape__data__type.html" title=" " alt="" coords="215,168,403,208"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="271,218,190,273,187,268,268,213"/>
+<area shape="rect" id="Node000004" href="$classFl__RGB__Image.html" title=" " alt="" coords="250,80,367,105"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="311,119,311,168,306,168,306,119"/>
+<area shape="rect" id="Node000005" href="$classFl__Image.html" title=" " alt="" coords="267,5,350,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="311,45,311,80,306,80,306,45"/>
+</map>

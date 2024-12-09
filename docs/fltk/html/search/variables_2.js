@@ -1,15 +1,19 @@
 var searchData=
 [
-  ['callback_5f_0',['callback_',['../classFl__Type.html#adfd6c7c2baea2974f2cfaf27a3c396f4',1,'Fl_Type']]],
-  ['close_1',['close',['../structlibdecor__frame__interface.html#a475fad7ab20ba4d8140ffc2eb5b6e6af',1,'libdecor_frame_interface']]],
-  ['code_5ffile_2',['code_file',['../classFd__Code__Writer.html#aa0d8ffa6aa89ffaeb6e2f9004c3daadc',1,'Fd_Code_Writer']]],
-  ['code_5ffile_5fname_3',['code_file_name',['../classFluid__Project.html#acae53faae93b8054377d6d81cc118a6b',1,'Fluid_Project']]],
-  ['code_5ffile_5fset_4',['code_file_set',['../classFluid__Project.html#a3cf2b33c935895f5c40effe66e3977fe',1,'Fluid_Project']]],
-  ['codeview_5fitem_5',['codeview_item',['../group__globals.html#gaabd547f2b2df8f5705a077db3947911e',1,'codeview_item:&#160;fluid.cxx'],['../group__globals.html#gaabd547f2b2df8f5705a077db3947911e',1,'codeview_item:&#160;fluid.cxx']]],
-  ['comment_5f_6',['comment_',['../classFl__Type.html#ad15b1b39e596cc359d7d9bc2e230b87c',1,'Fl_Type']]],
-  ['commit_7',['commit',['../structlibdecor__frame__interface.html#a412ba1e97288a8cd44303268d3cc4938',1,'libdecor_frame_interface']]],
-  ['compile_5ffile_8',['compile_file',['../group__globals.html#gae5fd7104673da6b74285a9ce90865a96',1,'compile_file:&#160;fluid.cxx'],['../group__globals.html#gae5fd7104673da6b74285a9ce90865a96',1,'compile_file:&#160;fluid.cxx']]],
-  ['compile_5fstrings_9',['compile_strings',['../group__globals.html#ga2aab46612fe99e05a7fa14f4794036bf',1,'compile_strings:&#160;fluid.cxx'],['../group__globals.html#ga2aab46612fe99e05a7fa14f4794036bf',1,'compile_strings:&#160;fluid.cxx']]],
-  ['configure_10',['configure',['../structlibdecor__frame__interface.html#a49df7aa7296814b0c0327077613e784a',1,'libdecor_frame_interface']]],
-  ['current_5ftimeout_11',['current_timeout',['../classFl__Timeout.html#aafc0b8affa19b3047639ec04d1be72ac',1,'Fl_Timeout']]]
+  ['b_0',['b',['../structFl__Scroll_1_1Fl__Region__LRTB.html#a4b025c0301af8bad486e00db5c808f16',1,'Fl_Scroll::Fl_Region_LRTB']]],
+  ['batch_5fmode_1',['batch_mode',['../group__globals.html#ga049844d47066eb241c6d9446b69b713d',1,'batch_mode:&#160;fluid.cxx'],['../group__globals.html#ga049844d47066eb241c6d9446b69b713d',1,'batch_mode:&#160;fluid.cxx']]],
+  ['bcolorcount_2',['bColorCount',['../structFl__ICO__Image_1_1IconDirEntry.html#ad5b442db4ce4355c9b5e8371b53cca9a',1,'Fl_ICO_Image::IconDirEntry']]],
+  ['bgcolor_3',['bgcolor',['../structFl__Text__Display_1_1Style__Table__Entry.html#aa810f5de069f196d3eb622c37ce009f5',1,'Fl_Text_Display::Style_Table_Entry']]],
+  ['bheight_4',['bHeight',['../structFl__ICO__Image_1_1IconDirEntry.html#a17477d91ada7784b2acedd110d541fa2',1,'Fl_ICO_Image::IconDirEntry']]],
+  ['block_5fbuffer_5f_5',['block_buffer_',['../classFd__Code__Writer.html#a050ddabd59982b7d3ea7a946cccb84f2',1,'Fd_Code_Writer']]],
+  ['block_5fbuffer_5fsize_5f_6',['block_buffer_size_',['../classFd__Code__Writer.html#a63a03d8a0b1af896cf0a2c1e6de64133',1,'Fd_Code_Writer']]],
+  ['block_5fcrc_5f_7',['block_crc_',['../classFd__Code__Writer.html#a0ed9cbca669b33de2c48bcdee0bfe92c',1,'Fd_Code_Writer']]],
+  ['block_5fline_5fstart_5f_8',['block_line_start_',['../classFd__Code__Writer.html#ac278e78c629152feb661524f714afc84',1,'Fd_Code_Writer']]],
+  ['botrow_9',['botrow',['../classFl__Table.html#a32d6762316f1eb9a7d150757bb50b443',1,'Fl_Table']]],
+  ['bottom_5ftabs_5fmargin_10',['bottom_tabs_margin',['../classFd__Layout__Preset.html#a0b63dc85228875a82c46a3a7137a1024',1,'Fd_Layout_Preset']]],
+  ['breserved_11',['bReserved',['../structFl__ICO__Image_1_1IconDirEntry.html#ad31a07fd901f89cc9bbfa6177acfb928',1,'Fl_ICO_Image::IconDirEntry']]],
+  ['bt_12',['bt',['../structFd__Snap__Data.html#a9683acb1dbfe74e48f0d5bcdf87af340',1,'Fd_Snap_Data']]],
+  ['buffer_13',['buffer',['../classFd__Project__Reader.html#ac4d98072550c9b048b763f770d3cc2da',1,'Fd_Project_Reader']]],
+  ['buflen_14',['buflen',['../classFd__Project__Reader.html#ab8f7338a0a7d43949b3a589fea6222da',1,'Fd_Project_Reader']]],
+  ['bwidth_15',['bWidth',['../structFl__ICO__Image_1_1IconDirEntry.html#a4a6c079bcb582a31c40d661f5bbba053',1,'Fl_ICO_Image::IconDirEntry']]]
 ];

@@ -1,0 +1,29 @@
+<map id="Fl_Tree::next_selected_item" name="Fl_Tree::next_selected_item">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,104,209,129"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree.html#a04ecefd677f9321532dad465de6864be" title=" " alt="" coords="300,5,401,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,101,186,71,256,40,286,30,287,35,258,44,188,76,132,106"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree__Item.html#a917cb6f76f53855708d430a40337b536" title="See if the item is selected." alt="" coords="257,55,444,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,101,273,80,274,85,171,107"/>
+<area shape="rect" id="Node000004" href="$classFl__Tree.html#a9a0dfe7eba5e4f58a86f73a659ad3189" title=" " alt="" coords="301,104,401,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="209,114,287,114,287,119,209,119"/>
+<area shape="rect" id="Node000009" href="$classFl__Tree__Item.html#a512b6591af7ca7b517e09e98df8f2deb" title=" " alt="" coords="279,203,422,228"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="132,127,189,157,258,188,284,196,283,201,256,192,187,161,130,132"/>
+<area shape="rect" id="Node000011" href="$classFl__Tree__Item.html#a8a98b2c48ec5069aaed25d7c1e95f6cd" title=" " alt="" coords="279,153,422,179"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="171,127,274,148,273,153,170,132"/>
+<area shape="rect" id="Node000005" href="$classFl__Tree__Item.html#a59b33b5824ea2f87eb3388ec51802d67" title="Return the child item for the given &#39;index&#39;." alt="" coords="517,128,661,153"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="401,119,504,129,503,135,401,124"/>
+<area shape="rect" id="Node000006" href="$classFl__Tree__Item.html#ae1ecee0a3fae8bed7161b5710a13ddb9" title="Return the number of children this item has." alt="" coords="507,79,672,104"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="401,109,493,99,494,104,401,114"/>
+<area shape="rect" id="Node000008" href="$classFl__Tree__Item.html#a01f57370911692b960d306fc00d824a0" title="See if this item has children." alt="" coords="492,177,687,203"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="402,125,445,138,493,162,520,171,518,176,491,167,443,143,400,130"/>
+<area shape="rect" id="Node000007" href="$classFl__Tree__Item__Array.html#a1b76ee8f1c8e3d07449bfc6c1a16e9c6" title="Return the total items in the array, or 0 if empty." alt="" coords="735,71,881,111"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="672,89,721,89,721,94,672,94"/>
+<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="405,200,443,188,467,175,491,162,514,155,515,160,493,167,469,180,445,192,407,205"/>
+<area shape="poly" id="edge10_Node000009_Node000008" title=" " alt="" coords="422,205,478,199,478,204,422,210"/>
+<area shape="rect" id="Node000010" href="$classFl__Tree__Item.html#a5371023b11fd4b32a93f9cd7936fc5fb" title="Return the parent for this item. Returns NULL if we are the root." alt="" coords="512,227,667,252"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="422,220,499,228,498,233,422,225"/>
+<area shape="poly" id="edge13_Node000011_Node000005" title=" " alt="" coords="422,156,504,147,504,152,422,161"/>
+<area shape="poly" id="edge14_Node000011_Node000006" title=" " alt="" coords="405,151,443,138,467,126,491,113,514,105,515,110,493,118,469,130,445,143,407,156"/>
+<area shape="poly" id="edge15_Node000011_Node000008" title=" " alt="" coords="422,170,478,176,478,181,422,176"/>
+<area shape="poly" id="edge16_Node000011_Node000010" title=" " alt="" coords="409,176,445,188,493,212,520,220,518,225,491,216,443,192,408,181"/>
+</map>

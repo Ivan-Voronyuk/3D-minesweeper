@@ -1,0 +1,18 @@
+<map id="read_file" name="read_file">
+<area shape="rect" id="Node000001" title="Read a .fl project file." alt="" coords="543,132,621,157"/>
+<area shape="rect" id="Node000002" href="$group__globals.html#gab5c5bb5cb9ca9f2c7720eb33df34a295" title=" " alt="" coords="340,5,444,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="562,122,532,86,493,52,469,40,443,31,445,26,471,35,496,48,536,82,566,119"/>
+<area shape="rect" id="Node000003" href="$group__globals.html#ga3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,81,60,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="551,126,524,110,494,98,432,85,369,77,244,75,136,82,60,92,60,87,135,77,244,69,369,72,433,80,495,93,527,105,554,121"/>
+<area shape="rect" id="Node000004" href="$group__globals.html#ga0b688fa9437f8b06ac2345bf6bd4a459" title=" " alt="" coords="321,107,463,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="529,140,463,131,464,126,529,135"/>
+<area shape="rect" id="Node000006" href="$group__globals.html#gaaf899ea2010d69dae702592841e109d8" title=" " alt="" coords="289,156,495,181"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="529,154,493,159,492,153,529,149"/>
+<area shape="rect" id="Node000007" href="$group__globals.html#gac5ed9e9e53ce40db93583f3c93b3ac6b" title=" " alt="" coords="352,205,432,231"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="552,167,496,196,433,214,431,209,494,192,549,163"/>
+<area shape="rect" id="Node000008" href="$group__globals.html#gaf883effc2c68a75bc68fe3ce0b0969ee" title=" " alt="" coords="351,255,433,280"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="568,171,538,209,518,229,496,246,465,259,434,266,433,261,464,254,493,241,515,225,534,206,564,167"/>
+<area shape="rect" id="Node000005" href="$group__globals.html#ga045fb96b901065671b90d820f4ea949f" title=" " alt="" coords="108,107,241,132"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="307,122,241,122,241,117,307,117"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="94,108,60,101,61,96,95,102"/>
+</map>

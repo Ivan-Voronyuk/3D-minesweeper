@@ -1,0 +1,13 @@
+<map id="Fl_Tree::vposition" name="Fl_Tree::vposition">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,141,80"/>
+<area shape="rect" id="Node000002" href="$classFl__Valuator.html#a97b03d366666f9f04bbab8d8340a694b" title=" " alt="" coords="189,5,360,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,52,208,31,209,37,126,57"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget.html#aa63ce68cbf4620cf8750b868368ea02b" title=" " alt="" coords="205,55,345,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="141,65,191,65,191,70,141,70"/>
+<area shape="rect" id="Node000005" href="$classFl__Scrollbar.html#a1d35a3b6cf6d4a1ddfec35e78d61aa01" title=" " alt="" coords="203,104,346,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="126,77,209,98,208,103,125,83"/>
+<area shape="rect" id="Node000004" href="$classFl__Widget.html#ada8bb104e4501a2b123e813b32b6ed95" title=" " alt="" coords="408,55,556,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="345,65,394,65,394,70,345,70"/>
+<area shape="rect" id="Node000006" href="$classFl__Valuator.html#a28f300d9f6e355e75d86e32da23a5d21" title=" " alt="" coords="413,104,551,129"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="346,114,399,114,399,119,346,119"/>
+</map>

@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['handler_5flink_0',['handler_link',['../structhandler__link.html',1,'']]],
-  ['harrow_1',['Harrow',['../classHarrow.html',1,'']]],
-  ['header_5felement_5fdata_2',['header_element_data',['../structheader__element__data.html',1,'']]],
-  ['huff_5fentropy_5fdecoder_3',['huff_entropy_decoder',['../structhuff__entropy__decoder.html',1,'']]],
-  ['huff_5fentropy_5fencoder_4',['huff_entropy_encoder',['../structhuff__entropy__encoder.html',1,'']]],
-  ['hv_5fedit_5fbuffer_5',['HV_Edit_Buffer',['../classHV__Edit__Buffer.html',1,'']]]
+  ['gif_5fframe_0',['GIF_FRAME',['../structFl__GIF__Image_1_1GIF__FRAME.html',1,'Fl_GIF_Image']]],
+  ['gz_5fheader_5fs_1',['gz_header_s',['../structgz__header__s.html',1,'']]],
+  ['gz_5fstate_2',['gz_state',['../structgz__state.html',1,'']]],
+  ['gzfile_5fs_3',['gzFile_s',['../structgzFile__s.html',1,'']]]
 ];

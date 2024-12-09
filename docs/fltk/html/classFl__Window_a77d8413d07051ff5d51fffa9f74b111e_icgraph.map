@@ -1,0 +1,19 @@
+<map id="Fl_Window::as_overlay_window" name="Fl_Window::as_overlay_window">
+<area shape="rect" id="Node000001" title=" " alt="" coords="852,63,1023,103"/>
+<area shape="rect" id="Node000002" href="$classFl__Widget__Surface.html#a298d5b329713adada34d718ebd99502b" title="Draws the widget on the drawing surface." alt="" coords="621,70,804,95"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="838,85,804,85,804,80,838,80"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget__Surface.html#aa9d386d61cb3d9baf8ec6ba0644f3844" title=" " alt="" coords="391,5,573,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="647,69,562,48,564,43,648,64"/>
+<area shape="rect" id="Node000006" href="$group__fl__drawings.html#gad7fa074dfea63e85271e49175d8387dd" title=" " alt="" coords="434,70,530,95"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="608,85,530,85,530,80,608,80"/>
+<area shape="rect" id="Node000009" href="$classFl__Paged__Device.html#a39e2c0919372ded31a94288fc8b50a89" title=" " alt="" coords="397,120,567,160"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="648,101,564,123,562,117,647,96"/>
+<area shape="rect" id="Node000004" href="$classFl__Paged__Device.html#a6a0c5ec16651baa95e34ade76117d166" title=" " alt="" coords="172,5,343,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="377,28,343,28,343,23,377,23"/>
+<area shape="rect" id="Node000005" href="$group__globals.html#gaf5dcf594e577c0e9254b411908a9aa98" title=" " alt="" coords="5,13,124,38"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="158,28,124,28,124,23,158,23"/>
+<area shape="rect" id="Node000007" href="$group__fl__drawings.html#ga2ffafd560466c831de2ed874c94ff61a" title=" " alt="" coords="209,70,305,95"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="420,85,306,85,306,80,420,80"/>
+<area shape="rect" id="Node000008" href="$group__fl__drawings.html#ga8694e4b0634771b6194758e72683eea3" title=" " alt="" coords="209,119,305,145"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="421,99,306,124,305,119,420,93"/>
+</map>

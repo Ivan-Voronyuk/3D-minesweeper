@@ -1,0 +1,13 @@
+<map id="Fl_WinAPI_Window_Driver" name="Fl_WinAPI_Window_Driver">
+<area shape="rect" id="Node000001" title=" " alt="" coords="744,63,937,88"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="368,5,508,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="522,26,720,53,766,60,765,65,720,58,521,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="341,55,535,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="549,73,744,73,744,78,549,78"/>
+<area shape="rect" id="Node000004" href="$classFl__RGB__Image.html" title=" " alt="" coords="137,63,255,88"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="269,73,341,73,341,78,269,78"/>
+<area shape="rect" id="Node000005" href="$classFl__Image.html" title=" " alt="" coords="5,63,88,88"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="102,73,137,73,137,78,102,78"/>
+<area shape="rect" id="Node000006" href="$structFl__WinAPI__Window__Driver_1_1type__for__resize__window__between__screens.html" title=" " alt="" coords="341,120,535,175"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="548,134,632,123,719,107,800,85,802,91,721,113,633,128,549,139"/>
+</map>

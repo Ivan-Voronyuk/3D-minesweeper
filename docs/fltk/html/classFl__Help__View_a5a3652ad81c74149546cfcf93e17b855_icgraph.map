@@ -1,0 +1,10 @@
+<map id="Fl_Help_View::title" name="Fl_Help_View::title">
+<area shape="rect" id="Node000001" title=" " alt="" coords="356,31,499,56"/>
+<area shape="rect" id="Node000002" href="$classFl__Help__Dialog.html#a2672206850443cf3852292bce97f8147" title="Loads the specified HTML file into the Fl_Help_View widget. The filename can also contain a target na..." alt="" coords="148,5,304,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="342,35,304,30,305,25,343,30"/>
+<area shape="rect" id="Node000004" href="$classFl__Help__Dialog.html#a9ef4ffa7a7b50da50e43d6beeda12beb" title=" " alt="" coords="144,55,308,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="343,56,309,60,308,55,342,51"/>
+<area shape="rect" id="Node000003" href="$group__globals.html#ga191744ffc243128e8e5c20078ed9333e" title=" " alt="" coords="5,31,96,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="135,34,97,39,96,34,134,29"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="130,57,96,52,96,47,131,52"/>
+</map>

@@ -1,0 +1,24 @@
+<map id="Fl_Image::draw" name="Fl_Image::draw">
+<area shape="rect" id="Node000001" title=" " alt="" coords="599,180,721,205"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree__Item.html#adaaaeb29fb4f63f01d76c18e570562a8" title=" " alt="" coords="382,32,527,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="642,170,604,119,578,93,549,71,526,60,528,55,552,66,582,89,608,116,646,167"/>
+<area shape="rect" id="Node000005" href="$classFl__Anim__GIF__Image.html#ab1cc51c979eb0adba26acd82357ac54a" title=" " alt="" coords="359,81,551,107"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="631,174,594,147,550,122,515,109,517,104,552,117,597,142,635,169"/>
+<area shape="rect" id="Node000006" href="$classFl__Shared__Image.html#a0047322962f6806ce1da1cc83017d713" title=" " alt="" coords="367,131,542,156"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="593,179,508,159,509,153,594,174"/>
+<area shape="rect" id="Node000008" href="$classFl__Tiled__Image.html#a1e57f6059dce8759d5940ffc0f09c46d" title=" " alt="" coords="374,180,535,205"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="585,195,536,195,536,190,585,190"/>
+<area shape="rect" id="Node000009" href="$classFl__Image.html#ae15a906c677b41cc1b88ae8b743e51f2" title=" " alt="" coords="369,229,540,255"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="594,211,509,232,508,227,593,206"/>
+<area shape="rect" id="Node000010" href="$group__fl__drawings.html#gaddd11f6d48ef2d99c04fca36e40427db" title=" " alt="" coords="420,279,489,304"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="635,216,597,244,552,270,520,281,490,288,489,283,519,276,550,265,594,239,632,212"/>
+<area shape="rect" id="Node000011" href="$classFl__Browser.html#a764b44b1aa74c5c69031ff568288718d" title=" " alt="" coords="369,328,540,353"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="646,219,608,270,582,296,552,319,528,330,526,325,549,314,578,292,604,266,642,215"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree.html#a6fcfe040bbd38725a7e411672120cb2c" title=" " alt="" coords="169,5,303,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="367,37,303,29,304,24,368,31"/>
+<area shape="rect" id="Node000004" href="$classFl__Tree.html#a187c737dac78034b0ad74557b5648928" title="Standard FLTK draw() method, handles drawing the tree widget." alt="" coords="5,31,113,56"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="368,47,114,46,114,41,368,42"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="155,32,114,38,113,33,155,27"/>
+<area shape="rect" id="Node000007" href="$classFl__Help__View.html#a0d7a18c7485a56d57a3f191f8acdfaf5" title=" " alt="" coords="161,131,311,156"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="353,146,311,146,311,141,353,141"/>
+</map>

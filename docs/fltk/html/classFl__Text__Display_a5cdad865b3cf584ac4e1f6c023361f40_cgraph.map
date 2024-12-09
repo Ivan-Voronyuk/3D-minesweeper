@@ -1,0 +1,13 @@
+<map id="Fl_Text_Display::maintain_absolute_top_line_number" name="Fl_Text_Display::maintain_absolute_top_line_number">
+<area shape="rect" id="Node000001" title="Line numbering stuff, currently unused." alt="" coords="5,55,207,95"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Display.html#a29cca6a03ac20b1af20913c5a0e25fe7" title=" " alt="" coords="255,55,456,95"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,73,241,73,241,78,207,78"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Display.html#a28a7977a99ba473260863c7dcb3a6baa" title=" " alt="" coords="504,55,691,95"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="456,73,490,73,490,78,456,78"/>
+<area shape="rect" id="Node000004" href="$classFl__Text__Display.html#a41b157af52d071ae0df64a774ef4d853" title=" " alt="" coords="759,5,928,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="683,53,775,31,776,36,684,58"/>
+<area shape="rect" id="Node000005" href="$classFl__Text__Buffer.html#a5662f3d7b2cd153e6947a61a72950989" title=" " alt="" coords="764,55,923,95"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="691,73,750,73,750,78,691,78"/>
+<area shape="rect" id="Node000006" href="$classFl__Text__Display.html#a24fc4bf56dcd90af1308ea900fd9c0e8" title=" " alt="" coords="739,119,948,159"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="676,93,753,113,752,118,674,98"/>
+</map>

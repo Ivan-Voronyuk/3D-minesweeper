@@ -1,0 +1,18 @@
+<map id="Fd_Layout_Suite::init" name="Fd_Layout_Suite::init">
+<area shape="rect" id="Node000001" title=" " alt="" coords="809,31,968,56"/>
+<area shape="rect" id="Node000002" href="$classFd__Layout__List.html#a38f6eb0816afbc5d08ac3777ab740c0f" title="Clone the currently selected suite and append it to the list. Selects the new layout and updates the ..." alt="" coords="611,31,761,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="795,46,762,46,762,41,795,41"/>
+<area shape="rect" id="Node000003" href="$classFd__Layout__List.html#a65e8ff2b7c8db119d3d3d4cc8cac514a" title=" " alt="" coords="407,5,563,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="596,35,563,30,563,25,597,29"/>
+<area shape="rect" id="Node000004" href="$classFd__Layout__List.html#a7e5acca2a1ddcbb2fde662838f69a53a" title=" " alt="" coords="407,55,563,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="597,57,563,61,563,55,596,51"/>
+<area shape="rect" id="Node000005" href="$classFd__Layout__List.html#ad4634840d069a4f432ffdac6789851da" title=" " alt="" coords="204,5,359,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="418,54,334,33,335,28,419,49"/>
+<area shape="rect" id="Node000006" href="$group__globals.html#ga3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="254,55,309,80"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="393,70,309,70,309,65,393,65"/>
+<area shape="rect" id="Node000007" href="$group__flfile.html#gad4282cd1690e62570f94704a36719f84" title=" " alt="" coords="206,129,357,169"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="441,88,333,131,331,126,439,83"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="315,117,303,110,281,107,262,109,251,114,247,120,249,128,244,129,241,119,247,110,261,104,281,102,305,105,318,112"/>
+<area shape="rect" id="Node000008" href="$group__flfile.html#ga233eee924334331ec31f22e957b86a50" title="Read a .fl project file." alt="" coords="5,129,156,169"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="192,151,156,151,156,146,192,146"/>
+</map>

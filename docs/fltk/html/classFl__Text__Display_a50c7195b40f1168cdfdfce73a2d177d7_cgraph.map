@@ -1,0 +1,23 @@
+<map id="Fl_Text_Display::position_style" name="Fl_Text_Display::position_style">
+<area shape="rect" id="Node000001" title="Find the correct style for a character." alt="" coords="5,137,188,177"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Display.html#a41b157af52d071ae0df64a774ef4d853" title=" " alt="" coords="246,5,415,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,135,166,87,199,61,235,40,250,33,253,38,237,44,202,66,169,91,118,138"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Buffer.html#a5c18c7e2dd09f0fad0892411c1ac273a" title=" " alt="" coords="245,55,416,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="135,134,235,90,262,81,264,86,237,95,138,139"/>
+<area shape="rect" id="Node000005" href="$classFl__Text__Buffer.html#a46e77e9f6bb66bc0a058c0c4c2a09a79" title=" " alt="" coords="241,105,420,145"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="188,142,227,136,228,141,188,147"/>
+<area shape="rect" id="Node000006" href="$classFl__Text__Selection.html#a3dd3ddc20191fb623cd3497748e12c3e" title=" " alt="" coords="259,169,402,209"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="188,166,246,174,245,180,188,172"/>
+<area shape="rect" id="Node000010" href="$classFl__Text__Buffer.html#a1daa21c3d41f34c5173ada946230b0f7" title=" " alt="" coords="244,233,417,273"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="140,174,237,218,256,226,254,231,235,223,137,179"/>
+<area shape="rect" id="Node000011" href="$classFl__Text__Buffer.html#a23a41d8e90819e63d77510b35fcb02ea" title=" " alt="" coords="236,297,425,337"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="117,175,168,228,201,257,237,282,249,289,246,293,235,287,198,261,164,232,113,179"/>
+<area shape="rect" id="Node000004" href="$classFl__Text__Buffer.html#a346578ec9d3b5bdf3c0d36b5f6eeef35" title=" " alt="" coords="473,55,647,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="416,65,459,65,459,70,416,70"/>
+<area shape="rect" id="Node000007" href="$classFl__Text__Selection.html#a6e212e08bac071f7847863a67bc3ea6a" title="Returns the byte offset to the character after the last selected character." alt="" coords="477,119,643,144"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="402,168,494,145,496,150,403,173"/>
+<area shape="rect" id="Node000008" href="$classFl__Text__Selection.html#a79f26408243fc616d056e42183c7253f" title="Returns true if any text is selected." alt="" coords="489,169,631,209"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="402,186,475,186,475,191,402,191"/>
+<area shape="rect" id="Node000009" href="$classFl__Text__Selection.html#ac9c4fb69c164190da6448d1ec52f82bf" title="Returns the byte offset to the first selected character." alt="" coords="489,233,631,273"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="403,206,476,227,475,232,402,211"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Fl_Terminal::insert_char" name="Fl_Terminal::insert_char">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,183,56"/>
+<area shape="rect" id="Node000002" href="$classFl__Terminal.html#af0bf593e37ee7e0b76174f22ad1009f9" title="Insert char &#39;c&#39; for &#39;rep&#39; times at display row &#39;drow&#39; and column &#39;dcol&#39;." alt="" coords="231,23,373,63"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,41,217,41,217,46,183,46"/>
+<area shape="rect" id="Node000003" href="$classFl__Terminal.html#abb995a2ff6716431f916920286772d3a" title="Return the number of columns in the display area." alt="" coords="435,5,601,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="373,32,421,27,422,32,374,38"/>
+<area shape="rect" id="Node000004" href="$classFl__Terminal.html#a68272bfa304b063f34aebf4398b8a51c" title="See docs for non&#45;const version of u8c_disp_row(int)" alt="" coords="421,55,615,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="374,49,408,52,407,58,373,54"/>
+</map>

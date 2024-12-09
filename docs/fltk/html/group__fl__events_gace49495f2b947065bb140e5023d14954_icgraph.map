@@ -1,0 +1,13 @@
+<map id="Fl::get_mouse" name="Fl::get_mouse">
+<area shape="rect" id="Node000001" title=" " alt="" coords="417,106,532,131"/>
+<area shape="rect" id="Node000002" href="$classFl__Window.html#adbe55edbed0b87026b12a8b78a27f083" title=" " alt="" coords="220,106,369,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="404,121,370,121,370,116,404,116"/>
+<area shape="rect" id="Node000003" href="$group__group__comdlg.html#ga6241252ca65bc163d046b4f900a5ebad" title="Pops up a window to let the user pick an arbitrary RGB color." alt="" coords="13,5,164,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="256,102,171,60,143,48,145,43,173,55,259,97"/>
+<area shape="rect" id="Node000004" href="$classFl__File__Chooser.html#ac3ef3aca56eb4ab860c9fc31458a757d" title=" " alt="" coords="17,69,161,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="206,109,161,102,161,97,207,104"/>
+<area shape="rect" id="Node000005" href="$classFl__Window.html#af04ceff1297434b9ec8521f47fd1051a" title=" " alt="" coords="14,134,163,159"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="207,133,164,139,163,134,206,128"/>
+<area shape="rect" id="Node000006" href="$classFl__File__Chooser.html#a2f58cce9eb3bfc34778a657f9e4ae36f" title=" " alt="" coords="5,183,172,209"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="254,139,173,173,135,186,133,181,171,168,252,135"/>
+</map>

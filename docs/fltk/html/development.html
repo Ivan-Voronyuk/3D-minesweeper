@@ -135,7 +135,7 @@ Fl_Clock::Fl_Clock(uchar t, int X, int Y, int W, int H, const char *L)
 }
 </pre><dl class="section note"><dt>Note</dt><dd></dd></dl>
 <p>From Duncan: (will be removed later, just for now as a reminder)</p>
-<p>I've just added comments for the fl_color_chooser() functions, and in order to keep them and the general Function Reference information for them together, I created a new doxygen group, and used \ingroup in the three comment blocks. This creates a new Modules page (which may not be what we want) with links to it from the File Members and Fl_Color_Chooser.H pages. It needs a bit more experimentation on my part unless someone already knows how this should be handled. (Maybe we can add it to a functions.dox file that defines a functions group and do that for all of the function documentation?)</p>
+<p>I've just added comments for the fl_color_chooser() functions, and in order to keep them and the general Function Reference information for them together, I created a new doxygen group, and used \ingroup in the three comment blocks. This creates a new Modules page (which may not be what we want) with links to it from the File Members and <a class="el" href="Fl__Color__Chooser_8H.html">Fl_Color_Chooser.H</a> pages. It needs a bit more experimentation on my part unless someone already knows how this should be handled. (Maybe we can add it to a functions.dox file that defines a functions group and do that for all of the function documentation?)</p>
 <p><b>Update:</b> the trick is not to create duplicate entries in a new group, but to move the function information into the doxygen comments for the class, and use the navigation links provided. Simply using \relatesalso as the first doxygen command in the function's comment puts it in the appropriate place. There is no need to have \defgroup and \ingroup as well, and indeed they don't work. So, to summarize:</p>
 <pre class="fragment">Gizmo.H
   /** \class Gizmo
@@ -247,7 +247,7 @@ Paragraph Layout</h1>
 <dl class="section user"><dt>Indented Paragraph with title</dt><dd>This paragraph will also have a title, but because there is no blank line between the \par and the text, it will be indented.</dd></dl>
 <dl class="section user"><dt></dt><dd>It is also possible to have an indented paragraph without title. This is how you indent subsequent paragraphs.</dd></dl>
 <dl class="section user"><dt>No link to Fl_Widget::draw()</dt><dd>Note that the paragraph title is treated as plain text. Doxygen type links will not work. HTML characters and tags may or may not work.</dd></dl>
-<p>Fl_Widget::draw() links and &quot;html&quot; tags work<br  />
+<p><a class="el" href="classFl__Widget.html#a1acb38c6b3cb40452ad02ccfeedbac8a">Fl_Widget::draw()</a> links and &quot;html&quot; tags work<br  />
  </p><dl class="section user"><dt></dt><dd>Use a single line ending with &lt;br&gt; for complicated paragraph titles.</dd></dl>
 <h1><a class="anchor" id="development_navigation_test"></a>
 Navigation Elements</h1>

@@ -1,0 +1,9 @@
+<map id="Fl_Text_Selection::includes" name="Fl_Text_Selection::includes">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,148,95"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Selection.html#a6e212e08bac071f7847863a67bc3ea6a" title="Returns the byte offset to the character after the last selected character." alt="" coords="196,5,363,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,53,220,32,221,37,149,58"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Selection.html#a79f26408243fc616d056e42183c7253f" title="Returns true if any text is selected." alt="" coords="208,55,351,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,73,194,73,194,78,149,78"/>
+<area shape="rect" id="Node000004" href="$classFl__Text__Selection.html#ac9c4fb69c164190da6448d1ec52f82bf" title="Returns the byte offset to the first selected character." alt="" coords="208,119,351,159"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="142,93,203,113,202,118,140,98"/>
+</map>

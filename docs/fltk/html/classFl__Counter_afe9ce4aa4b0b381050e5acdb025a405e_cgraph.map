@@ -1,0 +1,13 @@
+<map id="Fl_Counter::Fl_Counter" name="Fl_Counter::Fl_Counter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,104,176,129"/>
+<area shape="rect" id="Node000002" href="$classFl__Widget.html#a6a3c44d082f89ba3aefd405c388187c5" title=" " alt="" coords="238,5,365,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,102,160,71,223,40,240,33,242,38,225,44,163,76,113,106"/>
+<area shape="rect" id="Node000003" href="$classFl__Valuator.html#acc36b0e57415c9a0d676f51ee5601ae0" title=" " alt="" coords="226,55,377,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,101,233,81,234,86,146,107"/>
+<area shape="rect" id="Node000004" href="$classFl__Widget.html#a9d1f48fbbe4d885e81df38b2a93b614f" title=" " alt="" coords="242,104,361,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="176,114,228,114,228,119,176,119"/>
+<area shape="rect" id="Node000005" href="$classFl__Widget.html#aa19cad245b9a3ecdc3af8ebc4706196b" title=" " alt="" coords="224,154,379,194"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="139,127,215,148,214,153,137,132"/>
+<area shape="rect" id="Node000006" href="$classFl__Valuator.html#a0ec8d2dd8fde9a377524d7dfaff80a20" title=" " alt="" coords="236,219,367,244"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="109,127,159,164,225,204,243,211,241,216,223,208,157,169,106,132"/>
+</map>

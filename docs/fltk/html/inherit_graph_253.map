@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$structWin__DC__List.html" title=" " alt="" coords="5,5,108,31"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,112,31"/>
+<area shape="rect" id="Node000001" href="$interfacePrintWithTitlebarItem.html" title=" " alt="" coords="160,5,323,31"/>
+<area shape="poly" id="edge297_Node000000_Node000001" title=" " alt="" coords="125,15,160,15,160,21,125,21"/>
 </map>

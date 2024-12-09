@@ -1,16 +1,27 @@
 <map id="Overlay_Window" name="Overlay_Window">
-<area shape="rect" id="Node000001" title=" " alt="" coords="36,437,168,463"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,349,156,375"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,387,102,436,96,437,84,389"/>
-<area shape="rect" id="Node000003" href="$classFl__Window__Type.html" title=" " alt="" coords="181,349,311,375"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,384,123,439,120,435,214,379"/>
-<area shape="rect" id="Node000004" href="$classFl__Group__Type.html" title=" " alt="" coords="187,275,305,300"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="249,314,249,349,243,349,243,314"/>
-<area shape="rect" id="Node000005" href="$classFl__Widget__Type.html" title=" " alt="" coords="184,200,308,225"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="249,240,249,274,243,274,243,240"/>
-<area shape="rect" id="Node000006" href="$classFl__Type.html" title="This is the base class for all elements in the project tree." alt="" coords="105,51,176,77"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="159,86,240,198,236,201,155,90"/>
-<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="170,44,192,46,200,53,203,64,198,77,187,84,172,84,156,79,158,74,172,79,185,78,194,73,197,64,195,56,190,51,170,49"/>
-<area shape="rect" id="Node000007" href="$classFluid__Image.html" title=" " alt="" coords="301,51,404,77"/>
-<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="338,90,256,202,252,198,334,86"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="139,523,271,548"/>
+<area shape="rect" id="Node000002" href="$classFl__Overlay__Window.html" title=" " alt="" coords="67,448,218,473"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,482,197,521,193,524,160,486"/>
+<area shape="rect" id="Node000003" href="$classFl__Double__Window.html" title=" " alt="" coords="5,349,152,375"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,385,137,446,133,449,92,388"/>
+<area shape="rect" id="Node000004" href="$classFl__Window.html" title=" " alt="" coords="16,275,109,300"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="71,313,79,348,73,350,66,314"/>
+<area shape="poly" id="edge7_Node000004_Node000004" title=" " alt="" coords="124,279,136,287,127,295,110,297,109,292,126,290,131,287,122,284"/>
+<area shape="rect" id="Node000005" href="$classFl__Group.html" title=" " alt="" coords="23,200,103,225"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="65,240,65,274,60,274,60,240"/>
+<area shape="rect" id="Node000006" href="$classFl__Widget.html" title=" " alt="" coords="53,51,139,77"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="90,90,73,147,66,200,61,199,68,146,85,89"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="93,91,68,201,63,199,88,89"/>
+<area shape="rect" id="Node000009" href="$classFl__Widget__Type.html" title=" " alt="" coords="211,200,335,225"/>
+<area shape="poly" id="edge13_Node000009_Node000006" title=" " alt="" coords="109,88,135,132,153,154,174,174,197,188,222,197,220,202,194,192,170,178,149,158,130,135,104,90"/>
+<area shape="rect" id="Node000007" href="$classFl__Window__Type.html" title=" " alt="" coords="204,399,335,424"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="259,438,214,524,209,521,254,435"/>
+<area shape="rect" id="Node000008" href="$classFl__Group__Type.html" title=" " alt="" coords="215,275,332,300"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="275,314,272,399,267,398,270,314"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="276,240,276,274,271,274,271,240"/>
+<area shape="rect" id="Node000010" href="$classFl__Type.html" title="This is the base class for all elements in the project tree." alt="" coords="201,51,271,77"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="245,89,273,199,268,201,240,91"/>
+<area shape="poly" id="edge12_Node000010_Node000010" title=" " alt="" coords="265,44,287,46,295,53,298,64,293,77,282,84,267,84,252,79,253,74,268,79,281,78,289,73,293,64,291,56,285,51,265,49"/>
+<area shape="rect" id="Node000011" href="$classFluid__Image.html" title=" " alt="" coords="397,51,499,77"/>
+<area shape="poly" id="edge14_Node000009_Node000011" title=" " alt="" coords="428,88,387,125,290,202,287,198,384,121,424,84"/>
 </map>

@@ -1,25 +1,5 @@
 var searchData=
 [
-  ['panel_0',['Panel',['../classPanel.html',1,'']]],
-  ['pens_1',['Pens',['../classPens.html',1,'']]],
-  ['plugin_5floader_2',['plugin_loader',['../structplugin__loader.html',1,'']]],
-  ['png_5fcolor_5f16_5fstruct_3',['png_color_16_struct',['../structpng__color__16__struct.html',1,'']]],
-  ['png_5fcolor_5f8_5fstruct_4',['png_color_8_struct',['../structpng__color__8__struct.html',1,'']]],
-  ['png_5fcolor_5fstruct_5',['png_color_struct',['../structpng__color__struct.html',1,'']]],
-  ['png_5fcontrol_6',['png_control',['../structpng__control.html',1,'']]],
-  ['png_5fdsort_5fstruct_7',['png_dsort_struct',['../structpng__dsort__struct.html',1,'']]],
-  ['png_5fimage_8',['png_image',['../structpng__image.html',1,'']]],
-  ['png_5fimage_5fread_5fcontrol_9',['png_image_read_control',['../structpng__image__read__control.html',1,'']]],
-  ['png_5fimage_5fwrite_5fcontrol_10',['png_image_write_control',['../structpng__image__write__control.html',1,'']]],
-  ['png_5finfo_5fdef_11',['png_info_def',['../structpng__info__def.html',1,'']]],
-  ['png_5frow_5finfo_5fstruct_12',['png_row_info_struct',['../structpng__row__info__struct.html',1,'']]],
-  ['png_5fsplt_5fentry_5fstruct_13',['png_sPLT_entry_struct',['../structpng__sPLT__entry__struct.html',1,'']]],
-  ['png_5fsplt_5fstruct_14',['png_sPLT_struct',['../structpng__sPLT__struct.html',1,'']]],
-  ['png_5fstruct_5fdef_15',['png_struct_def',['../structpng__struct__def.html',1,'']]],
-  ['png_5ftext_5fstruct_16',['png_text_struct',['../structpng__text__struct.html',1,'']]],
-  ['png_5ftime_5fstruct_17',['png_time_struct',['../structpng__time__struct.html',1,'']]],
-  ['png_5funknown_5fchunk_5ft_18',['png_unknown_chunk_t',['../structpng__unknown__chunk__t.html',1,'']]],
-  ['pointer_5foutput_19',['pointer_output',['../structpointer__output.html',1,'']]],
-  ['print_5fpanel_5fdelegate_20',['print_panel_delegate',['../interfaceprint__panel__delegate.html',1,'']]],
-  ['printwithtitlebaritem_21',['PrintWithTitlebarItem',['../interfacePrintWithTitlebarItem.html',1,'']]]
+  ['output_0',['output',['../structFl__Wayland__Screen__Driver_1_1output.html',1,'Fl_Wayland_Screen_Driver::output'],['../structoutput.html',1,'output']]],
+  ['overlay_5fwindow_1',['Overlay_Window',['../classOverlay__Window.html',1,'']]]
 ];

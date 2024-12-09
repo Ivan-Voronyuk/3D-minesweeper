@@ -1,0 +1,16 @@
+<map id="Fl_Text_Display::col_to_x" name="Fl_Text_Display::col_to_x">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,104,191,129"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Display.html#a69139918fadc2ea30d5c16583fc8d0c8" title=" " alt="" coords="239,97,377,137"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,114,225,114,225,119,191,119"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Display.html#a033fb1323b0640601240829e845598f9" title="Find the width of a string in the font of a particular style." alt="" coords="425,97,593,137"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="378,114,412,114,412,119,378,119"/>
+<area shape="rect" id="Node000004" href="$group__fl__attributes.html#gad234d90fe63191609ec196e1b8041d1a" title=" " alt="" coords="701,5,764,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="539,94,586,66,640,40,687,25,689,30,642,44,588,71,542,99"/>
+<area shape="rect" id="Node000005" href="$group__fl__attributes.html#ga92c762ce2fc7fa891bac6b7590f967bd" title=" " alt="" coords="696,79,769,104"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="593,105,682,94,682,100,594,110"/>
+<area shape="rect" id="Node000006" href="$classFl__Text__Display.html#aede1822b26480e2d08c3625b67f7abe3" title=" " alt="" coords="641,128,824,153"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="594,123,628,127,627,132,593,128"/>
+<area shape="rect" id="Node000007" href="$classFl__Text__Display.html#ad92e726e57de12916b1493ed2370177b" title=" " alt="" coords="641,177,824,203"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="563,134,642,162,671,171,670,176,640,167,562,139"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="697,80,689,70,693,60,708,54,733,52,763,56,776,65,772,69,761,61,733,57,709,59,696,64,694,70,701,77"/>
+</map>

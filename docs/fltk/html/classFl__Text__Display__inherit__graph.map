@@ -1,0 +1,15 @@
+<map id="Fl_Text_Display" name="Fl_Text_Display">
+<area shape="rect" id="Node000001" title="Rich text display widget." alt="" coords="64,152,188,177"/>
+<area shape="rect" id="Node000004" href="$classFl__Text__Editor.html" title=" " alt="" coords="5,225,119,251"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="108,189,74,227,70,223,104,186"/>
+<area shape="rect" id="Node000007" href="$classTextViewer.html" title=" " alt="" coords="143,225,237,251"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="148,186,182,223,178,227,144,189"/>
+<area shape="rect" id="Node000002" href="$classFl__Group.html" title=" " alt="" coords="86,79,166,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,118,129,152,123,152,123,118"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget.html" title=" " alt="" coords="83,5,169,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="129,44,129,79,123,79,123,44"/>
+<area shape="rect" id="Node000005" href="$classCodeEditor.html" title=" " alt="" coords="15,299,109,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="65,264,65,299,59,299,59,264"/>
+<area shape="rect" id="Node000006" href="$classCodeViewer.html" title=" " alt="" coords="12,372,112,397"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="65,338,65,372,59,372,59,338"/>
+</map>

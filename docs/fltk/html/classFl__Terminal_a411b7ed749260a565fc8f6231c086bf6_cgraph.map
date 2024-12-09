@@ -1,0 +1,37 @@
+<map id="Fl_Terminal::draw_row_bg" name="Fl_Terminal::draw_row_bg">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,183,196,208"/>
+<area shape="rect" id="Node000002" href="$classFl__Widget.html#a0f4654d4d9aab8a1c1078fca5660742a" title=" " alt="" coords="276,5,403,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,181,159,113,198,73,243,40,262,31,264,35,245,44,201,77,163,117,112,184"/>
+<area shape="rect" id="Node000003" href="$classFl__Terminal.html#abb995a2ff6716431f916920286772d3a" title="Return the number of columns in the display area." alt="" coords="257,55,422,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="114,180,168,136,204,111,243,89,260,82,262,87,245,94,207,115,171,140,117,184"/>
+<area shape="rect" id="Node000004" href="$group__fl__attributes.html#gaea8392e995de663b0d8063af199cf085" title=" " alt="" coords="305,104,374,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="131,180,243,138,290,125,292,130,245,143,133,185"/>
+<area shape="rect" id="Node000005" href="$group__fl__drawings.html#ga2986a868e9cc8d9141acde94c0fe8ab0" title=" " alt="" coords="306,153,373,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="196,181,292,169,292,174,197,186"/>
+<area shape="rect" id="Node000010" href="$classFl__Terminal.html#a6569fb1bc85519d811babad551bf3038" title=" " alt="" coords="258,203,421,243"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="197,204,245,210,244,215,196,209"/>
+<area shape="rect" id="Node000015" href="$classFl__Terminal.html#a671d01817a221ed6c8552a6f252eecc4" title="See docs for non&#45;const version of u8c_ring_row(int)" alt="" coords="244,268,435,293"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="130,206,245,253,274,262,272,267,243,258,128,211"/>
+<area shape="rect" id="Node000016" href="$classFl__Scrollbar.html#a1d35a3b6cf6d4a1ddfec35e78d61aa01" title=" " alt="" coords="268,317,411,343"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="116,206,170,254,206,281,245,304,262,311,260,316,243,308,203,285,166,258,113,210"/>
+<area shape="rect" id="Node000018" href="$classFl__Widget.html#ac103c73444da9035a31329cf938d77b3" title=" " alt="" coords="270,367,409,392"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="112,206,162,277,200,318,245,353,259,360,256,365,243,358,197,322,157,280,107,210"/>
+<area shape="rect" id="Node000006" href="$classFl__Widget.html#a56c09392686ee558104fd7550496894f" title=" " alt="" coords="523,9,625,35"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="372,161,404,154,433,139,444,128,450,117,456,93,462,68,469,56,481,44,508,29,511,34,484,48,474,59,467,70,461,94,455,119,448,131,436,143,406,159,373,166"/>
+<area shape="rect" id="Node000007" href="$classFl__Widget.html#a9c582969d134d01916816daf73a35402" title=" " alt="" coords="521,59,627,84"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="372,159,403,151,433,138,448,128,457,116,466,105,481,93,506,82,508,87,484,98,470,108,461,120,451,131,436,143,405,156,374,164"/>
+<area shape="rect" id="Node000008" href="$classFl__Widget.html#aeed320ce65d02a7f0fcab1363f0136b0" title=" " alt="" coords="523,108,625,133"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="372,157,509,130,510,136,373,162"/>
+<area shape="rect" id="Node000009" href="$classFl__Widget.html#a4665aaf0850ed0d334600e2cac58c360" title=" " alt="" coords="523,157,625,183"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="373,164,509,166,509,172,373,169"/>
+<area shape="rect" id="Node000011" href="$classFl__Group.html#a029653337efa0cb2ec52852519293ba8" title=" " alt="" coords="518,207,630,232"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="421,219,504,218,504,223,421,225"/>
+<area shape="rect" id="Node000013" href="$classFl__Terminal.html#a2e625730f6ada0046aa9cd7c703c55b2" title="Returns true if there&#39;s a mouse selection." alt="" coords="483,256,665,281"/>
+<area shape="poly" id="edge12_Node000010_Node000013" title=" " alt="" coords="422,236,495,251,494,256,421,242"/>
+<area shape="rect" id="Node000014" href="$classFl__Terminal.html#a9c95edbe5cd1b8d6536abf48338cb14d" title="Return the number of columns in the ring buffer." alt="" coords="493,305,655,331"/>
+<area shape="poly" id="edge13_Node000010_Node000014" title=" " alt="" coords="407,241,436,254,460,274,484,292,500,298,497,303,481,296,457,278,433,259,405,246"/>
+<area shape="rect" id="Node000012" href="$classFl__Widget.html#accde05cf78a23ba6a1e9547cc034f499" title=" " alt="" coords="713,207,851,232"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="630,217,700,217,700,222,630,222"/>
+<area shape="rect" id="Node000017" href="$classFl__Valuator.html#a28f300d9f6e355e75d86e32da23a5d21" title=" " alt="" coords="505,355,643,380"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="411,339,492,352,491,357,410,344"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="Fl_Choice::value" name="Fl_Choice::value">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,135,56"/>
+<area shape="rect" id="Node000002" href="$classFl__Widget.html#aa63ce68cbf4620cf8750b868368ea02b" title=" " alt="" coords="183,5,323,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,32,169,27,169,32,135,37"/>
+<area shape="rect" id="Node000004" href="$classFl__Menu__.html#a760812b12dc473781b132e6a0a7c33e3" title=" " alt="" coords="189,55,317,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="135,49,176,55,175,60,134,54"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget.html#ada8bb104e4501a2b123e813b32b6ed95" title=" " alt="" coords="371,5,519,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="323,15,357,15,357,21,323,21"/>
+<area shape="rect" id="Node000005" href="$classFl__Menu__.html#a8db18d83b2166eaba3b4b465ef0373a0" title=" " alt="" coords="380,55,509,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="317,65,366,65,366,70,317,70"/>
+<area shape="rect" id="Node000006" href="$classFl__Menu__.html#a2e1f09f0534831c647173d160e641e00" title=" " alt="" coords="385,104,504,129"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="303,77,382,98,380,103,302,83"/>
+<area shape="rect" id="Node000007" href="$structFl__Menu__Item.html#aa06209e2140c18cb3055bb169f076c13" title=" " alt="" coords="567,104,715,129"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="504,114,553,114,553,119,504,119"/>
+</map>

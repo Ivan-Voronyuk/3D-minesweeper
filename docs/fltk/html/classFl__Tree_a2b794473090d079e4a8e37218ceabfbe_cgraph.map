@@ -1,0 +1,35 @@
+<map id="Fl_Tree::open" name="Fl_Tree::open">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,228,113,253"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree.html#a077683a405b108a70fe2d09cfac6e1d0" title="Non&#45;const version of Fl_Tree::find_item(const char *path) const." alt="" coords="161,203,299,228"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,230,148,225,148,230,114,235"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree.html#a033f874426e5085291ec3b258ed9e151" title=" " alt="" coords="176,252,284,277"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="114,246,163,253,162,258,113,251"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="201,204,195,194,199,185,211,178,230,176,253,179,263,188,260,192,251,184,230,181,212,183,203,188,201,194,206,201"/>
+<area shape="rect" id="Node000004" href="$classFl__Tree.html#ab1aecaf4fc6238df746df25e38999422" title=" " alt="" coords="351,121,505,161"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="270,250,297,237,349,203,393,168,396,172,352,208,300,242,272,254"/>
+<area shape="rect" id="Node000009" href="$classFl__Tree__Item.html#acb4770a898d3bcd59e09de805993a36a" title="See if the item is &#39;open&#39;." alt="" coords="347,227,509,252"/>
+<area shape="poly" id="edge10_Node000003_Node000009" title=" " alt="" coords="284,255,333,249,334,254,285,260"/>
+<area shape="rect" id="Node000010" href="$classFl__Tree__Item.html#a560d5f506413ece45df791d474d3c520" title="Open this item and all its children." alt="" coords="355,276,501,301"/>
+<area shape="poly" id="edge11_Node000003_Node000010" title=" " alt="" coords="285,269,342,276,341,281,284,274"/>
+<area shape="rect" id="Node000015" href="$classFl__Widget.html#aa63ce68cbf4620cf8750b868368ea02b" title=" " alt="" coords="358,357,498,383"/>
+<area shape="poly" id="edge16_Node000003_Node000015" title=" " alt="" coords="256,275,392,348,390,353,254,280"/>
+<area shape="rect" id="Node000005" href="$classFl__Tree.html#ad576e00b3f3c5e2c6dae62fdf513ece2" title=" " alt="" coords="567,5,733,31"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="448,118,495,78,556,40,572,33,574,38,559,44,499,83,452,122"/>
+<area shape="rect" id="Node000006" href="$classFl__Tree.html#adec2707eb6ae68f87106835565aaae11" title=" " alt="" coords="559,55,741,80"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="477,118,556,89,582,81,584,86,558,94,478,123"/>
+<area shape="rect" id="Node000007" href="$classFl__Widget.html#afcfa06d94e7317130b826e7df0e90eb4" title=" " alt="" coords="564,128,736,153"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="505,138,550,138,550,143,505,143"/>
+<area shape="rect" id="Node000008" href="$classFl__Widget.html#a991b94150c2c3d7e62b47c38c171ce00" title=" " alt="" coords="571,177,729,203"/>
+<area shape="poly" id="edge9_Node000004_Node000008" title=" " alt="" coords="505,155,579,172,578,177,504,160"/>
+<area shape="poly" id="edge8_Node000007_Node000007" title=" " alt="" coords="615,130,608,120,611,110,626,104,650,101,680,105,691,114,688,118,678,110,650,107,627,109,615,114,613,119,619,126"/>
+<area shape="rect" id="Node000011" href="$classFl__Tree__Item.html#a7356c78b2793821b0c07e8bcafa9a149" title=" " alt="" coords="557,227,743,252"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="485,273,578,252,579,258,486,279"/>
+<area shape="rect" id="Node000013" href="$classFl__Tree__Item.html#acc14cd00b35da2f0cbaeedec9d1de58c" title="Set a flag to an on or off value. val is 0 or 1." alt="" coords="568,276,732,301"/>
+<area shape="poly" id="edge14_Node000010_Node000013" title=" " alt="" coords="501,286,554,286,554,291,501,291"/>
+<area shape="rect" id="Node000014" href="$classFl__Tree__Item__Array.html#a1b76ee8f1c8e3d07449bfc6c1a16e9c6" title="Return the total items in the array, or 0 if empty." alt="" coords="577,326,723,366"/>
+<area shape="poly" id="edge15_Node000010_Node000014" title=" " alt="" coords="479,299,564,321,563,326,477,304"/>
+<area shape="rect" id="Node000012" href="$classFl__Tree.html#a5e76e962b75387a88b913a7cb8483650" title=" " alt="" coords="791,227,939,252"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="743,237,777,237,777,242,743,242"/>
+<area shape="rect" id="Node000016" href="$classFl__Widget.html#ada8bb104e4501a2b123e813b32b6ed95" title=" " alt="" coords="576,391,724,416"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="499,378,563,388,562,393,498,383"/>
+</map>

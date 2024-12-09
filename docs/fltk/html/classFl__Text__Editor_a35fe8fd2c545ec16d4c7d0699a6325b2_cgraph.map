@@ -1,0 +1,43 @@
+<map id="Fl_Text_Editor::kf_enter" name="Fl_Text_Editor::kf_enter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,224,140,264"/>
+<area shape="rect" id="Node000002" href="$classFl__Widget.html#afcfa06d94e7317130b826e7df0e90eb4" title=" " alt="" coords="191,133,363,158"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,222,139,193,187,167,205,160,207,165,189,172,142,198,101,226"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Display.html#a9a813cdf8fd1f142882a4c8b6a9d2bbf" title="Inserts &quot;text&quot; at the current cursor location." alt="" coords="193,182,361,207"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="140,225,209,208,211,213,141,230"/>
+<area shape="rect" id="Node000014" href="$classFl__Widget.html#a825fd3487559e1c283550abdb92304ef" title=" " alt="" coords="188,231,365,257"/>
+<area shape="poly" id="edge17_Node000001_Node000014" title=" " alt="" coords="140,241,174,241,174,247,140,247"/>
+<area shape="rect" id="Node000015" href="$classFl__Text__Display.html#aadc28a301981f02edc3d57913f56b766" title="Scrolls the text buffer to show the current insert position." alt="" coords="194,281,359,321"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="141,260,193,275,191,280,140,265"/>
+<area shape="rect" id="Node000019" href="$classFl__Widget.html#ad4ef380ffb50f4d00fe93f7b6677e9e1" title=" " alt="" coords="211,346,342,371"/>
+<area shape="poly" id="edge22_Node000001_Node000019" title=" " alt="" coords="96,262,137,297,189,331,208,339,206,344,187,336,134,302,93,266"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="243,134,236,124,240,114,254,108,277,106,305,110,316,119,313,123,303,115,277,111,255,113,244,118,241,124,248,131"/>
+<area shape="rect" id="Node000004" href="$classFl__Text__Display.html#a41b157af52d071ae0df64a774ef4d853" title=" " alt="" coords="418,133,587,158"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="335,179,430,158,431,164,336,185"/>
+<area shape="rect" id="Node000005" href="$classFl__Text__Buffer.html#a2e1945c7f313b4cdc4d9ba33c95fb2c4" title=" " alt="" coords="423,182,582,207"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="361,192,410,192,410,197,361,197"/>
+<area shape="rect" id="Node000006" href="$classFl__Text__Buffer.html#a695bd49abdcda997913315736d63e090" title=" " alt="" coords="651,29,796,69"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="569,180,590,167,607,147,614,125,621,102,638,79,644,75,647,79,642,83,626,105,619,127,612,149,594,171,572,184"/>
+<area shape="rect" id="Node000007" href="$classFl__Text__Buffer.html#a643de0c99aef747d6c9a01ee0daa7679" title=" " alt="" coords="644,117,803,157"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="552,179,632,158,634,163,553,185"/>
+<area shape="rect" id="Node000008" href="$classFl__Text__Buffer.html#a807e385b0f12bbe860a4e364b5c7f2c1" title=" " alt="" coords="640,182,807,207"/>
+<area shape="poly" id="edge10_Node000005_Node000008" title=" " alt="" coords="582,192,626,192,626,197,582,197"/>
+<area shape="rect" id="Node000011" href="$classFl__Text__Buffer.html#a1076ff3d2f80cfe5efd36921090127be" title="Get a copy of the entire contents of the text buffer. Memory is allocated to contain the returned str..." alt="" coords="876,239,1024,265"/>
+<area shape="poly" id="edge16_Node000005_Node000011" title=" " alt="" coords="567,205,640,217,862,242,862,248,640,223,566,210"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="682,30,680,20,686,10,701,5,723,3,749,6,763,13,760,18,747,11,723,8,702,10,690,15,685,21,687,28"/>
+<area shape="poly" id="edge9_Node000007_Node000007" title=" " alt="" coords="682,118,680,108,686,98,701,93,723,91,749,94,763,101,760,106,747,99,723,96,702,98,690,103,685,109,687,116"/>
+<area shape="rect" id="Node000009" href="$classFl__Text__Buffer.html#a3b7ec7d6d20d6cbb8715f07213800409" title=" " alt="" coords="855,61,1045,86"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="782,180,805,167,820,150,828,133,836,114,853,97,865,89,868,94,856,101,841,117,833,135,825,153,808,171,785,184"/>
+<area shape="rect" id="Node000010" href="$classFl__Text__Buffer.html#aedbeefd749ec45fc335abd6f122d71a8" title=" " alt="" coords="857,111,1043,151"/>
+<area shape="poly" id="edge12_Node000008_Node000010" title=" " alt="" coords="769,179,864,152,866,157,770,184"/>
+<area shape="poly" id="edge13_Node000008_Node000011" title=" " alt="" coords="775,205,887,233,885,239,774,210"/>
+<area shape="rect" id="Node000012" href="$classFl__Text__Buffer.html#ae9000100ca83d297dd67541fd905c6d5" title=" " alt="" coords="867,175,1033,215"/>
+<area shape="poly" id="edge14_Node000008_Node000012" title=" " alt="" coords="807,192,853,192,853,197,807,197"/>
+<area shape="rect" id="Node000013" href="$classFl__Text__Selection.html#ad8fa85320dcc990fb1baa4adc6cf81d0" title="Updates a selection after text was modified." alt="" coords="1093,175,1236,215"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="1034,192,1079,192,1079,197,1034,197"/>
+<area shape="rect" id="Node000016" href="$classFl__Text__Display.html#ae866a3c3130570ef61c632b7a0e2c43a" title=" " alt="" coords="413,281,592,321"/>
+<area shape="poly" id="edge19_Node000015_Node000016" title=" " alt="" coords="360,299,399,299,399,304,360,304"/>
+<area shape="rect" id="Node000017" href="$classFl__Widget.html#aa63ce68cbf4620cf8750b868368ea02b" title=" " alt="" coords="653,289,793,314"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="592,299,640,299,640,304,592,304"/>
+<area shape="rect" id="Node000018" href="$classFl__Widget.html#ada8bb104e4501a2b123e813b32b6ed95" title=" " alt="" coords="876,289,1024,314"/>
+<area shape="poly" id="edge21_Node000017_Node000018" title=" " alt="" coords="794,299,862,299,862,304,794,304"/>
+</map>

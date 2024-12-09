@@ -1,0 +1,9 @@
+<map id="Fl_Light_Button::Fl_Light_Button" name="Fl_Light_Button::Fl_Light_Button">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,148,95"/>
+<area shape="rect" id="Node000002" href="$classFl__Widget.html#a6a3c44d082f89ba3aefd405c388187c5" title=" " alt="" coords="210,5,337,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,53,215,32,216,37,147,58"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget.html#aa19cad245b9a3ecdc3af8ebc4706196b" title=" " alt="" coords="196,55,351,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,73,182,73,182,78,148,78"/>
+<area shape="rect" id="Node000004" href="$classFl__Widget.html#adda2e8f162b3ea0332eb8d762350bbd5" title=" " alt="" coords="211,120,335,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="147,93,216,113,215,119,145,98"/>
+</map>

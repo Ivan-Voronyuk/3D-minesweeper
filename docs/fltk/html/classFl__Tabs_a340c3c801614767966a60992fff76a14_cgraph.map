@@ -1,0 +1,29 @@
+<map id="Fl_Tabs::client_area" name="Fl_Tabs::client_area">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,301,156,327"/>
+<area shape="rect" id="Node000002" href="$classFl__Group.html#a69b5389fc6de292d56fc8eb0caa52258" title=" " alt="" coords="221,5,340,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,300,92,252,113,182,129,144,149,106,173,71,202,40,208,35,211,40,206,44,177,74,154,109,134,146,118,184,97,253,87,302"/>
+<area shape="rect" id="Node000003" href="$classFl__Group.html#a85b8dc3c0dfbebdba8574eb933dff5bc" title=" " alt="" coords="211,55,351,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="83,300,96,260,119,203,154,142,177,114,202,89,209,84,212,89,206,93,181,118,159,145,124,205,101,262,88,302"/>
+<area shape="rect" id="Node000004" href="$group__fl__attributes.html#gac4acb828270adf35bf1d8fc06051f938" title=" " alt="" coords="241,104,320,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="85,300,101,267,126,224,160,178,202,138,227,126,229,130,206,143,164,182,131,227,106,270,90,302"/>
+<area shape="rect" id="Node000005" href="$classFl__Widget.html#a56c09392686ee558104fd7550496894f" title=" " alt="" coords="229,153,332,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="89,299,134,246,166,215,203,188,215,181,218,186,205,192,170,219,138,249,93,303"/>
+<area shape="rect" id="Node000006" href="$classFl__Widget.html#aeeabd61e2d10c76cd6600dbbfe951f71" title=" " alt="" coords="229,203,332,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="98,299,145,269,203,237,219,230,221,235,205,242,147,273,101,303"/>
+<area shape="rect" id="Node000007" href="$classFl__Widget.html#a0bd196066e9bf5ff226cfb7e7c7ba47a" title=" " alt="" coords="204,252,357,277"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="132,299,215,278,216,283,133,304"/>
+<area shape="rect" id="Node000008" href="$classFl__Widget.html#a9e35a6e45eb56c6dd9837ef183909200" title=" " alt="" coords="204,301,357,327"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="156,311,190,311,190,317,156,317"/>
+<area shape="rect" id="Node000009" href="$classFl__Widget.html#a9c582969d134d01916816daf73a35402" title=" " alt="" coords="227,351,334,376"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="133,324,216,345,215,350,132,329"/>
+<area shape="rect" id="Node000010" href="$classFl__Widget.html#ad59ece778aaf15acc4dd01a8bf5f8012" title=" " alt="" coords="227,400,334,425"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="102,325,148,354,205,385,224,393,222,398,203,390,145,359,99,329"/>
+<area shape="rect" id="Node000011" href="$classFl__Widget.html#aeed320ce65d02a7f0fcab1363f0136b0" title=" " alt="" coords="229,449,332,475"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="93,325,138,378,170,408,205,434,219,442,217,447,203,439,166,412,134,381,89,328"/>
+<area shape="rect" id="Node000012" href="$classFl__Widget.html#abea0b9ad493d58bf7fda8d3c81d477b7" title=" " alt="" coords="229,499,332,524"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="90,326,106,358,131,400,165,445,206,484,218,492,216,496,202,488,161,449,127,403,101,360,85,328"/>
+<area shape="rect" id="Node000013" href="$classFl__Widget.html#a4665aaf0850ed0d334600e2cac58c360" title=" " alt="" coords="229,548,332,573"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="88,326,101,366,125,422,159,482,181,509,206,533,218,542,215,546,202,537,177,513,155,485,120,425,96,368,83,328"/>
+<area shape="rect" id="Node000014" href="$classFl__Widget.html#aec1aded9efdf5f23dfac8cc725cefc4a" title=" " alt="" coords="229,597,332,623"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="87,326,97,374,119,443,134,481,154,518,178,552,206,583,219,592,216,596,202,587,173,556,149,520,130,483,114,445,92,376,81,327"/>
+</map>

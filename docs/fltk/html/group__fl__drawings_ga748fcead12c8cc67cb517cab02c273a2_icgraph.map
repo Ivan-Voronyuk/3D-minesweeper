@@ -1,0 +1,26 @@
+<map id="fl_set_spot" name="fl_set_spot">
+<area shape="rect" id="Node000001" title=" " alt="" coords="649,77,741,102"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Display.html#a5e5d522b89d167554ad059bc9a39b9b4" title="Draw a cursor with top center at X, Y." alt="" coords="439,5,601,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="645,74,575,48,576,43,647,69"/>
+<area shape="rect" id="Node000005" href="$classFl__Input__.html#a83a6e6741dbd77d360df00109f61d3a1" title=" " alt="" coords="447,77,593,102"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="635,92,593,92,593,87,635,87"/>
+<area shape="rect" id="Node000006" href="$classFl__Input__.html#af7b12905bf266db441e2fe376f2a7326" title=" " alt="" coords="441,141,599,166"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="648,109,557,143,555,138,646,104"/>
+<area shape="rect" id="Node000003" href="$classFl__Text__Display.html#a2db0c8c740c19c6903a860fa3ceb9a4f" title="Draw the widget." alt="" coords="228,11,391,37"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="425,27,391,27,391,22,425,22"/>
+<area shape="rect" id="Node000004" href="$classTextViewer.html#a22b249735474c3350976630198d9ed24" title=" " alt="" coords="25,9,160,34"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="214,25,160,25,160,19,214,20"/>
+<area shape="rect" id="Node000007" href="$classFl__Input.html#a7665f47490629fd979b64fd0cece3260" title=" " alt="" coords="246,169,373,194"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="428,168,373,176,373,170,427,163"/>
+<area shape="poly" id="edge9_Node000007_Node000007" title=" " alt="" coords="347,159,337,151,309,147,287,149,275,154,273,160,279,167,275,170,267,160,271,150,286,144,309,142,339,146,350,155"/>
+<area shape="rect" id="Node000008" href="$classFl__File__Input.html#a5ccd2c9fb10888e5a9840222eb9529d9" title=" " alt="" coords="15,58,171,83"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="280,162,234,130,179,98,145,86,147,81,181,94,237,125,283,158"/>
+<area shape="rect" id="Node000009" href="$classFl__Spinner_1_1Fl__Spinner__Input.html#aaeef0b701ade03018643b158c254833d" title=" " alt="" coords="9,108,176,148"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="243,168,174,151,175,145,244,163"/>
+<area shape="rect" id="Node000010" href="$classFl__Secret__Input.html#aee9973fa1ce6b09e4dda3ecd32012480" title=" " alt="" coords="5,173,180,198"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="232,185,180,186,180,181,232,180"/>
+<area shape="rect" id="Node000011" href="$classFl__Value__Input.html#a8673cac06a32720da3676de35f248957" title=" " alt="" coords="8,222,177,247"/>
+<area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="244,200,145,225,144,219,243,195"/>
+<area shape="rect" id="Node000012" href="$classFluid__Coord__Input.html#ab3099e1225588dc1d2cb2e0d9b7de317" title=" " alt="" coords="19,272,166,312"/>
+<area shape="poly" id="edge12_Node000007_Node000012" title=" " alt="" coords="280,204,234,233,181,262,154,274,151,270,179,258,232,229,277,199"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="Fl_Widget::damage_resize" name="Fl_Widget::damage_resize">
+<area shape="rect" id="Node000001" title=" " alt="" coords="648,80,843,105"/>
+<area shape="rect" id="Node000002" href="$classFl__Tile.html#a5d14aa7839c8bd9967bd4de20a4c773b" title=" " alt="" coords="413,29,600,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="670,80,567,57,568,52,672,74"/>
+<area shape="rect" id="Node000004" href="$classFl__Tile.html#a9e371f7507f342da5824720d67a7e77e" title=" " alt="" coords="171,55,365,80"/>
+<area shape="poly" id="edge8_Node000001_Node000004" title=" " alt="" coords="634,89,366,75,366,70,634,84"/>
+<area shape="rect" id="Node000006" href="$classFl__Browser__.html#a16559daf1c4519bb18d9360a1e9f4158" title=" " alt="" coords="436,131,577,156"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="672,111,568,133,567,128,670,106"/>
+<area shape="rect" id="Node000003" href="$classFl__Tile.html#ab51e2d4a0b9a1c1f57b13650ca3aef47" title=" " alt="" coords="5,5,123,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="399,39,123,24,123,18,400,34"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="443,59,366,69,365,63,443,54"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="331,50,413,40,413,46,332,55"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="201,54,117,33,118,28,202,49"/>
+<area shape="rect" id="Node000005" href="$classFl__Tile.html#afea08b981848e2c3aa3d4d5d29261ad4" title=" " alt="" coords="8,55,120,80"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="156,70,120,70,120,65,156,65"/>
+</map>

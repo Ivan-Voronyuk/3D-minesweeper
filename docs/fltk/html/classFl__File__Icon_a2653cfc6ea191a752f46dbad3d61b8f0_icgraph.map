@@ -1,0 +1,15 @@
+<map id="Fl_File_Icon::add_vertex" name="Fl_File_Icon::add_vertex">
+<area shape="rect" id="Node000001" title=" " alt="" coords="493,35,672,60"/>
+<area shape="rect" id="Node000002" href="$classFl__File__Icon.html#ad54e946128855e180c6f7d24fc26dae3" title=" " alt="" coords="291,5,445,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="479,36,445,31,446,26,480,31"/>
+<area shape="rect" id="Node000006" href="$classFl__File__Icon.html#a3a98b0562cb42f8f954db27c580fdbc6" title=" " alt="" coords="301,55,435,95"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="480,63,436,69,435,64,480,58"/>
+<area shape="rect" id="Node000003" href="$classFl__File__Icon.html#a4e184ddcffb58c6e23deac3981aede5f" title=" " alt="" coords="108,5,243,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="277,21,243,21,243,15,277,15"/>
+<area shape="rect" id="Node000004" href="$classFl__File__Icon.html#a8295738f311fee8611990192d5c8ae15" title=" " alt="" coords="108,55,243,95"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="312,37,244,58,242,53,311,32"/>
+<area shape="rect" id="Node000005" href="$group__globals.html#ga3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,63,60,88"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,78,60,78,60,73,94,73"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="287,54,218,33,220,28,288,49"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="286,78,243,78,243,73,286,73"/>
+</map>

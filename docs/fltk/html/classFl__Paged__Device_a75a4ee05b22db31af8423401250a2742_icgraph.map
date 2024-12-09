@@ -1,0 +1,9 @@
+<map id="Fl_Paged_Device::end_page" name="Fl_Paged_Device::end_page">
+<area shape="rect" id="Node000001" title="To be called at the end of each page. This function also stops this surface from being the current dr..." alt="" coords="375,42,577,67"/>
+<area shape="rect" id="Node000002" href="$classFl__PDF__File__Surface.html#aa194f018340df05168ade8292787fb0e" title="To be called at the end of each page. This function also stops this surface from being the current dr..." alt="" coords="173,5,326,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="364,43,326,38,327,33,365,38"/>
+<area shape="rect" id="Node000003" href="$classFl__Printer.html#adfeb49e6bee03da784a6e4687bd6911b" title="To be called at the end of each page. This function also stops this surface from being the current dr..." alt="" coords="172,70,327,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="361,72,327,76,327,70,361,66"/>
+<area shape="rect" id="Node000004" href="$group__globals.html#gaf5dcf594e577c0e9254b411908a9aa98" title=" " alt="" coords="5,70,124,95"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="158,85,124,85,124,80,158,80"/>
+</map>

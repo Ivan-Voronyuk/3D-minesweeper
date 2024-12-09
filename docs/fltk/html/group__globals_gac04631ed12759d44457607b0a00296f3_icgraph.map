@@ -1,0 +1,11 @@
+<map id="position_window" name="position_window">
+<area shape="rect" id="Node000001" title=" " alt="" coords="515,5,645,31"/>
+<area shape="rect" id="Node000002" href="$group__globals.html#ga3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="500,16,320,13,214,17,108,27,61,38,60,33,108,22,214,11,320,7,500,10"/>
+<area shape="rect" id="Node000003" href="$group__globals.html#gaa3f0f184cbc92d787193312456a7860e" title=" " alt="" coords="311,31,467,56"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="501,31,467,36,467,30,501,26"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="297,46,60,46,60,41,297,41"/>
+<area shape="rect" id="Node000004" href="$group__globals.html#ga57b111f2496f2afa6688ce0cab773634" title=" " alt="" coords="108,81,263,107"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="324,62,238,84,236,79,323,57"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="132,79,59,55,61,50,134,74"/>
+</map>

@@ -1,7 +1,13 @@
 <map id="Fl_PDF_GDI_File_Surface" name="Fl_PDF_GDI_File_Surface">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,152,189,177"/>
-<area shape="rect" id="Node000002" href="$classFl__WinAPI__Printer__Driver.html" title=" " alt="" coords="5,79,189,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,118,100,152,95,152,95,118"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="31,5,163,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,44,100,79,95,79,95,44"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="121,332,305,357"/>
+<area shape="rect" id="Node000002" href="$classFl__WinAPI__Printer__Driver.html" title=" " alt="" coords="121,257,305,283"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,297,215,332,210,332,210,297"/>
+<area shape="rect" id="Node000003" href="$classFl__Paged__Device.html" title="Represents page&#45;structured drawing surfaces." alt="" coords="147,183,279,208"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="215,222,215,257,210,257,210,222"/>
+<area shape="rect" id="Node000004" href="$classFl__Widget__Surface.html" title=" " alt="" coords="5,87,148,113"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="106,118,197,180,194,185,103,123"/>
+<area shape="rect" id="Node000005" href="$classFl__Surface__Device.html" title=" " alt="" coords="5,5,148,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="79,44,79,87,74,87,74,44"/>
+<area shape="rect" id="Node000006" href="$structFl__Paged__Device_1_1page__format.html" title="width, height and name of a page format" alt="" coords="172,80,344,120"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="245,134,221,183,216,181,240,131"/>
 </map>

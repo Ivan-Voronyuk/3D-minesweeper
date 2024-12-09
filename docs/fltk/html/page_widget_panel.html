@@ -73,7 +73,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md25">The Widget Properties Panel</a></li>
+<ul><li class="level1"><a href="#autotoc_md26">The Widget Properties Panel</a></li>
 <li class="level1"><a href="#widget_panel_gui">The GUI Tab</a></li>
 <li class="level1"><a href="#widget_panel_style">The Style Tab</a></li>
 <li class="level1"><a href="#widget_panel_cpp">The C++ Tab</a></li>
@@ -81,7 +81,7 @@ $(function() {
 <li class="level1"><a href="#widget_panel_gridc">The Grid Child Tab</a></li>
 </ul>
 </div>
-<div class="textblock"><h1><a class="anchor" id="autotoc_md25"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md26"></a>
 The Widget Properties Panel</h1>
 <div class="image">
 <img src="widget_panel.png" alt=""/>
@@ -102,7 +102,7 @@ The GUI Tab</h1>
 <div class="image">
 <img src="wp_gui_tab.png" alt=""/>
 </div>
- <p>The widget panel has three standard tabs that apply to all widgets. Some widget types, <code>Fl_Grid</code> and children of <code>Fl_Grid</code>, will create additional tabs with more options.</p>
+ <p>The widget panel has three standard tabs that apply to all widgets. Some widget types, <code><a class="el" href="classFl__Grid.html">Fl_Grid</a></code> and children of <code><a class="el" href="classFl__Grid.html">Fl_Grid</a></code>, will create additional tabs with more options.</p>
 <p>The GUI tab controls basic GUI settings, including label text and widget size.</p>
 <div class="image">
 <img src="wp_gui_label.png" alt=""/>
@@ -150,11 +150,11 @@ The GUI Tab</h1>
 <div class="image">
 <img src="wp_gui_flexp.png" alt=""/>
 </div>
- <p>This row is only visible for children of <code>Fl_Flex</code> widgets. It sets the width or height of a widget in a horizontal or vertical Flex widget. If <em>fixed</em> is unchecked, this value is instead calculated by the Flex.</p>
+ <p>This row is only visible for children of <code><a class="el" href="classFl__Flex.html">Fl_Flex</a></code> widgets. It sets the width or height of a widget in a horizontal or vertical Flex widget. If <em>fixed</em> is unchecked, this value is instead calculated by the Flex.</p>
 <div class="image">
 <img src="wp_gui_margins.png" alt=""/>
 </div>
- <p>This row is only visible for <code>Fl_Flex</code> widgets. It sets the various margins and the gap value for this widget.</p>
+ <p>This row is only visible for <code><a class="el" href="classFl__Flex.html">Fl_Flex</a></code> widgets. It sets the various margins and the gap value for this widget.</p>
 <div class="image">
 <img src="wp_gui_sizerange.png" alt=""/>
 </div>
@@ -202,7 +202,7 @@ The Style Tab</h1>
  <p>Select the up and down box for the given widget. The first six entries in the box and frame style list are influenced by the FLTK Scheme setting. Other box styles will always look the same, independently of the selected scheme.</p>
 <p>Many widgets will work, and draw faster, with a "frame" instead of a "box". A frame does not draw the colored interior, leaving whatever was already there visible. Be careful, as FLUID may draw this ok but the real program may leave unwanted stuff inside the widget.</p>
 <p>If a window is filled with child widgets, you can speed up redrawing by changing the window's box type to "NO_BOX". FLUID will display a checkerboard for any areas that are not colored in by boxes. Note that this checkerboard is not drawn by the resulting program. Instead random garbage will be displayed.</p>
-<p>The <em>Down <a class="el" href="classBox.html">Box</a></em> row is only available for widgets that can be pressed down by the user.</p>
+<p>The <em>Down Box</em> row is only available for widgets that can be pressed down by the user.</p>
 <p>Some widgets will use the <em>Select Color</em> for certain parts. FLUID does not always show the result of this: this is the color buttons draw in when pushed down, and the color of input fields when they have the focus.</p>
 <h1><a class="anchor" id="widget_panel_cpp"></a>
 The C++ Tab</h1>
@@ -216,7 +216,7 @@ The C++ Tab</h1>
  <p>If the class property is set, FLUID assumes that the user wants to instantiate a widget that is derived from the selected widget. For a derived widget, the default values of attribute can not be known. FLUID will generate code to explicitly set every known attribute of the super class.</p>
 <p>FLUID generates "include" statements for known classes. Custom classes should provide a <code>#include</code> line as one of the "Extra Code" lines of the widget.</p>
 <p>If the selected widget is a Widget Class node, the Class property will instead set the super class of the widget.</p>
-<p>The pulldown menu on the right side contains additional subtypes for some widget types. <code>Fl_Button</code> widgets, for instance, can be further refined to be an <code>Fl_Toggle_Button</code> or an <code>Fl_Radio_Button</code>.</p>
+<p>The pulldown menu on the right side contains additional subtypes for some widget types. <code><a class="el" href="classFl__Button.html" title="Buttons generate callbacks when they are clicked by the user.">Fl_Button</a></code> widgets, for instance, can be further refined to be an <code><a class="el" href="classFl__Toggle__Button.html">Fl_Toggle_Button</a></code> or an <code><a class="el" href="classFl__Radio__Button.html">Fl_Radio_Button</a></code>.</p>
 <div class="image">
 <img src="wp_cpp_name.png" alt=""/>
 </div>
@@ -228,7 +228,7 @@ The C++ Tab</h1>
 </div>
  <p>These four input fields can be used to add arbitrary code to different parts of the header and source file. A line can be divided into multiple lines of code by inserting a <code>Ctrl-J</code>.</p>
 <p>All Extra Code fields are interpreted individually. If a field contains a <code>#</code> character, or the words <code>extern</code>, <code>typedef</code>, or <code>using</code>, FLUID assumes that the code is a declaration and writes it to the header file, and only if it does not duplicate previously written code. This is great for creating a <code>#include "MyWidgetType.H"</code> include statement in the header.</p>
-<p>If the code is not recognized as a declaration, it will instead be put after the code that instantiates the widget and all its children. For menu items, the code is added after the container <code>Fl_Menu_</code> is created, but before the menu array is added to the container.</p>
+<p>If the code is not recognized as a declaration, it will instead be put after the code that instantiates the widget and all its children. For menu items, the code is added after the container <code><a class="el" href="classFl__Menu__.html">Fl_Menu_</a></code> is created, but before the menu array is added to the container.</p>
 <p>FLUID will check for matching parentheses, braces, and quotes, but does not do much other error checking. Be careful here, as it may be hard to figure out what widget is producing an error in the compiler. If you need more than four lines you probably should call a function in your own <code>.cxx</code> code.</p>
 <div class="image">
 <img src="wComment.png" alt=""/>
@@ -238,9 +238,10 @@ The C++ Tab</h1>
 <img src="wp_cpp_callback.png" alt=""/>
 </div>
  <p>The callback field can be interpreted in two ways. If the callback text is only a single word, FLUID assumes that this is the name of an external callback function and declares it in the header as <code>extern void my_button_action(Fl_Button*, void*);</code>.</p>
-<p>Otherwise, FLUID assumes that the text is the body of a C++ callback function and instead creates a local static callback function. The name of the callback function is generated by FLUID and guaranteed to be unique within the file. </p><div class="fragment"><div class="line"><span class="keyword">static</span> <span class="keywordtype">void</span> cb_input(Fl_Input *o, <span class="keywordtype">void</span> *v) {</div>
+<p>Otherwise, FLUID assumes that the text is the body of a C++ callback function and instead creates a local static callback function. The name of the callback function is generated by FLUID and guaranteed to be unique within the file. </p><div class="fragment"><div class="line"><span class="keyword">static</span> <span class="keywordtype">void</span> cb_input(<a class="code hl_class" href="classFl__Input.html">Fl_Input</a> *o, <span class="keywordtype">void</span> *v) {</div>
 <div class="line">  ... <span class="comment">// my text from the Callback field here</span></div>
 <div class="line">}</div>
+<div class="ttc" id="aclassFl__Input_html"><div class="ttname"><a href="classFl__Input.html">Fl_Input</a></div><div class="ttdef"><b>Definition</b> Fl_Input.H:220</div></div>
 </div><!-- fragment --><p> You can refer to the widget as <code>o</code> and the <code>user_data()</code> as <code>v</code>. FLUID will check for matching parentheses, braces, and quotes, but does not do much other error checking.</p>
 <p>If the callback is blank then no callback is set.</p>
 <p>The <em>User Data</em> field can contain any valid C++ code and is copied as the callback argument. If blank the default value of zero is used. Type* is currently limited to a pointer (a type name ending in <code>*</code>) or <code>long</code>.</p>
@@ -250,17 +251,17 @@ The Grid Tab</h1>
 <div class="image">
 <img src="wp_grid_tab.png" alt=""/>
 </div>
- <p>This tab is only available if the selected widget is an <code>Fl_Grid</code>. When editing a Grid widget, no other widgets should be selected.</p>
+ <p>This tab is only available if the selected widget is an <code><a class="el" href="classFl__Grid.html">Fl_Grid</a></code>. When editing a Grid widget, no other widgets should be selected.</p>
 <p>The <em>Grid Layout</em> fields adjust the number of rows and columns in the grid.</p>
 <p>The <em>Margins</em> fields describe the size of the margins around all children of the grid.</p>
 <p>The <em>Gaps</em> fields set the gaps between individual children in the grid.</p>
-<p>The <em><a class="el" href="classRow.html">Row</a></em> and <em>Column</em> groups can be used to set the size of individual rows and columns within the grid.</p>
+<p>The <em>Row</em> and <em>Column</em> groups can be used to set the size of individual rows and columns within the grid.</p>
 <h1><a class="anchor" id="widget_panel_gridc"></a>
 The Grid Child Tab</h1>
 <div class="image">
 <img src="wp_gridc_tab.png" alt=""/>
 </div>
- <p>This tab is only available if the selected widget is a child of an <code>Fl_Grid</code>. When editing a child of a Grid widget, no other widgets should be selected.</p>
+ <p>This tab is only available if the selected widget is a child of an <code><a class="el" href="classFl__Grid.html">Fl_Grid</a></code>. When editing a child of a Grid widget, no other widgets should be selected.</p>
 <p>Use the <em>Location</em> group to move a child around within the grid. Note that every cell in a grid can only manage one single widget. When moving widgets over occupied cells, they become "transient". Just continue and move them into an available cell. If a layout is saved with a transient widget, all grid attributes for that widget are lost, and it will remain unassigned in the project file and in the source code.</p>
 <p>The <em>Align</em> fields provide a way to align a widget within its cell.</p>
 <p>The <em>Min. Size</em> fields define a minimum width and height for the widget in the cell.</p>

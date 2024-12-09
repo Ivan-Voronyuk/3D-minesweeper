@@ -1,0 +1,11 @@
+<map id="Fl_Tree::openicon" name="Fl_Tree::openicon">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,140,80"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree__Prefs.html#a5db97bd799cf292ac5b92ff5f7123178" title=" " alt="" coords="188,5,363,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,52,209,31,210,37,126,57"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree.html#a5e76e962b75387a88b913a7cb8483650" title=" " alt="" coords="201,55,349,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="140,65,187,65,187,70,140,70"/>
+<area shape="rect" id="Node000004" href="$classFl__Widget.html#aa63ce68cbf4620cf8750b868368ea02b" title=" " alt="" coords="205,104,345,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="126,77,210,98,209,103,125,83"/>
+<area shape="rect" id="Node000005" href="$classFl__Widget.html#ada8bb104e4501a2b123e813b32b6ed95" title=" " alt="" coords="411,104,559,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="345,114,397,114,397,119,345,119"/>
+</map>

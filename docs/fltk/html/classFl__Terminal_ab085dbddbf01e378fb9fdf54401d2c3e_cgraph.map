@@ -1,0 +1,9 @@
+<map id="Fl_Terminal::display_rows" name="Fl_Terminal::display_rows">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,196,80"/>
+<area shape="rect" id="Node000002" href="$classFl__Terminal.html#abb995a2ff6716431f916920286772d3a" title="Return the number of columns in the display area." alt="" coords="247,5,412,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,52,256,31,257,36,161,57"/>
+<area shape="rect" id="Node000003" href="$classFl__Terminal.html#ab992c9cb8ec52d6848bfdadfcc56e7e9" title="Return the number of rows in the display area." alt="" coords="244,55,415,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,65,230,65,230,70,197,70"/>
+<area shape="rect" id="Node000004" href="$classFl__Terminal.html#a2ca8aa7df4c3027c78761bacf44a0b20" title="Return the number of rows in the scrollback history." alt="" coords="246,104,413,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="161,77,257,98,256,104,160,83"/>
+</map>

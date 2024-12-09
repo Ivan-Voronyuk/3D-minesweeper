@@ -77,25 +77,28 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>This chapter describes the basic mechanism behind the creation of resizable user interface elements in FLTK.</p>
-<p>FLTK uses a simple, but very versatile system to resize even the most complex dialogs and interfaces. The resizing is implemented within the Fl_Group widget, and the exact resizing behavior of that group is determined by its <a class="el" href="">resizable() </a> attribute.</p>
+<p>FLTK uses a simple, but very versatile system to resize even the most complex dialogs and interfaces. The resizing is implemented within the <a class="el" href="classFl__Group.html">Fl_Group</a> widget, and the exact resizing behavior of that group is determined by its <a class="el" href="classFl__Group.html#ab0ed0d1974d7185594687849f386c5f3">resizable() </a> attribute.</p>
 <h1><a class="anchor" id="resize_disabled"></a>
 Resizing can be disabled</h1>
 <div class="fragment"><div class="line">Summary:</div>
-<div class="line">  group = <span class="keyword">new</span> Fl_Group(xg, yg, wg, hg, <span class="stringliteral">&quot;No Resizing&quot;</span>);</div>
-<div class="line">  child1 = <span class="keyword">new</span> Fl_Box(xb, yb, wb, hb, <span class="stringliteral">&quot;B&quot;</span>); <span class="comment">// or other widget type</span></div>
+<div class="line">  group = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Group.html">Fl_Group</a>(xg, yg, wg, hg, <span class="stringliteral">&quot;No Resizing&quot;</span>);</div>
+<div class="line">  child1 = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Box.html">Fl_Box</a>(xb, yb, wb, hb, <span class="stringliteral">&quot;B&quot;</span>); <span class="comment">// or other widget type</span></div>
 <div class="line">  . . .</div>
-<div class="line">  group-&gt;resizable((Fl_Widget*)0); <span class="comment">// no resizing</span></div>
+<div class="line">  group-&gt;resizable((<a class="code hl_class" href="classFl__Widget.html">Fl_Widget</a>*)0); <span class="comment">// no resizing</span></div>
 <div class="line">  group-&gt;end()</div>
-</div><!-- fragment --><p>The <code>resizable</code> may be set to the NULL pointer, which means that the group will not resize. Note that this is the default behavior for Fl_Window and Fl_Pack derived widgets, and therefore the programmer must explicitly set the window's <code>resizable</code> attribute if they want to allow the window to be resized.</p>
+<div class="ttc" id="aclassFl__Box_html"><div class="ttname"><a href="classFl__Box.html">Fl_Box</a></div><div class="ttdef"><b>Definition</b> Fl_Box.H:33</div></div>
+<div class="ttc" id="aclassFl__Group_html"><div class="ttname"><a href="classFl__Group.html">Fl_Group</a></div><div class="ttdef"><b>Definition</b> Fl_Group.H:56</div></div>
+<div class="ttc" id="aclassFl__Widget_html"><div class="ttname"><a href="classFl__Widget.html">Fl_Widget</a></div><div class="ttdef"><b>Definition</b> Fl_Widget.H:112</div></div>
+</div><!-- fragment --><p>The <code>resizable</code> may be set to the NULL pointer, which means that the group will not resize. Note that this is the default behavior for <a class="el" href="classFl__Window.html">Fl_Window</a> and <a class="el" href="classFl__Pack.html">Fl_Pack</a> derived widgets, and therefore the programmer must explicitly set the window's <code>resizable</code> attribute if they want to allow the window to be resized.</p>
 <h1><a class="anchor" id="resize_simple"></a>
 Resizing can be simple</h1>
 <div class="fragment"><div class="line">Summary:</div>
-<div class="line">  group = <span class="keyword">new</span> Fl_Group(xg, yg, wg, hg, <span class="stringliteral">&quot;Simple Resizing&quot;</span>);</div>
-<div class="line">  child1 = <span class="keyword">new</span> Fl_Box(xb, yb, wb, hb, <span class="stringliteral">&quot;B&quot;</span>); <span class="comment">// or other widget type</span></div>
+<div class="line">  group = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Group.html">Fl_Group</a>(xg, yg, wg, hg, <span class="stringliteral">&quot;Simple Resizing&quot;</span>);</div>
+<div class="line">  child1 = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Box.html">Fl_Box</a>(xb, yb, wb, hb, <span class="stringliteral">&quot;B&quot;</span>); <span class="comment">// or other widget type</span></div>
 <div class="line">  . . .</div>
 <div class="line">  group-&gt;resizable(group); <span class="comment">// simple proportional resizing</span></div>
 <div class="line">  group-&gt;end()</div>
-</div><!-- fragment --><p>The <code>resizable</code> may be set to the group itself, which means that all widgets within the group will resize as the group itself is resized. This is the default behavior for Fl_Group widgets, and is shown in the diagram below.</p>
+</div><!-- fragment --><p>The <code>resizable</code> may be set to the group itself, which means that all widgets within the group will resize as the group itself is resized. This is the default behavior for <a class="el" href="classFl__Group.html">Fl_Group</a> widgets, and is shown in the diagram below.</p>
 <p>If the group is stretched horizontally, the widths of the widgets within the group are adjusted proportionally. The same is true for vertical resizing.</p>
 <div class="image">
 <img src="resize-example1.png" alt=""/>
@@ -104,8 +107,8 @@ Proportional resizing example</div></div>
  <h1><a class="anchor" id="resize_complex"></a>
 Resizing can be complex</h1>
 <div class="fragment"><div class="line">Summary:</div>
-<div class="line">  group = <span class="keyword">new</span> Fl_Group(xg, yg, wg, hg, <span class="stringliteral">&quot;Complex Resizing&quot;</span>);</div>
-<div class="line">  child1 = <span class="keyword">new</span> Fl_Box(xb, yb, wb, hb, <span class="stringliteral">&quot;B&quot;</span>); <span class="comment">// or other widget type</span></div>
+<div class="line">  group = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Group.html">Fl_Group</a>(xg, yg, wg, hg, <span class="stringliteral">&quot;Complex Resizing&quot;</span>);</div>
+<div class="line">  child1 = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Box.html">Fl_Box</a>(xb, yb, wb, hb, <span class="stringliteral">&quot;B&quot;</span>); <span class="comment">// or other widget type</span></div>
 <div class="line">  . . .</div>
 <div class="line">  group-&gt;resizable(child1); <span class="comment">// complex resizing</span></div>
 <div class="line">  group-&gt;end()</div>
@@ -149,17 +152,19 @@ Resizing dialog example (b)</div></div>
 <div class="caption">
 Resizing dialog example (c)</div></div>
  <p>Now the invisible box, shown as "R", takes all of the horizontal resizing and the "Darn!" box will stay as it is. Here's the skeleton code:</p>
-<div class="fragment"><div class="line">dialog = <span class="keyword">new</span> Fl_Window(300, 100);</div>
-<div class="line">  icon = <span class="keyword">new</span> Fl_Box(0, 0, 50, 50, <span class="stringliteral">&quot;!&quot;</span>);</div>
-<div class="line">  text = <span class="keyword">new</span> Fl_Box(50, 0, 250, 40, <span class="stringliteral">&quot;Out of Memory Error&quot;</span>);</div>
-<div class="line">  btns = <span class="keyword">new</span> Fl_Group(50, 50, 250, 50); <span class="comment">// parent group</span></div>
-<div class="line">  darn = <span class="keyword">new</span> Fl_Button(200, 50, 100, 50, <span class="stringliteral">&quot;Darn!&quot;</span>);</div>
-<div class="line">     R = <span class="keyword">new</span> Fl_Box(50, 50, 150, 50);   <span class="comment">// &quot;invisible&quot; box &quot;R&quot;</span></div>
+<div class="fragment"><div class="line">dialog = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Window.html">Fl_Window</a>(300, 100);</div>
+<div class="line">  icon = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Box.html">Fl_Box</a>(0, 0, 50, 50, <span class="stringliteral">&quot;!&quot;</span>);</div>
+<div class="line">  text = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Box.html">Fl_Box</a>(50, 0, 250, 40, <span class="stringliteral">&quot;Out of Memory Error&quot;</span>);</div>
+<div class="line">  btns = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Group.html">Fl_Group</a>(50, 50, 250, 50); <span class="comment">// parent group</span></div>
+<div class="line">  darn = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Button.html">Fl_Button</a>(200, 50, 100, 50, <span class="stringliteral">&quot;Darn!&quot;</span>);</div>
+<div class="line">     R = <span class="keyword">new</span> <a class="code hl_class" href="classFl__Box.html">Fl_Box</a>(50, 50, 150, 50);   <span class="comment">// &quot;invisible&quot; box &quot;R&quot;</span></div>
 <div class="line">     R-&gt;hide();                         <span class="comment">// make sure it&#39;s invisible</span></div>
 <div class="line">  btns-&gt;resizable(R);                   <span class="comment">// make &quot;R&quot; parent group resizable</span></div>
 <div class="line">  btns-&gt;end();</div>
 <div class="line">dialog-&gt;resizable(text);</div>
 <div class="line">dialog-&gt;end();</div>
+<div class="ttc" id="aclassFl__Button_html"><div class="ttname"><a href="classFl__Button.html">Fl_Button</a></div><div class="ttdoc">Buttons generate callbacks when they are clicked by the user.</div><div class="ttdef"><b>Definition</b> Fl_Button.H:76</div></div>
+<div class="ttc" id="aclassFl__Window_html"><div class="ttname"><a href="classFl__Window.html">Fl_Window</a></div><div class="ttdef"><b>Definition</b> Fl_Window.H:55</div></div>
 </div><!-- fragment --><p>Imagine instead that you have a group that has a button, an input field, another button and a second input field, all next to each other, and you want the input fields to resize equally, but not the buttons. How could you achieve this?</p>
 <p>Setting either of the input fields to be the <code>resizable</code> leaves the other one fixed, as shown below:</p>
 <div class="image">

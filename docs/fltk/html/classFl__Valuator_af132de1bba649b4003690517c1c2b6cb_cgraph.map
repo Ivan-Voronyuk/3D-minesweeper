@@ -1,0 +1,9 @@
+<map id="Fl_Valuator::value" name="Fl_Valuator::value">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,144,60"/>
+<area shape="rect" id="Node000002" href="$classFl__Widget.html#abd83334100f22d5880cf34a233a35831" title=" " alt="" coords="192,5,381,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,35,181,30,182,35,145,40"/>
+<area shape="rect" id="Node000003" href="$classFl__Valuator.html#a36760ee8a9f8b23b07a4df6558b538af" title=" " alt="" coords="217,55,356,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,54,204,62,203,67,144,59"/>
+<area shape="rect" id="Node000004" href="$classFl__Widget.html#ada8bb104e4501a2b123e813b32b6ed95" title=" " alt="" coords="429,63,577,88"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="356,73,416,73,416,78,356,78"/>
+</map>

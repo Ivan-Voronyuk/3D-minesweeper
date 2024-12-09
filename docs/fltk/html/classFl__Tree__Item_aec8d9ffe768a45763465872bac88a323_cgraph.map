@@ -1,0 +1,7 @@
+<map id="Fl_Tree_Item::is_visible_r" name="Fl_Tree_Item::is_visible_r">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,192,56"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree__Item.html#a5371023b11fd4b32a93f9cd7936fc5fb" title="Return the parent for this item. Returns NULL if we are the root." alt="" coords="241,5,395,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,30,227,26,227,31,193,35"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree__Item.html#a27dad15e3b88f86e7385a8fed1fd7e57" title="See if the item is visible. Alias for is_visible()." alt="" coords="240,55,396,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,51,227,55,226,60,192,56"/>
+</map>

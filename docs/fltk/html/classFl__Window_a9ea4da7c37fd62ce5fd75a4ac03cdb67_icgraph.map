@@ -1,0 +1,23 @@
+<map id="Fl_Window::border" name="Fl_Window::border">
+<area shape="rect" id="Node000001" title=" " alt="" coords="841,141,984,166"/>
+<area shape="rect" id="Node000002" href="$classFl__Window.html#a72f5733f13cb6d8b646f1e7ffcd92333" title=" " alt="" coords="647,77,790,102"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="860,139,757,105,759,100,861,134"/>
+<area shape="rect" id="Node000007" href="$classFl__Window.html#adbe55edbed0b87026b12a8b78a27f083" title=" " alt="" coords="644,205,793,230"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="861,173,759,207,757,202,860,168"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget__Surface.html#aa9d386d61cb3d9baf8ec6ba0644f3844" title=" " alt="" coords="402,5,585,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="659,75,564,48,565,43,661,70"/>
+<area shape="rect" id="Node000006" href="$classWidget__Bin__Window__Button.html#a260728ab4d6f301c015425613fd692c8" title=" " alt="" coords="391,69,596,109"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="633,92,596,92,596,87,633,87"/>
+<area shape="rect" id="Node000004" href="$classFl__Paged__Device.html#a6a0c5ec16651baa95e34ade76117d166" title=" " alt="" coords="172,5,343,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="388,28,343,28,343,23,388,23"/>
+<area shape="rect" id="Node000005" href="$group__globals.html#gaf5dcf594e577c0e9254b411908a9aa98" title=" " alt="" coords="5,13,124,38"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="158,28,124,28,124,23,158,23"/>
+<area shape="rect" id="Node000008" href="$group__group__comdlg.html#ga6241252ca65bc163d046b4f900a5ebad" title="Pops up a window to let the user pick an arbitrary RGB color." alt="" coords="418,133,569,173"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="659,203,564,176,565,171,661,198"/>
+<area shape="rect" id="Node000009" href="$classFl__File__Chooser.html#ac3ef3aca56eb4ab860c9fc31458a757d" title=" " alt="" coords="421,197,565,237"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="630,220,565,220,565,215,630,215"/>
+<area shape="rect" id="Node000010" href="$classFl__Window.html#af04ceff1297434b9ec8521f47fd1051a" title=" " alt="" coords="419,262,568,287"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="657,236,597,252,547,264,546,259,595,247,656,231"/>
+<area shape="rect" id="Node000011" href="$classFl__File__Chooser.html#a2f58cce9eb3bfc34778a657f9e4ae36f" title=" " alt="" coords="410,311,577,337"/>
+<area shape="poly" id="edge10_Node000007_Node000011" title=" " alt="" coords="693,241,650,273,597,302,564,314,563,309,595,298,647,268,690,237"/>
+</map>

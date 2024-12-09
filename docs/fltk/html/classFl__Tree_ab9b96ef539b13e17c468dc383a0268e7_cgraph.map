@@ -1,0 +1,5 @@
+<map id="Fl_Tree::item_labelsize" name="Fl_Tree::item_labelsize">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,176,31"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree__Prefs.html#a2317975072d4f6cdf149145c5c660675" title="Obsolete: Return the label&#39;s size in pixels. Please use item_labelsize() instead." alt="" coords="224,5,399,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,15,210,15,210,21,176,21"/>
+</map>

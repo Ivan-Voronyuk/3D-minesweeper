@@ -1,0 +1,31 @@
+<map id="Fl_Tree_Item_Array::insert" name="Fl_Tree_Item_Array::insert">
+<area shape="rect" id="Node000001" title=" " alt="" coords="799,177,945,217"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree__Item.html#a57e3a20594e3e1a3f7cdc83b1e53671d" title=" " alt="" coords="376,128,513,153"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="785,180,750,174,625,158,513,148,514,143,625,153,751,169,786,175"/>
+<area shape="rect" id="Node000009" href="$classFl__Tree__Item__Array.html#a9fe2b51b0290b5e2ca612b9098ee9c3b" title=" " alt="" coords="572,184,751,209"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="785,199,751,199,751,194,785,194"/>
+<area shape="rect" id="Node000011" href="$classFl__Tree__Item.html#a76dad4ec17f5a5d123bd899837f7aaad" title=" " alt="" coords="586,243,737,268"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="787,223,709,245,707,240,786,218"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree.html#a50bb4a35f01b99e161b37b012c7e8eec" title=" " alt="" coords="187,29,287,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="412,123,368,95,316,68,286,57,288,52,318,64,370,90,415,118"/>
+<area shape="rect" id="Node000005" href="$classFl__Tree__Item.html#a3c2f44ee5e378c170eaeb5e17e77f6b4" title=" " alt="" coords="169,79,306,104"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="377,127,291,107,292,101,378,122"/>
+<area shape="rect" id="Node000006" href="$classFl__Tree__Item.html#a80c23c27647e8565c1c35d433fe14eb6" title=" " alt="" coords="169,128,306,153"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="362,143,306,143,306,138,362,138"/>
+<area shape="rect" id="Node000007" href="$classFl__Tree__Item.html#ae57568096f1228197c5fcb66ab058728" title=" " alt="" coords="169,177,306,203"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="378,159,292,180,291,175,377,154"/>
+<area shape="rect" id="Node000008" href="$classFl__Tree.html#a5230246be1101067b957b84d240b93fe" title=" " alt="" coords="187,227,287,252"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="381,161,367,168,353,180,343,192,334,204,319,216,289,230,287,225,316,212,330,200,339,188,349,176,364,164,378,156"/>
+<area shape="rect" id="Node000004" href="$classFl__Tree.html#a4e85ba30de9b417756c6d28ebfe4ed42" title="Load FLTK preferences." alt="" coords="5,29,109,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="174,45,110,45,110,39,174,39"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="89,19,80,11,57,8,38,10,29,15,27,20,32,28,28,31,21,21,25,11,37,5,57,3,82,6,92,15"/>
+<area shape="poly" id="edge10_Node000009_Node000002" title=" " alt="" coords="598,183,494,156,495,151,599,178"/>
+<area shape="rect" id="Node000010" href="$classFl__Tree.html#a16f135c1d70c428fc85b65f533ebf893" title=" " alt="" coords="365,178,524,218"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="558,200,524,200,524,195,558,195"/>
+<area shape="rect" id="Node000012" href="$classFl__Tree.html#a0ec6149528528042f17e5bd326bf2e9f" title=" " alt="" coords="388,243,501,268"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="572,258,502,258,502,253,572,253"/>
+<area shape="rect" id="Node000013" href="$classFl__Tree__Item.html#adbd30c55b20cec24e2d674da380b707d" title=" " alt="" coords="369,293,520,333"/>
+<area shape="poly" id="edge14_Node000011_Node000013" title=" " alt="" coords="600,274,521,295,520,290,599,269"/>
+<area shape="rect" id="Node000014" href="$classFl__Tree.html#a7d36c6d676a9cd2f5444cc48a0005913" title=" " alt="" coords="157,300,317,325"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="355,315,318,315,318,310,355,310"/>
+</map>

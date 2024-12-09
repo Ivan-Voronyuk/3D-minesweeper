@@ -1,0 +1,14 @@
+<map id="Fl_Window::resize" name="Fl_Window::resize">
+<area shape="rect" id="Node000001" title=" " alt="" coords="687,63,825,88"/>
+<area shape="rect" id="Node000002" href="$classFl__Double__Window.html#a60ffbc64e1ebc3c43acb83122e1dbd41" title=" " alt="" coords="447,12,639,37"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="688,62,596,40,597,35,689,57"/>
+<area shape="rect" id="Node000004" href="$classFl__Overlay__Window.html#a78eeb49762c1bd989a312e6ed767f912" title=" " alt="" coords="236,55,395,95"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="673,78,395,78,395,73,673,73"/>
+<area shape="rect" id="Node000006" href="$classFl__Window.html#a0d75dfcdc8fb797f9247482da1e0152b" title=" " alt="" coords="475,113,610,139"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="689,94,597,116,596,111,688,89"/>
+<area shape="rect" id="Node000003" href="$classFl__Help__Dialog.html#ad5e5acac363d365c61f492c11b75f841" title=" " alt="" coords="232,5,399,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="432,24,399,23,399,18,432,19"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="472,43,396,60,394,55,471,38"/>
+<area shape="rect" id="Node000005" href="$classOverlay__Window.html#a7af9e8b37c3dd069a8805f8a46646a4c" title=" " alt="" coords="5,63,184,88"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="222,78,184,78,184,73,222,73"/>
+</map>

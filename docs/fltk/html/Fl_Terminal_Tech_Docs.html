@@ -72,10 +72,10 @@ $(function() {
   <div class="headertitle"><div class="title">Fl_Terminal Technical Documentation</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This chapter covers the vt100/xterm style "escape codes" used by Fl_Terminal for cursor positioning, text colors, and other display screen control features such as full or partial screen clearing, up/down scrolling, character insert/delete, etc.</p>
+<div class="textblock"><p>This chapter covers the vt100/xterm style "escape codes" used by <a class="el" href="classFl__Terminal.html" title="Terminal widget supporting Unicode/utf-8, ANSI/xterm escape codes with full RGB color control.">Fl_Terminal</a> for cursor positioning, text colors, and other display screen control features such as full or partial screen clearing, up/down scrolling, character insert/delete, etc.</p>
 <h1><a class="anchor" id="Fl_Terminal_escape_codes"></a>
 The Escape Codes Fl_Terminal Supports</h1>
-<p>These are the escape codes Fl_Terminal actually supports, and is not the 'complete' list that e.g. xterm supports. Most of the important stuff has been implemented, but esoteric features (such as scroll regions) has not.</p>
+<p>These are the escape codes <a class="el" href="classFl__Terminal.html" title="Terminal widget supporting Unicode/utf-8, ANSI/xterm escape codes with full RGB color control.">Fl_Terminal</a> actually supports, and is not the 'complete' list that e.g. xterm supports. Most of the important stuff has been implemented, but esoteric features (such as scroll regions) has not.</p>
 <p>Features will be added as the widget matures.</p>
 <div class="fragment"><div class="line">│    --------------------------------------------------------</div>
 <div class="line">│    --- The CSI (Control Sequence Introducer, or &quot;ESC[&quot;) ---</div>
@@ -224,7 +224,7 @@ Useful Terminal Escape Code Documentation</h1>
 </ul>
 <h1><a class="anchor" id="Fl_Terminal_design"></a>
 Fl_Terminal Design Document</h1>
-<p>When I started this project, I identified the key concepts needed to implement Fl_Terminal:</p>
+<p>When I started this project, I identified the key concepts needed to implement <a class="el" href="classFl__Terminal.html" title="Terminal widget supporting Unicode/utf-8, ANSI/xterm escape codes with full RGB color control.">Fl_Terminal</a>:</p>
 <ul>
 <li>Draw and manage multiline Unicode text in FLTK</li>
 <li>Allow per-character colors and attributes</li>
@@ -387,13 +387,13 @@ Redraw Timer</h2>
 <li>When new data comes in, a 1/10 sec timer is started and a modify flag is set.</li>
 <li>redraw() is NOT called yet, allowing more data to continue to arrive quickly</li>
 <li>When the 1/10th second timer fires, the callback checks the modify flag:<ul>
-<li>if set, calls redraw(), resets the modify to 0, and calls Fl::repeat_timeout() to repeat the callback in another 1/10th sec.</li>
+<li>if set, calls redraw(), resets the modify to 0, and calls <a class="el" href="classFl.html#a46e5695dca672130f615c438f2a067a3">Fl::repeat_timeout()</a> to repeat the callback in another 1/10th sec.</li>
 <li>if clear, no new data came in, so DISABLE the timer, done.</li>
 </ul>
 </li>
 </ul>
 <p>In this way, redraws don't happen more than 10x per second, and redraw() is called only when there's new content to see.</p>
-<p>The redraw rate can be set by the user application using the Fl_Terminal::redraw_rate(), 0.10 being the default.</p>
+<p>The redraw rate can be set by the user application using the <a class="el" href="classFl__Terminal.html#a593739a13816ecb7e7592b4ea46b7687">Fl_Terminal::redraw_rate()</a>, 0.10 being the default.</p>
 <p>Some terminal operations necessarily call redraw() directly, such as interactive mouse selection, or during user scrolling the terminal's scrollbar, where it's important there's no delay in what the user sees while interacting directly with the widget. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

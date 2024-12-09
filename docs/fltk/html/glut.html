@@ -79,9 +79,9 @@ $(function() {
 <div class="textblock"><p>This appendix describes the GLUT compatibility header file supplied with FLTK. FLTK's GLUT compatibility is based on the original GLUT 3.7 and the follow-on FreeGLUT 2.4.0 libraries.</p>
 <h1><a class="anchor" id="glut_using"></a>
 Using the GLUT Compatibility Header File</h1>
-<p>You should be able to compile existing GLUT source code by including <code>&lt;FL/glut.H&gt;</code> instead of <code>&lt;<a class="el" href="glut_8h_source.html">GL/glut.h</a>&gt;</code>. This can be done by editing the source, by changing the <code>-I</code> switches to the compiler, or by providing a symbolic link from <code><a class="el" href="glut_8h_source.html">GL/glut.h</a></code> to <code>FL/glut.H</code>.</p>
+<p>You should be able to compile existing GLUT source code by including <code>&lt;<a class="el" href="glut_8H_source.html">FL/glut.H</a>&gt;</code> instead of <code>&lt;<a class="el" href="glut_8h_source.html">GL/glut.h</a>&gt;</code>. This can be done by editing the source, by changing the <code>-I</code> switches to the compiler, or by providing a symbolic link from <code><a class="el" href="glut_8h_source.html">GL/glut.h</a></code> to <code><a class="el" href="glut_8H_source.html">FL/glut.H</a></code>.</p>
 <p><em>All files calling GLUT procedures must be compiled with C++</em>. You may have to alter them slightly to get them to compile without warnings, and you may have to rename them to get make to use the C++ compiler.</p>
-<p>You must link with the FLTK library. Most of <code>FL/glut.H</code> is inline functions. You should take a look at it (and maybe at <code>test/glpuzzle.cxx</code> in the FLTK source) if you are having trouble porting your GLUT program.</p>
+<p>You must link with the FLTK library. Most of <code><a class="el" href="glut_8H_source.html">FL/glut.H</a></code> is inline functions. You should take a look at it (and maybe at <code>test/glpuzzle.cxx</code> in the FLTK source) if you are having trouble porting your GLUT program.</p>
 <p>This has been tested with most of the demo programs that come with the GLUT and FreeGLUT distributions.</p>
 <h1><a class="anchor" id="glut_known_problems"></a>
 Known Problems</h1>
@@ -110,26 +110,28 @@ Known Problems</h1>
 <p>Overlays are cleared before the overlay display function is called. <code>glutLayerGet(GLUT_OVERLAY_DAMAGED)</code> always returns true for compatibility with some GLUT overlay programs. You must rewrite your code so that <code>gl_color()</code> is used to choose colors in an overlay, or you will get random overlay colors.</p>
 <p><code>glutSetCursor(GLUT_CURSOR_FULL_CROSSHAIR)</code> just results in a small crosshair.</p>
 <p>The fonts used by <code>glutBitmapCharacter()</code> and <code>glutBitmapWidth()</code> may be different.</p>
-<p><code>glutInit(argc,argv)</code> will consume different switches than GLUT does. It accepts the switches recognized by Fl::args(), and will accept any abbreviation of these switches (such as "-di" for "-display").</p>
+<p><code>glutInit(argc,argv)</code> will consume different switches than GLUT does. It accepts the switches recognized by <a class="el" href="classFl.html#a115903daf3593748cdd36a5e78e74534">Fl::args()</a>, and will accept any abbreviation of these switches (such as "-di" for "-display").</p>
 <h1><a class="anchor" id="glut_mixing"></a>
 Mixing GLUT and FLTK Code</h1>
-<p>You can make your GLUT window a child of a Fl_Window with the following scheme. The biggest trick is that GLUT insists on a call to <code>show()</code> the window at the point it is created, which means the Fl_Window parent window must already be shown.</p>
+<p>You can make your GLUT window a child of a <a class="el" href="classFl__Window.html">Fl_Window</a> with the following scheme. The biggest trick is that GLUT insists on a call to <code>show()</code> the window at the point it is created, which means the <a class="el" href="classFl__Window.html">Fl_Window</a> parent window must already be shown.</p>
 <ul>
 <li>Don't call <code>glutInit()</code>. </li>
-<li>Create your Fl_Window, and any FLTK widgets. Leave a blank area in the window for your GLUT window. </li>
-<li><code>show()</code> the Fl_Window. Perhaps call <code>show(argc,argv)</code>. </li>
+<li>Create your <a class="el" href="classFl__Window.html">Fl_Window</a>, and any FLTK widgets. Leave a blank area in the window for your GLUT window. </li>
+<li><code>show()</code> the <a class="el" href="classFl__Window.html">Fl_Window</a>. Perhaps call <code>show(argc,argv)</code>. </li>
 <li>Call <code>window-&gt;begin()</code> so that the GLUT window will be automatically added to it. </li>
 <li>Use <code>glutInitWindowSize()</code> and <code>glutInitWindowPosition()</code> to set the location in the parent window to put the GLUT window. </li>
 <li>Put your GLUT code next. It probably does not need many changes. Call <code>window-&gt;end()</code> immediately after the <code>glutCreateWindow()!</code> </li>
-<li>You can call either <code>glutMainLoop()</code>, Fl::run(), or loop calling Fl::wait() to run the program.</li>
+<li>You can call either <code>glutMainLoop()</code>, <a class="el" href="classFl.html#a7a3b1236b41800d24267288c564b187a">Fl::run()</a>, or loop calling <a class="el" href="classFl.html#a108a84216f0b3fa1cb0c46ab7449a312">Fl::wait()</a> to run the program.</li>
 </ul>
 <h1><a class="anchor" id="glut_Fl_Glut_Window"></a>
 class Fl_Glut_Window</h1>
 <h2><a class="anchor" id="glut_class_hierarchy"></a>
 Class Hierarchy</h2>
-<div class="fragment"><div class="line">Fl_Gl_Window</div>
+<div class="fragment"><div class="line"><a class="code hl_class" href="classFl__Gl__Window.html">Fl_Gl_Window</a></div>
 <div class="line">   |</div>
-<div class="line">   +----Fl_Glut_Window</div>
+<div class="line">   +----<a class="code hl_class" href="classFl__Glut__Window.html">Fl_Glut_Window</a></div>
+<div class="ttc" id="aclassFl__Gl__Window_html"><div class="ttname"><a href="classFl__Gl__Window.html">Fl_Gl_Window</a></div><div class="ttdef"><b>Definition</b> Fl_Gl_Window.H:56</div></div>
+<div class="ttc" id="aclassFl__Glut__Window_html"><div class="ttname"><a href="classFl__Glut__Window.html">Fl_Glut_Window</a></div><div class="ttdef"><b>Definition</b> glut.H:53</div></div>
 </div><!-- fragment --><h2><a class="anchor" id="glut_include_files"></a>
 Include Files</h2>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;FL/glut.H&gt;</span></div>
@@ -142,7 +144,7 @@ Description</h2>
 <p><code>~Fl_Glut_Window()</code> is the same as <code>glutDestroyWindow()</code>.</p>
 <h2><a class="anchor" id="glut_members"></a>
 Members</h2>
-<p>The Fl_Glut_Window class contains several public members that can be altered directly:</p>
+<p>The <a class="el" href="classFl__Glut__Window.html">Fl_Glut_Window</a> class contains several public members that can be altered directly:</p>
 <center><table width="80%" border="1" alt="Fl_Glut_Window public members.">
 <tr>
 <th>member </th><th>description  </th></tr>

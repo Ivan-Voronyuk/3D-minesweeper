@@ -90,7 +90,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef _EXTCODEEDITOR_H</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define _EXTCODEEDITOR_H</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;FL/Fl.H&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;<a class="code" href="Fl_8H.html">FL/Fl.H</a>&gt;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;fluid.h&quot;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
@@ -138,11 +138,12 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="classExternalCodeEditor.html#a8326c5c2ebd506c920aa2b9706b812b4">tmpdir_name</a>();</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classExternalCodeEditor.html#aef83aee500502042d7ac0e6167e4feb0">tmpdir_clear</a>();</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_function" href="classExternalCodeEditor.html#a132dda01ff0223b793a14b8bb8ab9311">editors_open</a>();</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classExternalCodeEditor.html#a8c18445e1bfdfb06b94a6670b341a81f">set_update_timer_callback</a>(Fl_Timeout_Handler);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classExternalCodeEditor.html#a8c18445e1bfdfb06b94a6670b341a81f">set_update_timer_callback</a>(<a class="code hl_typedef" href="group__callback__functions.html#ga17b5c6570394124287997166a50ff07a">Fl_Timeout_Handler</a>);</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>};</div>
 </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#endif </span><span class="comment">/*_EXTCODEEDITOR_H */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="aFl_8H_html"><div class="ttname"><a href="Fl_8H.html">Fl.H</a></div><div class="ttdoc">Fl static class.</div></div>
 <div class="ttc" id="aclassExternalCodeEditor_html"><div class="ttname"><a href="classExternalCodeEditor.html">ExternalCodeEditor</a></div><div class="ttdef"><b>Definition</b> ExternalCodeEditor_UNIX.h:22</div></div>
 <div class="ttc" id="aclassExternalCodeEditor_html_a132dda01ff0223b793a14b8bb8ab9311"><div class="ttname"><a href="classExternalCodeEditor.html#a132dda01ff0223b793a14b8bb8ab9311">ExternalCodeEditor::editors_open</a></div><div class="ttdeci">static int editors_open()</div><div class="ttdef"><b>Definition</b> ExternalCodeEditor_UNIX.cxx:552</div></div>
 <div class="ttc" id="aclassExternalCodeEditor_html_a1c8e3ed6dd980df86b72ae032c6bb87f"><div class="ttname"><a href="classExternalCodeEditor.html#a1c8e3ed6dd980df86b72ae032c6bb87f">ExternalCodeEditor::ExternalCodeEditor</a></div><div class="ttdeci">ExternalCodeEditor()</div><div class="ttdef"><b>Definition</b> ExternalCodeEditor_UNIX.cxx:57</div></div>
@@ -164,6 +165,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aclassExternalCodeEditor_html_ae22c7a93cc86a7720b7fa7e0bc815ef9"><div class="ttname"><a href="classExternalCodeEditor.html#ae22c7a93cc86a7720b7fa7e0bc815ef9">ExternalCodeEditor::is_editing</a></div><div class="ttdeci">int is_editing()</div><div class="ttdef"><b>Definition</b> ExternalCodeEditor_UNIX.cxx:99</div></div>
 <div class="ttc" id="aclassExternalCodeEditor_html_ae2c2f64a861f465317a80558af7933e5"><div class="ttname"><a href="classExternalCodeEditor.html#ae2c2f64a861f465317a80558af7933e5">ExternalCodeEditor::reap_editor</a></div><div class="ttdeci">int reap_editor(pid_t *pid_reaped=NULL)</div><div class="ttdef"><b>Definition</b> ExternalCodeEditor_UNIX.cxx:437</div></div>
 <div class="ttc" id="aclassExternalCodeEditor_html_aef83aee500502042d7ac0e6167e4feb0"><div class="ttname"><a href="classExternalCodeEditor.html#aef83aee500502042d7ac0e6167e4feb0">ExternalCodeEditor::tmpdir_clear</a></div><div class="ttdeci">static void tmpdir_clear()</div><div class="ttdef"><b>Definition</b> ExternalCodeEditor_UNIX.cxx:267</div></div>
+<div class="ttc" id="agroup__callback__functions_html_ga17b5c6570394124287997166a50ff07a"><div class="ttname"><a href="group__callback__functions.html#ga17b5c6570394124287997166a50ff07a">Fl_Timeout_Handler</a></div><div class="ttdeci">void(* Fl_Timeout_Handler)(void *data)</div><div class="ttdef"><b>Definition</b> Fl.H:97</div></div>
 <div class="ttc" id="astructcode_html"><div class="ttname"><a href="structcode.html">code</a></div><div class="ttdef"><b>Definition</b> inftrees.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

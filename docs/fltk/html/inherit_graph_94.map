@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,111,31"/>
-<area shape="rect" id="Node000001" href="$classMyTimeItem.html" title=" " alt="" coords="159,5,264,31"/>
-<area shape="poly" id="edge151_Node000000_Node000001" title=" " alt="" coords="124,15,158,15,158,21,124,21"/>
+<area shape="rect" id="Node000000" href="$classFl__Preferences.html" title="Fl_Preferences store user settings between application starts." alt="" coords="5,5,124,31"/>
+<area shape="rect" id="Node000001" href="$classFl__Plugin__Manager.html" title="Fl_Plugin_Manager manages link&#45;time and run&#45;time plugin binaries." alt="" coords="172,5,317,31"/>
+<area shape="poly" id="edge76_Node000000_Node000001" title=" " alt="" coords="137,15,172,15,172,21,137,21"/>
 </map>

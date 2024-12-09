@@ -1,0 +1,17 @@
+<map id="Fl_Tree_Item::reparent" name="Fl_Tree_Item::reparent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,173,31"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree__Item.html#a5371023b11fd4b32a93f9cd7936fc5fb" title="Return the parent for this item. Returns NULL if we are the root." alt="" coords="628,27,783,52"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,12,221,11,398,11,575,22,614,26,614,31,574,27,398,16,221,17,174,18"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree__Item__Array.html#ae13c703161674bf53503bd06e9dc276d" title=" " alt="" coords="221,26,368,66"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,27,208,32,207,37,173,32"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="368,42,614,38,614,43,368,47"/>
+<area shape="rect" id="Node000004" href="$classFl__Tree__Item.html#ab14a9e7a9be0b17fbf5909be3f2f82a5" title=" " alt="" coords="416,77,575,117"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="369,62,404,71,402,76,367,67"/>
+<area shape="poly" id="edge8_Node000004_Node000002" title=" " alt="" coords="568,74,644,53,645,58,570,79"/>
+<area shape="rect" id="Node000005" href="$classFl__Tree__Item.html#a59b33b5824ea2f87eb3388ec51802d67" title="Return the child item for the given &#39;index&#39;." alt="" coords="633,80,777,105"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="575,92,620,92,620,97,575,98"/>
+<area shape="rect" id="Node000006" href="$classFl__Tree__Item.html#ae1ecee0a3fae8bed7161b5710a13ddb9" title="Return the number of children this item has." alt="" coords="623,129,788,155"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="576,111,633,124,632,129,574,116"/>
+<area shape="rect" id="Node000007" href="$classFl__Tree__Item__Array.html#a1b76ee8f1c8e3d07449bfc6c1a16e9c6" title="Return the total items in the array, or 0 if empty." alt="" coords="836,122,983,162"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="789,139,822,139,822,145,789,145"/>
+</map>

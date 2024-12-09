@@ -1,0 +1,15 @@
+<map id="Fl_Scheme::names" name="Fl_Scheme::names">
+<area shape="rect" id="Node000001" title=" " alt="" coords="524,56,669,81"/>
+<area shape="rect" id="Node000002" href="$classFl__Scheme.html#ad2c10ddb395f87869d8f7167951a7560" title=" " alt="" coords="249,5,476,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="509,61,393,33,394,28,510,56"/>
+<area shape="rect" id="Node000003" href="$classFl__Scheme__Choice.html#a287fa6a42c1a3b0394f5bf45292badac" title=" " alt="" coords="21,49,185,89"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="510,71,185,71,185,66,510,66"/>
+<area shape="rect" id="Node000004" href="$classFl__Scheme__Choice.html#a06f6e389b277b7eaf5bc76acc5362401" title=" " alt="" coords="276,106,449,146"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="532,87,445,109,444,103,530,82"/>
+<area shape="rect" id="Node000006" href="$classFl__Scheme.html#a320ce938b9adc386609a429eb9ad7341" title=" " alt="" coords="265,171,460,196"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="574,93,531,128,477,160,441,173,439,168,475,156,528,123,571,89"/>
+<area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="477,31,566,53,565,58,475,36"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="262,107,185,89,186,84,263,101"/>
+<area shape="rect" id="Node000005" href="$classFl__Scheme__Choice.html#a641172d20ee142b11366ce23a252186a" title="Handle FLTK events." alt="" coords="5,113,201,139"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="262,129,202,129,202,123,262,123"/>
+</map>

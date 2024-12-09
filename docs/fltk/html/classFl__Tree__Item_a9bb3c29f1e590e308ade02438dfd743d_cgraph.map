@@ -1,0 +1,19 @@
+<map id="Fl_Tree_Item::deparent" name="Fl_Tree_Item::deparent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,77,176,102"/>
+<area shape="rect" id="Node000002" href="$classFl__Tree__Item__Array.html#a4f33150021d858c9ef92db11978e6bfd" title=" " alt="" coords="224,69,371,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,87,210,87,210,92,176,92"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree__Item.html#ad43971216daca1d69a13c4a0f797f4d9" title=" " alt="" coords="427,5,569,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="360,67,421,47,423,52,362,72"/>
+<area shape="rect" id="Node000004" href="$classFl__Tree__Item.html#aa96a9c6483c3c34ae3e29c16ac760ab7" title=" " alt="" coords="427,69,569,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="371,87,413,87,413,92,371,92"/>
+<area shape="rect" id="Node000005" href="$classFl__Tree__Item.html#ab14a9e7a9be0b17fbf5909be3f2f82a5" title=" " alt="" coords="419,133,577,173"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="362,107,423,127,421,132,360,112"/>
+<area shape="rect" id="Node000006" href="$classFl__Tree__Item.html#a59b33b5824ea2f87eb3388ec51802d67" title="Return the child item for the given &#39;index&#39;." alt="" coords="636,91,780,117"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="577,132,639,117,641,122,578,137"/>
+<area shape="rect" id="Node000007" href="$classFl__Tree__Item.html#ae1ecee0a3fae8bed7161b5710a13ddb9" title="Return the number of children this item has." alt="" coords="625,141,791,166"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="578,151,611,151,611,156,578,156"/>
+<area shape="rect" id="Node000009" href="$classFl__Tree__Item.html#a5371023b11fd4b32a93f9cd7936fc5fb" title="Return the parent for this item. Returns NULL if we are the root." alt="" coords="631,190,785,215"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="578,169,641,184,639,189,577,175"/>
+<area shape="rect" id="Node000008" href="$classFl__Tree__Item__Array.html#a1b76ee8f1c8e3d07449bfc6c1a16e9c6" title="Return the total items in the array, or 0 if empty." alt="" coords="839,133,985,173"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="791,151,825,151,825,156,791,156"/>
+</map>

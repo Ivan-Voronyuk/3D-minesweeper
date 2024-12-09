@@ -1,0 +1,74 @@
+<map id="Fl_Tree::extend_selection" name="Fl_Tree::extend_selection">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,268,192,293"/>
+<area shape="rect" id="Node000002" href="$classFl__Widget.html#af007a3c83ac176a7511df8df0706947c" title=" " alt="" coords="252,71,403,96"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,267,123,234,153,190,192,144,238,105,249,99,251,104,242,110,196,148,157,194,128,237,109,269"/>
+<area shape="rect" id="Node000003" href="$classFl__Tree.html#ad4e3e9036973ebc320c7868b480ab143" title=" " alt="" coords="262,120,393,145"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="109,266,161,212,198,181,239,154,253,148,255,153,241,159,201,185,165,216,113,270"/>
+<area shape="rect" id="Node000014" href="$classFl__Tree.html#a04ecefd677f9321532dad465de6864be" title=" " alt="" coords="277,268,378,293"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="193,278,263,278,263,283,193,283"/>
+<area shape="rect" id="Node000015" href="$classFl__Tree__Item.html#a1929572a7dc3085f07b0c0b1f539c64f" title="See if the item is visible." alt="" coords="240,317,415,343"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="159,291,255,312,254,317,158,296"/>
+<area shape="rect" id="Node000016" href="$classFl__Tree__Item.html#aaff73a68d1a1440579f767e4da292848" title=" " alt="" coords="256,449,399,489"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="117,292,293,438,289,442,114,296"/>
+<area shape="rect" id="Node000025" href="$classFl__Tree.html#a25045f4db37c4130c539951f462660f5" title=" " alt="" coords="270,219,385,244"/>
+<area shape="poly" id="edge25_Node000001_Node000025" title=" " alt="" coords="158,265,256,244,257,249,159,271"/>
+<area shape="rect" id="Node000029" href="$classFl__Tree.html#a27ce2e24a24e8d441945bda272e0e3c8" title=" " alt="" coords="246,169,409,195"/>
+<area shape="poly" id="edge33_Node000001_Node000029" title=" " alt="" coords="119,265,173,235,239,204,259,196,261,201,241,208,175,240,122,270"/>
+<area shape="rect" id="Node000031" href="$classFl__Widget.html#ac103c73444da9035a31329cf938d77b3" title=" " alt="" coords="258,513,397,539"/>
+<area shape="poly" id="edge39_Node000001_Node000031" title=" " alt="" coords="107,292,123,332,151,388,191,448,215,475,242,499,252,505,249,510,238,503,211,479,186,451,146,391,118,335,102,294"/>
+<area shape="rect" id="Node000032" href="$classFl__Widget.html#ad4ef380ffb50f4d00fe93f7b6677e9e1" title=" " alt="" coords="262,563,393,588"/>
+<area shape="poly" id="edge40_Node000001_Node000032" title=" " alt="" coords="105,293,119,342,145,411,163,449,185,485,211,520,242,549,251,556,248,560,238,553,207,523,181,488,158,451,140,413,114,343,100,294"/>
+<area shape="rect" id="Node000004" href="$classFl__Tree__Item.html#a4163e1c53135607a481d8c05351faaba" title="Disable the item&#39;s selection state." alt="" coords="483,5,651,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="389,118,413,105,428,90,436,73,444,56,461,40,472,34,474,38,464,44,449,59,441,76,433,93,416,109,391,122"/>
+<area shape="rect" id="Node000005" href="$classFl__Tree.html#ab1aecaf4fc6238df746df25e38999422" title=" " alt="" coords="491,154,644,194"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="393,141,477,156,476,161,392,146"/>
+<area shape="rect" id="Node000010" href="$classFl__Tree__Item.html#a917cb6f76f53855708d430a40337b536" title="See if the item is selected." alt="" coords="474,104,661,129"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="393,126,460,121,460,126,393,131"/>
+<area shape="rect" id="Node000011" href="$classFl__Widget.html#aa63ce68cbf4620cf8750b868368ea02b" title=" " alt="" coords="497,55,637,80"/>
+<area shape="poly" id="edge11_Node000003_Node000011" title=" " alt="" coords="372,117,414,105,462,89,493,81,494,86,463,94,415,110,374,122"/>
+<area shape="rect" id="Node000013" href="$classFl__Widget.html#a825fd3487559e1c283550abdb92304ef" title=" " alt="" coords="479,219,656,244"/>
+<area shape="poly" id="edge13_Node000003_Node000013" title=" " alt="" coords="391,143,416,154,431,167,441,180,450,192,464,204,480,212,478,216,461,208,446,196,436,183,428,171,413,159,389,148"/>
+<area shape="rect" id="Node000006" href="$classFl__Tree.html#ad576e00b3f3c5e2c6dae62fdf513ece2" title=" " alt="" coords="734,157,901,183"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="644,170,720,169,720,174,644,175"/>
+<area shape="rect" id="Node000007" href="$classFl__Tree.html#adec2707eb6ae68f87106835565aaae11" title=" " alt="" coords="727,207,908,232"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="645,185,734,202,733,207,644,190"/>
+<area shape="rect" id="Node000008" href="$classFl__Widget.html#afcfa06d94e7317130b826e7df0e90eb4" title=" " alt="" coords="731,280,903,305"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="646,192,673,204,698,222,721,241,777,272,774,276,719,246,695,226,671,208,643,196"/>
+<area shape="rect" id="Node000009" href="$classFl__Widget.html#a991b94150c2c3d7e62b47c38c171ce00" title=" " alt="" coords="738,108,897,133"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="644,155,743,134,744,139,645,160"/>
+<area shape="poly" id="edge8_Node000008_Node000008" title=" " alt="" coords="777,282,768,272,773,262,790,256,817,253,852,257,862,262,866,268,862,271,859,266,851,262,817,259,791,261,777,266,774,271,781,278"/>
+<area shape="rect" id="Node000012" href="$classFl__Widget.html#ada8bb104e4501a2b123e813b32b6ed95" title=" " alt="" coords="743,55,891,80"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="638,65,730,65,730,70,638,70"/>
+<area shape="rect" id="Node000017" href="$classFl__Tree__Item.html#acf48193a3d533e9f3d28fc06fd403849" title="Is this item the root of the tree?" alt="" coords="489,629,646,655"/>
+<area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="398,487,417,500,429,515,436,531,440,561,445,589,452,603,464,616,477,625,474,629,461,620,448,606,440,591,435,562,430,532,424,518,413,504,395,491"/>
+<area shape="rect" id="Node000018" href="$classFl__Tree__Item.html#a512b6591af7ca7b517e09e98df8f2deb" title=" " alt="" coords="496,432,639,457"/>
+<area shape="poly" id="edge18_Node000016_Node000018" title=" " alt="" coords="399,459,482,450,482,456,400,464"/>
+<area shape="rect" id="Node000022" href="$classFl__Tree__Item.html#a46e4c4e3c348fafd024a159a90eef8c6" title=" " alt="" coords="494,481,641,507"/>
+<area shape="poly" id="edge22_Node000016_Node000022" title=" " alt="" coords="400,474,481,482,480,488,399,479"/>
+<area shape="rect" id="Node000023" href="$classFl__Tree__Prefs.html#a2a28b5cc1d5f08620e3f3a233fb5ff24" title="Returns 1 if the root item is to be shown, or 0 if not." alt="" coords="479,531,655,556"/>
+<area shape="poly" id="edge23_Node000016_Node000023" title=" " alt="" coords="382,486,463,517,493,525,491,530,462,522,380,491"/>
+<area shape="rect" id="Node000024" href="$classFl__Tree__Item.html#a51da9abdcdf75a59a92e37d4958c057a" title=" " alt="" coords="483,580,651,605"/>
+<area shape="poly" id="edge24_Node000016_Node000024" title=" " alt="" coords="394,486,416,500,432,518,441,535,449,551,464,567,474,572,471,577,461,571,444,554,436,537,428,520,413,504,392,491"/>
+<area shape="rect" id="Node000019" href="$classFl__Tree__Item.html#a59b33b5824ea2f87eb3388ec51802d67" title="Return the child item for the given &#39;index&#39;." alt="" coords="745,413,889,439"/>
+<area shape="poly" id="edge19_Node000018_Node000019" title=" " alt="" coords="639,437,731,430,732,435,639,442"/>
+<area shape="rect" id="Node000020" href="$classFl__Tree__Item.html#a01f57370911692b960d306fc00d824a0" title="See if this item has children." alt="" coords="720,463,915,488"/>
+<area shape="poly" id="edge20_Node000018_Node000020" title=" " alt="" coords="639,451,707,459,706,464,639,456"/>
+<area shape="rect" id="Node000021" href="$classFl__Tree__Item.html#a5371023b11fd4b32a93f9cd7936fc5fb" title="Return the parent for this item. Returns NULL if we are the root." alt="" coords="740,512,895,537"/>
+<area shape="poly" id="edge21_Node000018_Node000021" title=" " alt="" coords="640,455,673,466,698,482,721,498,740,506,738,511,719,503,695,487,671,471,638,460"/>
+<area shape="poly" id="edge26_Node000025_Node000005" title=" " alt="" coords="381,216,477,193,478,198,382,221"/>
+<area shape="poly" id="edge27_Node000025_Node000010" title=" " alt="" coords="384,218,413,204,428,189,436,173,445,156,461,140,475,132,477,137,464,144,449,159,441,175,432,192,416,208,386,223"/>
+<area shape="poly" id="edge30_Node000025_Node000011" title=" " alt="" coords="383,220,413,204,425,190,431,177,436,148,441,118,448,103,461,89,483,76,486,81,464,93,452,106,446,120,441,149,436,178,429,193,416,208,386,225"/>
+<area shape="poly" id="edge32_Node000025_Node000013" title=" " alt="" coords="385,229,465,229,465,234,385,234"/>
+<area shape="rect" id="Node000026" href="$classFl__Tree.html#a4074afda04981a99ed3e677495927762" title=" " alt="" coords="463,383,672,408"/>
+<area shape="poly" id="edge28_Node000025_Node000026" title=" " alt="" coords="386,237,416,253,429,268,436,283,441,312,446,341,452,355,464,368,473,374,469,378,461,372,448,358,441,343,436,313,431,284,425,271,413,257,383,241"/>
+<area shape="rect" id="Node000028" href="$classFl__Tree__Item.html#a760c11ee65395610b12fe31c2b8fb96c" title=" " alt="" coords="491,333,643,359"/>
+<area shape="poly" id="edge31_Node000025_Node000028" title=" " alt="" coords="386,239,416,253,433,270,441,287,449,303,464,319,480,327,477,332,461,323,445,306,436,289,428,273,413,258,384,244"/>
+<area shape="rect" id="Node000027" href="$classFl__Tree__Prefs.html#a44f26148850cb714c4cce89018853b4d" title="Returns the current item re/selection mode." alt="" coords="744,349,891,389"/>
+<area shape="poly" id="edge29_Node000026_Node000027" title=" " alt="" coords="672,382,730,375,731,381,672,387"/>
+<area shape="poly" id="edge34_Node000029_Node000005" title=" " alt="" coords="409,177,477,174,477,180,409,182"/>
+<area shape="poly" id="edge35_Node000029_Node000010" title=" " alt="" coords="371,167,414,154,462,139,498,130,499,135,463,145,415,159,373,172"/>
+<area shape="poly" id="edge36_Node000029_Node000011" title=" " alt="" coords="389,167,413,155,428,139,436,123,444,105,461,89,483,78,485,83,464,94,449,109,441,125,433,142,416,159,391,172"/>
+<area shape="poly" id="edge38_Node000029_Node000013" title=" " alt="" coords="390,192,492,213,491,218,389,197"/>
+<area shape="rect" id="Node000030" href="$classFl__Tree__Item.html#ab1496a666a31330a5be45eb6e404145b" title="Toggle the item&#39;s selection state." alt="" coords="491,269,643,309"/>
+<area shape="poly" id="edge37_Node000029_Node000030" title=" " alt="" coords="391,192,416,204,432,216,441,229,450,241,464,253,480,262,478,266,461,258,446,245,437,232,428,220,413,208,389,197"/>
+</map>

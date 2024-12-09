@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['node_20for_20all_20widgets_20and_20functions_0',['Basic Node for all Widgets and Functions',['../group__fl__type.html',1,'']]]
+  ['handling_20functions_0',['handling functions',['../group__fl__events.html',1,'Events handling functions'],['../group__fl__string.html',1,'String handling functions'],['../group__fl__windows.html',1,'Windows handling functions']]]
 ];

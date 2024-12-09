@@ -1,0 +1,9 @@
+<map id="Fl_Text_Display::scroll" name="Fl_Text_Display::scroll">
+<area shape="rect" id="Node000001" title="Scrolls the current buffer to start at the specified line and column." alt="" coords="5,13,172,38"/>
+<area shape="rect" id="Node000002" href="$classFl__Text__Display.html#ae866a3c3130570ef61c632b7a0e2c43a" title=" " alt="" coords="220,5,399,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,23,206,23,206,28,172,28"/>
+<area shape="rect" id="Node000003" href="$classFl__Widget.html#aa63ce68cbf4620cf8750b868368ea02b" title=" " alt="" coords="447,13,587,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="399,23,433,23,433,28,399,28"/>
+<area shape="rect" id="Node000004" href="$classFl__Widget.html#ada8bb104e4501a2b123e813b32b6ed95" title=" " alt="" coords="635,13,783,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="587,23,621,23,621,28,587,28"/>
+</map>
