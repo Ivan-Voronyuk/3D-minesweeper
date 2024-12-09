@@ -28,7 +28,7 @@ endif()
 
 add_library(Graph_lib src/Graph_lib/GUI.cpp src/Graph_lib/Graph.cpp
                       src/Graph_lib/Window.cpp)
-target_link_libraries(Graph_lib PUBLIC fltk)
+target_link_libraries(Graph_lib PUBLIC fltk fltk_images)
 
 add_library(
   VectorMath_lib
@@ -38,3 +38,6 @@ add_library(
 
 add_executable(math_test src/math_test.cpp)
 target_link_libraries(math_test VectorMath_lib)
+
+add_executable(main src/main.cpp src/great_window.cpp)
+target_link_libraries(main Graph_lib)
