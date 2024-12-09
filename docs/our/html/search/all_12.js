@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['r_0',['r',['../classRender_1_1CubeView.html#ace4c5e04cee6a63fa0205e570e95a48aae1e1d3d40573127e9ee0480caf1283d6',1,'Render::CubeView::R'],['../structRender_1_1Color.html#aeda48176204b931645e7fbc545194858',1,'Render::Color::r']]],
+  ['r_0',['r',['../structRender_1_1Color.html#aeda48176204b931645e7fbc545194858',1,'Render::Color::r'],['../classRender_1_1CubeView.html#ace4c5e04cee6a63fa0205e570e95a48aae1e1d3d40573127e9ee0480caf1283d6',1,'Render::CubeView::R']]],
   ['radius_1',['radius',['../structGraph__lib_1_1Circle.html#a6f6120fb9c30519d9437872599c85b6d',1,'Graph_lib::Circle']]],
-  ['randint_2',['randint',['../namespaceGraph__lib.html#a568038b201a6db204b7dbf553996ca5f',1,'Graph_lib::randint(int max)'],['../namespaceGraph__lib.html#a7cf5ebdfbf52e130f86d36144dd2c93c',1,'Graph_lib::randint(int min, int max)']]],
+  ['randint_2',['randint',['../namespaceGraph__lib.html#a7cf5ebdfbf52e130f86d36144dd2c93c',1,'Graph_lib::randint(int min, int max)'],['../namespaceGraph__lib.html#a568038b201a6db204b7dbf553996ca5f',1,'Graph_lib::randint(int max)']]],
   ['ray_3',['Ray',['../structCamera_1_1Ray.html',1,'Camera']]],
-  ['raycast_4',['raycast',['../classCamera_1_1CameraTransform.html#a5931881d53cb50afd919ad39ac104873',1,'Camera::CameraTransform::raycast()'],['../classCamera_1_1PerspectiveProjection.html#a10e2a86d5a34c7f236657257f0403b58',1,'Camera::PerspectiveProjection::raycast()'],['../classCamera_1_1OrthogonalProjection.html#a836a223a5583cfe66942b3ead0196876',1,'Camera::OrthogonalProjection::raycast()']]],
+  ['raycast_4',['raycast',['../classCamera_1_1CameraTransform.html#a5931881d53cb50afd919ad39ac104873',1,'Camera::CameraTransform::raycast()'],['../classCamera_1_1PerspectiveProjection.html#a10e2a86d5a34c7f236657257f0403b58',1,'Camera::PerspectiveProjection::raycast()'],['../classCamera_1_1OrthogonalProjection.html#a836a223a5583cfe66942b3ead0196876',1,'Camera::OrthogonalProjection::raycast()'],['../classRender_1_1CubeView.html#a142b61d5894f1100d235df28fc2f6b3d',1,'Render::CubeView::raycast()']]],
   ['read_5fpnm_5',['read_pnm',['../math__test_8cpp.html#acef4ea4ac476615510935c0ccd76624a',1,'math_test.cpp']]],
   ['readme_2emd_6',['README.md',['../README_8md.html',1,'']]],
   ['rect_7',['Rect',['../structRender_1_1Rect.html',1,'Render']]],

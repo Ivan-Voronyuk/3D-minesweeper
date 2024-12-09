@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['next_5fbutton_0',['next_button',['../structSimple__window.html#a320c5d481f639a590f1199f2304d8faa',1,'Simple_window']]],
-  ['notches_1',['notches',['../structGraph__lib_1_1Axis.html#a4cc22376de555b723cb7a8ffc2a38708',1,'Graph_lib::Axis']]]
+  ['label_0',['label',['../structGraph__lib_1_1Axis.html#ad70b54dce0b217add7380aacad063de3',1,'Graph_lib::Axis::label'],['../classGraph__lib_1_1Widget.html#a0596aa8f0dc75d7417b521a776fc68be',1,'Graph_lib::Widget::label']]],
+  ['loc_1',['loc',['../classGraph__lib_1_1Widget.html#ad85adbbbe811be7ae5a6329af7299067',1,'Graph_lib::Widget']]]
 ];

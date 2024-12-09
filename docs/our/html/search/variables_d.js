@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['t1_0',['T1',['../structRender_1_1Triangle.html#a3733c6bc5319cbc5669e15980e8fdf0c',1,'Render::Triangle']]],
-  ['t2_1',['T2',['../structRender_1_1Triangle.html#aba1660a27590e8a042168439ff3f1333',1,'Render::Triangle']]],
-  ['t3_2',['T3',['../structRender_1_1Triangle.html#ad4b4f506a3c244464805e930f06f0769',1,'Render::Triangle']]],
-  ['tex_3',['tex',['../classRender_1_1Canvas.html#ac47ff00770f11004e50790bb8da889e1',1,'Render::Canvas']]],
-  ['to_5fcamera_5fcoords_4',['TO_CAMERA_COORDS',['../classCamera_1_1CameraTransform.html#aedc32b41ec0b945fbadc06769f1ea178',1,'Camera::CameraTransform']]]
+  ['scale_0',['scale',['../classCamera_1_1CameraTransform.html#a02ca7c30ac40d4ba9e6008aff0696bbc',1,'Camera::CameraTransform']]],
+  ['scale_5f_1',['scale_',['../classCamera_1_1CameraTransform.html#ad37c5f5fdfa0ee4c1f95678593134c04',1,'Camera::CameraTransform']]],
+  ['screen_5f0_5foffset_2',['SCREEN_0_OFFSET',['../classCamera_1_1CameraTransform.html#a00028f96777684ba01fb74b777a55446',1,'Camera::CameraTransform']]],
+  ['selection_3',['selection',['../structGraph__lib_1_1Menu.html#a60e2801fee72209e6be2b651f67d65bb',1,'Graph_lib::Menu']]],
+  ['suffix_5fmap_4',['suffix_map',['../namespaceGraph__lib.html#a7064ace62accd994418e16b5deceb18f',1,'Graph_lib']]]
 ];

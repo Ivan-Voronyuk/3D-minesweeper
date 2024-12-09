@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -50,23 +46,6 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('classRender_1_1CubeView.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -88,16 +67,32 @@ $(document).ready(function(){initNavTree('classRender_1_1CubeView.html',''); ini
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceRender.html">Render</a></li><li class="navelem"><a class="el" href="classRender_1_1CubeView.html">CubeView</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classRender_1_1CubeView-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Render::CubeView Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="render_8h_source.html">render.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Render::CubeView:</div>
+<div class="dyncontent">
+<div class="center"><img src="classRender_1_1CubeView__coll__graph.png" border="0" usemap="#aRender_1_1CubeView_coll__map" alt="Collaboration graph"/></div>
+<map name="aRender_1_1CubeView_coll__map" id="aRender_1_1CubeView_coll__map">
+<area shape="rect" title=" " alt="" coords="5,93,147,119"/>
+<area shape="rect" href="classVMath_1_1SO3.html" title=" " alt="" coords="27,5,125,31"/>
+<area shape="poly" title=" " alt="" coords="79,45,79,93,73,93,73,45"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -137,8 +132,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1144b42b64740e8b2180dcbe3a808ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfcf311fbd00258b51c36a7aa6c9c21d" id="r_acfcf311fbd00258b51c36a7aa6c9c21d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRender_1_1Canvas.html">Canvas</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRender_1_1CubeView.html#acfcf311fbd00258b51c36a7aa6c9c21d">render</a> () const</td></tr>
 <tr class="separator:acfcf311fbd00258b51c36a7aa6c9c21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a142b61d5894f1100d235df28fc2f6b3d" id="r_a142b61d5894f1100d235df28fc2f6b3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCamera_1_1Ray.html">Ray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRender_1_1CubeView.html#a142b61d5894f1100d235df28fc2f6b3d">raycast</a> (float x, float y)</td></tr>
+<tr class="separator:a142b61d5894f1100d235df28fc2f6b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4004f8cedc29f99f8d7519f5c65bb5d" id="r_aa4004f8cedc29f99f8d7519f5c65bb5d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRender_1_1CubeView.html#aa4004f8cedc29f99f8d7519f5c65bb5d">~CubeView</a> ()</td></tr>
 <tr class="separator:aa4004f8cedc29f99f8d7519f5c65bb5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a0803049db32f70318970e36ba4b85874" id="r_a0803049db32f70318970e36ba4b85874"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classVMath_1_1SO3.html">SO3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRender_1_1CubeView.html#a0803049db32f70318970e36ba4b85874">current_transform</a> = transform</td></tr>
+<tr class="separator:a0803049db32f70318970e36ba4b85874"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ace4c5e04cee6a63fa0205e570e95a48a" name="ace4c5e04cee6a63fa0205e570e95a48a"></a>
@@ -399,6 +401,42 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a142b61d5894f1100d235df28fc2f6b3d" name="a142b61d5894f1100d235df28fc2f6b3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a142b61d5894f1100d235df28fc2f6b3d">&#9670;&#160;</a></span>raycast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structCamera_1_1Ray.html">Ray</a> Render::CubeView::raycast </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="acfcf311fbd00258b51c36a7aa6c9c21d" name="acfcf311fbd00258b51c36a7aa6c9c21d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acfcf311fbd00258b51c36a7aa6c9c21d">&#9670;&#160;</a></span>render() <span class="overload">[1/2]</span></h2>
 
@@ -451,18 +489,29 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0803049db32f70318970e36ba4b85874" name="a0803049db32f70318970e36ba4b85874"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0803049db32f70318970e36ba4b85874">&#9670;&#160;</a></span>current_transform</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classVMath_1_1SO3.html">SO3</a>&amp; Render::CubeView::current_transform = transform</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/ivan/Documents/INF/3D-minesweeper/src/VectorMath_lib/<a class="el" href="render_8h_source.html">render.h</a></li>
 <li>/home/ivan/Documents/INF/3D-minesweeper/src/VectorMath_lib/<a class="el" href="render_8cpp.html">render.cpp</a></li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="namespaceRender.html">Render</a></li><li class="navelem"><a class="el" href="classRender_1_1CubeView.html">CubeView</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
 </body>
 </html>

@@ -131,6 +131,7 @@ class CubeView {
 
  public:
   enum class SIDES { F, B, L, R, U, D };
+  const SO3& current_transform = transform;
 
   CubeView() = default;             // default init with nullptr. Dubug handles this
   CubeView(CubeView&) = delete;     // no copy allowed
@@ -145,6 +146,8 @@ class CubeView {
 
   void render(Canvas& canvas) const;
   Canvas render() const;
+
+  Ray raycast(float x, float y) { return view->raycast(Point3(x, y)); }
 
   ~CubeView();
 };
