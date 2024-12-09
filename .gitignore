@@ -34,6 +34,9 @@
 # Undo files
 *~
 
+# VScode
+.vscode
+
 # Build and cache files
 build
 out
