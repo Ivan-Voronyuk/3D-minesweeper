@@ -1,8 +1,0 @@
-<map id="Fl_Input_Choice" name="Fl_Input_Choice">
-<area shape="rect" id="Node000001" title="A combination of the input widget and a menu button." alt="" coords="5,183,131,208"/>
-<area shape="rect" id="Node000002" href="$classFl__Group.html" title=" " alt="" coords="28,108,108,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,148,71,182,65,182,65,148"/>
-<area shape="rect" id="Node000003" href="$classFl__Widget.html" title=" " alt="" coords="25,5,111,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="69,45,68,55,68,84,70,107,64,108,63,84,63,55,63,44"/>
-<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="71,45,71,108,65,108,65,45"/>
-</map>

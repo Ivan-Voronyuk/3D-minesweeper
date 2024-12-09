@@ -1,9 +1,0 @@
-<map id="Fl_Sys_Menu_Bar" name="Fl_Sys_Menu_Bar">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,225,141,251"/>
-<area shape="rect" id="Node000002" href="$classFl__Menu__Bar.html" title=" " alt="" coords="20,152,127,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,191,76,225,71,225,71,191"/>
-<area shape="rect" id="Node000003" href="$classFl__Menu__.html" title=" " alt="" coords="31,79,115,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,118,76,152,71,152,71,118"/>
-<area shape="rect" id="Node000004" href="$classFl__Widget.html" title=" " alt="" coords="30,5,117,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="76,44,76,79,71,79,71,44"/>
-</map>

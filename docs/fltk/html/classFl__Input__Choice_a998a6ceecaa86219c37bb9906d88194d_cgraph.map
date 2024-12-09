@@ -1,9 +1,0 @@
-<map id="Fl_Input_Choice::inp_h" name="Fl_Input_Choice::inp_h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,173,80"/>
-<area shape="rect" id="Node000002" href="$classFl__Widget.html#a9d1f48fbbe4d885e81df38b2a93b614f" title=" " alt="" coords="221,5,340,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,52,216,32,218,37,140,57"/>
-<area shape="rect" id="Node000003" href="$classFl.html#af739a06d44dc94d09015ed1940b9f066" title=" " alt="" coords="236,55,325,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,65,222,65,222,70,173,70"/>
-<area shape="rect" id="Node000004" href="$classFl__Widget.html#a56c09392686ee558104fd7550496894f" title=" " alt="" coords="229,104,332,129"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="140,77,218,98,216,103,139,83"/>
-</map>

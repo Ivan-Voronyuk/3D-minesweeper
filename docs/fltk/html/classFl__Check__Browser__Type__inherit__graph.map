@@ -1,9 +1,0 @@
-<map id="Fl_Check_Browser_Type" name="Fl_Check_Browser_Type">
-<area shape="rect" id="Node000001" title="Manage the Check Browser. The Fl_Check_Browser is derived form Fl_Browser_ (underline!..." alt="" coords="5,225,184,251"/>
-<area shape="rect" id="Node000002" href="$classFl__Browser__Base__Type.html" title="This is the base class for some browsers types. This class will not be instantiated." alt="" coords="9,152,180,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,191,97,225,92,225,92,191"/>
-<area shape="rect" id="Node000003" href="$classFl__Widget__Type.html" title=" " alt="" coords="33,79,157,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,118,97,152,92,152,92,118"/>
-<area shape="rect" id="Node000004" href="$classFl__Type.html" title="This is the base class for all elements in the project tree." alt="" coords="59,5,130,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="97,44,97,79,92,79,92,44"/>
-</map>

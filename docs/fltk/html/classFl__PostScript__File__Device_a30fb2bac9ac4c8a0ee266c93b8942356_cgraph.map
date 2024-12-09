@@ -1,7 +1,0 @@
-<map id="Fl_PostScript_File_Device::~Fl_PostScript_File_Device" name="Fl_PostScript_File_Device::~Fl_PostScript_File_Device">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,183,60"/>
-<area shape="rect" id="Node000002" href="$classFl__PostScript__File__Device.html#a7a1526bd1ae1a010978842adb459c9a3" title="Returns the PostScript driver of this drawing surface." alt="" coords="231,13,367,53"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,30,217,30,217,35,183,35"/>
-<area shape="rect" id="Node000003" href="$classFl__Surface__Device.html#aa84d290fba5e95e552bf017525cb14cb" title="Returns the graphics driver of this drawing surface." alt="" coords="415,13,565,53"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="367,30,401,30,401,35,367,35"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="fl_draw_pixmap" name="fl_draw_pixmap">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,43,131,68"/>
-<area shape="rect" id="Node000002" href="$group__fl__drawings.html#gaf9ad52880174bae01461adfa5b4020ff" title=" " alt="" coords="195,5,313,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,40,182,30,183,35,131,45"/>
-<area shape="rect" id="Node000003" href="$group__fl__drawings.html#ga1a254e8b7b3699d0d3b9c8e2fb2b5eb6" title=" " alt="" coords="179,79,329,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="131,65,175,73,174,79,130,70"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="223,80,217,70,220,61,233,54,254,52,279,56,290,64,287,68,277,60,254,57,235,59,224,64,222,70,228,77"/>
-</map>

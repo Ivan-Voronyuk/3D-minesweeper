@@ -1,5 +1,0 @@
-<map id="Fl_Printer::end_page" name="Fl_Printer::end_page">
-<area shape="rect" id="Node000001" title="To be called at the end of each page. This function also stops this surface from being the current dr..." alt="" coords="5,5,160,31"/>
-<area shape="rect" id="Node000002" href="$classFl__Paged__Device.html#a75a4ee05b22db31af8423401250a2742" title="To be called at the end of each page. This function also stops this surface from being the current dr..." alt="" coords="208,5,411,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,15,194,15,194,21,160,21"/>
-</map>

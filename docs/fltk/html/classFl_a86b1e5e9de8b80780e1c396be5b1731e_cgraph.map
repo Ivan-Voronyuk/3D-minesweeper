@@ -1,9 +1,0 @@
-<map id="Fl::ticks_since" name="Fl::ticks_since">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,120,56"/>
-<area shape="rect" id="Node000002" href="$classFl.html#a3d3dd9592f1f053d6b5bcd3df1ee866e" title=" " alt="" coords="201,5,271,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,32,187,22,188,28,121,38"/>
-<area shape="rect" id="Node000004" href="$classFl.html#a95a89c0465fef41e24b1facce554718a" title=" " alt="" coords="168,55,304,80"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="121,49,155,53,154,59,120,54"/>
-<area shape="rect" id="Node000003" href="$classFl.html#a808d0335818b286be9101588a36619d2" title=" " alt="" coords="352,5,487,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="271,15,338,15,338,21,271,21"/>
-</map>

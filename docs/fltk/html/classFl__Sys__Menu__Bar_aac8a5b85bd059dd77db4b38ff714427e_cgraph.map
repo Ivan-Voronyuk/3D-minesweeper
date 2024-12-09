@@ -1,7 +1,0 @@
-<map id="Fl_Sys_Menu_Bar::shortcut" name="Fl_Sys_Menu_Bar::shortcut">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,203,31"/>
-<area shape="rect" id="Node000002" href="$classFl__Menu__.html#aa8080134808c3785579bde1c4ff57f62" title=" " alt="" coords="251,5,396,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,15,237,15,237,21,203,21"/>
-<area shape="rect" id="Node000003" href="$structFl__Menu__Item.html#a026eeb4b0d2aa5b03f9865d9a320edf2" title=" " alt="" coords="444,5,619,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="396,15,430,15,430,21,396,21"/>
-</map>

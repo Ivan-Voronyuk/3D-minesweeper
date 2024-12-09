@@ -1,9 +1,0 @@
-<map id="Fl_End::Fl_End" name="Fl_End::Fl_End">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,121,56"/>
-<area shape="rect" id="Node000002" href="$classFl__Group.html#af48163bbf0a8d18844b5d751946897c0" title=" " alt="" coords="169,5,304,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,32,155,27,156,32,122,38"/>
-<area shape="rect" id="Node000003" href="$classFl__Group.html#a029653337efa0cb2ec52852519293ba8" title=" " alt="" coords="181,55,293,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="122,49,167,55,167,60,121,54"/>
-<area shape="rect" id="Node000004" href="$classFl__Widget.html#accde05cf78a23ba6a1e9547cc034f499" title=" " alt="" coords="352,55,489,80"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="293,65,338,65,338,70,293,70"/>
-</map>

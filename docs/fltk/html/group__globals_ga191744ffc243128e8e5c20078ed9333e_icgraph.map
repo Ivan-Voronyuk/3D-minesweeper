@@ -1,7 +1,0 @@
-<map id="show_help" name="show_help">
-<area shape="rect" id="Node000001" title=" " alt="" coords="147,31,237,56"/>
-<area shape="rect" id="Node000002" href="$group__globals.html#ga1151118e3544af988678134a667f4d19" title=" " alt="" coords="16,5,88,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,35,88,27,89,22,134,30"/>
-<area shape="rect" id="Node000003" href="$group__globals.html#gae06172bee3d69d56c7d6acdc03438c1c" title=" " alt="" coords="5,55,99,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="134,56,99,62,98,57,133,51"/>
-</map>

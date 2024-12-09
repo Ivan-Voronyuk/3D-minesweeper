@@ -1,9 +1,0 @@
-<map id="Fl_Grid::draw_grid" name="Fl_Grid::draw_grid">
-<area shape="rect" id="Node000001" title=" " alt="" coords="403,35,543,60"/>
-<area shape="rect" id="Node000002" href="$classFl__Grid.html#a19c47a71a2033e87ebebaf11aa8764e4" title=" " alt="" coords="225,5,333,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="389,37,333,29,334,24,389,32"/>
-<area shape="rect" id="Node000004" href="$classFl__Grid__Proxy.html#afabc9ceacf660173cf456e65fbed2e23" title=" " alt="" coords="204,55,355,95"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="389,62,356,67,355,62,389,57"/>
-<area shape="rect" id="Node000003" href="$classFl__Grid__Proxy.html#a6367739fdbddf8b7e63a1f722d487b0c" title=" " alt="" coords="5,5,156,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="211,21,156,21,156,15,211,15"/>
-</map>

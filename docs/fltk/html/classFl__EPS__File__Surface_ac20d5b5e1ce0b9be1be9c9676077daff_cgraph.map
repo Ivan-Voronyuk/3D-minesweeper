@@ -1,7 +1,0 @@
-<map id="Fl_EPS_File_Surface::origin" name="Fl_EPS_File_Surface::origin">
-<area shape="rect" id="Node000001" title="Sets the position of the origin of graphics in the drawable part of the drawing surface." alt="" coords="5,5,156,45"/>
-<area shape="rect" id="Node000002" href="$classFl__EPS__File__Surface.html#a85d8ce53aca4fdd35397319d81928fd3" title=" " alt="" coords="204,5,355,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,23,190,23,190,28,156,28"/>
-<area shape="rect" id="Node000003" href="$classFl__Surface__Device.html#aa84d290fba5e95e552bf017525cb14cb" title="Returns the graphics driver of this drawing surface." alt="" coords="403,5,553,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="355,23,389,23,389,28,355,28"/>
-</map>

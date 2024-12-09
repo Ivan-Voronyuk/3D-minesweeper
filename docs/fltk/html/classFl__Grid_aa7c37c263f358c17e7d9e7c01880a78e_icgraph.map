@@ -1,9 +1,0 @@
-<map id="Fl_Grid::clear_layout" name="Fl_Grid::clear_layout">
-<area shape="rect" id="Node000001" title=" " alt="" coords="461,42,617,67"/>
-<area shape="rect" id="Node000002" href="$classFl__Grid.html#ab51f7565564accd1f137d926cf7676d2" title=" " alt="" coords="296,42,413,67"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="447,57,413,57,413,52,447,52"/>
-<area shape="rect" id="Node000003" href="$classFl__Grid__Type.html#a47c11cae971910bcfcf4c374b3d28f7e" title=" " alt="" coords="37,5,216,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="282,48,216,39,216,34,283,43"/>
-<area shape="rect" id="Node000004" href="$classFl__Window__Type.html#a9a77dd69d65c4375676e8d09c3a536f8" title=" " alt="" coords="5,70,248,95"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="283,66,230,73,230,67,282,61"/>
-</map>

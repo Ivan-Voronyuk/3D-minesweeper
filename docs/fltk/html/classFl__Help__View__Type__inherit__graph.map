@@ -1,7 +1,0 @@
-<map id="Fl_Help_View_Type" name="Fl_Help_View_Type">
-<area shape="rect" id="Node000001" title="Handle the Help View widget. Fl_Help_View is derived from Fl_Group, but supporting children is not us..." alt="" coords="5,152,152,177"/>
-<area shape="rect" id="Node000002" href="$classFl__Widget__Type.html" title=" " alt="" coords="17,79,141,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,118,81,152,76,152,76,118"/>
-<area shape="rect" id="Node000003" href="$classFl__Type.html" title="This is the base class for all elements in the project tree." alt="" coords="43,5,114,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="81,44,81,79,76,79,76,44"/>
-</map>

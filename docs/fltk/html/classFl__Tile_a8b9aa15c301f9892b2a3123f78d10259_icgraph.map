@@ -1,7 +1,0 @@
-<map id="Fl_Tile::init_size_range" name="Fl_Tile::init_size_range">
-<area shape="rect" id="Node000001" title=" " alt="" coords="387,5,513,45"/>
-<area shape="rect" id="Node000002" href="$classFl__Tile.html#addd0a6100ddfa0fc0f84a66884f728ac" title=" " alt="" coords="196,13,339,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="373,28,339,28,339,23,373,23"/>
-<area shape="rect" id="Node000003" href="$classFl__Tile.html#a64fdcb7a72d9abc85e7db8daa10ba79f" title=" " alt="" coords="5,13,148,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="183,28,148,28,148,23,183,23"/>
-</map>

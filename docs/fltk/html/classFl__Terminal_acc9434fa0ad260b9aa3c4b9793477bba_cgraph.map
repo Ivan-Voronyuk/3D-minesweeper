@@ -1,7 +1,0 @@
-<map id="Fl_Terminal::history_lines" name="Fl_Terminal::history_lines">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,156,45"/>
-<area shape="rect" id="Node000002" href="$classFl__Terminal.html#a9ada5ce982f4db0a51f1884271fe83a5" title=" " alt="" coords="204,13,392,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,23,190,23,190,28,156,28"/>
-<area shape="rect" id="Node000003" href="$classFl__Terminal.html#a2ca8aa7df4c3027c78761bacf44a0b20" title="Return the number of rows in the scrollback history." alt="" coords="440,13,607,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="392,23,426,23,426,28,392,28"/>
-</map>

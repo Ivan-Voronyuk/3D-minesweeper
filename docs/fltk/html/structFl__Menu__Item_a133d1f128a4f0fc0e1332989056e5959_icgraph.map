@@ -1,7 +1,0 @@
-<map id="Fl_Menu_Item::test_shortcut" name="Fl_Menu_Item::test_shortcut">
-<area shape="rect" id="Node000001" title=" " alt="" coords="435,5,581,45"/>
-<area shape="rect" id="Node000002" href="$classFl__Choice.html#aab5c9eb774b40da50c18446b0e515dbb" title=" " alt="" coords="249,13,387,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="421,28,387,28,387,23,421,23"/>
-<area shape="rect" id="Node000003" href="$classFl__Scheme__Choice.html#a641172d20ee142b11366ce23a252186a" title="Handle FLTK events." alt="" coords="5,13,201,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="236,28,201,28,201,23,236,23"/>
-</map>

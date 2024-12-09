@@ -1,8 +1,0 @@
-<map id="toggle_widgetbin_cb" name="toggle_widgetbin_cb">
-<area shape="rect" id="Node000001" title=" " alt="" coords="311,5,467,31"/>
-<area shape="rect" id="Node000002" href="$group__globals.html#ga3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,60,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="297,21,60,21,60,15,297,15"/>
-<area shape="rect" id="Node000003" href="$group__globals.html#ga57b111f2496f2afa6688ce0cab773634" title=" " alt="" coords="108,31,263,56"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="297,32,263,36,263,31,296,27"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="95,31,60,25,61,20,96,26"/>
-</map>

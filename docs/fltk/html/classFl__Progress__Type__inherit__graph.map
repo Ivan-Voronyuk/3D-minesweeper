@@ -1,7 +1,0 @@
-<map id="Fl_Progress_Type" name="Fl_Progress_Type">
-<area shape="rect" id="Node000001" title="Manage a Progress widget. Ideal size is set to match the label font and label text width times 3." alt="" coords="5,152,140,177"/>
-<area shape="rect" id="Node000002" href="$classFl__Widget__Type.html" title=" " alt="" coords="11,79,135,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,118,75,152,70,152,70,118"/>
-<area shape="rect" id="Node000003" href="$classFl__Type.html" title="This is the base class for all elements in the project tree." alt="" coords="37,5,108,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="75,44,75,79,70,79,70,44"/>
-</map>

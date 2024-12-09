@@ -1,9 +1,0 @@
-<map id="Fl_Shortcut_Button" name="Fl_Shortcut_Button">
-<area shape="rect" id="Node000001" title=" " alt="" coords="44,168,189,193"/>
-<area shape="rect" id="Node000002" href="$classFl__Button.html" title="Buttons generate callbacks when they are clicked by the user." alt="" coords="75,93,159,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,133,119,168,114,168,114,133"/>
-<area shape="rect" id="Node000003" href="$classFl__Widget.html" title=" " alt="" coords="5,5,92,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="69,40,109,91,105,94,64,43"/>
-<area shape="rect" id="Node000004" href="$classFl__Widget__Tracker.html" title=" " alt="" coords="116,5,256,31"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="170,43,128,94,124,91,166,40"/>
-</map>

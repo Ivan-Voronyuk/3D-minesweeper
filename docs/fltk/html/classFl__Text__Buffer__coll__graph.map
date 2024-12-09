@@ -1,9 +1,0 @@
-<map id="Fl_Text_Buffer" name="Fl_Text_Buffer">
-<area shape="rect" id="Node000001" title=" " alt="" coords="186,123,301,148"/>
-<area shape="rect" id="Node000002" href="$classFl__Text__Selection.html" title="This is an internal class for Fl_Text_Buffer to manage text selections." alt="" coords="5,5,140,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,39,123,69,158,96,208,120,206,125,155,101,119,72,90,43"/>
-<area shape="rect" id="Node000003" href="$classFl__Text__Undo__Action.html" title=" " alt="" coords="165,5,322,31"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="246,44,246,123,241,123,241,44"/>
-<area shape="rect" id="Node000004" href="$classFl__Text__Undo__Action__List.html" title=" " alt="" coords="346,5,533,31"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="410,40,264,125,261,120,407,35"/>
-</map>

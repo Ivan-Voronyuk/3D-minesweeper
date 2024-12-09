@@ -1,9 +1,0 @@
-<map id="Fl_Glut_StrokeFont" name="Fl_Glut_StrokeFont">
-<area shape="rect" id="Node000001" title=" " alt="" coords="13,269,157,295"/>
-<area shape="rect" id="Node000002" href="$structFl__Glut__StrokeChar.html" title=" " alt="" coords="11,181,158,207"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,221,87,269,82,269,82,221"/>
-<area shape="rect" id="Node000003" href="$structFl__Glut__StrokeStrip.html" title=" " alt="" coords="11,93,158,119"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,133,87,181,82,181,82,133"/>
-<area shape="rect" id="Node000004" href="$structFl__Glut__StrokeVertex.html" title=" " alt="" coords="5,5,164,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,45,87,93,82,93,82,45"/>
-</map>

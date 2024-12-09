@@ -1,9 +1,0 @@
-<map id="new_project" name="new_project">
-<area shape="rect" id="Node000001" title=" " alt="" coords="361,31,463,56"/>
-<area shape="rect" id="Node000002" href="$group__globals.html#gaaf899ea2010d69dae702592841e109d8" title=" " alt="" coords="108,5,313,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="347,38,311,33,312,28,348,33"/>
-<area shape="rect" id="Node000003" href="$group__globals.html#ga045fb96b901065671b90d820f4ea949f" title=" " alt="" coords="144,55,277,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="348,54,278,62,277,57,347,48"/>
-<area shape="rect" id="Node000004" href="$group__globals.html#ga3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,55,60,80"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="130,70,60,70,60,65,130,65"/>
-</map>

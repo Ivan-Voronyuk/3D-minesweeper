@@ -1,7 +1,0 @@
-<map id="Fl_Printer::Fl_Printer" name="Fl_Printer::Fl_Printer">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,45,160,70"/>
-<area shape="rect" id="Node000002" href="$classFl__Surface__Device.html#aa84d290fba5e95e552bf017525cb14cb" title="Returns the graphics driver of this drawing surface." alt="" coords="208,5,359,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,42,194,37,195,42,161,48"/>
-<area shape="rect" id="Node000003" href="$classFl__Surface__Device.html#a3993b12f96391f224a0d52a1fd15cfee" title=" " alt="" coords="208,69,359,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,67,195,72,194,78,160,72"/>
-</map>

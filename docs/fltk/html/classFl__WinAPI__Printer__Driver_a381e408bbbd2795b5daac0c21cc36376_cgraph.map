@@ -1,9 +1,0 @@
-<map id="Fl_WinAPI_Printer_Driver::begin_job" name="Fl_WinAPI_Printer_Driver::begin_job">
-<area shape="rect" id="Node000001" title="Begins a print job." alt="" coords="5,35,189,75"/>
-<area shape="rect" id="Node000002" href="$classFl__Surface__Device.html#aa84d290fba5e95e552bf017525cb14cb" title="Returns the graphics driver of this drawing surface." alt="" coords="237,5,388,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,39,223,35,224,40,190,45"/>
-<area shape="rect" id="Node000003" href="$group__fl__unicode.html#ga56a6296024debb49690b81addda7589b" title=" " alt="" coords="257,70,369,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,64,244,71,243,76,189,69"/>
-<area shape="rect" id="Node000004" href="$classFl.html#a808d0335818b286be9101588a36619d2" title=" " alt="" coords="436,70,571,95"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="369,80,422,80,422,85,369,85"/>
-</map>

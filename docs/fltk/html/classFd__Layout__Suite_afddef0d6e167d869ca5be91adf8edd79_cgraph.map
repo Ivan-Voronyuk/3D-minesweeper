@@ -1,8 +1,0 @@
-<map id="Fd_Layout_Suite::write" name="Fd_Layout_Suite::write">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,176,31"/>
-<area shape="rect" id="Node000002" href="$classFl__Preferences.html#a1928e8ca3f21f66304951b757f24d70a" title=" " alt="" coords="451,5,597,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,15,437,15,437,21,176,21"/>
-<area shape="rect" id="Node000003" href="$classFd__Layout__Preset.html#a9f27f610c98c005562cb89b52c5dd674" title=" " alt="" coords="224,31,403,56"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,25,211,29,210,34,176,30"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="403,30,436,26,437,31,403,35"/>
-</map>

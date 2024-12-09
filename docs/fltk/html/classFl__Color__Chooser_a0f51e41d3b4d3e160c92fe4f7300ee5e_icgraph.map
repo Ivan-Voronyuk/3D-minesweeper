@@ -1,7 +1,0 @@
-<map id="Fl_Color_Chooser::hsv" name="Fl_Color_Chooser::hsv">
-<area shape="rect" id="Node000001" title=" " alt="" coords="221,31,388,56"/>
-<area shape="rect" id="Node000002" href="$classFlcc__HueBox.html#a943ddc41a65d3fe7d9bd11ee856218fe" title=" " alt="" coords="10,5,169,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,35,169,30,169,25,208,29"/>
-<area shape="rect" id="Node000003" href="$classFlcc__ValueBox.html#a1cd47ad0f19ff6e313386f16fb50b90f" title=" " alt="" coords="5,55,173,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,57,174,61,173,55,207,51"/>
-</map>

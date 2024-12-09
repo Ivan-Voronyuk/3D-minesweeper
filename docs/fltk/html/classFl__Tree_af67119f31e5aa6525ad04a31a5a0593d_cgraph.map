@@ -1,5 +1,0 @@
-<map id="Fl_Tree::item_labelfont" name="Fl_Tree::item_labelfont">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,176,31"/>
-<area shape="rect" id="Node000002" href="$classFl__Tree__Prefs.html#aff48b9a1237ca0e7616e2c799b4fc5ee" title="Obsolete: Return the label&#39;s font. Please use item_labelfont() instead." alt="" coords="224,5,399,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,15,210,15,210,21,176,21"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="Fl_Round_Button_Type" name="Fl_Round_Button_Type">
-<area shape="rect" id="Node000001" title="Manage buttons with a round indicator on its left." alt="" coords="5,225,175,251"/>
-<area shape="rect" id="Node000002" href="$classFl__Button__Type.html" title="A handler for the simple push button and a base class for all other buttons." alt="" coords="29,152,151,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,191,93,225,87,225,87,191"/>
-<area shape="rect" id="Node000003" href="$classFl__Widget__Type.html" title=" " alt="" coords="28,79,152,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,118,93,152,87,152,87,118"/>
-<area shape="rect" id="Node000004" href="$classFl__Type.html" title="This is the base class for all elements in the project tree." alt="" coords="55,5,125,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="93,44,93,79,87,79,87,44"/>
-</map>

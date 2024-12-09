@@ -1,7 +1,0 @@
-<map id="Drawing" name="Drawing">
-<area shape="rect" id="Node000001" title=" " alt="" coords="11,79,87,104"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,92,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="34,44,34,62,38,78,32,79,28,63,29,44"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="51,44,51,79,46,79,46,44"/>
-<area shape="poly" id="edge3_Node000001_Node000002" title=" " alt="" coords="69,44,69,63,65,79,60,78,64,62,63,44"/>
-</map>

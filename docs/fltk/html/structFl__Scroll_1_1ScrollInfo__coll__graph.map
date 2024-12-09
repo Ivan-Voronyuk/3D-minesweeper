@@ -1,9 +1,0 @@
-<map id="Fl_Scroll::ScrollInfo" name="Fl_Scroll::ScrollInfo">
-<area shape="rect" id="Node000001" title=" " alt="" coords="246,108,393,133"/>
-<area shape="rect" id="Node000002" href="$structFl__Scroll_1_1Fl__Region__XYWH.html" title="A local struct to manage a region defined by xywh." alt="" coords="5,5,201,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,34,296,106,294,110,139,39"/>
-<area shape="rect" id="Node000003" href="$structFl__Scroll_1_1Fl__Region__LRTB.html" title="A local struct to manage a region defined by left/right/top/bottom." alt="" coords="225,5,413,31"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="322,45,322,108,317,108,317,45"/>
-<area shape="rect" id="Node000004" href="$structFl__Scroll_1_1Fl__Scrollbar__Data.html" title="A local struct to manage a scrollbar&#39;s xywh region and tab values." alt="" coords="437,5,636,31"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="501,39,345,110,343,106,498,34"/>
-</map>

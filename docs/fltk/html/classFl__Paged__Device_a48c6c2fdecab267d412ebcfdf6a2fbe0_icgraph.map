@@ -1,9 +1,0 @@
-<map id="Fl_Paged_Device::scale" name="Fl_Paged_Device::scale">
-<area shape="rect" id="Node000001" title="Changes the scaling of page coordinates." alt="" coords="373,42,548,67"/>
-<area shape="rect" id="Node000002" href="$classFl__PDF__File__Surface.html#af599d8f8750022e487a0837df6e9e568" title="Changes the scaling of page coordinates." alt="" coords="172,5,325,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="359,43,325,39,326,33,360,38"/>
-<area shape="rect" id="Node000003" href="$classFl__Printer.html#ae0fe861b726d3052e479a347765882c3" title="Changes the scaling of page coordinates." alt="" coords="185,70,312,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="360,71,313,77,312,72,359,65"/>
-<area shape="rect" id="Node000004" href="$group__globals.html#gaf5dcf594e577c0e9254b411908a9aa98" title=" " alt="" coords="5,70,124,95"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="171,85,124,85,124,80,171,80"/>
-</map>

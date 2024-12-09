@@ -1,5 +1,0 @@
-<map id="Fl_Tree::item_labelbgcolor" name="Fl_Tree::item_labelbgcolor">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,199,31"/>
-<area shape="rect" id="Node000002" href="$classFl__Tree__Prefs.html#a00c9ea12ee638b6aea24b2cbf2f3f396" title="Obsolete: Get the default label background color. Please use item_labelbgcolor() instead." alt="" coords="247,5,443,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,15,233,15,233,21,199,21"/>
-</map>

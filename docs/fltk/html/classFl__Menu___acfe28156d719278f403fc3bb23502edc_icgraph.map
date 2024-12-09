@@ -1,9 +1,0 @@
-<map id="Fl_Menu_::down_box" name="Fl_Menu_::down_box">
-<area shape="rect" id="Node000001" title=" " alt="" coords="209,63,368,88"/>
-<area shape="rect" id="Node000002" href="$classFl__Choice.html#a7fd57948259f7f6c17b26d7151b0afef" title=" " alt="" coords="5,5,161,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,61,129,33,130,28,230,56"/>
-<area shape="rect" id="Node000003" href="$classFl__File__Chooser.html#ac3ef3aca56eb4ab860c9fc31458a757d" title=" " alt="" coords="11,55,155,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,78,156,78,156,73,196,73"/>
-<area shape="rect" id="Node000004" href="$classFl__Menu__Button.html#a48c3e8fe3841aef755a4d1b6e513b2b9" title=" " alt="" coords="10,119,157,159"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="235,95,149,122,147,117,233,90"/>
-</map>

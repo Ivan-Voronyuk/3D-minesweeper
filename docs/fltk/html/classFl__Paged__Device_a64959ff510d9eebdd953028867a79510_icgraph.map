@@ -1,7 +1,0 @@
-<map id="Fl_Paged_Device::margins" name="Fl_Paged_Device::margins">
-<area shape="rect" id="Node000001" title="Computes the dimensions of margins that lie between the printable page area and the full page." alt="" coords="207,42,400,67"/>
-<area shape="rect" id="Node000002" href="$classFl__PDF__File__Surface.html#acbc6fc87b578ccaa00c5047806e5d459" title="Computes the dimensions of margins that lie between the printable page area and the full page." alt="" coords="5,5,159,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,43,158,38,159,33,194,38"/>
-<area shape="rect" id="Node000003" href="$classFl__Printer.html#aeda914b1b301a409d3fa50a1a74da72b" title="Computes the dimensions of margins that lie between the printable page area and the full page." alt="" coords="9,70,155,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,71,155,76,155,71,192,66"/>
-</map>

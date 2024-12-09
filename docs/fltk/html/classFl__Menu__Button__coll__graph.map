@@ -1,8 +1,0 @@
-<map id="Fl_Menu_Button" name="Fl_Menu_Button">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,155,132,180"/>
-<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="147,160,159,167,150,174,133,177,132,171,148,169,153,167,145,164"/>
-<area shape="rect" id="Node000002" href="$classFl__Menu__.html" title=" " alt="" coords="27,80,111,105"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,120,71,154,66,154,66,120"/>
-<area shape="rect" id="Node000003" href="$classFl__Widget.html" title=" " alt="" coords="25,5,112,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="71,45,71,80,66,80,66,45"/>
-</map>

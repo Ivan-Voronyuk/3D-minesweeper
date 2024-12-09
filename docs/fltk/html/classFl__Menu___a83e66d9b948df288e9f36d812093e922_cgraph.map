@@ -1,9 +1,0 @@
-<map id="Fl_Menu_::find_item" name="Fl_Menu_::find_item">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,159,31"/>
-<area shape="rect" id="Node000002" href="$classFl__Menu__.html#aacc5f170e9c8961b7d3916c2849a1636" title=" " alt="" coords="207,5,365,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,15,193,15,193,21,159,21"/>
-<area shape="rect" id="Node000003" href="$classFl__Menu__.html#a2e1f09f0534831c647173d160e641e00" title=" " alt="" coords="413,5,532,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="365,15,400,15,400,21,365,21"/>
-<area shape="rect" id="Node000004" href="$structFl__Menu__Item.html#aa06209e2140c18cb3055bb169f076c13" title=" " alt="" coords="580,5,728,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="532,15,566,15,566,21,532,21"/>
-</map>

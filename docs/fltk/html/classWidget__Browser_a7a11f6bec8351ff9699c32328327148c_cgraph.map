@@ -1,9 +1,0 @@
-<map id="Widget_Browser::Widget_Browser" name="Widget_Browser::Widget_Browser">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,188,87"/>
-<area shape="rect" id="Node000002" href="$classFl__Widget.html#ac32acdcfb3b722fccd2d3f946b01e799" title=" " alt="" coords="236,5,385,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,45,241,31,243,36,185,50"/>
-<area shape="rect" id="Node000003" href="$classFl__Widget.html#adda2e8f162b3ea0332eb8d762350bbd5" title=" " alt="" coords="249,55,373,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,65,235,65,235,70,188,70"/>
-<area shape="rect" id="Node000004" href="$classFl__Widget.html#ad4ef380ffb50f4d00fe93f7b6677e9e1" title=" " alt="" coords="245,104,376,129"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="185,85,243,98,241,104,183,90"/>
-</map>

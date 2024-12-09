@@ -1,9 +1,0 @@
-<map id="Fl_Color_Chooser::value" name="Fl_Color_Chooser::value">
-<area shape="rect" id="Node000001" title=" " alt="" coords="221,55,400,80"/>
-<area shape="rect" id="Node000002" href="$classFlcc__ValueBox.html#a95d14b1b206cd72ab2d754d6830eeb84" title=" " alt="" coords="11,5,167,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,54,147,33,148,28,240,49"/>
-<area shape="rect" id="Node000003" href="$classFlcc__HueBox.html#a943ddc41a65d3fe7d9bd11ee856218fe" title=" " alt="" coords="10,55,169,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,70,169,70,169,65,208,65"/>
-<area shape="rect" id="Node000004" href="$classFlcc__ValueBox.html#a1cd47ad0f19ff6e313386f16fb50b90f" title=" " alt="" coords="5,104,173,129"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="240,86,148,107,147,101,239,80"/>
-</map>

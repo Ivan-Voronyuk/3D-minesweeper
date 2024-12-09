@@ -1,9 +1,0 @@
-<map id="Fl_Text_Display::show_insert_position" name="Fl_Text_Display::show_insert_position">
-<area shape="rect" id="Node000001" title="Scrolls the text buffer to show the current insert position." alt="" coords="5,5,171,45"/>
-<area shape="rect" id="Node000002" href="$classFl__Text__Display.html#ae866a3c3130570ef61c632b7a0e2c43a" title=" " alt="" coords="219,5,397,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,23,205,23,205,28,171,28"/>
-<area shape="rect" id="Node000003" href="$classFl__Widget.html#aa63ce68cbf4620cf8750b868368ea02b" title=" " alt="" coords="445,13,585,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="398,23,432,23,432,28,398,28"/>
-<area shape="rect" id="Node000004" href="$classFl__Widget.html#ada8bb104e4501a2b123e813b32b6ed95" title=" " alt="" coords="633,13,781,38"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="586,23,619,23,619,28,586,28"/>
-</map>

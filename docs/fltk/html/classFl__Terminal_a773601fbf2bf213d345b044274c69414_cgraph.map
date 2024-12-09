@@ -1,7 +1,0 @@
-<map id="Fl_Terminal::cursor_left" name="Fl_Terminal::cursor_left">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,179,56"/>
-<area shape="rect" id="Node000002" href="$classFl__Terminal.html#a58374c569a623126bcbbc8cb2b5782c3" title=" " alt="" coords="227,5,397,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,31,213,27,213,32,180,36"/>
-<area shape="rect" id="Node000003" href="$classFl__Terminal.html#abb995a2ff6716431f916920286772d3a" title="Return the number of columns in the display area." alt="" coords="229,55,395,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,50,216,54,215,59,179,55"/>
-</map>

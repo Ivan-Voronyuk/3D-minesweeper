@@ -1,8 +1,0 @@
-<map id="Fl_Batchmode_Terminal" name="Fl_Batchmode_Terminal">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,183,184,208"/>
-<area shape="rect" id="Node000002" href="$classFl__Group.html" title=" " alt="" coords="55,108,135,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,148,97,182,92,182,92,148"/>
-<area shape="rect" id="Node000003" href="$classFl__Widget.html" title=" " alt="" coords="51,5,138,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="95,45,95,55,95,84,96,107,91,108,89,84,89,55,90,44"/>
-<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="97,45,97,108,92,108,92,45"/>
-</map>

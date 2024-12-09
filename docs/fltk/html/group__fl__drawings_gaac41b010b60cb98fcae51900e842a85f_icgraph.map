@@ -1,9 +1,0 @@
-<map id="fl_draw_check" name="fl_draw_check">
-<area shape="rect" id="Node000001" title=" " alt="" coords="272,55,387,80"/>
-<area shape="rect" id="Node000002" href="$classFl__Light__Button.html#ac91a3cf5774d0c8482c41ca6540d59e3" title=" " alt="" coords="33,5,196,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,54,223,45,174,33,175,28,225,39,264,49"/>
-<area shape="rect" id="Node000003" href="$structFl__Menu__Item.html#a6f9672ace322a67dccf75c33f26c2a52" title=" " alt="" coords="37,55,192,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,70,192,70,192,65,258,65"/>
-<area shape="rect" id="Node000004" href="$classFl__Check__Browser.html#acda8e75ac4ef01dbc5150d855a19570f" title=" " alt="" coords="5,104,224,129"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="261,86,171,107,170,101,259,81"/>
-</map>

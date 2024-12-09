@@ -1,7 +1,0 @@
-<map id="fl_polygon" name="fl_polygon">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,95,56"/>
-<area shape="rect" id="Node000002" href="$classFl__Widget.html#aeed320ce65d02a7f0fcab1363f0136b0" title=" " alt="" coords="143,5,245,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,33,129,27,130,32,95,38"/>
-<area shape="rect" id="Node000003" href="$classFl__Widget.html#a4665aaf0850ed0d334600e2cac58c360" title=" " alt="" coords="143,55,245,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="95,48,130,54,129,59,94,53"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="Fl_Light_Button_Type" name="Fl_Light_Button_Type">
-<area shape="rect" id="Node000001" title="A handler for a toggle button with an indicator light." alt="" coords="5,225,165,251"/>
-<area shape="rect" id="Node000002" href="$classFl__Button__Type.html" title="A handler for the simple push button and a base class for all other buttons." alt="" coords="25,152,146,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,191,88,225,83,225,83,191"/>
-<area shape="rect" id="Node000003" href="$classFl__Widget__Type.html" title=" " alt="" coords="23,79,147,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="88,118,88,152,83,152,83,118"/>
-<area shape="rect" id="Node000004" href="$classFl__Type.html" title="This is the base class for all elements in the project tree." alt="" coords="50,5,121,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="88,44,88,79,83,79,83,44"/>
-</map>

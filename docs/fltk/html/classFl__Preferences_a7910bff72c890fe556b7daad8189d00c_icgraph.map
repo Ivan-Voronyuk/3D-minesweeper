@@ -1,9 +1,0 @@
-<map id="Fl_Preferences::name" name="Fl_Preferences::name">
-<area shape="rect" id="Node000001" title=" " alt="" coords="403,45,565,70"/>
-<area shape="rect" id="Node000002" href="$classFl__Plugin__Manager.html#a8164ddc304b93f62a28c33c3da45af05" title="This function adds a new plugin to the database." alt="" coords="201,5,355,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="389,45,355,40,356,35,389,40"/>
-<area shape="rect" id="Node000004" href="$classFl__Plugin__Manager.html#a0b544ffc787a497bddc4f5f69ebd5e91" title="Return the address of a plugin by name." alt="" coords="201,69,355,109"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="389,75,356,80,355,75,389,69"/>
-<area shape="rect" id="Node000003" href="$classFl__Plugin.html#a968b52aedafd49c59efe074a45dbfdd5" title="Create a plugin." alt="" coords="5,13,153,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="187,28,154,28,154,23,187,23"/>
-</map>

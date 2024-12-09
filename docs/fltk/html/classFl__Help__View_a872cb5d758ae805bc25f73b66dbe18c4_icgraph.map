@@ -1,9 +1,0 @@
-<map id="Fl_Help_View::value" name="Fl_Help_View::value">
-<area shape="rect" id="Node000001" title=" " alt="" coords="541,5,695,31"/>
-<area shape="rect" id="Node000002" href="$classFl__Help__View.html#a70786a7db2d6a049c673b8bcd4a095d8" title=" " alt="" coords="348,5,493,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="527,21,493,21,493,15,527,15"/>
-<area shape="rect" id="Node000003" href="$classFl__Help__Dialog.html#a2672206850443cf3852292bce97f8147" title="Loads the specified HTML file into the Fl_Help_View widget. The filename can also contain a target na..." alt="" coords="144,5,300,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="334,21,300,21,300,15,334,15"/>
-<area shape="rect" id="Node000004" href="$group__globals.html#ga191744ffc243128e8e5c20078ed9333e" title=" " alt="" coords="5,5,96,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="130,21,96,21,96,15,130,15"/>
-</map>

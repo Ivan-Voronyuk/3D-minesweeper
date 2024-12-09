@@ -1,8 +1,0 @@
-<map id="Fl_Help_View" name="Fl_Help_View">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,183,116,208"/>
-<area shape="rect" id="Node000002" href="$classFl__Group.html" title=" " alt="" coords="21,108,101,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,148,63,182,58,182,58,148"/>
-<area shape="rect" id="Node000003" href="$classFl__Widget.html" title=" " alt="" coords="17,5,104,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="61,45,61,55,61,84,62,107,57,108,55,84,55,55,56,44"/>
-<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="63,45,63,108,58,108,58,45"/>
-</map>

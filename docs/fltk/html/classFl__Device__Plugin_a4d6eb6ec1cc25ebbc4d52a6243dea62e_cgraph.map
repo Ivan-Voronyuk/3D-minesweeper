@@ -1,7 +1,0 @@
-<map id="Fl_Device_Plugin::opengl_plugin" name="Fl_Device_Plugin::opengl_plugin">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,191,45"/>
-<area shape="rect" id="Node000002" href="$classFl__Plugin__Manager.html#a011f00cd299954fd229fc0d3fbcffca5" title="Return the address of a plugin by index." alt="" coords="239,5,392,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,23,225,23,225,28,191,28"/>
-<area shape="rect" id="Node000003" href="$classFl__Preferences.html#a0991a0bea2800ce5cd362ff6a778c0d3" title=" " alt="" coords="440,13,587,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="392,23,426,23,426,28,392,28"/>
-</map>

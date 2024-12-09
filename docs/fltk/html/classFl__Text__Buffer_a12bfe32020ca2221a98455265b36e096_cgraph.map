@@ -1,9 +1,0 @@
-<map id="Fl_Text_Buffer::remove_" name="Fl_Text_Buffer::remove_">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,184,60"/>
-<area shape="rect" id="Node000002" href="$classFl__Text__Buffer.html#a3b7ec7d6d20d6cbb8715f07213800409" title=" " alt="" coords="232,5,423,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,33,218,29,219,34,185,39"/>
-<area shape="rect" id="Node000003" href="$classFl__Text__Buffer.html#ae9000100ca83d297dd67541fd905c6d5" title=" " alt="" coords="244,55,411,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,55,231,61,230,66,184,61"/>
-<area shape="rect" id="Node000004" href="$classFl__Text__Selection.html#ad8fa85320dcc990fb1baa4adc6cf81d0" title="Updates a selection after text was modified." alt="" coords="471,55,613,95"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="411,73,457,73,457,78,411,78"/>
-</map>

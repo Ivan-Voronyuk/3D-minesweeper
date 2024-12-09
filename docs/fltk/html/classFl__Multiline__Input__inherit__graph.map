@@ -1,9 +1,0 @@
-<map id="Fl_Multiline_Input" name="Fl_Multiline_Input">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,225,144,251"/>
-<area shape="rect" id="Node000002" href="$classFl__Input.html" title=" " alt="" coords="37,152,112,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,191,77,225,72,225,72,191"/>
-<area shape="rect" id="Node000003" href="$classFl__Input__.html" title=" " alt="" coords="34,79,115,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="77,118,77,152,72,152,72,118"/>
-<area shape="rect" id="Node000004" href="$classFl__Widget.html" title=" " alt="" coords="31,5,118,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="77,44,77,79,72,79,72,44"/>
-</map>

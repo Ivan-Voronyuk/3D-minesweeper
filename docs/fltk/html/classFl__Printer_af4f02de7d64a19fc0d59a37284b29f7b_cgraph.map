@@ -1,5 +1,0 @@
-<map id="Fl_Printer::end_job" name="Fl_Printer::end_job">
-<area shape="rect" id="Node000001" title="To be called at the end of a print job." alt="" coords="5,5,148,31"/>
-<area shape="rect" id="Node000002" href="$classFl__Paged__Device.html#aec9cf92da061ac061da09dff1b9a512a" title="To be called at the end of a print job." alt="" coords="196,5,387,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,15,182,15,182,21,148,21"/>
-</map>

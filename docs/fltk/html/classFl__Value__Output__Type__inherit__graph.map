@@ -1,9 +1,0 @@
-<map id="Fl_Value_Output_Type" name="Fl_Value_Output_Type">
-<area shape="rect" id="Node000001" title="Handle Value Output widgets, no shortcut with Value Input unfortunately." alt="" coords="5,225,171,251"/>
-<area shape="rect" id="Node000002" href="$classFl__Valuator__Type.html" title="Just a base class for all valuators." alt="" coords="22,152,154,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,191,91,225,85,225,85,191"/>
-<area shape="rect" id="Node000003" href="$classFl__Widget__Type.html" title=" " alt="" coords="26,79,150,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,118,91,152,85,152,85,118"/>
-<area shape="rect" id="Node000004" href="$classFl__Type.html" title="This is the base class for all elements in the project tree." alt="" coords="53,5,123,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="91,44,91,79,85,79,85,44"/>
-</map>

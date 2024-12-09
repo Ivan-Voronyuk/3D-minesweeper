@@ -1,9 +1,0 @@
-<map id="Fl_Browser::select" name="Fl_Browser::select">
-<area shape="rect" id="Node000001" title=" " alt="" coords="443,42,584,67"/>
-<area shape="rect" id="Node000002" href="$classFl__File__Chooser.html#a5dac45a6f5157ced0f5888c0cfe7146d" title=" " alt="" coords="220,5,395,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="429,45,395,40,395,35,429,40"/>
-<area shape="rect" id="Node000004" href="$classFl__File__Chooser.html#a1a40dc6a645c27e4fb4fff2e01a8c0c1" title=" " alt="" coords="223,70,391,95"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="430,69,392,74,391,69,429,63"/>
-<area shape="rect" id="Node000003" href="$classFl__File__Chooser.html#a2f58cce9eb3bfc34778a657f9e4ae36f" title=" " alt="" coords="5,13,172,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="206,28,172,28,172,23,206,23"/>
-</map>
