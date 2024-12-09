@@ -431,7 +431,7 @@ class InteractableCanvas : public Shape {
   InteractableCanvas(Point xy, int w, int h);
 
   ~InteractableCanvas() {
-    delete p;
+    delete image;
     delete interractable;
   }
 
@@ -439,7 +439,7 @@ class InteractableCanvas : public Shape {
 
   void move(int dx, int dy) override {
     Shape::move(dx, dy);
-    p->draw(point(0).x, point(0).y);
+    image->draw(point(0).x, point(0).y);
     interractable->position(this->point(0).x, this->point(0).y);
   }
   void set_click_handler(std::function<void(int, int, char)>);
@@ -458,7 +458,7 @@ class InteractableCanvas : public Shape {
   };
 
   int w, h;
-  Fl_Image* p = nullptr;
+  Fl_Image* image = nullptr;
   Fl_InterractableSpace* interractable = nullptr;
   std::function<void(int, int, char)> click_handler = nullptr;
   std::function<void(int, int, int, int)> drag_handler = nullptr;

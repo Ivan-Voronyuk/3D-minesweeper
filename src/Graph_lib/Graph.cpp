@@ -382,6 +382,7 @@ InteractableCanvas::InteractableCanvas(Point xy, int w, int h) : w{w}, h{h} {
       case FL_PUSH:
         x0 = Fl::event_x();
         y0 = Fl::event_y();
+        dist = 0;
         return 1;
       case FL_DRAG: {
         int x = Fl::event_x();
@@ -415,12 +416,12 @@ InteractableCanvas::InteractableCanvas(Point xy, int w, int h) : w{w}, h{h} {
 }
 
 void InteractableCanvas::draw_lines() const {
-  if (p) p->draw(point(0).x, point(0).y);
+  if (image) image->draw(point(0).x, point(0).y);
 }
 
 void InteractableCanvas::set_image_view(const uchar* image_view) {
-  delete p;
-  p = new Fl_RGB_Image(image_view, w, h);
+  delete image;
+  image = new Fl_RGB_Image(image_view, w, h);
 }
 
 }  // namespace Graph_lib
