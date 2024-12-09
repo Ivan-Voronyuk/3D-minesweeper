@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.20)
 
 project(minesweeper)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_INTERPROCEDURAL_OPTIMIZATION TRUE)
 
 option(BUILD_FLTK_TEST "build FLTK hello_world" ON)
 
@@ -24,10 +26,21 @@ if(BUILD_FLTK_TEST)
   target_include_directories(fltk_hello_world PUBLIC)
 endif()
 
-add_library(Graph_lib STATIC src/Graph_lib/GUI.cpp src/Graph_lib/Graph.cpp
-                             src/Graph_lib/Window.cpp)
+add_library(Graph_lib src/Graph_lib/GUI.cpp src/Graph_lib/Graph.cpp
+                      src/Graph_lib/Window.cpp)
 target_link_libraries(Graph_lib PUBLIC fltk fltk_images)
+
+add_library(
+  VectorMath_lib
+  src/VectorMath_lib/types.cpp #
+  src/VectorMath_lib/camera.cpp #
+  src/VectorMath_lib/render.cpp)
+
+add_executable(math_test src/math_test.cpp)
+target_link_libraries(math_test VectorMath_lib)
 
 add_executable(main src/main.cpp src/great_window.cpp)
 target_link_libraries(main Graph_lib)
 
+add_executable(cube_test src/test.cpp src/game.cpp)
+target_link_libraries(cube_test VectorMath_lib Graph_lib)

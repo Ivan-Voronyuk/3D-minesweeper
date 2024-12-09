@@ -1,0 +1,14 @@
+<map id="Simple_window" name="Simple_window">
+<area shape="rect" id="Node000001" title=" " alt="" coords="111,331,235,356"/>
+<area shape="rect" id="Node000002" href="$classGraph__lib_1_1Window.html" title=" " alt="" coords="155,80,299,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,119,235,157,234,205,227,257,210,308,191,332,187,329,206,305,221,256,228,205,229,157,227,120"/>
+<area shape="rect" id="Node000005" href="$classGraph__lib_1_1Widget.html" title=" " alt="" coords="51,168,189,193"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="199,116,178,131,134,170,130,166,174,127,196,111"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="180,5,273,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="229,45,229,80,224,80,224,45"/>
+<area shape="rect" id="Node000004" href="$structGraph__lib_1_1Button.html" title=" " alt="" coords="54,243,189,268"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="122,281,128,305,138,318,152,329,149,333,135,322,123,308,117,283"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="123,208,124,242,118,242,118,208"/>
+<area shape="rect" id="Node000006" href="$structGraph__lib_1_1Point.html" title=" " alt="" coords="5,80,131,105"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="83,116,98,143,114,166,110,169,94,145,78,119"/>
+</map>

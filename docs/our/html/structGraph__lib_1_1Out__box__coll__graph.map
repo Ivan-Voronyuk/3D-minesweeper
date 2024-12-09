@@ -1,0 +1,11 @@
+<map id="Graph_lib::Out_box" name="Graph_lib::Out_box">
+<area shape="rect" id="Node000001" title=" " alt="" coords="48,243,195,268"/>
+<area shape="rect" id="Node000002" href="$classGraph__lib_1_1Widget.html" title=" " alt="" coords="52,168,191,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,208,124,242,119,242,119,208"/>
+<area shape="rect" id="Node000003" href="$structGraph__lib_1_1Point.html" title=" " alt="" coords="5,80,131,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,116,116,166,112,169,80,119"/>
+<area shape="rect" id="Node000004" href="$classGraph__lib_1_1Window.html" title=" " alt="" coords="155,80,299,105"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="204,116,137,170,134,166,200,112"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="180,5,273,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="229,45,229,80,224,80,224,45"/>
+</map>

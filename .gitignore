@@ -36,4 +36,9 @@
 
 # VScode
 .vscode
+
+# Build and cache files
 build
+out
+.cache
+compile_commands.json

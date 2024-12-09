@@ -1,0 +1,13 @@
+<map id="Graph_lib::Widget" name="Graph_lib::Widget">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,104,144,129"/>
+<area shape="rect" id="Node000002" href="$structGraph__lib_1_1Button.html" title=" " alt="" coords="234,5,369,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,93,142,65,191,40,233,26,235,31,193,44,145,70,104,98"/>
+<area shape="rect" id="Node000003" href="$structGraph__lib_1_1In__box.html" title=" " alt="" coords="234,55,369,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="146,98,242,77,243,83,148,104"/>
+<area shape="rect" id="Node000004" href="$classGraph__lib_1_1InteractableCanvas.html" title=" " alt="" coords="192,104,411,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="158,114,192,114,192,119,158,119"/>
+<area shape="rect" id="Node000005" href="$structGraph__lib_1_1Menu.html" title=" " alt="" coords="237,153,365,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="148,130,243,151,242,156,146,135"/>
+<area shape="rect" id="Node000006" href="$structGraph__lib_1_1Out__box.html" title=" " alt="" coords="228,203,375,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="105,135,145,162,193,188,231,200,230,205,191,192,142,167,102,140"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Render::Edge" name="Render::Edge">
+<area shape="rect" id="Node000001" title=" " alt="" coords="15,108,123,133"/>
+<area shape="rect" id="Node000002" href="$structRender_1_1Triangle.html" title=" " alt="" coords="5,5,132,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,45,71,108,66,108,66,45"/>
+</map>
