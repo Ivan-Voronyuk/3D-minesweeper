@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['line_0',['Line',['../structGraph__lib_1_1Line.html',1,'Graph_lib']]],
-  ['line_5fstyle_1',['Line_style',['../structGraph__lib_1_1Line__style.html',1,'Graph_lib']]],
-  ['lines_2',['Lines',['../structGraph__lib_1_1Lines.html',1,'Graph_lib']]]
+  ['image_0',['Image',['../structGraph__lib_1_1Image.html',1,'Graph_lib']]],
+  ['in_5fbox_1',['In_box',['../structGraph__lib_1_1In__box.html',1,'Graph_lib']]],
+  ['interactablecanvas_2',['InteractableCanvas',['../classGraph__lib_1_1InteractableCanvas.html',1,'Graph_lib']]]
 ];

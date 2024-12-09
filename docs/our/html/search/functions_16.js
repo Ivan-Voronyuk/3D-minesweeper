@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zero_0',['zero',['../structVMath_1_1Vector3.html#a599db73e00e5f73401956f40f4e35147',1,'VMath::Vector3::ZERO()'],['../structVMath_1_1Point3.html#a3e712c88fe57a0ffb533263f375d6488',1,'VMath::Point3::ZERO()']]]
+  ['y_5fmax_0',['y_max',['../classGraph__lib_1_1Window.html#a0b398c40cbfc5851a3eee391a4d01234',1,'Graph_lib::Window::y_max()'],['../namespaceGraph__lib.html#a4651e6276ceda1592d701a5d0693a22c',1,'Graph_lib::y_max()']]]
 ];

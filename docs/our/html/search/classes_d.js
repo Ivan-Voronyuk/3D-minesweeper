@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['text_0',['Text',['../structGraph__lib_1_1Text.html',1,'Graph_lib']]],
-  ['texture_1',['Texture',['../classRender_1_1Texture.html',1,'Render']]],
-  ['triangle_2',['Triangle',['../structRender_1_1Triangle.html',1,'Render']]]
+  ['shape_0',['Shape',['../classGraph__lib_1_1Shape.html',1,'Graph_lib']]],
+  ['simple_5fwindow_1',['Simple_window',['../structSimple__window.html',1,'']]],
+  ['so3_2',['SO3',['../classVMath_1_1SO3.html',1,'VMath']]],
+  ['suffix_3',['Suffix',['../structGraph__lib_1_1Suffix.html',1,'Graph_lib']]]
 ];
