@@ -104,8 +104,8 @@ SO3 handleMouseDrag(const Vector3& rayOrigin, const Vector3& rayDirection, SO3& 
         cubeRotation *= SO3::Rotation(rotationX);
         cubeRotation *= SO3::Rotation(rotationY);
     } else {
-        Vector3 nearestPoint = getNearestPointOnSphere(rayOrigin, normalizedRayDirection, sphereCenter, sphereRadius);
-        Vector3 rotationAxis = (nearestPoint - sphereCenter).normalized();
+        Point3 nearestPoint = getNearestPointOnSphere(rayOrigin, normalizedRayDirection, sphereCenter, sphereRadius);
+        Vector3 rotationAxis{nearestPoint - sphereCenter}.normalized();
         
         float angle = normalizedRayDirection.len() * 0.01f;
         Quaternion rotationAroundAxis = fromAxisAngle(rotationAxis, angle);
@@ -155,7 +155,7 @@ std::tuple<int, int, int> Cube::getSelectedCell(const Vector3& rayOrigin, const 
         auto [intersected, point] = intersectRayAndPlane(
             {rayOrigin.x, rayOrigin.y, rayOrigin.z},
             {rayDirection.x, rayDirection.y, rayDirection.z},
-            rotation.Translation(planeNormals[i]),
+            Translation(planeNormals[i])},
             planeDistances[i]
         );
         if (intersected) {
