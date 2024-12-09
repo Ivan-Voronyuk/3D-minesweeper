@@ -44,9 +44,15 @@ int Great_window::level3(){
 
 Level1_window::Level1_window(Point xy, int w, int h, const std::string& title):Window{xy, w, h, title},
   l1txt{Point {30, 30}, "LEVEL 1"},
-  rect01{Point{600, 200}, 200, 100}, // положение кубика
-  box_out1{Point{100, 100}, 30, 30, "Мин осталось:"} // поле количества оставшихся мин
+  box_out1{Point{100, 100}, 30, 30, "Мин осталось:"},// поле количества оставшихся мин
   // timeer{FL_VALUE_TIMER, 200, 100, 100, 50, "S"} было бы здорово, но у меня не получилось добавить секундомер
+  //---------------------------------------------Потом удалить--------------------------------------
+  cube1{Point{x_max()-300, y_max() - 300}, 200, 200, "LEVEL 1",
+    [ ] (Address, Address pw) {
+      reference_to<Level1_window>(pw).cube1_func();
+    }
+  }
+  //---------------------------------------------Потом удалить--------------------------------------
 { 
   int num = 10; // переменая для хранения количества мин
   std::string n_str = std::to_string(num);
@@ -54,17 +60,23 @@ Level1_window::Level1_window(Point xy, int w, int h, const std::string& title):W
   l1txt.set_font_size(20);
   l1txt.set_font(Font::times_bold_italic);
   attach(l1txt); 
-  attach(rect01);
-  rect01.set_fill_color(Color::green); // наверное надо будет удалить, это добавлено было просто так
   attach(box_out1);
   box_out1.put(n_str);
   // Fl::add_timeout(timeer); для секундомера
+  attach(cube1);
 }
 
 Level2_window::Level2_window(Point xy, int w, int h, const std::string& title):Window{xy, w, h, title},
   l2txt{Point {30, 30}, "LEVEL 2"},
-  rect02{Point{600, 200}, 200, 100}, // положение кубика
-  box_out2{Point{100, 100}, 30, 30, "Мин осталось:"} // поле количества оставшихся мин
+  box_out2{Point{100, 100}, 30, 30, "Мин осталось:"},// поле количества оставшихся мин
+  //---------------------------------------------Потом удалить--------------------------------------
+  cube2{Point{x_max()-300, y_max() - 300}, 200, 200, "LEVEL 2",
+    [ ] (Address, Address pw) {
+      reference_to<Level2_window>(pw).cube2_func();
+    }
+  }
+  //---------------------------------------------Потом удалить--------------------------------------
+
 { 
   int num = 10; // переменая для хранения количества мин
   std::string n_str = std::to_string(num);
@@ -72,16 +84,22 @@ Level2_window::Level2_window(Point xy, int w, int h, const std::string& title):W
   l2txt.set_font_size(20);
   l2txt.set_font(Font::times_bold_italic);
   attach(l2txt);
-  attach(rect02);
-  rect02.set_fill_color(Color::dark_yellow); // наверное надо будет удалить, это добавлено было просто так
+  attach(cube2);
   attach(box_out2);
   box_out2.put(n_str);
 }
 
 Level3_window::Level3_window(Point xy, int w, int h, const std::string& title):Window{xy, w, h, title},
   l3txt{Point {30, 30}, "LEVEL 3"},
-  rect03{Point{600, 200}, 200, 100}, // положение кубика
-  box_out3{Point{100, 100}, 30, 30, "Мин осталось:"} // поле количества оставшихся мин
+  box_out3{Point{100, 100}, 30, 30, "Мин осталось:"}, // поле количества оставшихся мин
+  //---------------------------------------------Потом удалить--------------------------------------
+  cube3{Point{x_max()-300, y_max() - 300}, 200, 200, "LEVEL 3",
+    [ ] (Address, Address pw) {
+      reference_to<Level3_window>(pw).cube3_func();
+    }
+  }
+  //---------------------------------------------Потом удалить--------------------------------------
+
 { 
   int num = 10; // переменая для хранения количества мин
   std::string n_str = std::to_string(num);
@@ -89,8 +107,20 @@ Level3_window::Level3_window(Point xy, int w, int h, const std::string& title):W
   l3txt.set_font_size(20);
   l3txt.set_font(Font::times_bold_italic);
   attach(l3txt);
-  attach(rect03);
-  rect03.set_fill_color(Color::dark_red); // наверное надо будет удалить, это добавлено было просто так
   attach(box_out3);
   box_out3.put(n_str);
+  attach(cube3);
 }
+  //---------------------------------------------Потом удалить--------------------------------------
+void Level1_window::cube1_func(){
+  return;
+}
+
+void Level2_window::cube2_func(){
+  return;
+}
+
+void Level3_window::cube3_func(){
+  return;
+}
+  //---------------------------------------------Потом удалить--------------------------------------
