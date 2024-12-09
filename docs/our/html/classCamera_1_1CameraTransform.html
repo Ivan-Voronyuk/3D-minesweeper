@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +50,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classCamera_1_1CameraTransform.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -67,11 +88,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespaceCamera.html">Camera</a></li><li class="navelem"><a class="el" href="classCamera_1_1CameraTransform.html">CameraTransform</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -79,7 +95,7 @@ $(function() {
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classCamera_1_1CameraTransform-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Camera::CameraTransform Class Reference</div></div>
+  <div class="headertitle"><div class="title">Camera::CameraTransform Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -95,7 +111,7 @@ Inheritance diagram for Camera::CameraTransform:</div>
 <area shape="rect" href="classCamera_1_1PerspectiveProjection.html" title=" " alt="" coords="249,79,471,104"/>
 <area shape="poly" title=" " alt="" coords="270,35,341,76,339,81,267,40"/>
 </map>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Camera::CameraTransform:</div>
 <div class="dyncontent">
@@ -107,23 +123,25 @@ Collaboration diagram for Camera::CameraTransform:</div>
 <area shape="rect" href="classVMath_1_1SO3.html" title=" " alt="" coords="175,5,274,31"/>
 <area shape="poly" title=" " alt="" coords="216,44,197,71,167,95,164,91,193,68,211,41"/>
 </map>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9b1817c671f5d069b9b239de17ffcadc" id="r_a9b1817c671f5d069b9b239de17ffcadc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structVMath_1_1Point3.html">Point3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera_1_1CameraTransform.html#a9b1817c671f5d069b9b239de17ffcadc">operator()</a> (<a class="el" href="structVMath_1_1Point3.html">Point3</a>) const</td></tr>
-<tr class="separator:a9b1817c671f5d069b9b239de17ffcadc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e3f40df1a83fa71fb7866915509431c" id="r_a6e3f40df1a83fa71fb7866915509431c"><td class="memItemLeft" align="right" valign="top">virtual std::function&lt; <a class="el" href="structVMath_1_1Point3.html">Point3</a>(const <a class="el" href="structVMath_1_1Point3.html">Point3</a> &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera_1_1CameraTransform.html#a6e3f40df1a83fa71fb7866915509431c">get_map_tex_coord</a> (<a class="el" href="structVMath_1_1Point3.html">Point3</a> a, <a class="el" href="structVMath_1_1Point3.html">Point3</a> b, <a class="el" href="structVMath_1_1Point3.html">Point3</a> c, <a class="el" href="structVMath_1_1Point3.html">Point3</a> A, <a class="el" href="structVMath_1_1Point3.html">Point3</a> B, <a class="el" href="structVMath_1_1Point3.html">Point3</a> C) const</td></tr>
-<tr class="separator:a6e3f40df1a83fa71fb7866915509431c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d285ca983d761481536f69767f61bca" id="r_a7d285ca983d761481536f69767f61bca"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structCamera_1_1Ray.html">Ray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera_1_1CameraTransform.html#a7d285ca983d761481536f69767f61bca">raycast</a> (const <a class="el" href="structVMath_1_1Point3.html">Point3</a> &amp;screen_point) const</td></tr>
-<tr class="separator:a7d285ca983d761481536f69767f61bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec61754983248424c049602d6e4cf137" id="r_aec61754983248424c049602d6e4cf137"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera_1_1CameraTransform.html#aec61754983248424c049602d6e4cf137">resize</a> (int <a class="el" href="classCamera_1_1CameraTransform.html#aa02fe4df7cac3d9f562528854c4257c7">w</a>, int <a class="el" href="classCamera_1_1CameraTransform.html#af2e6b6e08d1c8e8465a58ba7f21d7cca">h</a>)</td></tr>
-<tr class="separator:aec61754983248424c049602d6e4cf137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0c0a4dae7d9b1bf7fcf2db8edceeaf4" id="r_ae0c0a4dae7d9b1bf7fcf2db8edceeaf4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structVMath_1_1Point3.html">Point3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera_1_1CameraTransform.html#ae0c0a4dae7d9b1bf7fcf2db8edceeaf4">operator()</a> (<a class="el" href="structVMath_1_1Point3.html">Point3</a>) const =0</td></tr>
+<tr class="separator:ae0c0a4dae7d9b1bf7fcf2db8edceeaf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80237cf1c283507951fdf372ffc5e08b" id="r_a80237cf1c283507951fdf372ffc5e08b"><td class="memItemLeft" align="right" valign="top">virtual std::function&lt; <a class="el" href="structVMath_1_1Point3.html">Point3</a>(float x, float y)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera_1_1CameraTransform.html#a80237cf1c283507951fdf372ffc5e08b">get_map_tex_coord</a> (<a class="el" href="structVMath_1_1Point3.html">Point3</a> a, <a class="el" href="structVMath_1_1Point3.html">Point3</a> b, <a class="el" href="structVMath_1_1Point3.html">Point3</a> c, <a class="el" href="structVMath_1_1Point3.html">Point3</a> A, <a class="el" href="structVMath_1_1Point3.html">Point3</a> B, <a class="el" href="structVMath_1_1Point3.html">Point3</a> C) const =0</td></tr>
+<tr class="separator:a80237cf1c283507951fdf372ffc5e08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5931881d53cb50afd919ad39ac104873" id="r_a5931881d53cb50afd919ad39ac104873"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structCamera_1_1Ray.html">Ray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera_1_1CameraTransform.html#a5931881d53cb50afd919ad39ac104873">raycast</a> (const <a class="el" href="structVMath_1_1Point3.html">Point3</a> &amp;screen_point) const =0</td></tr>
+<tr class="separator:a5931881d53cb50afd919ad39ac104873"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af21720a85c8b19b95a0896879cabf34a" id="r_af21720a85c8b19b95a0896879cabf34a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera_1_1CameraTransform.html#af21720a85c8b19b95a0896879cabf34a">resize</a> (int <a class="el" href="classCamera_1_1CameraTransform.html#aa02fe4df7cac3d9f562528854c4257c7">w</a>, int <a class="el" href="classCamera_1_1CameraTransform.html#af2e6b6e08d1c8e8465a58ba7f21d7cca">h</a>)=0</td></tr>
+<tr class="separator:af21720a85c8b19b95a0896879cabf34a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a444247645995e913b45fb9821a9f26b3" id="r_a444247645995e913b45fb9821a9f26b3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera_1_1CameraTransform.html#a444247645995e913b45fb9821a9f26b3">~CameraTransform</a> ()</td></tr>
+<tr class="separator:a444247645995e913b45fb9821a9f26b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a56b191a780d70858af12e0b87d9737f7" id="r_a56b191a780d70858af12e0b87d9737f7"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera_1_1CameraTransform.html#a56b191a780d70858af12e0b87d9737f7">wisth</a> = <a class="el" href="classCamera_1_1CameraTransform.html#aa02fe4df7cac3d9f562528854c4257c7">w</a></td></tr>
-<tr class="separator:a56b191a780d70858af12e0b87d9737f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5fcc0e9941d560d8f7a7de610b7bcda" id="r_ab5fcc0e9941d560d8f7a7de610b7bcda"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera_1_1CameraTransform.html#ab5fcc0e9941d560d8f7a7de610b7bcda">width</a> = <a class="el" href="classCamera_1_1CameraTransform.html#aa02fe4df7cac3d9f562528854c4257c7">w</a></td></tr>
+<tr class="separator:ab5fcc0e9941d560d8f7a7de610b7bcda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e8476672223e3e0d2e96c7c24bb2946" id="r_a3e8476672223e3e0d2e96c7c24bb2946"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera_1_1CameraTransform.html#a3e8476672223e3e0d2e96c7c24bb2946">height</a> = <a class="el" href="classCamera_1_1CameraTransform.html#af2e6b6e08d1c8e8465a58ba7f21d7cca">h</a></td></tr>
 <tr class="separator:a3e8476672223e3e0d2e96c7c24bb2946"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02ca7c30ac40d4ba9e6008aff0696bbc" id="r_a02ca7c30ac40d4ba9e6008aff0696bbc"><td class="memItemLeft" align="right" valign="top">const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera_1_1CameraTransform.html#a02ca7c30ac40d4ba9e6008aff0696bbc">scale</a> = <a class="el" href="classCamera_1_1CameraTransform.html#ad37c5f5fdfa0ee4c1f95678593134c04">scale_</a></td></tr>
@@ -175,9 +193,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a6e3f40df1a83fa71fb7866915509431c" name="a6e3f40df1a83fa71fb7866915509431c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e3f40df1a83fa71fb7866915509431c">&#9670;&#160;</a></span>get_map_tex_coord()</h2>
+<a id="a444247645995e913b45fb9821a9f26b3" name="a444247645995e913b45fb9821a9f26b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a444247645995e913b45fb9821a9f26b3">&#9670;&#160;</a></span>~CameraTransform()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,7 +203,33 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::function&lt; <a class="el" href="structVMath_1_1Point3.html">Point3</a>(const <a class="el" href="structVMath_1_1Point3.html">Point3</a> &amp;)&gt; Camera::CameraTransform::get_map_tex_coord </td>
+          <td class="memname">virtual Camera::CameraTransform::~CameraTransform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a80237cf1c283507951fdf372ffc5e08b" name="a80237cf1c283507951fdf372ffc5e08b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80237cf1c283507951fdf372ffc5e08b">&#9670;&#160;</a></span>get_map_tex_coord()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::function&lt; <a class="el" href="structVMath_1_1Point3.html">Point3</a>(float x, float y)&gt; Camera::CameraTransform::get_map_tex_coord </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structVMath_1_1Point3.html">Point3</a>&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -229,17 +272,17 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classCamera_1_1PerspectiveProjection.html#a6e17741da4aa78487f809ee7365b92f6">Camera::PerspectiveProjection</a>, and <a class="el" href="classCamera_1_1OrthogonalProjection.html#aa08c247825e3870d2706cd39c977f469">Camera::OrthogonalProjection</a>.</p>
+<p>Implemented in <a class="el" href="classCamera_1_1PerspectiveProjection.html#a7b7474410f1468446feb72a70bf3c449">Camera::PerspectiveProjection</a>, and <a class="el" href="classCamera_1_1OrthogonalProjection.html#ad3cbfdbe2abc57fee0443f509c50d18b">Camera::OrthogonalProjection</a>.</p>
 
 </div>
 </div>
-<a id="a9b1817c671f5d069b9b239de17ffcadc" name="a9b1817c671f5d069b9b239de17ffcadc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b1817c671f5d069b9b239de17ffcadc">&#9670;&#160;</a></span>operator()()</h2>
+<a id="ae0c0a4dae7d9b1bf7fcf2db8edceeaf4" name="ae0c0a4dae7d9b1bf7fcf2db8edceeaf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0c0a4dae7d9b1bf7fcf2db8edceeaf4">&#9670;&#160;</a></span>operator()()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -257,17 +300,17 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classCamera_1_1OrthogonalProjection.html#a659942ed2e2b6d942ed20fe47af8370d">Camera::OrthogonalProjection</a>, and <a class="el" href="classCamera_1_1PerspectiveProjection.html#a49d0ccc9d33bb4bf59f66a965328fef5">Camera::PerspectiveProjection</a>.</p>
+<p>Implemented in <a class="el" href="classCamera_1_1OrthogonalProjection.html#a659942ed2e2b6d942ed20fe47af8370d">Camera::OrthogonalProjection</a>, and <a class="el" href="classCamera_1_1PerspectiveProjection.html#a49d0ccc9d33bb4bf59f66a965328fef5">Camera::PerspectiveProjection</a>.</p>
 
 </div>
 </div>
-<a id="a7d285ca983d761481536f69767f61bca" name="a7d285ca983d761481536f69767f61bca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d285ca983d761481536f69767f61bca">&#9670;&#160;</a></span>raycast()</h2>
+<a id="a5931881d53cb50afd919ad39ac104873" name="a5931881d53cb50afd919ad39ac104873"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5931881d53cb50afd919ad39ac104873">&#9670;&#160;</a></span>raycast()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -285,17 +328,17 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classCamera_1_1PerspectiveProjection.html#a10e2a86d5a34c7f236657257f0403b58">Camera::PerspectiveProjection</a>, and <a class="el" href="classCamera_1_1OrthogonalProjection.html#a836a223a5583cfe66942b3ead0196876">Camera::OrthogonalProjection</a>.</p>
+<p>Implemented in <a class="el" href="classCamera_1_1PerspectiveProjection.html#a10e2a86d5a34c7f236657257f0403b58">Camera::PerspectiveProjection</a>, and <a class="el" href="classCamera_1_1OrthogonalProjection.html#a836a223a5583cfe66942b3ead0196876">Camera::OrthogonalProjection</a>.</p>
 
 </div>
 </div>
-<a id="aec61754983248424c049602d6e4cf137" name="aec61754983248424c049602d6e4cf137"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec61754983248424c049602d6e4cf137">&#9670;&#160;</a></span>resize()</h2>
+<a id="af21720a85c8b19b95a0896879cabf34a" name="af21720a85c8b19b95a0896879cabf34a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af21720a85c8b19b95a0896879cabf34a">&#9670;&#160;</a></span>resize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -323,12 +366,12 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classCamera_1_1PerspectiveProjection.html#aafa0dd201a35efa60fa7b0007f01b42e">Camera::PerspectiveProjection</a>, and <a class="el" href="classCamera_1_1OrthogonalProjection.html#a30d96759c4c259cdbb307f73220c1f92">Camera::OrthogonalProjection</a>.</p>
+<p>Implemented in <a class="el" href="classCamera_1_1PerspectiveProjection.html#aafa0dd201a35efa60fa7b0007f01b42e">Camera::PerspectiveProjection</a>, and <a class="el" href="classCamera_1_1OrthogonalProjection.html#a30d96759c4c259cdbb307f73220c1f92">Camera::OrthogonalProjection</a>.</p>
 
 </div>
 </div>
@@ -493,14 +536,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a56b191a780d70858af12e0b87d9737f7" name="a56b191a780d70858af12e0b87d9737f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56b191a780d70858af12e0b87d9737f7">&#9670;&#160;</a></span>wisth</h2>
+<a id="ab5fcc0e9941d560d8f7a7de610b7bcda" name="ab5fcc0e9941d560d8f7a7de610b7bcda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5fcc0e9941d560d8f7a7de610b7bcda">&#9670;&#160;</a></span>width</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const float&amp; Camera::CameraTransform::wisth = <a class="el" href="classCamera_1_1CameraTransform.html#aa02fe4df7cac3d9f562528854c4257c7">w</a></td>
+          <td class="memname">const float&amp; Camera::CameraTransform::width = <a class="el" href="classCamera_1_1CameraTransform.html#aa02fe4df7cac3d9f562528854c4257c7">w</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -511,9 +554,13 @@ Protected Attributes</h2></td></tr>
 <li>/home/ivan/Documents/INF/3D-minesweeper/src/VectorMath_lib/<a class="el" href="camera_8h_source.html">camera.h</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceCamera.html">Camera</a></li><li class="navelem"><a class="el" href="classCamera_1_1CameraTransform.html">CameraTransform</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b_0',['b',['../structRender_1_1Color.html#a23c66db376a6f22eaaa2461494f9fb6b',1,'Render::Color::b'],['../structRender_1_1Edge.html#af5a6f8005a2f28d9829a99ac3a857d56',1,'Render::Edge::B'],['../classRender_1_1CubeView.html#ace4c5e04cee6a63fa0205e570e95a48aa9d5ed678fe57bcca610140957afab571',1,'Render::CubeView::B']]],
+  ['b_0',['b',['../structRender_1_1Color.html#a779763f4c35d33622d5de6c59fbbdfcc',1,'Render::Color::b'],['../structRender_1_1Edge.html#af5a6f8005a2f28d9829a99ac3a857d56',1,'Render::Edge::B'],['../classRender_1_1CubeView.html#ace4c5e04cee6a63fa0205e570e95a48aa9d5ed678fe57bcca610140957afab571',1,'Render::CubeView::B']]],
   ['bad_5fimage_1',['bad_image',['../structGraph__lib_1_1Bad__image.html',1,'Graph_lib::Bad_image'],['../structGraph__lib_1_1Bad__image.html#a15f528c0386869b6104ac4e7fa855695',1,'Graph_lib::Bad_image::Bad_image()']]],
   ['beginning_2',['beginning',['../structCamera_1_1Ray.html#a79132e4148876d50177bff06d94043c7',1,'Camera::Ray']]],
   ['black_3',['black',['../structGraph__lib_1_1Color.html#a24370a8aad4540547b6176da442aa7dba3ae80df8c8728c6fa9cfc53cd2d8f51c',1,'Graph_lib::Color']]],

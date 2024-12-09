@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +50,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('types_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -67,11 +88,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_daecff17f99ad42fc88c324c69305652.html">VectorMath_lib</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
@@ -96,24 +112,23 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="types_8h__dep__incl.png" border="0" usemap="#a_2home_2ivan_2Documents_2INF_23D-minesweeper_2src_2VectorMath__lib_2types_8hdep" alt=""/></div>
 <map name="a_2home_2ivan_2Documents_2INF_23D-minesweeper_2src_2VectorMath__lib_2types_8hdep" id="a_2home_2ivan_2Documents_2INF_23D-minesweeper_2src_2VectorMath__lib_2types_8hdep">
-<area shape="rect" title=" " alt="" coords="237,5,424,60"/>
-<area shape="rect" href="camera_8cpp.html" title=" " alt="" coords="27,211,229,265"/>
-<area shape="poly" title=" " alt="" coords="226,65,191,84,162,110,147,133,138,160,131,211,125,210,133,159,143,131,158,106,188,80,223,60"/>
-<area shape="rect" href="camera_8h.html" title=" " alt="" coords="171,108,359,163"/>
-<area shape="poly" title=" " alt="" coords="309,73,285,109,280,106,304,70"/>
-<area shape="rect" href="render_8h.html" title=" " alt="" coords="304,211,491,265"/>
-<area shape="poly" title=" " alt="" coords="357,71,375,107,389,162,397,210,392,211,384,163,370,109,352,73"/>
-<area shape="rect" href="render_8cpp.html" title=" " alt="" coords="407,313,601,368"/>
-<area shape="poly" title=" " alt="" coords="382,66,415,93,450,127,481,166,505,210,513,236,515,264,512,313,507,313,510,264,508,237,500,212,477,169,446,130,412,97,379,70"/>
-<area shape="rect" href="math__test_8cpp.html" title=" " alt="" coords="173,313,360,368"/>
-<area shape="poly" title=" " alt="" coords="225,61,166,83,106,114,79,134,54,157,33,183,17,212,8,239,10,251,17,264,40,281,78,297,174,321,173,326,77,302,37,286,13,267,5,253,3,239,12,210,29,180,50,153,75,130,103,110,163,78,223,56"/>
-<area shape="rect" href="types_8cpp.html" title=" " alt="" coords="566,108,757,163"/>
-<area shape="poly" title=" " alt="" coords="430,61,576,105,575,110,429,66"/>
-<area shape="poly" title=" " alt="" coords="220,173,166,213,163,208,217,168"/>
-<area shape="poly" title=" " alt="" coords="312,169,364,208,361,213,309,173"/>
-<area shape="poly" title=" " alt="" coords="268,177,269,313,264,313,263,177"/>
-<area shape="poly" title=" " alt="" coords="437,273,478,311,474,315,434,277"/>
-<area shape="poly" title=" " alt="" coords="354,276,303,315,299,311,351,271"/>
+<area shape="rect" title=" " alt="" coords="231,5,418,60"/>
+<area shape="rect" href="camera_8cpp.html" title=" " alt="" coords="26,211,228,265"/>
+<area shape="poly" title=" " alt="" coords="219,63,184,83,154,110,140,133,132,160,128,211,123,210,127,159,136,131,150,106,181,79,217,59"/>
+<area shape="rect" href="camera_8h.html" title=" " alt="" coords="165,108,353,163"/>
+<area shape="poly" title=" " alt="" coords="302,73,278,109,274,106,297,70"/>
+<area shape="rect" href="render_8h.html" title=" " alt="" coords="252,211,439,265"/>
+<area shape="poly" title=" " alt="" coords="352,71,367,107,370,135,369,163,358,211,353,210,364,162,365,135,362,109,347,73"/>
+<area shape="rect" href="render_8cpp.html" title=" " alt="" coords="28,313,223,368"/>
+<area shape="poly" title=" " alt="" coords="219,61,160,84,102,116,76,135,52,158,32,183,16,212,8,238,16,264,37,291,65,311,62,315,34,295,11,267,3,238,11,210,27,180,48,154,72,131,99,111,158,79,217,57"/>
+<area shape="rect" href="math__test_8cpp.html" title=" " alt="" coords="318,313,504,368"/>
+<area shape="poly" title=" " alt="" coords="363,68,414,130,437,169,453,210,458,238,453,266,444,292,431,315,427,312,439,289,448,265,453,238,448,211,432,171,410,133,359,71"/>
+<area shape="rect" href="types_8cpp.html" title=" " alt="" coords="514,108,705,163"/>
+<area shape="poly" title=" " alt="" coords="412,62,536,105,534,110,410,67"/>
+<area shape="poly" title=" " alt="" coords="215,173,163,213,160,208,212,169"/>
+<area shape="poly" title=" " alt="" coords="292,171,325,209,321,212,288,175"/>
+<area shape="poly" title=" " alt="" coords="277,273,184,316,182,311,275,269"/>
+<area shape="poly" title=" " alt="" coords="372,275,396,312,392,315,368,278"/>
 </map>
 </div>
 </div>
@@ -185,9 +200,13 @@ Functions</h2></td></tr>
 <tr class="separator:a94fefde658568ab4d6c786a525af93cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_daecff17f99ad42fc88c324c69305652.html">VectorMath_lib</a></li><li class="navelem"><a class="el" href="types_8h.html">types.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

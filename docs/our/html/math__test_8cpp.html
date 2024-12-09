@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +50,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('math__test_8cpp.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -67,11 +88,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
@@ -81,8 +97,12 @@ $(function() {
 <div class="textblock"><code>#include &lt;cassert&gt;</code><br />
 <code>#include &lt;cmath&gt;</code><br />
 <code>#include &lt;cstdio&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;ios&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
-<code>#include &quot;<a class="el" href="camera_8h_source.html">VectorMath_lib/camera.h</a>&quot;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 <code>#include &quot;<a class="el" href="render_8h_source.html">VectorMath_lib/render.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">VectorMath_lib/types.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -90,33 +110,42 @@ Include dependency graph for math_test.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="math__test_8cpp__incl.png" border="0" usemap="#a_2home_2ivan_2Documents_2INF_23D-minesweeper_2src_2math__test_8cpp" alt=""/></div>
 <map name="a_2home_2ivan_2Documents_2INF_23D-minesweeper_2src_2math__test_8cpp" id="a_2home_2ivan_2Documents_2INF_23D-minesweeper_2src_2math__test_8cpp">
-<area shape="rect" title=" " alt="" coords="357,5,544,60"/>
+<area shape="rect" title=" " alt="" coords="345,5,532,60"/>
 <area shape="rect" title=" " alt="" coords="5,108,75,133"/>
-<area shape="poly" title=" " alt="" coords="358,56,94,111,89,112,88,106,93,105,356,51"/>
-<area shape="rect" title=" " alt="" coords="527,328,590,353"/>
-<area shape="poly" title=" " alt="" coords="502,58,535,80,569,107,599,141,621,180,628,224,626,253,618,281,605,303,588,321,584,317,601,300,614,279,621,252,623,224,616,182,595,144,565,111,532,84,499,62"/>
-<area shape="rect" title=" " alt="" coords="709,108,771,133"/>
-<area shape="poly" title=" " alt="" coords="540,58,697,104,695,109,538,63"/>
-<area shape="rect" title=" " alt="" coords="795,108,875,133"/>
-<area shape="poly" title=" " alt="" coords="545,52,782,105,780,110,544,57"/>
-<area shape="rect" href="camera_8h.html" title=" " alt="" coords="200,181,384,207"/>
-<area shape="poly" title=" " alt="" coords="411,62,381,84,353,110,327,140,308,171,303,168,323,137,349,106,378,80,408,58"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="141,255,211,280"/>
-<area shape="poly" title=" " alt="" coords="358,58,307,77,255,103,208,138,188,159,172,183,166,197,165,212,170,241,164,242,159,212,161,195,167,180,184,156,205,134,253,99,305,72,356,53"/>
-<area shape="rect" href="render_8h.html" title=" " alt="" coords="363,108,539,133"/>
-<area shape="poly" title=" " alt="" coords="453,60,453,94,448,94,448,60"/>
-<area shape="poly" title=" " alt="" coords="315,205,527,319,524,324,312,209"/>
-<area shape="rect" title=" " alt="" coords="249,255,335,280"/>
-<area shape="poly" title=" " alt="" coords="295,207,295,241,289,241,289,207"/>
-<area shape="poly" title=" " alt="" coords="275,209,208,250,205,245,272,204"/>
-<area shape="poly" title=" " alt="" coords="212,273,514,328,513,334,211,278"/>
-<area shape="poly" title=" " alt="" coords="523,131,564,149,583,162,598,180,607,197,610,215,606,253,593,289,577,318,572,315,588,286,601,252,605,216,601,199,594,183,579,166,562,153,520,136"/>
-<area shape="poly" title=" " alt="" coords="426,136,331,178,329,173,424,131"/>
-<area shape="poly" title=" " alt="" coords="363,134,260,153,217,166,190,183,182,196,177,211,175,241,170,241,172,210,177,194,186,179,215,162,258,147,362,129"/>
-<area shape="rect" title=" " alt="" coords="408,181,493,207"/>
-<area shape="poly" title=" " alt="" coords="453,134,453,168,448,168,448,134"/>
-<area shape="rect" title=" " alt="" coords="518,181,583,207"/>
-<area shape="poly" title=" " alt="" coords="468,131,525,171,522,175,465,136"/>
+<area shape="poly" title=" " alt="" coords="346,57,89,112,87,106,345,51"/>
+<area shape="rect" title=" " alt="" coords="619,328,682,353"/>
+<area shape="poly" title=" " alt="" coords="345,36,260,42,219,49,182,58,153,71,135,87,130,96,129,106,140,132,161,160,186,186,243,229,307,264,374,290,441,309,504,322,606,334,605,340,503,327,440,314,372,295,305,269,240,234,183,190,157,164,135,135,124,107,125,95,130,84,150,66,180,53,218,43,260,37,345,31"/>
+<area shape="rect" title=" " alt="" coords="149,108,211,133"/>
+<area shape="poly" title=" " alt="" coords="360,63,224,107,223,102,359,58"/>
+<area shape="rect" title=" " alt="" coords="235,108,309,133"/>
+<area shape="poly" title=" " alt="" coords="389,62,308,104,305,99,387,58"/>
+<area shape="rect" title=" " alt="" coords="333,108,374,133"/>
+<area shape="poly" title=" " alt="" coords="414,62,377,100,373,96,411,58"/>
+<area shape="rect" title=" " alt="" coords="399,108,479,133"/>
+<area shape="poly" title=" " alt="" coords="441,60,441,94,436,94,436,60"/>
+<area shape="rect" title=" " alt="" coords="503,108,580,133"/>
+<area shape="poly" title=" " alt="" coords="472,58,519,97,515,101,468,62"/>
+<area shape="rect" title=" " alt="" coords="604,108,679,133"/>
+<area shape="poly" title=" " alt="" coords="502,58,603,100,601,105,500,63"/>
+<area shape="rect" title=" " alt="" coords="703,108,761,133"/>
+<area shape="poly" title=" " alt="" coords="529,58,690,104,688,109,528,63"/>
+<area shape="rect" href="render_8h.html" title=" " alt="" coords="785,108,961,133"/>
+<area shape="poly" title=" " alt="" coords="533,50,802,103,801,108,532,55"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="917,255,987,280"/>
+<area shape="poly" title=" " alt="" coords="532,30,652,33,784,44,846,53,901,67,945,84,975,106,986,122,991,140,991,177,981,213,968,244,963,241,976,212,985,176,986,140,981,124,971,110,943,89,899,72,845,59,783,49,651,38,532,36"/>
+<area shape="poly" title=" " alt="" coords="806,136,691,159,645,172,622,183,613,198,609,215,612,251,623,286,638,315,634,318,618,288,606,252,604,214,608,196,618,179,643,167,690,154,805,131"/>
+<area shape="rect" title=" " alt="" coords="632,181,717,207"/>
+<area shape="poly" title=" " alt="" coords="842,136,721,179,719,174,841,131"/>
+<area shape="rect" title=" " alt="" coords="742,181,807,207"/>
+<area shape="poly" title=" " alt="" coords="859,136,803,175,800,171,856,131"/>
+<area shape="rect" href="camera_8h.html" title=" " alt="" coords="832,181,915,207"/>
+<area shape="poly" title=" " alt="" coords="876,134,876,168,871,168,871,134"/>
+<area shape="poly" title=" " alt="" coords="888,132,909,153,929,180,942,211,950,240,945,242,937,212,924,183,905,156,885,135"/>
+<area shape="poly" title=" " alt="" coords="857,209,682,323,679,318,854,205"/>
+<area shape="rect" title=" " alt="" coords="806,255,893,280"/>
+<area shape="poly" title=" " alt="" coords="872,208,860,242,855,241,867,206"/>
+<area shape="poly" title=" " alt="" coords="888,205,931,244,927,247,884,209"/>
+<area shape="poly" title=" " alt="" coords="917,280,905,283,696,331,695,326,903,277,916,274"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -124,20 +153,28 @@ Include dependency graph for math_test.cpp:</div>
 Functions</h2></td></tr>
 <tr class="memitem:a72fd384d1d6b685ae64dbe1ae29d5298" id="r_a72fd384d1d6b685ae64dbe1ae29d5298"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__test_8cpp.html#a72fd384d1d6b685ae64dbe1ae29d5298">types</a> ()</td></tr>
 <tr class="separator:a72fd384d1d6b685ae64dbe1ae29d5298"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c06b4173a35797d2ea1b39614382446" id="r_a4c06b4173a35797d2ea1b39614382446"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__test_8cpp.html#a4c06b4173a35797d2ea1b39614382446">camera</a> ()</td></tr>
-<tr class="separator:a4c06b4173a35797d2ea1b39614382446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acef4ea4ac476615510935c0ccd76624a" id="r_acef4ea4ac476615510935c0ccd76624a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRender_1_1Texture.html">Texture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__test_8cpp.html#acef4ea4ac476615510935c0ccd76624a">read_pnm</a> (const char *fname)</td></tr>
+<tr class="separator:acef4ea4ac476615510935c0ccd76624a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a541366c0edc84356f5bd1511b7fa5f8d" id="r_a541366c0edc84356f5bd1511b7fa5f8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__test_8cpp.html#a541366c0edc84356f5bd1511b7fa5f8d">write_pnm</a> (const char *fname, const <a class="el" href="classRender_1_1Texture.html">Texture</a> &amp;tex)</td></tr>
+<tr class="separator:a541366c0edc84356f5bd1511b7fa5f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d28c37eb5d10e630b5981e204c6cfb8" id="r_a9d28c37eb5d10e630b5981e204c6cfb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__test_8cpp.html#a9d28c37eb5d10e630b5981e204c6cfb8">print_tex</a> (const char *name, const <a class="el" href="classRender_1_1Texture.html">Texture</a> &amp;tex)</td></tr>
+<tr class="separator:a9d28c37eb5d10e630b5981e204c6cfb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bd4f58b833320297c00570366057a13" id="r_a6bd4f58b833320297c00570366057a13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__test_8cpp.html#a6bd4f58b833320297c00570366057a13">texture</a> ()</td></tr>
+<tr class="separator:a6bd4f58b833320297c00570366057a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d9edd8b0a8d0d2f737eb5ee0b0a5040" id="r_a7d9edd8b0a8d0d2f737eb5ee0b0a5040"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__test_8cpp.html#a7d9edd8b0a8d0d2f737eb5ee0b0a5040">render</a> ()</td></tr>
+<tr class="separator:a7d9edd8b0a8d0d2f737eb5ee0b0a5040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4" id="r_ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math__test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a4c06b4173a35797d2ea1b39614382446" name="a4c06b4173a35797d2ea1b39614382446"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c06b4173a35797d2ea1b39614382446">&#9670;&#160;</a></span>camera()</h2>
+<a id="ae66f6b31b5ad750f1fe042a706a4e3d4" name="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&#160;</a></span>main()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void camera </td>
+          <td class="memname">int main </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -147,14 +184,77 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae66f6b31b5ad750f1fe042a706a4e3d4" name="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&#160;</a></span>main()</h2>
+<a id="a9d28c37eb5d10e630b5981e204c6cfb8" name="a9d28c37eb5d10e630b5981e204c6cfb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d28c37eb5d10e630b5981e204c6cfb8">&#9670;&#160;</a></span>print_tex()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int main </td>
+          <td class="memname">void print_tex </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classRender_1_1Texture.html">Texture</a> &amp;&#160;</td>
+          <td class="paramname"><em>tex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acef4ea4ac476615510935c0ccd76624a" name="acef4ea4ac476615510935c0ccd76624a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acef4ea4ac476615510935c0ccd76624a">&#9670;&#160;</a></span>read_pnm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classRender_1_1Texture.html">Texture</a> read_pnm </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>fname</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d9edd8b0a8d0d2f737eb5ee0b0a5040" name="a7d9edd8b0a8d0d2f737eb5ee0b0a5040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d9edd8b0a8d0d2f737eb5ee0b0a5040">&#9670;&#160;</a></span>render()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void render </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bd4f58b833320297c00570366057a13" name="a6bd4f58b833320297c00570366057a13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bd4f58b833320297c00570366057a13">&#9670;&#160;</a></span>texture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void texture </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -181,10 +281,42 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a541366c0edc84356f5bd1511b7fa5f8d" name="a541366c0edc84356f5bd1511b7fa5f8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a541366c0edc84356f5bd1511b7fa5f8d">&#9670;&#160;</a></span>write_pnm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void write_pnm </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>fname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classRender_1_1Texture.html">Texture</a> &amp;&#160;</td>
+          <td class="paramname"><em>tex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="math__test_8cpp.html">math_test.cpp</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>
