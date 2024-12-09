@@ -6,9 +6,11 @@
 #include <map>
 #include <random>
 #include <stdexcept>
+#include <string>
 
 #include "FL/Enumerations.H"
 #include "FL/Fl_Image.H"
+#include "GUI.h"
 #include "Point.h"
 
 namespace Graph_lib {
@@ -367,61 +369,6 @@ void Image::draw_lines() const {
     p->draw(point(0).x, point(0).y, w, h, cx, cy);
   else
     p->draw(point(0).x, point(0).y);
-}
-
-InteractableCanvas::InteractableCanvas(Point xy, int w, int h) : w{w}, h{h} {
-  add(xy);
-
-  // p = new Fl_RGB_Image(image_view, w, h);
-  interractable = new Fl_InterractableSpace(xy.x, xy.y, w, h, "");
-
-  interractable->set_handler([this](int event) -> int {
-    static int dist = 0;
-    static int x0 = 0, y0 = 0;
-    switch (event) {
-      case FL_PUSH:
-        x0 = Fl::event_x();
-        y0 = Fl::event_y();
-        dist = 0;
-        return 1;
-      case FL_DRAG: {
-        int x = Fl::event_x();
-        int y = Fl::event_y();
-        if (this->drag_handler) this->drag_handler(x0, y0, x, y);
-        dist += std::abs(x - x0) + std::abs(y - y0);
-        x0 = x;
-        y0 = y;
-      }
-        return 1;
-      case FL_RELEASE: {
-        if (dist > 10) return 0;
-        auto b = Fl::event_button();
-        if (this->click_handler) switch (b) {
-            case FL_LEFT_MOUSE:
-              this->click_handler(x0, y0, 'l');
-              break;
-            case FL_RIGHT_MOUSE:
-              this->click_handler(x0, y0, 'r');
-              break;
-            case FL_MIDDLE_MOUSE:
-              this->click_handler(x0, y0, 'm');
-              break;
-          }
-      }
-        return 1;
-      default:
-        return 0;
-    }
-  });
-}
-
-void InteractableCanvas::draw_lines() const {
-  if (image) image->draw(point(0).x, point(0).y);
-}
-
-void InteractableCanvas::set_image_view(const uchar* image_view) {
-  delete image;
-  image = new Fl_RGB_Image(image_view, w, h);
 }
 
 }  // namespace Graph_lib

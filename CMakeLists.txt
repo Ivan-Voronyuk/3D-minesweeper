@@ -41,3 +41,6 @@ target_link_libraries(math_test VectorMath_lib)
 
 add_executable(main src/main.cpp src/great_window.cpp)
 target_link_libraries(main Graph_lib)
+
+add_executable(cube_test src/test.cpp src/game.cpp)
+target_link_libraries(cube_test VectorMath_lib Graph_lib)

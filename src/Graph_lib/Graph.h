@@ -1,4 +1,3 @@
-#include "FL/Fl_Widget.H"
 #ifndef GRAPH_GUARD
 #define GRAPH_GUARD 1
 
@@ -7,6 +6,8 @@
 #include <string>
 #include <vector>
 
+#include "FL/Fl_Image.H"
+#include "FL/Fl_Widget.H"
 #include "Point.h"
 #include "fltk.h"
 
@@ -424,46 +425,6 @@ struct Image : Shape {
   int w, h, cx, cy;  // define "masking box" within image relative to position (cx,cy)
   Fl_Image* p;
   Text fn;
-};
-
-class InteractableCanvas : public Shape {
- public:
-  InteractableCanvas(Point xy, int w, int h);
-
-  ~InteractableCanvas() {
-    delete image;
-    delete interractable;
-  }
-
-  void draw_lines() const override;
-
-  void move(int dx, int dy) override {
-    Shape::move(dx, dy);
-    image->draw(point(0).x, point(0).y);
-    interractable->position(this->point(0).x, this->point(0).y);
-  }
-  void set_click_handler(std::function<void(int, int, char)>);
-  void set_drag_handler(std::function<void(int, int, int, int)>);
-  void set_image_view(const uchar* image_view);
-
- private:
-  class Fl_InterractableSpace : public Fl_Widget {
-    std::function<int(int)> actual_handler = nullptr;
-
-   public:
-    Fl_InterractableSpace(int x, int y, int w, int h, const char* label) : Fl_Widget(x, y, w, h, label){};
-    void set_handler(std::function<int(int)> handler) { actual_handler = handler; }
-    virtual int handle(int event) override { return actual_handler ? actual_handler(event) : 0; }
-    virtual void draw() override {}
-  };
-
-  int w, h;
-  Fl_Image* image = nullptr;
-  Fl_InterractableSpace* interractable = nullptr;
-  std::function<void(int, int, char)> click_handler = nullptr;
-  std::function<void(int, int, int, int)> drag_handler = nullptr;
-
-  int interraction_handlert(int event);
 };
 
 }  // namespace Graph_lib

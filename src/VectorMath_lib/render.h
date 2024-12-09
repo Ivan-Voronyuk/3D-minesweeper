@@ -75,7 +75,8 @@ class Canvas {
   Canvas(Canvas&& old);             // move constructor
   Canvas& operator=(Canvas&& old);  // move assignment
 
-  void clear();
+  void clear(const Color c);
+  void clear() { this->clear(Color{0, 0, 0}); }
 
   static void DrawLine(Canvas& tex, int x0, int y0, int x1, int y1, Color color);
   static void DrawLine(Canvas& tex, Point3 A, Point3 B, Color color);
@@ -144,7 +145,7 @@ class CubeView {
   CubeView(int screen_w, int screen_h, int cube_side, float scale, float angle);
   Texture& get_side_texture(SIDES side);
   void apply_transform(const SO3& transform);
-  void set_size();
+  // void set_size();
 
   void render(Canvas& canvas) const;
   Canvas render() const;

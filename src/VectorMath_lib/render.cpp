@@ -237,12 +237,12 @@ void Canvas::DrawLine(Canvas& canvas, Point3 A, Point3 B, Color color) {
   }
 }
 
-void Canvas::clear() {
+void Canvas::clear(const Color c) {
 #ifndef NDEBUG
   if (!this->z) throw std::runtime_error("canvas was not properly initialized");
 #endif  // !NDEBUG
   std::fill(z, z + w * h, 0);
-  std::fill(tex.data, tex.data + w * h, Color{0, 0, 0});
+  std::fill(tex.data, tex.data + w * h, c);
 }
 //---------------------------------- CUBE VIEW ---------------------------------
 CubeView::CubeView(int screen_w, int screen_h, int cube_side, float scale) {
