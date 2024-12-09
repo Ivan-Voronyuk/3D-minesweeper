@@ -50,6 +50,8 @@ class Texture {
   void memcpy_to(Color* dst) const;
   void memcpy_from(Color* src);
 
+  const unsigned char* unsafe_get_data_view() const { return reinterpret_cast<unsigned char*>(data); }
+
   ~Texture();
 
   friend class CubeView;
